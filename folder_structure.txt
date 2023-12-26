@@ -1,0 +1,62 @@
+.
+├── folder_structure.txt
+├── my-portfolio
+│   ├── archetypes
+│   │   └── default.md
+│   ├── assets
+│   ├── config.toml
+│   ├── content
+│   │   ├── blogs
+│   │   │   ├── emoji-support.md
+│   │   │   ├── markdown-syntax.md
+│   │   │   ├── math.md
+│   │   │   ├── placeholder-text.md
+│   │   │   └── rich-content.md
+│   │   └── gallery.md
+│   ├── data
+│   ├── i18n
+│   ├── layouts
+│   ├── static
+│   │   ├── fav.png
+│   │   └── images
+│   │       ├── achievment.jpg
+│   │       ├── hero.svg
+│   │       ├── mathjax.png
+│   │       ├── me.png
+│   │       ├── post.jpg
+│   │       └── projects
+│   │           ├── converter.jpg
+│   │           ├── profile.png
+│   │           └── profile2.jpg
+│   └── themes
+│       └── hugo-profile
+│           ├── LICENSE
+│           ├── README.md
+│           ├── archetypes
+│           │   └── default.md
+│           ├── exampleSite
+│           │   ├── config.yaml
+│           │   ├── content
+│           │   └── static
+│           ├── images
+│           │   ├── screenshot.png
+│           │   └── tn.png
+│           ├── layouts
+│           │   ├── 404.html
+│           │   ├── _default
+│           │   ├── index.html
+│           │   ├── partials
+│           │   ├── projects
+│           │   └── shortcodes
+│           ├── netlify.toml
+│           ├── static
+│           │   ├── 404.png
+│           │   ├── bootstrap-5
+│           │   ├── css
+│           │   ├── fav.png
+│           │   ├── fontawesome-6
+│           │   └── js
+│           └── theme.toml
+└── themes
+
+30 directories, 30 files
