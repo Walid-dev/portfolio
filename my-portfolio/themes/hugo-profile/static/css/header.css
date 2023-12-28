@@ -71,6 +71,7 @@ li > .dropdown-toggle:focus{
     color: var(--text-color);
     border-color: var(--background-color) !important;
     transition: none;
+    font-size: .9rem;
 }
 
 #search:focus {
@@ -115,4 +116,11 @@ li > .dropdown-toggle:focus{
 
 #search-results .card a:hover {
     color: var(--primary-color) !important;
+}
+
+.navbar-brand{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1em;
 }

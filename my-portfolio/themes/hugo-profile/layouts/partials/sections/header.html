@@ -52,8 +52,8 @@
             <!-- navbar brand -->
             <a class="navbar-brand primary-font text-wrap" href="{{ .Site.BaseURL | relURL }}">
                 {{ if and (or (.Site.Params.favicon) (.Site.Params.navbar.brandLogo)) .Site.Params.navbar.showBrandLogo | default true }}
-                <img src="{{ .Site.Params.navbar.brandLogo | default .Site.Params.favicon }}" width="30" height="30"
-                    class="d-inline-block align-top">
+                <img src="{{ .Site.Params.navbar.brandLogo | default .Site.Params.favicon }}" width="50" height="50"
+                    class="d-inline-block align-top mt-1">
                 {{ .Site.Params.navbar.brandName | default .Site.Params.title }}
                 {{ else }}
                 {{ .Site.Params.navbar.brandName | default .Site.Params.title }}
@@ -62,7 +62,7 @@
 
             {{ if not (.Site.Params.navbar.disableSearch | default false) }}
                 <div>
-                    <input id="search" autocomplete="off" class="form-control mr-sm-2 d-none d-md-block" placeholder='{{ .Site.Params.navbar.searchPlaceholder | default "Ctrl + k to Search..."}}'
+                    <input id="search" autocomplete="off" class="form-control mr-sm-2 mt-1 d-none d-md-block" placeholder='{{ .Site.Params.navbar.searchPlaceholder | default "Ctrl + k to Search..."}}'
                         aria-label="Search" oninput="searchOnChange(event)">
                 </div>
             {{ end }}
