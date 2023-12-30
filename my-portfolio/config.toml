@@ -59,7 +59,7 @@ enableRobotsTXT = true
     title = "Walid."
     subtitle = "Software Engineer | Web Developer"
     content = "Skilled in front-end and back-end development, focusing on creating efficient, scalable applications."
-    image = ""
+    image = "/images/avatar.png"
     [params.hero.button]
       enable = true
       name = "Resume"
@@ -75,7 +75,7 @@ enableRobotsTXT = true
   [params.about]
     enable = true
     title = "About Me"
-    image = "/images/avatar.png"
+    image = "/images/about-me-2.png"
     content = '''
       Innovative Software Engineer with a proven track record in developing and optimizing technology solutions. Skilled in front-end and back-end development, with a keen focus on creating efficient, scalable applications. Recognized for enhancing operational processes and team performance in dynamic environments.
     '''

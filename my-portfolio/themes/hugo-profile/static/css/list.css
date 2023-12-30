@@ -87,3 +87,25 @@
 #gallery .emoji {
     font-size: 2rem !important;
 }
+
+#gallery .image-container {
+    position: relative;
+    overflow: hidden;
+}
+
+#gallery .image-caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 5px;
+    text-align: center;
+    opacity: 0; 
+    transition: opacity 0.3s ease-in-out;
+}
+
+#gallery .image-container:hover .image-caption {
+    opacity: 1;
+}

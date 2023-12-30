@@ -75,6 +75,13 @@ header .navbar.animate {
     line-height: 2rem;
     max-width: 100%;
 }
+
+#hero .img-thumbnail {
+    background: transparent !important;
+    border: none !important;
+    width: 75%;
+}
+
 #hero .content.animate {
     animation: fade-left 1s ease-out;
 }
@@ -267,10 +274,8 @@ header .navbar.animate {
 }
 
 .about-content {
-    padding: 0.7rem 1.75rem;
-    border: 1px solid var(--primary-color);
+    padding: 0.7rem .85rem;
     color: var(--text-color) !important;
-    border-radius: 0.75rem;
     font-size: .95rem;
 }
 

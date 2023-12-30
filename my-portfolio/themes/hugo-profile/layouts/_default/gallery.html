@@ -17,9 +17,13 @@
     <div class="card-group p-4">
         <div class="row justify-content-center">
             {{ range .Params.galleryImages }}
-            <div class="col-md-6 col-lg-6 col-xl-6 p-0"> <!-- Adjusted column classes -->
+            <div class="col-md-6 col-lg-6 col-xl-6 p-0">
                 <div class="card p-0 m-2 border-0">
-                    <img class="w-100 img-fluid" src="{{ .src }}"> <!-- Added img-fluid class -->
+                    <!-- Use a container for the image and caption -->
+                    <div class="image-container">
+                        <img class="w-100 img-fluid" src="{{ .src }}">
+                        <div class="image-caption">{{ .caption }}</div> <!-- Display caption from front matter -->
+                    </div>
                 </div>
             </div>
             {{ end }}
