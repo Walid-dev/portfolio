@@ -1,4 +1,4 @@
-baseURL = "https://hugo-profile.netlify.app"
+baseURL = "https://portfolio-sigma-eight-17.vercel.app"
 languageCode = "en-us"
 title = "Walid's Portfolio"
 theme = "hugo-profile"
