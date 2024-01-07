@@ -1,4 +1,4 @@
-baseURL = "https://portfolio-sigma-eight-17.vercel.app"
+baseURL = "${URL}"
 languageCode = "en-us"
 title = "Walid's Portfolio"
 theme = "hugo-profile"
