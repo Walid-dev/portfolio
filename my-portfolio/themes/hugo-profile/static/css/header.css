@@ -118,6 +118,14 @@ li > .dropdown-toggle:focus{
     color: var(--primary-color) !important;
 }
 
+#search-results .card h5{
+    font-size: .9rem;
+}
+
+#search-results .card div {
+    font-size: 0.8rem;
+}
+
 .navbar-brand{
     display: flex;
     align-items: center;

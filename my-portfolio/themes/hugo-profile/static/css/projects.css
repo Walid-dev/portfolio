@@ -24,6 +24,10 @@
     border: none !important;
 }
 
+#projects .card-text {
+    font-size: .9rem;
+}
+
 #projects .card:hover {
     box-shadow: 0 0 11px rgb(15 80 100 / 20%);
     transition: transform 0.3s;
@@ -45,8 +49,9 @@
 }
 
 #projects .card:hover .card-img-top {
-    transform: scale(1.2);
+    transform: scale(0.98);
     transition: all 0.3s ease-out;
+    cursor: pointer;
 }
 
 #projects .card-img-top {

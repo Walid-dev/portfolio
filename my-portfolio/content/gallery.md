@@ -5,16 +5,16 @@ draft: false
 description: ":robot:"
 layout: "gallery"
 galleryImages:
- - src: /images/gallery-1.png
-   caption: "Caption 1"
- - src: /images/gallery-2.png
-   caption: "Caption 2"
  - src: /images/gallery-3.png
    caption: "Caption 3"
  - src: /images/gallery-4.png
-   caption: "Caption 4"
+   caption: "Clair, Direct, Concis"
  - src: /images/gallery-5.png
-   caption: "Caption 5"
+   caption: "Prêter attention, aspirer à l'élevation sans se laisser pas séduire par l'avis du plus grand nombre. La vérité réside souvent hors du consensus."
  - src: /images/gallery-6.png
    caption: "Caption 6"
+ - src: /images/gallery-1.png
+   caption: "Un seul être vous manque et tout est dépeuplé."
+ - src: /images/gallery-2.png
+   caption: "J'ai reconnu le bonheur au bruit qu'il a fait en partant"
 ---
