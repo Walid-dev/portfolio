@@ -63,7 +63,7 @@ enableRobotsTXT = true
     [params.hero.button]
       enable = true
       name = "Resume"
-      url = "#"
+      url = "/resume/wh-mk-resume.pdf"
       download = true
       newPage = false
     [params.hero.socialLinks]
@@ -213,7 +213,7 @@ enableRobotsTXT = true
     url = "https://github.com/Walid-dev"
   [[params.projects.items.links]]
     icon = "fab fa-twitter"
-    url = "https://twitter.com/intent/tweet?text=Check+out%20Velo%20App:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile"
+    url = "https://twitter.com/"
 
 
 # Project 3
