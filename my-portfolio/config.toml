@@ -1,4 +1,5 @@
-baseURL = "${URL}"
+<!-- baseURL = "https://hugo-profile.netlify.app" -->
+baseURL = "https://portfolio-j6vkxk0yd-walid-dev.vercel.app/"
 languageCode = "en-us"
 title = "Walid's Portfolio"
 theme = "hugo-profile"
