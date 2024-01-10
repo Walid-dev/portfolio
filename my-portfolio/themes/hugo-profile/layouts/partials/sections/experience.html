@@ -53,6 +53,7 @@
                                 <a href="{{ .companyUrl }}" target="_blank">{{ .company }}</a>
                                 <div class="pb-1">
                                     <small>{{ .date }}</small>
+                                    <small class="location">| {{ .location }}</small>
                                     {{ if .info.enable | default true }}
                                     <span class="p-2">
                                         <span 
@@ -92,6 +93,7 @@
                                 
                                 <div class="pb-1">
                                     <small>{{ .date }}</small>
+                                    <small class="location">| {{ .location }}</small>
                                     {{ if .info.enable | default true }}
                                     <span class="p-2">
                                         <span 

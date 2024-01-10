@@ -402,6 +402,10 @@ header .navbar.animate {
     opacity: 0.7;
 }
 
+#experience .location {
+    color: var(--text-color) !important;
+}
+
 /* Education */
 
 #education .container > h3 {

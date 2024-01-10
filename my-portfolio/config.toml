@@ -58,7 +58,7 @@ enableRobotsTXT = true
     intro = "Hi, I'm"
     title = "Walid."
     subtitle = "Software Engineer | Web Developer"
-    content = "Skilled in front-end and back-end development, I focus on creating efficient, scalable applications, adept at multitasking."
+    content = "Skilled in both front-end and back-end development, I focus on creating efficient, scalable applications while being adept at multitasking."
     image = "/images/landing.png"
     [params.hero.button]
       enable = true
@@ -72,22 +72,34 @@ enableRobotsTXT = true
         { icon = "fab fa-linkedin", url = "https://www.linkedin.com/in/walid-hlali" }
       ]
 
-  [params.about]
-    enable = true
-    title = "About Me"
-    image = "/images/about-me-2.png"
-    content = '''
-      Innovative Software Engineer with a proven track record in developing and optimizing technology solutions. Skilled in front-end and back-end development, I focus on creating efficient, scalable applications and am adept at quickly identifying and resolving technical issues. Recognized for enhancing operational processes and team performance in dynamic environments.
-    '''
-    [params.about.skills]
-      enable = true
-      title = "Skills"
-      items = ["JavaScript", "React", "TypeScript", "PHP", "HTML", "CSS", "SASS/LESS", "Twig", "Next.js", "Redux", "Node.js", "React Native"]
+[params.about]
+  enable = true
+  title = "About Me"
+  image = "/images/about-me-2.png"
+  content = '''
+    Innovative Web Developer with a proven track record in developing and optimizing technology solutions. My knowledge spans front-end and back-end development, focusing on creating efficient, scalable applications. Skilled at multitasking, I swiftly identify and resolve technical issues, enhancing operational processes and team performance in dynamic environments. This expertise is complemented by my proficiency in leveraging AI technologies to drive efficiency and productivity, ensuring resource optimization.
+  '''
 
-      [params.toolsTechnologies]
+[params.about.skills]
+  enable = true
+  title = "Skills"
+  items = [
+    "JavaScript", "React", "Node.js", "TypeScript", "PHP",
+    "HTML", "CSS", "React Native", "Redux", "Next.js",
+    "SASS/LESS", "jQuery", "Twig", "EJS", "AI Integration",
+    "Prompt Engineering"
+  ]
+
+[params.toolsTechnologies]
   enable = true
   title = "Tools & Technologies"
-  items = ["API Development", "WordPress", "Firebase", "Datadog", "Splunk", "Snowflake", "Raygun", "Jira", "Shortcut", "Tailwind CSS", "HUGO"]
+  items = [
+    "API Development", "WordPress", "Firebase",
+    "MongoDB", "AGILE Methodology", "Material UI", "Chakra UI",
+    "Ant Design", "Tailwind CSS", "HUGO", "Datadog", 
+    "Splunk", "Snowflake", "Raygun", "Git", "GitLab"
+  ]
+
 
 # Experience Section
 
@@ -97,42 +109,51 @@ enableRobotsTXT = true
     job = "Software Engineer"
     company = "Mobi"
     date = "March 2023 - Present"
-    content = "Engaged in a diverse range of development tasks across backend and frontend. Led tool development using React/Redux and contributed to app development in React Native. Actively involved in backend implementation with PHP and JavaScript, ensuring system robustness. Worked extensively with API integrations, investigation, and debugging, while also pioneering the creation of innovative solutions."
+    location="Toronto - Canada"
+    content = "As a Software Engineer at Mobi, my responsibilities encompassed both front-end and back-end development. I developed intricate user interfaces and feature-rich applications, focusing on architecting UI components and their logic from the front to the back end. Employing technologies such as React, Redux, and React Native, I ensured these interfaces were both visually engaging and functionally robust. My back-end development, involving PHP and JavaScript, contributed to system stability and performance. I was deeply engaged in API integrations and detailed debugging processes. Innovating and evolving new solutions, my efforts streamlined workflows and optimized resource use."
 
-  [[params.experience.items]]
-    job = "Sustaining Engineer"
-    company = "Mobi"
-    date = "March 2022 - March 2023"
-    content = "Worked with API integrations, enhancing system functionality and reliability. Developed tools for bulk data creation and updates, streamlining workflows and conserving resources. Managed database entries and performed SQL database operations for data integrity and efficiency. Conducted data analysis using tools like Splunk, Datadog, and Raygun for issue identification and resolution. Customized and personalized client websites, meeting diverse requirements."
+
+[[params.experience.items]]
+  job = "Sustaining Engineer"
+  company = "Mobi"
+  date = "March 2022 - March 2023"
+  location="Toronto - Canada"
+  content = "Engaged in a diverse range of development and maintenance tasks across backend and frontend. Led the development of tools to streamline workflows, significantly improving efficiency and resource utilization. Specialized in enhancing system functionality and reliability through advanced API integrations. Responsible for database management and SQL operations, ensuring data integrity and operational efficiency. Utilized tools such as Splunk, Datadog, and Raygun for system analysis and issue resolution. Additionally, focused on the customization and personalization of client websites, catering to unique requirements."
+
 
 [[params.experience.items]]
   job = "Bilingual Technical Support Specialist"
   company = "Mobi"
   date = "March 2021 - March 2022"
+  location="Toronto - Canada"
   content = "Resolved complex technical issues, providing effective client support. Investigated logs and API integration issues to identify and address system challenges. Utilized HTML, CSS, and JavaScript for client-specific platform customization and enhancements. Worked on product integration in CMS platforms like WordPress. Created comprehensive documentation to guide and assist the team."
 
   [[params.experience.items]]
     job = "Bilingual Technical Support Specialist"
     company = "FISERV"
     date = "Feb 2020 - March 2021"
+    location="Toronto - Canada"
     content = "Provided comprehensive technical support, ensuring customer satisfaction and issue resolution. Worked on Clover product, investigating and fixing issues related to the Android-based system."
 
   [[params.experience.items]]
     job = "Web Developer FullStack"
     company = "Malt"
     date = "Sept 2017 - Feb 2020"
+    location="Lyon - France"
     content = "Created complex and showcase websites using HTML, JavaScript, PHP, and WordPress. Ensured adherence to SEO best practices, enhancing online visibility. Delivered tailored web solutions, focusing on user experience and dynamic content."
 
   [[params.experience.items]]
     job = "Tutor"
     company = "Self-employed"
     date = "Jan 2015 - Aug 2017"
+    location="Montpellier - France"
     content = "Offered personalized tutoring in French, Mathematics, and Computing. Provided customized instruction to meet diverse learning needs and styles."
 
   [[params.experience.items]]
     job = "Teaching Assistant"
     company = "Collège des Garrigues"
     date = "Jan 2010 - Sept 2014"
+    location="Montpellier - France"
     content = "Assisted in educational preparation, contributing to student learning and classroom management. Engaged in delivering computing lessons, enhancing students' technical skills and understanding."
 
 

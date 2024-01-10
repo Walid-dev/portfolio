@@ -101,6 +101,10 @@ li > .dropdown-toggle:focus{
     margin-bottom: 10px;
 }
 
+#search-content h5 {
+    text-decoration: underline;
+}
+
 #search-results > .card :hover {
     border-radius: 1rem !important;
     background-color: var(--background-color) !important;
