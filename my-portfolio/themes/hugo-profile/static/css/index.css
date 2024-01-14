@@ -217,6 +217,7 @@ header .navbar.animate {
     transition: box-shadow 0.3s;
     padding: 0;
     border: 0;
+    opacity: .8;
 }
 
 #about .image img:hover {

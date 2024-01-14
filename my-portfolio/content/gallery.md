@@ -10,7 +10,7 @@ galleryImages:
  - src: /images/gallery-4.png
    caption: "Clair, Direct, Concis"
  - src: /images/gallery-5.png
-   caption: "Prêter attention, aspirer à l'élevation sans se laisser pas séduire par l'avis du plus grand nombre. La vérité réside souvent hors du consensus."
+   caption: "Caption 3"
  - src: /images/gallery-6.png
    caption: "Caption 6"
  - src: /images/gallery-1.png
