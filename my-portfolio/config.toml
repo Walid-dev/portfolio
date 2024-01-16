@@ -1,4 +1,4 @@
-baseURL = "https://portfolio-j6vkxk0yd-walid-dev.vercel.app/"
+baseURL = "https://portfolio-xi-mocha-98.vercel.app/"
 languageCode = "en-us"
 title = "Walid's Portfolio"
 theme = "hugo-profile"
@@ -111,7 +111,13 @@ enableRobotsTXT = true
   company = "Mobi"
   date = "March 2023 - Present"
   location = "Toronto - Canada"
-  content = "In my capacity as a Software Engineer at Mobi, I was involved in comprehensive development tasks covering both front-end and back-end aspects. My work in the front-end included developing user interfaces with React, Redux, and React Native, along with crafting the complete logic and ensuring seamless integration with the back-end systems. This approach resulted in creating functional, user-centric applications. In the back-end, I utilized PHP and JavaScript to enhance system performance and stability. My role in API integrations and debugging focused on detailed investigation, identifying challenges, and implementing effective solutions."
+  content = """
+  In my capacity as a Software Engineer at Mobi, I was involved in comprehensive development tasks covering both front-end and back-end aspects. 
+  
+  My work in the front-end included developing user interfaces with React, Redux, and React Native, along with crafting the complete logic and ensuring seamless integration with the back-end systems. This approach resulted in creating functional, user-centric applications. 
+  
+  In the back-end, I utilized PHP and JavaScript to enhance system performance and stability. My role in API integrations and debugging focused on detailed investigation, identifying challenges, and implementing effective solutions.
+  """
 
 
 [[params.experience.items]]
@@ -119,7 +125,17 @@ enableRobotsTXT = true
   company = "Mobi"
   date = "March 2022 - March 2023"
   location = "Toronto - Canada"
-  content = "As a Sustaining Engineer at Mobi, my role encompassed a variety of development and maintenance tasks across backend and frontend systems. I actively developed tools to enhance workflow efficiency, using PHP and JavaScript. In backend development, my focus was on improving system functionality and reliability, integrating APIs and managing databases with SQL. A significant part of my role involved debugging, investigating, and solving system issues, utilizing tools like Splunk, Datadog, and Raygun for effective problem investigation and resolution. On the frontend, I tailored client websites to specific needs, using HTML, CSS, and jQuery to enhance user experience. This position required a combination of technical proficiency and problem-solving skills, ensuring robust and user-centric solutions for clients."
+  content = """
+  As a Sustaining Engineer at Mobi, my role encompassed a variety of development and maintenance tasks across backend and frontend systems. 
+  
+  I actively developed tools to enhance workflow efficiency, using PHP and JavaScript. 
+  
+  In backend development, my focus was on improving system functionality and reliability, integrating APIs and managing databases with SQL. 
+  
+  A significant part of my role involved debugging, investigating, and solving system issues, utilizing tools like Splunk, Datadog, and Raygun for effective problem investigation and resolution. 
+  
+  On the frontend, I tailored client websites to specific needs, using HTML, CSS, and jQuery to enhance user experience. This position required a combination of technical proficiency and problem-solving skills, ensuring robust and user-centric solutions for clients.
+  """
 
 
 [[params.experience.items]]
@@ -127,7 +143,15 @@ enableRobotsTXT = true
   company = "Mobi"
   date = "March 2021 - March 2022"
   location = "Toronto - Canada"
-  content = "In the role of Bilingual Technical Support Specialist at Mobi, I handled complex technical support tasks, focusing on delivering effective solutions to client issues in both English and French. My responsibilities included analyzing logs and investigating API integration challenges, where I applied systematic approaches to problem-solving. I also employed my skills in HTML, CSS, and JavaScript to customize and enhance client platforms, ensuring they met specific client needs and functional requirements. My involvement with product integration on CMS platforms, further contributed to streamlined content management processes. Additionally, I developed comprehensive documentation, providing clear guidelines and support for both clients and team members, thereby improving our team's efficiency and knowledge base."
+  content = """
+  In the role of Bilingual Technical Support Specialist at Mobi, I handled complex technical support tasks, focusing on delivering effective solutions to client issues in both English and French. 
+  
+  My responsibilities included analyzing logs and investigating API integration challenges, where I applied systematic approaches to problem-solving. 
+  
+  I also employed my skills in HTML, CSS, and JavaScript to customize and enhance client platforms, ensuring they met specific client needs and functional requirements. My involvement with product integration on CMS platforms, further contributed to streamlined content management processes. 
+  
+  Additionally, I developed comprehensive documentation, providing clear guidelines and support for both clients and team members, thereby improving our team's efficiency and knowledge base.
+  """
 
 
 
@@ -136,15 +160,26 @@ enableRobotsTXT = true
   company = "FISERV"
   date = "Feb 2020 - March 2021"
   location = "Toronto - Canada"
-  content = "As a Bilingual Technical Support Specialist at FISERV, my responsibilities were multifaceted, focusing primarily on providing comprehensive technical support for Clover’s Android-based app. A personal contribution was the development and management of an online customer support platform in French. This initiative substantially improved the support experience for French-speaking clients and played a crucial role in resource optimization, reducing overhead and enhancing overall service efficiency. My active involvement in recruiting French-speaking personnel further complemented these efforts, aligning with the company's commitment to cultural sensitivity and linguistic diversity in customer service."
+  content = """
+  As a Bilingual Technical Support Specialist at FISERV, my responsibilities were multifaceted, focusing primarily on providing comprehensive technical support for Clover’s Android-based app. 
+  
+  A personal contribution was the development and management of an online customer support platform in French. This initiative substantially improved the support experience for French-speaking clients and played a crucial role in resource optimization, reducing overhead and enhancing overall service efficiency. My active involvement in recruiting French-speaking personnel further complemented these efforts, aligning with the company's commitment to cultural sensitivity and linguistic diversity in customer service.
+  """
 
 
 [[params.experience.items]]
   job = "Web Developer FullStack"
   company = "Malt"
   date = "Sept 2017 - Feb 2020"
-  location="Lyon - France"
-  content = "In my freelance role as a FullStack Web Developer, I focused on crafting custom websites using WordPress, PHP, JavaScript, and jQuery. I tailored each project to the client's specific requirements, ensuring a user-friendly experience through intuitive WordPress admin interfaces and responsive design. My work involved integrating builders along with various themes and plugins to meet diverse functional needs. I also handled SEO optimization, custom post types, and taxonomies to improve website performance and user engagement. My approach was always to deliver practical, effective web solutions, keeping the client's vision and user needs at the forefront."
+  location = "Lyon - France"
+  content = """
+  In my role as a freelance FullStack Web Developer, I have had the privilege of specializing in building custom websites from the ground up, leveraging a diverse range of technologies, including HTML, CSS, JavaScript, PHP, and MySQL. Throughout this journey, my focus has extended beyond working with WordPress to crafting fully bespoke web solutions.
+  
+  My approach has always been to meticulously design user-friendly interfaces while ensuring responsive design across all platforms. While I am proficient in WordPress for content management, I have also dedicated myself to creating tailored themes and plugins. In addition, I have customized admin interfaces with custom post types and taxonomies, allowing clients to effortlessly manage and curate personalized content.
+
+  My work with these tools has enabled me to develop unique and interactive features, ultimately enhancing user engagement and site functionality. Above all, my commitment has consistently been to deliver comprehensive, efficient web solutions that align with each client's specific requirements and objectives.
+  """
+
 
 
   [[params.experience.items]]
@@ -159,7 +194,11 @@ enableRobotsTXT = true
   company = "Collège des Garrigues"
   date = "Jan 2010 - Sept 2014"
   location = "Montpellier - France"
-  content = "Assisted in educational preparation and classroom management. Engaged in delivering computing lessons, enhancing students' technical skills and understanding. Additionally, I served as a teacher for a relay class, which included students temporarily excluded or experiencing academic failure. In this role, I adapted teaching methods and curricula to keep these students up to date with their programs, facilitating their smooth reintegration upon return to their regular classes."
+  content = """
+  Assisted in educational preparation and classroom management. Engaged in delivering computing lessons, enhancing students' technical skills and understanding. Additionally, I served as a teacher for a relay class, which included students temporarily excluded or experiencing academic failure. 
+  
+  In this role, I adapted teaching methods and curricula to keep these students up to date with their programs, facilitating their smooth reintegration upon return to their regular classes.
+  """
 
 
 # Education Section

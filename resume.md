@@ -1,42 +1,48 @@
 # Walid Hlali | Software Engineer
 
 **Email:** [hlaliwalid@gmail.com](mailto:hlaliwalid@gmail.com)  
+**Phone:** 647 782-8394  
 **GitHub:** [@Walid-dev](https://github.com/Walid-dev)  
 **LinkedIn:** [@walid-hlali](https://www.linkedin.com/in/walid-hlali/)  
-**Portfolio:** [https://portfolio-j6vkxk0yd-walid-dev.vercel.app/](https://portfolio-j6vkxk0yd-walid-dev.vercel.app/)
+**Portfolio:** [https://portfolio-walid-dev.com/](https://portfolio-xi-mocha-98.vercel.app/)
 
 ## Summary
-Innovative Web Developer with a proven track record in developing and optimizing technology solutions. Skilled in both front-end and back-end development, focusing on creating efficient, scalable applications. Adept at multitasking and swiftly identifying and resolving technical issues, enhancing operational processes and team performance in dynamic environments. Passionate about crafting software that improves user experiences and business processes.
+Innovative Web Developer with a proven track record in developing and optimizing technology solutions. Skilled in both front-end and back-end development, focusing on creating efficient, scalable applications. Adept at multitasking and swiftly identifying and resolving technical issues, enhancing operational processes and team performance in dynamic environments. I am passionate about crafting software that improves user experiences and business processes.
 
 ## Technical Skills
-**Languages:** JavaScript, TypeScript, PHP, HTML, CSS  
-**Frameworks & Libraries:** React, Node.js, Redux, Next.js, React Native, SASS/LESS, jQuery, Twig, EJS  
-**Tools & Technologies:** AI Integration, Prompt Engineering, API Development, WordPress, Firebase, MongoDB, AGILE Methodology, Material UI, Chakra UI, Ant Design, Tailwind CSS, HUGO, Datadog, Splunk, Snowflake, Raygun, Git, GitLab
+**Languages:** JavaScript, TypeScript, PHP, HTML, CSS, Object-Oriented Programming (OOP), Design patterns  
+**Frameworks & Libraries:** Node.js, React, React Native, Redux, Next.js, SASS/LESS, jQuery, Twig, EJS  
+**Tools & Technologies:** API Development, WordPress, Firebase, MongoDB, AGILE Methodology, Material UI, Chakra UI, Ant Design, Tailwind CSS, HUGO, Datadog, Splunk, Snowflake, Raygun, Git, GitLab, AWS
 
 ## Work Experience
-**Software Engineer,** Mobi (March 2023 - Present)  
+**Software Engineer,** Mobi, Toronto - Canada (March 2023 - Present)  
 - Developed intricate user interfaces and feature-rich applications using React, Redux, and React Native, significantly enhancing user engagement.  
 - Improved system stability and performance with PHP and JavaScript in back-end development.  
 - Streamlined workflows and optimized resource use, playing a key role in project evolution and success.
-
-**Sustaining Engineer,** Mobi (March 2022 - March 2023)  
-- Developed tools to improve efficiency and resource utilization, significantly enhancing workflow processes.  
-- Enhanced system functionality and reliability through advanced API integrations.  
+ 
+**Sustaining Engineer,** Mobi, Toronto - Canada (March 2022 - March 2023)
+- Developed tools to improve efficiency and resource utilization, significantly enhancing workflow processes.
+- Enhanced system functionality and reliability through advanced API integrations.
 - Managed database entries and SQL operations, ensuring data integrity and operational efficiency.
+- Utilized API logs and tools like Splunk, Datadog, and Raygun for efficient debugging and solving issues.
+- Adapted client websites using HTML, CSS, and jQuery, focusing on enhancing user experience.
+- Aimed for balanced, reliable solutions, combining technical skills with a focus on user needs.
 
-**Bilingual Technical Support Specialist,** Mobi (March 2021 - March 2022)  
+**Bilingual Technical Support Specialist,** Mobi, Toronto - Canada (March 2021 - March 2022)  
 - Resolved complex technical issues, providing effective client support.  
-- Investigated logs and API integration issues. Utilized HTML, CSS, and JavaScript for platform customization.
+- Investigated logs and API integration issues.  
+- Utilized HTML, CSS, and JavaScript for platform customization.
 
-**Bilingual Technical Support Specialist,** FISERV (Feb 2020 - March 2021)  
+**Bilingual Technical Support Specialist,** FISERV, Toronto - Canada (Feb 2020 - March 2021)  
 - Provided comprehensive technical support. Worked on Clover product, fixing Android-based system issues.  
 - Developed and managed an online customer support platform in French, improving support for French-speaking clients.
 
-**Web Developer FullStack,** Self-employed (Sept 2017 - Feb 2020)  
-- Created websites using HTML, JavaScript, PHP, and WordPress. Focused on SEO best practices.  
-- Delivered tailored web solutions, enhancing user experience and dynamic content.
+**Web Developer FullStack,** Self-employed, Lyon - France (Sept 2017 - Feb 2020)  
+- Developed custom websites from scratch using HTML, CSS, JavaScript, PHP, and MySQL, ensuring responsive and engaging user experiences.  
+- Specialized in WordPress, creating customized admin interfaces with custom post types and taxonomies, enabling clients to effortlessly manage and build personalized content.  
+- Implemented builders, themes, and plugins to fulfill various functional requirements, while also focusing on SEO optimization to enhance web visibility.
 
-**Teaching Assistant,** Collège des Garrigues (Jan 2010 - Sept 2014)  
+**Teaching Assistant,** Collège des Garrigues, Montpellier - France (Jan 2010 - Sept 2014)  
 - Assisted in educational preparation and classroom management.  
 - Delivered computing lessons, enhancing students' technical skills and understanding.  
 - Taught a relay class for students temporarily excluded or in academic failure, adapting pedagogy for their needs.
