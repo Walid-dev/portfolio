@@ -22,16 +22,16 @@ Développeur Web innovant avec une solide expérience dans le développement et 
 
 **Ingénieur de Soutien,** Mobi, Toronto - Canada (mars 2022 - mars 2023)
 - Développement d'outils pour l'amélioration de l'efficacité et de l'utilisation des ressources, renforçant considérablement les processus de travail.
-- Amélioration de la fonctionnalité et de la fiabilité du système par des intégrations avancées d'API.
+- Amélioration de la fonctionnalité et de la fiabilité du système à travers des intégrations API avancées.
 - Administration des entrées de base de données et des opérations SQL, garantissant l'intégrité des données et l'efficacité opérationnelle.
-- Utilisation des journaux d'API et d'outils tels que Splunk, Datadog et Raygun pour un débogage efficace et la résolution de problèmes.
+- Utilisation des journaux d'API et d'outils tels que Splunk, Datadog et Raygun pour des investigations efficaces et la résolution rapide de problèmes.
 - Adaptation des sites web clients avec HTML, CSS et jQuery, mettant l'accent sur l'amélioration de l'expérience utilisateur.
 - Recherche de solutions équilibrées et fiables, combinant compétences techniques et attention aux besoins des utilisateurs.
 
 **Spécialiste du Support Technique Bilingue,** Mobi, Toronto - Canada (Mars 2021 - Mars 2022)  
 - Résolution de problèmes techniques complexes, fournissant un support client efficace.  
-- Investigation des logs et problèmes d'intégration d'API. 
-- Utilisation de HTML, CSS et JavaScript pour la personnalisation de la plateforme.
+- Investigation des logs et problèmes liés aux integrations API. 
+- Utilisation de HTML, CSS et JavaScript pour la personnalisation clients de la plateforme.
 
 **Spécialiste du Support Technique Bilingue,** FISERV, Toronto - Canada (Fév. 2020 - Mars 2021)  
 - Fourniture d'un support technique complet. Travail sur le produit Clover, résolution de problèmes de système basé sur Android.  

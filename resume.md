@@ -7,7 +7,7 @@
 **Portfolio:** [https://portfolio-walid-dev.com/](https://portfolio-xi-mocha-98.vercel.app/)
 
 ## Summary
-Innovative Web Developer with a proven track record in developing and optimizing technology solutions. Skilled in both front-end and back-end development, focusing on creating efficient, scalable applications. Adept at multitasking and swiftly identifying and resolving technical issues, enhancing operational processes and team performance in dynamic environments. I am passionate about crafting software that improves user experiences and business processes.
+Innovative Web Developer with a proven track record in developing and optimizing technology solutions. Skilled in both front-end and back-end development, focusing on creating efficient, scalable applications. Adept at multitasking, swiftly identifying and resolving technical issues and enhancing operational processes and team performances. I am eager about crafting software that improves user experiences and business processes.
 
 ## Technical Skills
 **Languages:** JavaScript, TypeScript, PHP, HTML, CSS, Object-Oriented Programming (OOP), Design patterns  

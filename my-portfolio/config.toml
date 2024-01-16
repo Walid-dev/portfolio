@@ -76,7 +76,7 @@ enableRobotsTXT = true
 [params.about]
   enable = true
   title = "About Me"
-  image = "/images/about-me-2.png"
+  image = "/images/about-me-4.png"
   content = "As a Web Developer, I am committed to crafting solutions that effectively meet client needs and align with project goals. My focus is on developing functional and user-friendly applications, balancing user expectations with technical precision. With experience in both front-end and back-end development, I have been involved in developing and optimizing technology solutions. My approach emphasizes efficiency and scalability, ensuring the robustness and adaptability of each application. Proficient in multitasking, I address and resolve technical challenges, contributing to improved operational processes and team performance, especially in dynamic environments. Additionally, I continually explore AI technologies to enhance innovation, productivity, and resource management, always eager to learn and grow in the ever-evolving field of technology."
 
 
