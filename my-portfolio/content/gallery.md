@@ -8,13 +8,13 @@ galleryImages:
  - src: /images/gallery-3.png
    caption: "Caption 3"
  - src: /images/gallery-4.png
-   caption: "Clair, Direct, Concis"
+   caption: ""
  - src: /images/gallery-5.png
    caption: "Caption 3"
  - src: /images/gallery-6.png
    caption: "Caption 6"
  - src: /images/gallery-1.png
-   caption: "Un seul être vous manque et tout est dépeuplé."
+   caption: "Caption"
  - src: /images/gallery-2.png
-   caption: "J'ai reconnu le bonheur au bruit qu'il a fait en partant"
+   caption: "Caption"
 ---
