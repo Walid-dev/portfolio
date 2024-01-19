@@ -282,6 +282,10 @@ header .navbar.animate {
 
 /* experience */
 
+#experience {
+    min-height: 90vh;
+}
+
 #experience h3 {
     color: var(--text-secondary-color) !important;
 }

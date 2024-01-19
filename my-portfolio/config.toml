@@ -58,7 +58,10 @@ enableRobotsTXT = true
     intro = "Hi, I'm"
     title = "Walid."
     subtitle = "Software Engineer | Web Developer"
-    content = "Skilled in both front-end and back-end development, I focus on creating efficient, scalable applications while being adept at multitasking."
+    content = """
+    Proficient in front-end and back-end development and adept at multitasking, 
+    I concentrate on crafting efficient, scalable applications that deliver a good user experience.
+    """
     image = "/images/landing.png"
     [params.hero.button]
       enable = true
@@ -77,8 +80,7 @@ enableRobotsTXT = true
   enable = true
   title = "About Me"
   image = "/images/about-me-4.png"
-  content = "As a Web Developer, I am committed to crafting solutions that effectively meet client needs and align with project goals. My focus is on developing functional and user-friendly applications, balancing user expectations with technical precision. With experience in both front-end and back-end development, I have been involved in developing and optimizing technology solutions. My approach emphasizes efficiency and scalability, ensuring the robustness and adaptability of each application. Proficient in multitasking, I address and resolve technical challenges, contributing to improved operational processes and team performance, especially in dynamic environments. Additionally, I continually explore AI technologies to enhance innovation, productivity, and resource management, always eager to learn and grow in the ever-evolving field of technology."
-
+  content = "As a Web Developer, I aim to craft solutions that align with client/company needs and project goals, balancing user expectations with technical precision. My experience spans front-end and back-end development, contributing to the efficiency and scalability of applications. I thrive in multitasking and resolving technical challenges, which aids in improving performance and operational processes. Continually learning, exploring AI technologies, I am keen on enhancing innovation and productivity."
 
 [params.about.skills]
   enable = true
@@ -112,11 +114,11 @@ enableRobotsTXT = true
   date = "March 2023 - Present"
   location = "Toronto - Canada"
   content = """
-  In my capacity as a Software Engineer at Mobi, I was involved in comprehensive development tasks covering both front-end and back-end aspects. 
+  In my capacity as a Software Engineer at Mobi, I was involved in development tasks covering both front-end and back-end aspects. 
   
-  My work in the front-end included developing user interfaces with React, Redux, and React Native, along with crafting the complete logic and ensuring seamless integration with the back-end systems. This approach resulted in creating functional, user-centric applications. 
+  My work in the front-end included developing user interfaces with React, Redux, and React Native, along with crafting the complete logic and ensuring seamless integration with the back-end. This approach resulted in creating functional, user-centric applications. 
   
-  In the back-end, I utilized PHP and JavaScript to enhance system performance and stability. My role in API integrations and debugging focused on detailed investigation, identifying challenges, and implementing effective solutions.
+  In the back-end, I utilized PHP, JavaScript, SQL, AWS to enhance system performance and stability. My role in API integrations and debugging focused on detailed investigation, identifying challenges, and implementing effective solutions.
   """
 
 
@@ -126,15 +128,15 @@ enableRobotsTXT = true
   date = "March 2022 - March 2023"
   location = "Toronto - Canada"
   content = """
-  As a Sustaining Engineer at Mobi, my role encompassed a variety of development and maintenance tasks across backend and frontend systems. 
+  As a Sustaining Engineer at Mobi, my role encompassed a variety of development and maintenance tasks across backend and frontend. 
   
-  I actively developed tools to enhance workflow efficiency, using PHP and JavaScript. 
+  I actively developed tools to enhance workflow efficiency. 
   
-  In backend development, my focus was on improving system functionality and reliability, integrating APIs and managing databases with SQL. 
+  In backend development, my focus was on improving system functionality and reliability, integrating APIs and managing databases. 
   
   A significant part of my role involved debugging, investigating, and solving system issues, utilizing tools like Splunk, Datadog, and Raygun for effective problem investigation and resolution. 
   
-  On the frontend, I tailored client websites to specific needs, using HTML, CSS, and jQuery to enhance user experience. This position required a combination of technical proficiency and problem-solving skills, ensuring robust and user-centric solutions for clients.
+  On the frontend, I tailored client websites to specific needs and to enhance user experience. This position required a combination of technical proficiency and problem-solving skills, ensuring robust and user-centric solutions for clients.
   """
 
 
@@ -144,13 +146,13 @@ enableRobotsTXT = true
   date = "March 2021 - March 2022"
   location = "Toronto - Canada"
   content = """
-  In the role of Bilingual Technical Support Specialist at Mobi, I handled complex technical support tasks, focusing on delivering effective solutions to client issues in both English and French. 
+  In my role as a Bilingual Technical Support Specialist at Mobi, I focused on providing effective technical solutions to client issues in English and French. 
   
-  My responsibilities included analyzing logs and investigating API integration challenges, where I applied systematic approaches to problem-solving. 
+  My responsibilities involved analyzing logs, investigating API integration challenges, and employing systematic problem-solving approaches. 
   
-  I also employed my skills in HTML, CSS, and JavaScript to customize and enhance client platforms, ensuring they met specific client needs and functional requirements. My involvement with product integration on CMS platforms, further contributed to streamlined content management processes. 
-  
-  Additionally, I developed comprehensive documentation, providing clear guidelines and support for both clients and team members, thereby improving our team's efficiency and knowledge base.
+  I worked on customizing client platforms to meet specific needs and requirements, along with integrating products into CMS platforms to enhance content management efficiency.
+
+  Additionally, I contributed to developing comprehensive documentation, providing clear guidelines and support, which enhanced the efficiency and knowledge base of our team.
   """
 
 
@@ -173,16 +175,14 @@ enableRobotsTXT = true
   date = "Sept 2017 - Feb 2020"
   location = "Lyon - France"
   content = """
-  In my role as a freelance FullStack Web Developer, I have had the privilege of specializing in building custom websites from the ground up, leveraging a diverse range of technologies, including HTML, CSS, JavaScript, PHP, and MySQL. Throughout this journey, my focus has extended beyond working with WordPress to crafting fully bespoke web solutions.
+  In my role as a freelance FullStack Web Developer, I specialize in building custom websites using a range of technologies, including HTML, CSS, JavaScript, PHP, and MySQL.
   
   My approach has always been to meticulously design user-friendly interfaces while ensuring responsive design across all platforms. While I am proficient in WordPress for content management, I have also dedicated myself to creating tailored themes and plugins. In addition, I have customized admin interfaces with custom post types and taxonomies, allowing clients to effortlessly manage and curate personalized content.
 
   My work with these tools has enabled me to develop unique and interactive features, ultimately enhancing user engagement and site functionality. Above all, my commitment has consistently been to deliver comprehensive, efficient web solutions that align with each client's specific requirements and objectives.
   """
 
-
-
-  [[params.experience.items]]
+[[params.experience.items]]
     job = "Tutor"
     company = "Self-employed"
     date = "Jan 2015 - Aug 2017"
@@ -195,7 +195,9 @@ enableRobotsTXT = true
   date = "Jan 2010 - Sept 2014"
   location = "Montpellier - France"
   content = """
-  Assisted in educational preparation and classroom management. Engaged in delivering computing lessons, enhancing students' technical skills and understanding. Additionally, I served as a teacher for a relay class, which included students temporarily excluded or experiencing academic failure. 
+  Assisted in educational preparation and classroom management. Engaged in delivering computing lessons, enhancing students' technical skills and understanding. 
+  
+  Additionally, I served as a teacher for a relay class, which included students temporarily excluded or experiencing academic failure. 
   
   In this role, I adapted teaching methods and curricula to keep these students up to date with their programs, facilitating their smooth reintegration upon return to their regular classes.
   """
@@ -209,7 +211,9 @@ enableRobotsTXT = true
     title = "Fullstack Web Developer Degree"
     schoolName = "OpenClassrooms"
     date = "Sep 2017 - Jan 2020"
-    content = "Gained comprehensive knowledge in full-stack web development, delving deep into both front-end and back-end technologies. This program provided a strong foundation in modern web development practices, including hands-on experience with cutting-edge tools and frameworks."
+    content = "Gained comprehensive knowledge in full-stack web development, covering both front-end and back-end technologies. This program provided a strong foundation in modern web development practices, including hands-on experience in various contemporary tools and frameworks"
+
+    I have gained a comprehensive understanding of full-stack web development, covering both front-end and back-end technologies. The program offered a solid foundation in modern web development practices, equipping me with hands-on experience in various contemporary tools and frameworks.
 
   [[params.education.items]]
     title = "Scientific Baccalaureate"
@@ -339,7 +343,7 @@ enableRobotsTXT = true
 
 # Project 5
 [[params.projects.items]]
-  title = "Movie à la Carte"
+  title = "WordPress: Movie à la Carte"
   content = """
   'Movie à la Carte' is a WordPress-based project that showcases the use of taxonomies and custom post types. Developed using PHP, JavaScript, and CSS, this project features a specialized menu manager within WordPress. It allows users to effortlessly create pages and movie cards, complete with a comprehensive filtering and categorization system. The design and implementation of this project demonstrate an understanding of WordPress's architecture and a flair for creating intuitive, user-centric interfaces. 'Movie à la Carte' stands out as an example of how custom functionality can be seamlessly integrated into WordPress, enhancing the content management experience for users."""
   image = "/images/projects/project-5.jpg"
@@ -357,7 +361,7 @@ enableRobotsTXT = true
 
 # Project 7
 [[params.projects.items]]
-  title = "Essence Portfolio"
+  title = "WordPress: Essence Portfolio"
   content = """
   This project was born from my aspiration to learn efficiency, effectiveness, and minimalism in web development. This project is a WordPress portfolio that I developed swiftly, embodying a professional yet simple design. It taught me the importance of simplicity and clarity in web development and design, proving that sometimes, less is indeed more."""
   image = "/images/projects/project-7.jpg"
@@ -394,7 +398,7 @@ enableRobotsTXT = true
 
 # Project 11
 [[params.projects.items]]
-  title = "Autour d'un cafe"
+  title = "WordPress: Autour d'un cafe"
   content = """
   'Autour d'un cafe' is a bespoke WordPress blog, crafted to meet specific client demands. This project represents my first hands-on experience with Elementor, a leading WordPress page builder, which significantly enhanced the design and development process. Alongside Elementor, the project involved intricate PHP and JavaScript work, allowing for a customized and interactive user experience. The blog stands out for its unique aesthetic appeal and functional design, reflecting a blend of artistic vision and technical skill. Through 'Autour d'un cafe', I demonstrated an ability to adapt to new tools and technologies, delivering a tailored solution that aligns with the client's vision and requirements."""
   image = "/images/projects/project-11.jpg"
@@ -430,7 +434,7 @@ enableRobotsTXT = true
 
 # Project 9
 [[params.projects.items]]
-  title = "Office du Tourisme de la Ville de Strasbourg"
+  title = "WordPress: Office du Tourisme de la Ville de Strasbourg"
   content = """
   'Office du tourisme de la ville de Strasbourg' was my initial foray into WordPress development, where I got acquainted with various core features of the platform. In this project, I delved into WordPress menu management, creating intuitive and user-friendly navigation. Additionally, I gained experience in configuring different user roles and privileges, ensuring a secure and efficient content management workflow. The project also involved custom creation of pages and templates within WordPress, demonstrating my ability to tailor the platform to specific needs and design requirements. This project was a significant step in my journey, providing me with a comprehensive understanding of WordPress’s versatility and its powerful content management capabilities."""
   image = "/images/projects/project-9.jpg"
