@@ -211,9 +211,11 @@ enableRobotsTXT = true
     title = "Fullstack Web Developer Degree"
     schoolName = "OpenClassrooms"
     date = "Sep 2017 - Jan 2020"
-    content = "Gained comprehensive knowledge in full-stack web development, covering both front-end and back-end technologies. This program provided a strong foundation in modern web development practices, including hands-on experience in various contemporary tools and frameworks"
+    content = """
+    Gained comprehensive knowledge in full-stack web development, covering both front-end and back-end technologies. This program provided a strong foundation in modern web development practices, including hands-on experience in various contemporary tools and frameworks"
 
     I have gained a comprehensive understanding of full-stack web development, covering both front-end and back-end technologies. The program offered a solid foundation in modern web development practices, equipping me with hands-on experience in various contemporary tools and frameworks.
+    """
 
   [[params.education.items]]
     title = "Scientific Baccalaureate"
