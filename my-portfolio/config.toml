@@ -165,7 +165,9 @@ enableRobotsTXT = true
   content = """
   As a Bilingual Technical Support Specialist at FISERV, my responsibilities were multifaceted, focusing primarily on providing comprehensive technical support for Clover’s Android-based app. 
   
-  A personal contribution was the development and management of an online customer support platform in French. This initiative substantially improved the support experience for French-speaking clients and played a crucial role in resource optimization, reducing overhead and enhancing overall service efficiency. My active involvement in recruiting French-speaking personnel further complemented these efforts, aligning with the company's commitment to cultural sensitivity and linguistic diversity in customer service.
+  A personal contribution was the development and management of an online customer support platform in French. This initiative substantially improved the support experience for French-speaking clients and played a crucial role in resource optimization, reducing overhead and enhancing overall service efficiency. 
+  
+  My active involvement in recruiting French-speaking personnel further complemented these efforts, aligning with the company's commitment to cultural sensitivity and linguistic diversity in customer service.
   """
 
 
@@ -177,7 +179,7 @@ enableRobotsTXT = true
   content = """
   In my role as a freelance FullStack Web Developer, I specialize in building custom websites using a range of technologies, including HTML, CSS, JavaScript, PHP, and MySQL.
   
-  My approach has always been to meticulously design user-friendly interfaces while ensuring responsive design across all platforms. While I am proficient in WordPress for content management, I have also dedicated myself to creating tailored themes and plugins. In addition, I have customized admin interfaces with custom post types and taxonomies, allowing clients to effortlessly manage and curate personalized content.
+  My approach has always been to meticulously design user-friendly interfaces while ensuring responsive design across all platforms. Proficient in WordPress for content management, tailored themes and plugins creation, but also creating websites and apps from scratch. In addition, I have customized admin interfaces with custom post types and taxonomies, allowing clients to effortlessly manage and curate personalized content.
 
   My work with these tools has enabled me to develop unique and interactive features, ultimately enhancing user engagement and site functionality. Above all, my commitment has consistently been to deliver comprehensive, efficient web solutions that align with each client's specific requirements and objectives.
   """
@@ -197,7 +199,7 @@ enableRobotsTXT = true
   content = """
   Assisted in educational preparation and classroom management. Engaged in delivering computing lessons, enhancing students' technical skills and understanding. 
   
-  Additionally, I served as a teacher for a relay class, which included students temporarily excluded or experiencing academic failure. 
+  Served as a teacher for a relay class, which included students temporarily excluded or experiencing academic failure. 
   
   In this role, I adapted teaching methods and curricula to keep these students up to date with their programs, facilitating their smooth reintegration upon return to their regular classes.
   """
@@ -211,11 +213,7 @@ enableRobotsTXT = true
     title = "Fullstack Web Developer Degree"
     schoolName = "OpenClassrooms"
     date = "Sep 2017 - Jan 2020"
-    content = """
-    Gained comprehensive knowledge in full-stack web development, covering both front-end and back-end technologies. This program provided a strong foundation in modern web development practices, including hands-on experience in various contemporary tools and frameworks"
-
-    I have gained a comprehensive understanding of full-stack web development, covering both front-end and back-end technologies. The program offered a solid foundation in modern web development practices, equipping me with hands-on experience in various contemporary tools and frameworks.
-    """
+    content = "Gained comprehensive knowledge in full-stack web development, covering both front-end and back-end technologies. This program provided a strong foundation in modern web development practices, including hands-on experience in various contemporary tools and frameworks"
 
   [[params.education.items]]
     title = "Scientific Baccalaureate"
@@ -234,7 +232,7 @@ enableRobotsTXT = true
 [[params.projects.items]]
   title = "Mobi Quick Menu"
   content = """
-  Mobi Quick Menu, an advanced iteration of the original Menu Extractor, is a robust application developed using React JS and Chakra UI and leverages API integrations. This enhanced tool not only retains the functionality of its predecessor in generating new menus but also introduces new features like downloading menus as Excel files and reversing them to update existing menus, such as for price modifications. This advancement has markedly reduced manual errors and resource usage in menu management. By automating critical aspects of menu updates, Mobi Quick Menu empowers employees with efficient tools and offers clients self-service options, creating a mutually beneficial scenario."""
+  'Mobi Quick Menu', an advanced iteration of the original Menu Extractor, is an application developed using React JS and Chakra UI and leverages API integrations. This enhanced tool not only retains the functionality of its predecessor in generating new menus but also introduces new features like downloading menus as Excel files and reversing them to update existing menus, such as for price modifications. This advancement has markedly reduced manual errors and resource usage in menu management. By automating critical aspects of menu updates, Mobi Quick Menu empowers employees with efficient tools and offers clients self-service options, creating a mutually beneficial scenario."""
   image = "/images/projects/project-1.png"
   [params.projects.items.featured]
     name = "Visit"
@@ -252,7 +250,7 @@ enableRobotsTXT = true
 [[params.projects.items]]
   title = "Mobi Extractor"
   content = """
-  Mobi Extractor is a tool designed to streamline the menu creation and duplication process. Developed using HTML, JavaScript, and CSS, this application leverages API integrations to automate the retrieval and customization of menus linked to a head office. Prior to Mobi Extractor, support and implementation teams faced the tedious task of manually duplicating or creating menus. Now, users can efficiently duplicate or craft new menus, customizing names and all associated entities. This tool has resolved significant operational challenges, saving resources and significantly enhancing workflow efficiency within the company."""
+  'Mobi Extractor' is a tool designed to streamline the menu creation and duplication process. Developed using HTML, JavaScript, and CSS, this application leverages API integrations to automate the retrieval and customization of menus linked to a head office. Prior to Mobi Extractor, support and implementation teams faced the tedious task of manually duplicating or creating menus. Now, users can efficiently duplicate or craft new menus, customizing names and all associated entities. This tool has resolved significant operational challenges, saving resources and significantly enhancing workflow efficiency within the company."""
   image = "/images/projects/project-2.png"
   [params.projects.items.featured]
     name = "Visit"
@@ -270,7 +268,8 @@ enableRobotsTXT = true
 [[params.projects.items]]
   title = "Velo App"
   content = """
-  'Velo App' is a dynamic bike booking application, serving as a testament to my deep dive into JavaScript and API integration. This project was also an excellent opportunity to learn about various data storage methods, including local storage, and to implement functionalities like canvas for digital signatures. The app features a comprehensive flow for reservations and cancellations, ensuring a seamless user experience. Through 'Velo App,' I have not only strengthened my skills in working with APIs and JavaScript but also gained valuable insights into creating efficient, user-centric booking systems. The project underscores my commitment to learning and implementing advanced web technologies to solve real-world problems."""
+  'Velo App' is a bike booking application that reflects my growing journey with JavaScript and integrating APIs. Through this project, I've had the chance to explore different ways to handle data and to use different features. The app provides a straightforward process for making and canceling reservations, focusing on a smooth user experience. Working on "Velo App" has been a valuable experience in enhancing my abilities with APIs and JavaScript, and it's taught me a lot about designing practical, user-friendly booking systems. This project has been a great step in my ongoing journey to understand and apply evolving web technologies in practical scenarios.
+  """
   image = "/images/projects/app-velo-2.png"
   [params.projects.items.featured]
     name = "Visit"
@@ -291,7 +290,8 @@ enableRobotsTXT = true
 [[params.projects.items]]
   title = "Portfolio"
   content = """
-  My 'Portfolio' project was a canvas where I allowed my creativity to flourish, exploring the dynamic and versatile nature of JavaScript, along with JQuery, HTML, and CSS. This project was an adventure into creating an interactive and animated web experience. A standout feature is an animated phone within the website, which can morph into a tablet or a full-screen display, illustrating the responsive design capabilities I developed. The entire website is a testament to interactive design, where each element and transition was carefully crafted to engage and intrigue. Through this project, I not only honed my technical skills in front-end development but also pushed the boundaries of what can be achieved in terms of user interaction and visual storytelling in a web environment."""
+  'My Portfolio' project was an opportunity for me to experiment and express my creativity, working with JavaScript, JQuery, HTML, and CSS. It was an exciting journey into making a web experience that's not just functional, but also interactive and animated. One of the highlights is an animated phone feature on the site, which transforms into a tablet or a full-screen view, showcasing the responsive design techniques I've been practicing. The whole website is an exercise in interactive design, with each element and transition designed to capture interest and engage visitors. This project was a great way for me to improve my front-end development skills and explore creative ways to combine user interaction and visual storytelling on the web
+  """
   image = "/images/projects/project-3.png"
   [params.projects.items.featured]
     name = "Visit"

@@ -217,11 +217,13 @@ header .navbar.animate {
     transition: box-shadow 0.3s;
     padding: 0;
     border: 0;
-    opacity: .8;
+    opacity: .4;
 }
 
 #about .image img:hover {
     box-shadow: 0 0 11px rgb(15 80 100 / 20%);
+    opacity: 1;
+    cursor: ;
 }
 
 #about ul {
@@ -328,7 +330,7 @@ header .navbar.animate {
 
 #experience .nav-item .nav-link.active {
     color: var(--text-color) !important;
-    border-bottom: 2px solid var(--primary-color); 
+    border-bottom: 2px solid var(--light-green-color); 
     opacity: 0.8;
 }
 
@@ -337,7 +339,7 @@ header .navbar.animate {
 }
 
 #experience .nav-item .nav-link:hover {
-    border-bottom: 2px solid var(--primary-color);
+    border-bottom: 2px solid var(--light-green-color);
     opacity: 0.8;
 }
 
