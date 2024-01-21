@@ -1,65 +1,68 @@
-# Walid Hlali | Développeur Web
+# Walid Hlali | Ingénieur Logiciel
 
 **Courriel :** [hlaliwalid@gmail.com](mailto:hlaliwalid@gmail.com)  
 **Téléphone :** 647 782-8394  
 **GitHub :** [@Walid-dev](https://github.com/Walid-dev)  
 **LinkedIn :** [@walid-hlali](https://www.linkedin.com/in/walid-hlali/)  
-**Portfolio:** [https://portfolio-walid-dev.com/](https://portfolio-xi-mocha-98.vercel.app/)
+**Portfolio :** [https://portfolio-walid-dev.com/](https://portfolio-xi-mocha-98.vercel.app/)
 
 ## Résumé
-Développeur Web innovant avec une solide expérience dans le développement et l'optimisation de solutions technologiques. Compétent tant en développement front-end qu'en back-end, je me concentre sur la création d'applications efficaces et évolutives. Multi-tâches, je suis aussi rapide à identifier et résoudre les problèmes techniques tout en contribuant à l'amélioration des processus opérationnels et à la performance de l'équipe. Je suis passionné par le développement de logiciels qui enrichissent l'expérience utilisateur et optimisent les processus d'affaires.
+Développeur Web innovant et bilingue (anglais et français) avec une solide expérience dans le développement et l'optimisation de solutions technologiques. Compétent en développement front-end et back-end, axé sur la création d'applications efficaces et évolutives. Habile dans la gestion multitâche, l'identification et la résolution rapides de problèmes techniques, l'amélioration des processus opérationnels et des performances d'équipe. Passionné par la création de logiciels qui améliorent les expériences utilisateur et les processus d'affaires.
 
 ## Compétences Techniques
-**Langages et Concepts :** JavaScript, TypeScript, PHP, HTML, CSS, Programmation Orientée Objet (POO), Modèles de Conception  
-**Frameworks & Bibliothèques :** React, Node.js, Redux, Next.js, React Native, SASS/LESS, jQuery, Twig, EJS  
-**Outils & Technologies :** Rest API, WordPress, Firebase, MongoDB, Material UI, Chakra UI, Ant Design, Tailwind CSS, HUGO, Datadog, Splunk, Snowflake, Raygun, Git, GitLab, Intégration IA, Méthodologie AGILE
+**Langages & Concepts :** JavaScript, TypeScript, PHP, HTML, CSS, Programmation Orientée Objet (POO), Modèles de conception  
+**Frameworks & Bibliothèques :** Node.js, React, React Native, Redux, Next.js, SASS/LESS, jQuery, Twig, EJS  
+**Outils & Technologies :** SQL, Développement API, WordPress, Firebase, MongoDB, MySQL, Méthodologie AGILE, Material UI, Chakra UI, Ant Design, Tailwind CSS, HUGO, Datadog, Splunk, Snowflake, Raygun, Git, GitLab, AWS
 
 ## Expérience Professionnelle
 **Ingénieur Logiciel,** Mobi, Toronto - Canada (Mars 2023 - Présent)  
-- Développement d'interfaces utilisateurs complexes et d'applications riches en fonctionnalités avec React, React Native et Redux
-- Amélioration de la stabilité et de la performance du système avec PHP et JavaScript en développement back-end.  
-- Rationalisation des flux de travail et optimisation de l'utilisation des ressources, jouant un rôle clé dans l'évolution et le succès des projets.
+- Développement d'interfaces utilisateur et d'applications fonctionnelles en utilisant React, Redux et React Native.
+- Amélioration de la stabilité et de la performance du système avec PHP et JavaScript en développement back-end.
+- Rationalisation des flux de travail et optimisation de l'utilisation des ressources, jouant un rôle clé dans l'évolution et le succès du projet.
 
-**Ingénieur de Soutien,** Mobi, Toronto - Canada (mars 2022 - mars 2023)
-- Développement d'outils pour l'amélioration de l'efficacité et de l'utilisation des ressources, renforçant considérablement les processus de travail.
-- Amélioration de la fonctionnalité et de la fiabilité du système à travers des intégrations API avancées.
-- Administration des entrées de base de données et des opérations SQL, garantissant l'intégrité des données et l'efficacité opérationnelle.
-- Utilisation des journaux d'API et d'outils tels que Splunk, Datadog et Raygun pour des investigations efficaces et la résolution rapide de problèmes.
-- Adaptation des sites web clients avec HTML, CSS et jQuery, mettant l'accent sur l'amélioration de l'expérience utilisateur.
-- Recherche de solutions équilibrées et fiables, combinant compétences techniques et attention aux besoins des utilisateurs.
+**Ingénieur de Soutien,** Mobi, Toronto - Canada (Mars 2022 - Mars 2023)
+- Développement d'outils pour améliorer l'efficacité et l'utilisation des ressources, améliorant significativement les processus de travail.
+- Amélioration de la fonctionnalité et de la fiabilité du système grâce à des intégrations API avancées.
+- Gestion des entrées de base de données et des opérations SQL, assurant l'intégrité des données et l'efficacité opérationnelle.
+- Utilisation des logs API et des outils comme Splunk, Datadog et Raygun pour un débogage efficace et la résolution de problèmes.
+- Amélioration de l'expérience utilisateur pour divers sites web clients grâce à une utilisation compétente des technologies front-end.
+- Conception de solutions équilibrées et fiables, alliant compétences techniques et attention portée aux besoins des utilisateurs.
 
 **Spécialiste du Support Technique Bilingue,** Mobi, Toronto - Canada (Mars 2021 - Mars 2022)  
-- Résolution de problèmes techniques complexes, fournissant un support client efficace.  
-- Investigation des logs et problèmes liés aux integrations API. 
-- Utilisation de HTML, CSS et JavaScript pour la personnalisation clients de la plateforme.
+- Investigation et résolution d'un large éventail de problèmes techniques, offrant un soutien client efficace en anglais comme en français.
+- Enquête sur les logs et les problèmes d'intégration d'API.  
+- Amélioration de l'expérience utilisateur pour divers sites web clients grâce à l'utilisation de technologies front-end (HTML, CSS et JavaScript...).
 
-**Spécialiste du Support Technique Bilingue,** FISERV, Toronto - Canada (Fév. 2020 - Mars 2021)  
-- Fourniture d'un support technique complet. Travail sur le produit Clover, résolution de problèmes de système basé sur Android.  
+**Spécialiste du Support Technique Bilingue,** FISERV, Toronto - Canada (Février 2020 - Mars 2021)  
+- Fourniture d'un soutien technique complet en anglais et en français.
+- Travail sur le produit Clover, résolution des problèmes du système basé sur Android.  
 - Développement et gestion d'une plateforme de support client en ligne en français, améliorant le support pour les clients francophones.
 
-**Développeur Web FullStack,** Auto-entrepreneur, Lyon - France (Sept. 2017 - Fév. 2020)  
-- Développement de sites Web en HTML, JavaScript, PHP et WordPress, en accord avec les standards actuels.
-- Priorisation des stratégies SEO conformes aux meilleures pratiques du domaine pour optimiser le référencement naturel.
-- Conception de solutions Web personnalisées, visant à enrichir l'expérience utilisateur et à dynamiser le contenu.
+**Développeur Web FullStack,** Auto-entrepreneur, Lyon - France (Septembre 2017 - Février 2020)  
+- Développement de sites web personnalisés de A à Z en utilisant HTML, CSS, JavaScript, PHP et MySQL, assurant des expériences utilisateur réactives et captivantes.  
+- Spécialisation en WordPress, création de thèmes, d'interfaces d'administration personnalisées avec des types de posts et des taxonomies personnalisés, permettant aux clients de gérer et de construire un contenu personnalisé.  
+- Implémentation de constructeurs, de thèmes et de plugins pour répondre à divers besoins fonctionnels, tout en se concentrant également sur l'optimisation SEO pour améliorer la visibilité web.
 
-## Assistant d'Enseignement, Collège des Garrigues, Montpellier - France (Janv. 2010 - Sept. 2014)
-- Assistance dans la préparation éducative et la gestion de classe.
-- Enseignement de cours d'informatique, améliorant les compétences techniques et la compréhension des étudiants.
-- Enseignement d'une classe relais pour les élèves temporairement exclus ou en échec scolaire, adaptant la pédagogie à leurs besoins.
+**Assistant d'Éducation,** Collège des Garrigues, Montpellier - France (Janvier 2010 - Septembre 2014)  
+- Assistance dans la préparation éducative et la gestion de la classe.  
+- Dispense de cours d'informatique, amélioration des compétences techniques et de la compréhension des élèves.  
+- Enseignement dans une classe-relais pour les élèves temporairement exclus ou en échec scolaire, adaptation de la pédagogie à leurs besoins.
 
-## Formation
-**Diplôme de Développeur Web Fullstack,** OpenClassrooms (Sep. 2017 - Janv. 2020)  
-Acquisition de connaissances approfondies en développement web full-stack à travers la réalisation de multiples projets, explorant en profondeur les technologies front-end et back-end.
+## Formations
+**Diplôme de Développeur Web Fullstack,** OpenClassrooms (Septembre 2017 - Janvier 2020)  
+Approfondissement des connaissances en développement web full-stack, avec une immersion dans les technologies front-end et back-end.
+
 
 **Baccalauréat Scientifique,** Lycée Jean Monnet (Juin 2005)  
 Spécialisation en Physique-Chimie, développement des capacités d'analyse et de résolution de problèmes, combinant connaissances théoriques et expérimentation pratique.
 
 ## Compétences Personnelles
-- **Apprentissage Continu :** Engagement dans l'amélioration continue de mes compétences techniques et professionnelles à travers la formation continue, le partage the connaissances et la participation à des expériences pratiques.
+- **Autonomie :** Capacité démontrée à travailler de manière indépendante, gérant efficacement les projets et les tâches avec peu de supervision.
 - **Communication :** Communicateur efficace, capable d'articuler des concepts techniques complexes de manière compréhensible.
-- - **Polyvalence Professionnelle :** Compétence avérée à collaborer efficacement dans des contextes de travail d'équipe tout en étant tout aussi efficace en autonomie, capable d'identifier et de résoudre des problématiques de manière indépendante.
-- **Résolution de Problèmes :** Compétent pour identifier et résoudre rapidement les problèmes techniques, conduisant à des solutions efficaces et efficientes.
+- **Travail d'Équipe :** Capacité avérée à travailler en collaboration dans des environnements d'équipe divers pour atteindre les objectifs du projet.
+- **Résolution de Problèmes :** Compétence dans l'identification rapide et la résolution de problèmes techniques, menant à des solutions efficaces et efficientes.
+- **Apprentissage Continu :** Engagement à améliorer les compétences techniques et professionnelles par une formation continue et des expériences pratiques.
 
 ## Langues
-- **Anglais :** Maîtrise professionnelle complète
-- **Français :** Maîtrise native
+- **Anglais :** Pleine compétence professionnelle
+- **Français :** Compétence native

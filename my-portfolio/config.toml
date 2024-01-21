@@ -66,7 +66,7 @@ enableRobotsTXT = true
     [params.hero.button]
       enable = true
       name = "Resume"
-      url = "/resume/walid-resume-en.pdf"
+      url = "/resume/wh-soft-en-fr.pdf"
       download = true
       newPage = false
     [params.hero.socialLinks]
@@ -310,7 +310,8 @@ enableRobotsTXT = true
 [[params.projects.items]]
   title = "Galaxy Surfing"
   content = """
-  'Galaxy Surfing' marks my initial venture into JavaScript and a focused application of advanced CSS techniques. In this project, I embraced the fundamentals of JavaScript, integrating basic interactivity and logic into the web design. The CSS aspect delves into layout design, CSS animations, and visual effects, showcasing a precise handling of the box model, flexbox/grid systems, and custom animation keyframes. This project was an enlightening experience, blending the interactive capabilities of JavaScript with the aesthetic control of CSS to create a user-friendly and visually stimulating web environment. 'Galaxy Surfing' is an embodiment of my early steps in web development, emphasizing a balance between functional interactivity and aesthetic appeal."""
+  'Galaxy Surfing' represents my first foray into JavaScript and a concerted effort to apply advanced CSS techniques. In this project, I focused on grasping the basics of JavaScript, adding simple interactive elements and logic to the web design. On the CSS front, I explored layout designs, animations, and visual effects, getting to grips with the box model, flexbox/grid systems, and creating custom animation keyframes. This project was a really informative journey, combining the interactivity of JavaScript with the visual capabilities of CSS to craft a user-friendly and visually engaging web space. "Galaxy Surfing" symbolizes my early steps in the web development world, striving for a harmony between functional interactivity and visual appeal.
+  """
   image = "/images/projects/project-4.png"
   [params.projects.items.featured]
     name = "Visit"
