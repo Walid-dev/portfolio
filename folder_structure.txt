@@ -19,15 +19,15 @@
 │   ├── static
 │   │   ├── fav.webp
 │   │   └── images
-│   │       ├── achievment.jpg
+│   │       ├── achievment.webp
 │   │       ├── hero.svg
 │   │       ├── mathjax.webp
 │   │       ├── me.webp
-│   │       ├── post.jpg
+│   │       ├── post.webp
 │   │       └── projects
-│   │           ├── converter.jpg
+│   │           ├── converter.webp
 │   │           ├── profile.webp
-│   │           └── profile2.jpg
+│   │           └── profile2.webp
 │   └── themes
 │       └── hugo-profile
 │           ├── LICENSE

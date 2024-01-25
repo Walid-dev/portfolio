@@ -350,7 +350,7 @@ enableRobotsTXT = true
   title = "WordPress: Movie à la Carte"
   content = """
   'Movie à la Carte' is a WordPress-based project that showcases the use of taxonomies and custom post types. Developed using PHP, JavaScript, and CSS, this project features a specialized menu manager within WordPress. It allows users to effortlessly create pages and movie cards, complete with a comprehensive filtering and categorization system. The design and implementation of this project demonstrate an understanding of WordPress's architecture and a flair for creating intuitive, user-centric interfaces. 'Movie à la Carte' stands out as an example of how custom functionality can be seamlessly integrated into WordPress, enhancing the content management experience for users."""
-  image = "/images/projects/project-5.jpg"
+  image = "/images/projects/project-5.webp"
   [params.projects.items.featured]
     name = "Visit"
     link = "https://example.com/project-5"
@@ -368,7 +368,7 @@ enableRobotsTXT = true
   title = "WordPress: Essence Portfolio"
   content = """
   This project was born from my aspiration to learn efficiency, effectiveness, and minimalism in web development. This project is a WordPress portfolio that I developed swiftly, embodying a professional yet simple design. It taught me the importance of simplicity and clarity in web development and design, proving that sometimes, less is indeed more."""
-  image = "/images/projects/project-7.jpg"
+  image = "/images/projects/project-7.webp"
   [params.projects.items.featured]
     name = "Visit"
     link = "https://example.com/project-7"
@@ -387,7 +387,7 @@ enableRobotsTXT = true
   title = "Avis GO"
   content = """
   'Avis GO' marks my initial step into the realm of responsive static web design. Built using HTML, CSS, and the Bootstrap framework, designed with responsiveness in mind, 'Avis GO' provides an optimal viewing experience across a variety of devices, ensuring that content is easily readable and navigation is effortless regardless of screen size. The simplicity and effectiveness of the design reflect a careful consideration of user experience, demonstrating a commitment to quality and detail in web development."""
-  image = "/images/projects/project-10.jpg"
+  image = "/images/projects/project-10.webp"
   [params.projects.items.featured]
     name = "Visit"
     link = "https://example.com/project-10"
@@ -405,7 +405,7 @@ enableRobotsTXT = true
   title = "WordPress: Autour d'un cafe"
   content = """
   'Autour d'un cafe' is a bespoke WordPress blog, crafted to meet specific client demands. This project represents my first hands-on experience with Elementor, a leading WordPress page builder, which significantly enhanced the design and development process. Alongside Elementor, the project involved intricate PHP and JavaScript work, allowing for a customized and interactive user experience. The blog stands out for its unique aesthetic appeal and functional design, reflecting a blend of artistic vision and technical skill. Through 'Autour d'un cafe', I demonstrated an ability to adapt to new tools and technologies, delivering a tailored solution that aligns with the client's vision and requirements."""
-  image = "/images/projects/project-11.jpg"
+  image = "/images/projects/project-11.webp"
   [params.projects.items.featured]
     name = "Visit"
     link = "https://example.com/project-11"
@@ -423,7 +423,7 @@ enableRobotsTXT = true
   title = "WEBAGENCY"
   content = """
   WEBAGENCY represents my initial exploration into responsive web design, crafted with HTML and CSS. This project was an insightful journey into the essentials of web development, highlighting the adaptability and user-centric approach necessary for modern web design. The layout is designed to be fluid across different devices. This experience was a valuable step in my professional growth, demonstrating my ability to grasp and apply key web development principles while focusing on creating practical, user-friendly web solutions."""
-  image = "/images/projects/project-12.jpg"
+  image = "/images/projects/project-12.webp"
   [params.projects.items.featured]
     name = "Visit"
     link = "https://example.com/project-12"
@@ -441,7 +441,7 @@ enableRobotsTXT = true
   title = "WordPress: Office du Tourisme de la Ville de Strasbourg"
   content = """
   'Office du tourisme de la ville de Strasbourg' was my initial foray into WordPress development, where I got acquainted with various core features of the platform. In this project, I delved into WordPress menu management, creating intuitive and user-friendly navigation. Additionally, I gained experience in configuring different user roles and privileges, ensuring a secure and efficient content management workflow. The project also involved custom creation of pages and templates within WordPress, demonstrating my ability to tailor the platform to specific needs and design requirements. This project was a significant step in my journey, providing me with a comprehensive understanding of WordPress’s versatility and its powerful content management capabilities."""
-  image = "/images/projects/project-9.jpg"
+  image = "/images/projects/project-9.webp"
   [params.projects.items.featured]
     name = "Visit"
     link = "https://example.com/project-9"

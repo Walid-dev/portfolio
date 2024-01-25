@@ -24,21 +24,21 @@
 │       └── projects
 │           ├── app-velo-1.webp
 │           ├── app-velo-2.webp
-│           ├── converter.jpg
+│           ├── converter.webp
 │           ├── french-in-toronto.webp
 │           ├── profile.webp
-│           ├── profile2.jpg
+│           ├── profile2.webp
 │           ├── project-1.webp
-│           ├── project-10.jpg
-│           ├── project-11.jpg
-│           ├── project-12.jpg
+│           ├── project-10.webp
+│           ├── project-11.webp
+│           ├── project-12.webp
 │           ├── project-2.webp
 │           ├── project-3-2.webp
 │           ├── project-3.webp
 │           ├── project-4.webp
-│           ├── project-5.jpg
-│           ├── project-7.jpg
-│           └── project-9.jpg
+│           ├── project-5.webp
+│           ├── project-7.webp
+│           └── project-9.webp
 └── themes
     └── hugo-profile
         ├── LICENSE
