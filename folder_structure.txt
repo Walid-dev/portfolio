@@ -17,16 +17,16 @@
 │   ├── i18n
 │   ├── layouts
 │   ├── static
-│   │   ├── fav.png
+│   │   ├── fav.webp
 │   │   └── images
 │   │       ├── achievment.jpg
 │   │       ├── hero.svg
-│   │       ├── mathjax.png
-│   │       ├── me.png
+│   │       ├── mathjax.webp
+│   │       ├── me.webp
 │   │       ├── post.jpg
 │   │       └── projects
 │   │           ├── converter.jpg
-│   │           ├── profile.png
+│   │           ├── profile.webp
 │   │           └── profile2.jpg
 │   └── themes
 │       └── hugo-profile
@@ -39,8 +39,8 @@
 │           │   ├── content
 │           │   └── static
 │           ├── images
-│           │   ├── screenshot.png
-│           │   └── tn.png
+│           │   ├── screenshot.webp
+│           │   └── tn.webp
 │           ├── layouts
 │           │   ├── 404.html
 │           │   ├── _default
@@ -50,10 +50,10 @@
 │           │   └── shortcodes
 │           ├── netlify.toml
 │           ├── static
-│           │   ├── 404.png
+│           │   ├── 404.webp
 │           │   ├── bootstrap-5
 │           │   ├── css
-│           │   ├── fav.png
+│           │   ├── fav.webp
 │           │   ├── fontawesome-6
 │           │   └── js
 │           └── theme.toml

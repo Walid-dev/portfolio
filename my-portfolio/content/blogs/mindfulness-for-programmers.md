@@ -7,7 +7,7 @@ tags:
   - Meditation
   - Programming
   - Mental Health
-image: /images/mindfulness-for-programmers.png
+image: /images/mindfulness-for-programmers.webp
 description: "Exploring the practical benefits of mindfulness and meditation in the programming world."
 toc: true
 ---

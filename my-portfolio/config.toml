@@ -32,7 +32,7 @@ enableRobotsTXT = true
 [params]
   title = "Walid's Portfolio"
   description = "Innovative Software Engineer with a track record in developing and optimizing technology solutions. Skilled in front-end and back-end development."
-  favicon = "/fav.png"
+  favicon = "/fav.webp"
   useBootstrapCDN = false
   animate = true
 
@@ -62,7 +62,7 @@ enableRobotsTXT = true
     Proficient in front-end and back-end development and adept at multitasking, 
     I concentrate on crafting efficient, scalable applications that deliver a good user experience.
     """
-    image = "/images/landing.png"
+    image = "/images/landing.webp"
     [params.hero.button]
       enable = true
       name = "Resume"
@@ -72,14 +72,15 @@ enableRobotsTXT = true
     [params.hero.socialLinks]
       fontAwesomeIcons = [
         { icon = "fab fa-github", url = "https://github.com/Walid-dev" },
-        { icon = "fab fa-linkedin", url = "https://www.linkedin.com/in/walid-hlali" },
-        { icon= "fas fa-envelope", url= "mailto:hlaliwalid@gmail.com" }
+        { icon = "fab fa-whatsapp", url = "https://wa.me/33634144809" },
+        { icon= "fas fa-envelope", url= "mailto:hlaliwalid@gmail.com" },
+        { icon = "fab fa-linkedin", url = "https://www.linkedin.com/in/walid-hlali" }
       ]
 
 [params.about]
   enable = true
   title = "About Me"
-  image = "/images/about-me-4.png"
+  image = "/images/about-me-4.webp"
   content = "As a Web Developer, I aim to craft solutions that align with client/company needs and project goals, balancing user expectations with technical precision. My experience spans front-end and back-end development, contributing to the efficiency and scalability of applications. I thrive in multitasking and resolving technical challenges, which aids in improving performance and operational processes. Continually learning, exploring AI technologies, I am keen on enhancing innovation and productivity."
 
 [params.about.skills]
@@ -233,7 +234,7 @@ enableRobotsTXT = true
   title = "Mobi Quick Menu"
   content = """
   'Mobi Quick Menu', an advanced iteration of the original Menu Extractor, is an application developed using React JS and Chakra UI and leverages API integrations. This enhanced tool not only retains the functionality of its predecessor in generating new menus but also introduces new features like downloading menus as Excel files and reversing them to update existing menus, such as for price modifications. This advancement has markedly reduced manual errors and resource usage in menu management. By automating critical aspects of menu updates, Mobi Quick Menu empowers employees with efficient tools and offers clients self-service options, creating a mutually beneficial scenario."""
-  image = "/images/projects/project-1.png"
+  image = "/images/projects/project-1.webp"
   [params.projects.items.featured]
     name = "Visit"
     link = "https://mobi-quick-menu.vercel.app/"
@@ -251,7 +252,7 @@ enableRobotsTXT = true
   title = "Mobi Extractor"
   content = """
   'Mobi Extractor' is a tool designed to streamline the menu creation and duplication process. Developed using HTML, JavaScript, and CSS, this application leverages API integrations to automate the retrieval and customization of menus linked to a head office. Prior to Mobi Extractor, support and implementation teams faced the tedious task of manually duplicating or creating menus. Now, users can efficiently duplicate or craft new menus, customizing names and all associated entities. This tool has resolved significant operational challenges, saving resources and significantly enhancing workflow efficiency within the company."""
-  image = "/images/projects/project-2.png"
+  image = "/images/projects/project-2.webp"
   [params.projects.items.featured]
     name = "Visit"
     link = "https://menu-extractor-app-walid-dev.vercel.app/"
@@ -270,7 +271,7 @@ enableRobotsTXT = true
   content = """
   'Velo App' is a bike booking application that reflects my growing journey with JavaScript and integrating APIs. Through this project, I've had the chance to explore different ways to handle data and to use different features. The app provides a straightforward process for making and canceling reservations, focusing on a smooth user experience. Working on "Velo App" has been a valuable experience in enhancing my abilities with APIs and JavaScript, and it's taught me a lot about designing practical, user-friendly booking systems. This project has been a great step in my ongoing journey to understand and apply evolving web technologies in practical scenarios.
   """
-  image = "/images/projects/app-velo-2.png"
+  image = "/images/projects/app-velo-2.webp"
   [params.projects.items.featured]
     name = "Visit"
     link = "https://app-velo.vercel.app/"
@@ -292,7 +293,7 @@ enableRobotsTXT = true
   content = """
   'My Portfolio' project was an opportunity for me to experiment and express my creativity, working with JavaScript, JQuery, HTML, and CSS. It was an exciting journey into making a web experience that's not just functional, but also interactive and animated. One of the highlights is an animated phone feature on the site, which transforms into a tablet or a full-screen view, showcasing the responsive design techniques I've been practicing. The whole website is an exercise in interactive design, with each element and transition designed to capture interest and engage visitors. This project was a great way for me to improve my front-end development skills and explore creative ways to combine user interaction and visual storytelling on the web
   """
-  image = "/images/projects/project-3.png"
+  image = "/images/projects/project-3.webp"
   [params.projects.items.featured]
     name = "Visit"
     link = "https://example.com/project-3"
@@ -312,7 +313,7 @@ enableRobotsTXT = true
   content = """
   'Galaxy Surfing' represents my first foray into JavaScript and a concerted effort to apply advanced CSS techniques. In this project, I focused on grasping the basics of JavaScript, adding simple interactive elements and logic to the web design. On the CSS front, I explored layout designs, animations, and visual effects, getting to grips with the box model, flexbox/grid systems, and creating custom animation keyframes. This project was a really informative journey, combining the interactivity of JavaScript with the visual capabilities of CSS to craft a user-friendly and visually engaging web space. "Galaxy Surfing" symbolizes my early steps in the web development world, striving for a harmony between functional interactivity and visual appeal.
   """
-  image = "/images/projects/project-4.png"
+  image = "/images/projects/project-4.webp"
   [params.projects.items.featured]
     name = "Visit"
     link = "https://example.com/project-4"
@@ -330,7 +331,7 @@ enableRobotsTXT = true
   title = "Frenchies in Toronto"
   content = """
   'Frenchies in Toronto' is an extensive project that integrates the array of programming languages and technologies I've mastered during my academic journey. Built on a PHP framework and enriched with JavaScript, HTML, and CSS, this blog exemplifies a diverse application of web development techniques. It features Object-Oriented Programming (OOP), CRUD operations, and a dynamic chat module. A notable aspect is its robust security measures, including defenses against brute force attacks, SQL injection, and cross-site scripting (XSS), ensuring data integrity and user safety. The blog also facilitates different user access levels and efficient SQL database management, while adhering to best practices in programming and SEO. This project is a comprehensive showcase of my technical prowess, blending functionality, security, and optimal user experience in web development."""
-  image = "/images/projects/french-in-toronto.png"
+  image = "/images/projects/french-in-toronto.webp"
   [params.projects.items.featured]
     name = "Demo"
     link = "https://frenchies-in-toronto.example.com"

@@ -9,7 +9,7 @@ tags:
   - Mental Health
   - Focus
   - Creativity
-image: /images/coding-and-well-being.png
+image: /images/coding-and-well-being.webp
 description: "Exploring the impact of coding on mental health and well-being."
 toc: true
 ---

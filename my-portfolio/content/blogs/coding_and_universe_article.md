@@ -9,7 +9,7 @@ tags:
   - Universe
   - Digital Physics
   - Quantum Computing
-image: /images/coding-and-universe.png
+image: /images/coding-and-universe.webp
 description: "Exploring the parallels between the universe and coding structures."
 toc: true
 ---

@@ -15,27 +15,27 @@
 ├── i18n
 ├── layouts
 ├── static
-│   ├── fav.png
+│   ├── fav.webp
 │   └── images
-│       ├── coding-and-universe.png
-│       ├── coding-and-well-being.png
-│       ├── introduction-to-devops.png
-│       ├── mindfulness-for-programmers.png
+│       ├── coding-and-universe.webp
+│       ├── coding-and-well-being.webp
+│       ├── introduction-to-devops.webp
+│       ├── mindfulness-for-programmers.webp
 │       └── projects
-│           ├── app-velo-1.png
-│           ├── app-velo-2.png
+│           ├── app-velo-1.webp
+│           ├── app-velo-2.webp
 │           ├── converter.jpg
-│           ├── french-in-toronto.png
-│           ├── profile.png
+│           ├── french-in-toronto.webp
+│           ├── profile.webp
 │           ├── profile2.jpg
-│           ├── project-1.png
+│           ├── project-1.webp
 │           ├── project-10.jpg
 │           ├── project-11.jpg
 │           ├── project-12.jpg
-│           ├── project-2.png
-│           ├── project-3-2.png
-│           ├── project-3.png
-│           ├── project-4.png
+│           ├── project-2.webp
+│           ├── project-3-2.webp
+│           ├── project-3.webp
+│           ├── project-4.webp
 │           ├── project-5.jpg
 │           ├── project-7.jpg
 │           └── project-9.jpg
@@ -54,10 +54,10 @@
         │   └── shortcodes
         ├── netlify.toml
         ├── static
-        │   ├── 404.png
+        │   ├── 404.webp
         │   ├── bootstrap-5
         │   ├── css
-        │   ├── fav.png
+        │   ├── fav.webp
         │   ├── fontawesome-6
         │   └── js
         └── theme.toml

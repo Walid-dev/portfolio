@@ -8,7 +8,7 @@ tags:
   - Operations
   - Continuous Integration
   - Continuous Deployment
-image: /images/introduction-to-devops.png
+image: /images/introduction-to-devops.webp
 description: "An essential guide to understanding DevOps – the synergy of development and operations in software engineering."
 toc: true
 ---
