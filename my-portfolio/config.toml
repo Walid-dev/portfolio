@@ -2,6 +2,7 @@ baseURL = "https://portfolio-xi-mocha-98.vercel.app/"
 languageCode = "en-us"
 title = "Walid's Portfolio"
 theme = "hugo-profile"
+googleAnalytics: "G-WY1VPD2ER0"
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
