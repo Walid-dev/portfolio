@@ -32,7 +32,7 @@ enableRobotsTXT = true
 [params]
   title = "Walid's Portfolio"
   description = "Innovative Software Engineer with a track record in developing and optimizing technology solutions. Skilled in front-end and back-end development."
-  favicon = "/fav.webp"
+  favicon = "/logo-flamme.webp"
   useBootstrapCDN = false
   animate = true
 
@@ -57,12 +57,12 @@ enableRobotsTXT = true
     enable = true
     intro = "Hi, I'm"
     title = "Walid."
-    subtitle = "Software Engineer | Web Developer"
+    subtitle = "Software Engineer"
     content = """
     Proficient in front-end and back-end development and adept at multitasking, 
     I concentrate on crafting efficient, scalable applications that deliver a good user experience.
     """
-    image = "/images/landing.webp"
+    image = "/digital-three-2.webp"
     [params.hero.button]
       enable = true
       name = "Resume"
@@ -80,7 +80,7 @@ enableRobotsTXT = true
 [params.about]
   enable = true
   title = "About Me"
-  image = "/images/about-me-4.webp"
+  image = "laptop-pixel.webp"
   content = "As a Web Developer, I aim to craft solutions that align with client/company needs and project goals, balancing user expectations with technical precision. My experience spans front-end and back-end development, contributing to the efficiency and scalability of applications. I thrive in multitasking and resolving technical challenges, which aids in improving performance and operational processes. Continually learning, exploring AI technologies, I am keen on enhancing innovation and productivity."
 
 [params.about.skills]
@@ -89,7 +89,7 @@ enableRobotsTXT = true
   items = [
     "JavaScript", "React", "Node.js", "TypeScript", "PHP",
     "HTML", "CSS", "React Native", "Redux", "Next.js",
-    "SASS/LESS", "jQuery", "Twig", "EJS", "AI Integration",
+    "SASS/LESS", "jQuery", "EJS", "AI Integration",
     "Prompt Engineering", "Debugging"
   ]
 
@@ -98,10 +98,10 @@ enableRobotsTXT = true
   title = "Tools & Technologies"
   items = [
     "API Development", "Firebase", "MongoDB", 
-    "Git", "GitLab", "Datadog", "Splunk", 
+    "Git", "GitLab", "Datadog", "Splunk", "Snowflake",
     "Raygun", "HUGO", "WordPress", "AGILE Methodology", 
     "Tailwind CSS", "Material UI", "Chakra UI", 
-    "Ant Design", "Snowflake"
+    "Ant Design"
   ]
 
 
@@ -233,7 +233,7 @@ enableRobotsTXT = true
 [[params.projects.items]]
   title = "Mobi Quick Menu"
   content = """
-  'Mobi Quick Menu', an advanced iteration of the original Menu Extractor, is an application developed using React JS and Chakra UI and leverages API integrations. This enhanced tool not only retains the functionality of its predecessor in generating new menus but also introduces new features like downloading menus as Excel files and reversing them to update existing menus, such as for price modifications. This advancement has markedly reduced manual errors and resource usage in menu management. By automating critical aspects of menu updates, Mobi Quick Menu empowers employees with efficient tools and offers clients self-service options, creating a mutually beneficial scenario."""
+  'Mobi Quick Menu', an iteration of the original Menu Extractor, is an application developed using React JS and Chakra UI and leverages API integrations. This enhanced tool not only retains the functionality of its predecessor in generating new menus but also introduces new features like downloading menus as Excel files and reversing them to update existing menus, such as for price modifications. This advancement has markedly reduced manual errors and resource usage in menu management. By automating critical aspects of menu updates, Mobi Quick Menu empowers employees with efficient tools and offers clients self-service options, creating a mutually beneficial scenario."""
   image = "/images/projects/project-1.webp"
   [params.projects.items.featured]
     name = "Visit"
@@ -251,7 +251,7 @@ enableRobotsTXT = true
 [[params.projects.items]]
   title = "Mobi Extractor"
   content = """
-  'Mobi Extractor' is a tool designed to streamline the menu creation and duplication process. Developed using HTML, JavaScript, and CSS, this application leverages API integrations to automate the retrieval and customization of menus linked to a head office. Prior to Mobi Extractor, support and implementation teams faced the tedious task of manually duplicating or creating menus. Now, users can efficiently duplicate or craft new menus, customizing names and all associated entities. This tool has resolved significant operational challenges, saving resources and significantly enhancing workflow efficiency within the company."""
+  'Mobi Extractor' is a tool designed to streamline the menu creation and duplication process. Developed using HTML, JavaScript, and CSS, this application leverages API integrations to automate the retrieval and customization of menus linked to a head office. Prior to Mobi Extractor, support and implementation teams faced the tedious task of manually duplicating or creating menus. Now, users can efficiently duplicate or craft new menus, customizing names and all associated nested entities. This tool has resolved significant operational challenges, saving resources and significantly enhancing workflow efficiency within the company."""
   image = "/images/projects/project-2.webp"
   [params.projects.items.featured]
     name = "Visit"
@@ -330,7 +330,7 @@ enableRobotsTXT = true
 [[params.projects.items]]
   title = "Frenchies in Toronto"
   content = """
-  'Frenchies in Toronto' is an extensive project that integrates the array of programming languages and technologies I've mastered during my academic journey. Built on a PHP framework and enriched with JavaScript, HTML, and CSS, this blog exemplifies a diverse application of web development techniques. It features Object-Oriented Programming (OOP), CRUD operations, and a dynamic chat module. A notable aspect is its robust security measures, including defenses against brute force attacks, SQL injection, and cross-site scripting (XSS), ensuring data integrity and user safety. The blog also facilitates different user access levels and efficient SQL database management, while adhering to best practices in programming and SEO. This project is a comprehensive showcase of my technical prowess, blending functionality, security, and optimal user experience in web development."""
+  'Frenchies in Toronto' is an extensive project that integrates the array of programming languages and technologies I've learned during my academic journey. Built on a PHP framework and enriched with JavaScript, HTML, and CSS, this blog exemplifies a diverse application of web development techniques. It features Object-Oriented Programming (OOP), CRUD operations, and a dynamic chat module. A notable aspect is its security measures, including defenses against brute force attacks, SQL injection, and cross-site scripting (XSS), ensuring data integrity and user safety. The blog also facilitates different user access levels and efficient SQL database management, while adhering to best practices in programming and SEO."""
   image = "/images/projects/french-in-toronto.webp"
   [params.projects.items.featured]
     name = "Demo"
@@ -466,7 +466,6 @@ enableRobotsTXT = true
     linkedin = "https://www.linkedin.com/in/walid-hlali/"
     twitter = "https://twitter.com/"
     instagram = "https://instagram.com/"
-
 
 # Additional sections and configurations
 [params.listPages]

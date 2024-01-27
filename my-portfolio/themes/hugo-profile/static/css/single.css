@@ -5,6 +5,7 @@
 }
 
 #single .title > h1 {
+    font-size: 2rem;
     opacity: 0.8;
     color: var(--text-color) !important;
 }
@@ -125,6 +126,18 @@
 
 #single .page-content code {
   color: var(--primary-color) !important;
+}
+
+/* paragraph */
+
+#single .page-content p {
+   font-size: .95rem;
+}
+
+/* h3 subtitle */
+
+#single .page-content h3{
+    font-size: 1.25rem;
 }
 
 /* kbd and mark */
