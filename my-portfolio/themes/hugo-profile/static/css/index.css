@@ -208,10 +208,12 @@ header .navbar.animate {
 /* about me */
 #about h3 {
     color: var(--text-secondary-color) !important;
+    text-transform: uppercase;
 }
 
 #about h4 {
     font-size: 1.1rem;
+    text-transform: uppercase;
 }
 
 #about .image img {
@@ -283,6 +285,7 @@ header .navbar.animate {
 
 #experience h3 {
     color: var(--text-secondary-color) !important;
+    text-transform: uppercase;
 }
 
 #experience * {
@@ -410,6 +413,7 @@ header .navbar.animate {
 
 #education .container > h3 {
     color: var(--text-secondary-color) !important;
+    text-transform: uppercase;
 }
 
 #education .row .index {
