@@ -37,6 +37,7 @@ enableRobotsTXT = true
   animate = true
 
   [params.theme]
+    defaultTheme = "dark"
 
   [params.font]
     fontSize = "1rem"
@@ -57,9 +58,9 @@ enableRobotsTXT = true
     enable = true
     intro = "Hi, I'm"
     title = "Walid."
-    subtitle = "Software Engineer"
+    subtitle = "Software Developer"
     content = """
-    Proficient in front-end and back-end development and adept at multitasking, 
+    Proficient in front-end and back-end development, 
     I concentrate on crafting efficient, scalable applications that deliver a good user experience.
     """
     image = "/digital-three-2.webp"
@@ -81,7 +82,7 @@ enableRobotsTXT = true
   enable = true
   title = "About Me"
   image = "laptop-pixel.webp"
-  content = "As a Web Developer, I aim to craft solutions that align with client/company needs and project goals, balancing user expectations with technical precision. My experience spans front-end and back-end development, contributing to the efficiency and scalability of applications. I thrive in multitasking and resolving technical challenges, which aids in improving performance and operational processes. Continually learning, exploring AI technologies, I am keen on enhancing innovation and productivity."
+  content = "As a Web Developer, I aim to craft solutions that align with client/company needs and project goals, balancing user expectations with technical precision. My experience in front-end and back-end development contributes to the efficiency and scalability of applications. I thrive on multitasking and overcoming technical challenges to enhance performance. Committed to continual learning, I engage with the latest technologies to drive innovation. In doing so, I value collaborating closely with team members, always eager to learn from their expertise and contribute to our collective success."
 
 [params.about.skills]
   enable = true
@@ -97,10 +98,10 @@ enableRobotsTXT = true
   enable = true
   title = "Tools & Technologies"
   items = [
-    "API Development", "Firebase", "MongoDB", 
+    "RESTful API", "Firebase", "MongoDB", 
     "Git", "GitLab", "Datadog", "Splunk", "Snowflake",
     "Raygun", "HUGO", "WordPress", "AGILE Methodology", 
-    "Tailwind CSS", "Material UI", "Chakra UI", 
+    "Tailwind CSS", "Material UI", "Chakra UI", "Figma","graphQL",
     "Ant Design"
   ]
 
