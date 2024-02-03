@@ -5,16 +5,20 @@ draft: false
 description: ":robot:"
 layout: "gallery"
 galleryImages:
- - src: /images/gallery-3.webp
-   caption: "Caption 3"
+ - src: /images/robot-victory.webp
+   caption: "..."
+ - src: /images/vs-fomo.webp
+   caption: "..."
  - src: /images/gallery-4.webp
-   caption: ""
- - src: /images/gallery-5.webp
-   caption: "Caption 3"
+   caption: "..."
  - src: /images/gallery-6.webp
-   caption: "Caption 6"
+   caption: "..."
  - src: /images/gallery-1.webp
-   caption: "Caption"
+   caption: "..."
  - src: /images/gallery-2.webp
    caption: "Caption"
+ - src: /images/gallery-3.webp
+   caption: "..."
+ - src: /images/gallery-5.webp
+   caption: "..."
 ---

@@ -7,40 +7,67 @@
 │   ├── config.toml
 │   ├── content
 │   │   ├── blogs
-│   │   │   ├── emoji-support.md
-│   │   │   ├── markdown-syntax.md
-│   │   │   ├── math.md
-│   │   │   ├── placeholder-text.md
-│   │   │   └── rich-content.md
+│   │   │   ├── coding_and_universe_article.md
+│   │   │   ├── coding_and_wellbeing_article.md
+│   │   │   ├── introduction_to_devops.md
+│   │   │   └── mindfulness-for-programmers.md
 │   │   └── gallery.md
 │   ├── data
+│   ├── folder_structure.txt
 │   ├── i18n
 │   ├── layouts
 │   ├── static
+│   │   ├── abstract-home.webp
+│   │   ├── digital-three-2.webp
 │   │   ├── fav.webp
-│   │   └── images
-│   │       ├── achievment.webp
-│   │       ├── hero.svg
-│   │       ├── mathjax.webp
-│   │       ├── me.webp
-│   │       ├── post.webp
-│   │       └── projects
-│   │           ├── converter.webp
-│   │           ├── profile.webp
-│   │           └── profile2.webp
+│   │   ├── images
+│   │   │   ├── DALL·E 2024-01-20 12.00.03 - Create an abstract and artistic representation of a professional web developer for an 'About Me' section of a portfolio. The image should be a creativ.webp
+│   │   │   ├── about-me-2.webp
+│   │   │   ├── about-me-4.webp
+│   │   │   ├── coding-and-universe.webp
+│   │   │   ├── coding-and-well-being.webp
+│   │   │   ├── digital-three.webp
+│   │   │   ├── gallery-1.webp
+│   │   │   ├── gallery-2.webp
+│   │   │   ├── gallery-3.webp
+│   │   │   ├── gallery-4.webp
+│   │   │   ├── gallery-5.webp
+│   │   │   ├── gallery-6.webp
+│   │   │   ├── glowing-laptop-2.webp
+│   │   │   ├── glowing-laptop.webp
+│   │   │   ├── home.webp
+│   │   │   ├── introduction-to-devops.webp
+│   │   │   ├── mindfulness-for-programmers.webp
+│   │   │   └── projects
+│   │   │       ├── app-velo-1.webp
+│   │   │       ├── app-velo-2.webp
+│   │   │       ├── french-in-toronto.webp
+│   │   │       ├── project-1.webp
+│   │   │       ├── project-10.webp
+│   │   │       ├── project-11.webp
+│   │   │       ├── project-12.webp
+│   │   │       ├── project-2.webp
+│   │   │       ├── project-3-2.webp
+│   │   │       ├── project-3.webp
+│   │   │       ├── project-4.webp
+│   │   │       ├── project-5.webp
+│   │   │       ├── project-7.webp
+│   │   │       └── project-9.webp
+│   │   ├── kangaroo-logo.webp
+│   │   ├── laptop-pixel.webp
+│   │   ├── logo-colours.webp
+│   │   ├── logo-flamme.webp
+│   │   └── resume
+│   │       ├── walid-resume-en.pdf
+│   │       ├── walid-resume-fr.pdf
+│   │       └── wh-soft-en-fr.pdf
 │   └── themes
 │       └── hugo-profile
 │           ├── LICENSE
-│           ├── README.md
 │           ├── archetypes
 │           │   └── default.md
-│           ├── exampleSite
-│           │   ├── config.yaml
-│           │   ├── content
-│           │   └── static
-│           ├── images
-│           │   ├── screenshot.webp
-│           │   └── tn.webp
+│           ├── data
+│           │   └── theme-images
 │           ├── layouts
 │           │   ├── 404.html
 │           │   ├── _default
@@ -50,13 +77,17 @@
 │           │   └── shortcodes
 │           ├── netlify.toml
 │           ├── static
-│           │   ├── 404.webp
+│           │   ├── 404.png
 │           │   ├── bootstrap-5
 │           │   ├── css
-│           │   ├── fav.webp
+│           │   ├── fav.png
 │           │   ├── fontawesome-6
 │           │   └── js
 │           └── theme.toml
+├── resume-colours.md
+├── resume-fr.md
+├── resume.md
+├── resume.pdf
 └── themes
 
-30 directories, 30 files
+29 directories, 62 files
