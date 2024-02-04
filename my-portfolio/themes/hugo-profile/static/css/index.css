@@ -219,6 +219,7 @@ header .navbar.animate {
 #about .image img {
     padding: 0;
     border: none !important;
+    max-width: 300px;
 }
 
 #about ul {

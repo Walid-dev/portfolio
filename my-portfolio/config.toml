@@ -88,7 +88,7 @@ enableRobotsTXT = true
   enable = true
   title = "Skills"
   items = [
-    "JavaScript", "React", "Node.js", "TypeScript", "PHP",
+    "JavaScript", "React", "Node.js", "TypeScript", "PHP", "Laravel",
     "HTML", "CSS", "React Native", "Redux", "Next.js",
     "SASS/LESS", "jQuery", "EJS", "AI Integration",
     "Prompt Engineering", "Debugging"
@@ -99,7 +99,7 @@ enableRobotsTXT = true
   title = "Tools & Technologies"
   items = [
     "RESTful API", "Firebase", "MongoDB", 
-    "Git", "GitLab", "Datadog", "Splunk", "Snowflake",
+    "Git", "GitLab", "Docker", "Datadog", "Splunk", "Snowflake",
     "Raygun", "HUGO", "WordPress", "AGILE Methodology", 
     "Tailwind CSS", "Material UI", "Chakra UI", "Figma","graphQL",
     "Ant Design"
@@ -270,7 +270,7 @@ enableRobotsTXT = true
 [[params.projects.items]]
   title = "Velo App"
   content = """
-  'Velo App', a bike booking application, showcases advanced JavaScript usage and API integration. This project allowed for exploration of various data handling methods and feature implementations. It offers an easy-to-use interface for booking and canceling reservations, prioritizing a smooth user experience. The development of Velo App has contributed significantly to understanding and applying APIs and JavaScript in creating efficient, user-focused booking systems.
+  'Velo App', a bike booking application, showcases advanced JavaScript usage and API integration. This project allowed for exploration of various data handling methods and feature implementations. It offers an easy-to-use interface for booking and canceling reservations, prioritizing a smooth user experience.
   """
   image = "/images/projects/app-velo-2.webp"
   [params.projects.items.featured]
@@ -312,7 +312,7 @@ enableRobotsTXT = true
 [[params.projects.items]]
   title = "Galaxy Surfing"
   content = """
-  'Galaxy Surfing' is a project that introduces JavaScript and incorporates advanced CSS techniques. It focuses on the foundational aspects of JavaScript, bringing simple interactivity and logic to web design. The CSS component involves exploring layout designs, animations, and visual effects, including mastery of the box model, flexbox/grid systems, and custom animation keyframes. 'Galaxy Surfing' merges JavaScript interactivity with CSS's visual capabilities, resulting in a user-friendly and visually engaging web space, representing a step towards integrating functional interactivity with aesthetic appeal in web development.
+  'Galaxy Surfing' is a project that introduces JavaScript and incorporates advanced CSS techniques. It focuses on the foundational aspects of JavaScript, bringing simple interactivity and logic to web design. The CSS component involves exploring layout designs, animations, and visual effects, including mastery of the box model, flexbox/grid systems, and custom animation keyframes. 'Galaxy Surfing' merges JavaScript interactivity with CSS's visual capabilities, resulting in a user-friendly and visually engaging web space.
   """
   image = "/images/projects/project-4.webp"
   [params.projects.items.featured]
@@ -351,7 +351,7 @@ enableRobotsTXT = true
 [[params.projects.items]]
   title = "WordPress: Movie à la Carte"
   content = """
-  'Movie à la Carte' is a WordPress-based project that showcases the use of taxonomies and custom post types. Developed using PHP, JavaScript, and CSS, this project features a specialized menu manager within WordPress. It allows users to effortlessly create pages and movie cards, complete with a comprehensive filtering and categorization system. The design and implementation of this project demonstrate an understanding of WordPress's architecture and a flair for creating intuitive, user-centric interfaces. 'Movie à la Carte' stands out as an example of how custom functionality can be seamlessly integrated into WordPress, enhancing the content management experience for users."""
+  'Movie à la Carte' is a WordPress-based project that showcases the use of taxonomies and custom post types. Developed using PHP, JavaScript, and CSS, this project features a specialized menu manager within WordPress. It allows users to effortlessly create pages and movie cards, complete with a comprehensive filtering and categorization system. This project is an example of how custom functionality can be seamlessly integrated into WordPress, enhancing the content management experience for users."""
   image = "/images/projects/project-5.webp"
   [params.projects.items.featured]
     name = "Visit"
@@ -389,7 +389,7 @@ enableRobotsTXT = true
 [[params.projects.items]]
   title = "Avis GO"
   content = """
-  'Avis GO' represents an entry into responsive static web design, utilizing HTML, CSS, and the Bootstrap framework. Designed with responsiveness as a priority, it ensures an optimal viewing experience on different devices, with content readability and easy navigation regardless of screen size. The design's simplicity and effectiveness are indicative of a thoughtful approach to user experience, showcasing a dedication to quality and attention to detail in web development.
+  'Avis GO' represents an entry into responsive static web design, utilizing HTML, CSS, and the Bootstrap framework. Designed with responsiveness as a priority, it ensures an optimal viewing experience on different devices, with content readability and easy navigation regardless of screen size.
   """
   image = "/images/projects/project-10.webp"
   [params.projects.items.featured]
@@ -408,7 +408,7 @@ enableRobotsTXT = true
 [[params.projects.items]]
   title = "WordPress: Autour d'un cafe"
   content = """
-  The project 'Autour d'un cafe' is a specialized WordPress blog created according to unique client needs. This endeavor involved the first-time use of Elementor, a prominent WordPress page builder, which played a significant role in improving design and development processes. In addition, the project required complex PHP and JavaScript programming to achieve a customized and engaging user experience. The blog is distinguished by its aesthetic and practical design, reflecting a fusion of artistic flair and technical proficiency. 'Autour d'un cafe' highlights the capability to quickly adapt to new tools and deliver a bespoke solution in line with client expectations.
+  The project 'Autour d'un cafe' is a specialized WordPress blog created according to unique client needs. This endeavor involved the first-time use of Elementor WordPress page builder. In addition, the project required PHP and JavaScript programming to achieve a customized and engaging user experience. This projects highlights the capability to quickly adapt to new tools and deliver a bespoke solution in line with client expectations.
   """
   image = "/images/projects/project-11.webp"
   [params.projects.items.featured]
@@ -427,7 +427,7 @@ enableRobotsTXT = true
 [[params.projects.items]]
   title = "WEBAGENCY"
   content = """
-  WEBAGENCY is a beginner's project in responsive web design, utilizing HTML and CSS. It offers a basic introduction to web development with a focus on adaptability across various devices. The layout is simple, yet functional, ensuring compatibility with different screen sizes. This project serves as an example of applying fundamental web development principles to create user-friendly and straightforward web designs.
+  WEBAGENCY is a beginner's project in responsive web design, utilizing HTML and CSS. It's a basic introduction to web development with a focus on adaptability across various devices. The layout is simple, yet functional, ensuring compatibility with different screen sizes.
  """
   image = "/images/projects/project-12.webp"
   [params.projects.items.featured]
@@ -446,7 +446,7 @@ enableRobotsTXT = true
 [[params.projects.items]]
   title = "WordPress: Office du Tourisme de la Ville de Strasbourg"
   content = """
-  'Office du tourisme de la ville de Strasbourg' was an initial project in WordPress development, centered around exploring the platform's key features. Key aspects of the project included crafting user-friendly WordPress menus, managing user roles and privileges for effective content management, and creating custom pages and templates. This work displays the ability to tailor CMS platforms for specific requirements, underlining an in-depth understanding of their flexible nature and powerful content management tools.
+  'Office du tourisme de la ville de Strasbourg' was an initial project in WordPress development, centered around exploring the platform's key features. Key aspects of the project included crafting user-friendly WordPress menus, managing user roles and privileges for effective content management, and creating custom pages and templates.
  """
   image = "/images/projects/project-9.webp"
   [params.projects.items.featured]
