@@ -2,8 +2,8 @@
 title: "AI Artistry Gallery"
 date: 2023-10-25T19:35:56+07:30
 draft: false
-GalleryHeaderImgUrl: "/images/blackberry.webp"
-description: ":robot:"
+GalleryHeaderImgUrl: "/images/ai-artist.webp"
+description: ""
 layout: "gallery"
 galleryImages:
  - src: /images/robot-victory.webp

@@ -8,9 +8,9 @@
 {{ end }}
 
 {{ define "main" }}
-<div id="gallery" class="container pt-5" id="list-page">
+<div id="gallery" class="container pt-3" id="list-page">
+    <img class="img d-block mx-auto" width="140" height="auto" src="{{.Params.GalleryHeaderImgUrl}}" alt="" srcset="">
     <h2 class="text-center pb-2">{{.Title}}</h2>
-    <img class="img d-block mx-auto" width="auto" height="60" src="{{.Params.GalleryHeaderImgUrl}}" alt="" srcset="">
     <h6 class="emoji text-center">{{ .Params.description | emojify }}</h6>
     <div class="row p-4">
         {{ .Content | emojify }}
