@@ -67,7 +67,7 @@ enableRobotsTXT = true
     [params.hero.button]
       enable = true
       name = "Resume"
-      url = "/resume/wh-soft-en-fr.pdf"
+      url = "/resume/wh-resume.pdf"
       download = true
       newPage = false
     [params.hero.socialLinks]

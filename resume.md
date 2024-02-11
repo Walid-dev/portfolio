@@ -1,4 +1,4 @@
-# Walid Hlali | Software Engineer
+# Walid Hlali | Software Developer
 
 **Email:** [hlaliwalid@gmail.com](mailto:hlaliwalid@gmail.com)  
 **Phone:** 647 782-8394  
@@ -7,12 +7,12 @@
 **Portfolio:** [https://portfolio-walid-dev.com/](https://portfolio-xi-mocha-98.vercel.app/)
 
 ## Summary
-"Innovative Web Developer fluent in English and French with a proven track record in developing and optimizing technology solutions. Skilled in both front-end and back-end development, focusing on creating efficient, scalable applications. Adept at multitasking, swiftly identifying and resolving technical issues and enhancing operational processes and team performances. I am eager about crafting software that improves user experiences and business processes.
+Passionate software developer fluent in English and French, with a proven track record in developing and optimizing tech solutions. Skilled in both front-end and back-end development, focusing on creating efficient, scalable applications. Adept at multitasking, swiftly identifying and resolving technical issues, and enhancing operational processes. Collaborative team player experienced in working with cross-functional teams to deliver robust tech solutions. I am eager to craft software that improves user experiences and business processes.
 
 ## Technical Skills
-**Languages & Concepts:** JavaScript, TypeScript, PHP, HTML, CSS, Object-Oriented Programming (OOP), Design patterns  
-**Frameworks & Libraries:** Node.js, React, React Native, Redux, Next.js, SASS/LESS, jQuery, Twig, EJS  
-**Tools & Technologies:** SQL, API Development, WordPress, Firebase, MongoDB, MySQL, AGILE Methodology, Material UI, Chakra UI, Ant Design, Tailwind CSS, HUGO, Datadog, Splunk, Snowflake, Raygun, Git, GitLab, AWS
+**Languages & Concepts:** JavaScript, TypeScript, PHP, Laravel, HTML, CSS, Object-Oriented Programming (OOP), Design patterns
+**Frameworks & Libraries:** React, Node.js, React Native, Redux, Next.js, Vite, SASS/LESS, jQuery, Twig, EJS
+**Tools & Technologies:** SQL, RESTful API, WordPress, Firebase, MongoDB, MySQL, AGILE Methodology, Figma, graphQL, Material UI, Chakra UI, Ant Design, Tailwind CSS, Bootstrap, Cypress, Vitest, Jest, HUGO, Datadog, Splunk, Snowflake, Raygun, Docker, Git, GitLab, AWS, SEO, Google Analytics
 
 ## Work Experience
 **Software Engineer,** Mobi, Toronto - Canada (March 2023 - Present)  

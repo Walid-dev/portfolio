@@ -1,4 +1,4 @@
-# Walid Hlali | Ingénieur Logiciel
+# Walid Hlali | Développeur logiciel
 
 **Courriel :** [hlaliwalid@gmail.com](mailto:hlaliwalid@gmail.com)  
 **Téléphone :** 647 782-8394  
@@ -7,12 +7,12 @@
 **Portfolio :** [https://portfolio-walid-dev.com/](https://portfolio-xi-mocha-98.vercel.app/)
 
 ## Résumé
-Développeur Web innovant et bilingue (anglais et français) avec une solide expérience dans le développement et l'optimisation de solutions technologiques. Compétent en développement front-end et back-end, axé sur la création d'applications efficaces et évolutives. Habile dans la gestion multitâche, l'identification et la résolution rapides de problèmes techniques, l'amélioration des processus opérationnels et des performances d'équipe. Passionné par la création de logiciels qui améliorent les expériences utilisateur et les processus d'affaires.
+Développeur logiciel passionné, maîtrisant parfaitement l’anglais et le français, avec une solide expérience dans le développement et l’optimisation de solutions technologiques. Spécialisé en développement front-end et back-end, je me concentre sur la création d’applications efficaces et évolutives. Multitâche, je suis rapide à identifier et résoudre les problèmes techniques, et à améliorer les processus opérationnels. Habile à unir mes efforts avec ceux d’équipes multidisciplinaires pour réaliser et déployer des solutions technologiques de pointe. Je suis animé par la volonté de concevoir des logiciels qui améliorent les expériences utilisateur et les processus d’affaires.
 
 ## Compétences Techniques
-**Langages & Concepts :** JavaScript, TypeScript, PHP, HTML, CSS, Programmation Orientée Objet (POO), Modèles de conception  
-**Frameworks & Bibliothèques :** Node.js, React, React Native, Redux, Next.js, SASS/LESS, jQuery, Twig, EJS  
-**Outils & Technologies :** SQL, Développement API, WordPress, Firebase, MongoDB, MySQL, Méthodologie AGILE, Material UI, Chakra UI, Ant Design, Tailwind CSS, HUGO, Datadog, Splunk, Snowflake, Raygun, Git, GitLab, AWS
+**Langages & Concepts :** JavaScript, TypeScript, PHP, HTML, CSS, Programmation Orientée Objet (POO), Modèles de conception
+**Frameworks & Bibliothèques :** Node.js, React, React Native, Redux, Next.js, SASS/LESS, jQuery, Twig, EJS
+**Outils & Technologies :** SQL, RESTful API, WordPress, Firebase, MongoDB, MySQL, AGILE Methodology, Figma, graphQL, Material UI, Chakra UI, Ant Design, Tailwind CSS, Bootstrap, Cypress, Vitest, Jest, HUGO, Datadog, Splunk, Snowflake, Raygun, Docker, Git, GitLab, AWS, SEO, Google Analytics
 
 ## Expérience Professionnelle
 **Ingénieur Logiciel,** Mobi, Toronto - Canada (Mars 2023 - Présent)  
@@ -28,12 +28,12 @@ Développeur Web innovant et bilingue (anglais et français) avec une solide exp
 - Amélioration de l'expérience utilisateur pour divers sites web clients grâce à une utilisation compétente des technologies front-end.
 - Conception de solutions équilibrées et fiables, alliant compétences techniques et attention portée aux besoins des utilisateurs.
 
-**Spécialiste du Support Technique Bilingue,** Mobi, Toronto - Canada (Mars 2021 - Mars 2022)  
+**Spécialiste du Support Technique Bilingue,** Mobi, Toronto - Canada (Mars 2021 - Mars 2022)
 - Investigation et résolution d'un large éventail de problèmes techniques, offrant un soutien client efficace en anglais comme en français.
 - Enquête sur les logs et les problèmes d'intégration d'API.  
 - Amélioration de l'expérience utilisateur pour divers sites web clients grâce à l'utilisation de technologies front-end (HTML, CSS et JavaScript...).
 
-**Spécialiste du Support Technique Bilingue,** FISERV, Toronto - Canada (Février 2020 - Mars 2021)  
+**Spécialiste du Support Technique Bilingue,** FISERV, Toronto - Canada (Février 2020 - Mars 2021)
 - Fourniture d'un soutien technique complet en anglais et en français.
 - Travail sur le produit Clover, résolution des problèmes du système basé sur Android.  
 - Développement et gestion d'une plateforme de support client en ligne en français, améliorant le support pour les clients francophones.
