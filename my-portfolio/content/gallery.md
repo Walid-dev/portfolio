@@ -32,4 +32,6 @@ galleryImages:
    caption: "..."
  - src: /images/cat-still.webp
    caption: "..."
+ - src: /images/gallery-7.webp
+   caption: "..."
 ---

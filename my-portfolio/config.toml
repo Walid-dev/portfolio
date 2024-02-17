@@ -67,7 +67,7 @@ enableRobotsTXT = true
     [params.hero.button]
       enable = true
       name = "Resume"
-      url = "/resume/wh-resume.pdf"
+      url = "/resume/resume-dual.pdf"
       download = true
       newPage = false
     [params.hero.socialLinks]
@@ -335,7 +335,7 @@ enableRobotsTXT = true
   """
   image = "/images/projects/french-in-toronto.webp"
   [params.projects.items.featured]
-    name = "Demo"
+    name = "Visit"
     link = "https://frenchies-in-toronto.example.com"
   badges = ["PHP", "JavaScript", "HTML", "CSS", "OOP", "CRUD", "Chat System", "User Authentication", "SQL", "Database Management", "Web Security", "SEO"]
   [[params.projects.items.links]]
