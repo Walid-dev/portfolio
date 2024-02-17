@@ -233,13 +233,13 @@ enableRobotsTXT = true
 # Project 1
 [[params.projects.items]]
   title = "Mobi Quick Menu"
+  badges = ["React JS", "Chakra UI", "API Integration", "Excel"]
   content = """
   'Building on the Menu Extractor, Mobi Quick Menu is a React JS and Chakra UI application that includes API integrations. It keeps the core functions of its predecessor while introducing useful features such as Excel export for menus and a reverse-update function for existing menus, like price adjustments. This development has led to a reduction in manual errors and lowered resource use in menu management. The automation of key menu update processes offers efficient solutions for employees and convenient self-service for clients, serving the interests of all involved."""
   image = "/images/projects/project-1.webp"
   [params.projects.items.featured]
     name = "Visit"
     link = "https://mobi-quick-menu.vercel.app/"
-  badges = ["React JS", "Chakra UI", "API Integration", "Excel"]
   [[params.projects.items.links]]
     icon = "fa fa-envelope"
     url = "mailto:?subject=Mobi%20Quick%20Menu&body=Check%20out%20the%20advanced%20Mobi%20Quick%20Menu:%20https%3A%2F%2Fmobi-quick-menu.vercel.app%2F"
@@ -251,13 +251,13 @@ enableRobotsTXT = true
 # Project 2
 [[params.projects.items]]
   title = "Mobi Extractor"
+  badges = ["HTML", "JavaScript", "CSS", "API"]
   content = """
   'Mobi Extractor' is a tool designed to streamline the menu creation and duplication process. Developed using HTML, JavaScript, and CSS, this application leverages API integrations to automate the retrieval and customization of menus linked to a head office. Prior to Mobi Extractor, support and implementation teams faced the tedious task of manually duplicating or creating menus. Now, users can efficiently duplicate or craft new menus, customizing names and all associated nested entities. This tool has resolved significant operational challenges, saving resources and significantly enhancing workflow efficiency within the company."""
   image = "/images/projects/project-2.webp"
   [params.projects.items.featured]
     name = "Visit"
     link = "https://menu-extractor-app-walid-dev.vercel.app/"
-  badges = ["HTML", "JavaScript", "CSS", "API"]
   [[params.projects.items.links]]
     icon = "fa fa-envelope"
     url = "mailto:?subject=Mobi%20Extractor&body=Check%20out%20Mobi%20Extractor:%20https%3A%2F%2Fmenu-extractor-app-walid-dev.vercel.app%2F"
@@ -269,6 +269,7 @@ enableRobotsTXT = true
 # Velo App
 [[params.projects.items]]
   title = "Velo App"
+  badges = ["JavaScript", "API Integration", "Local Storage", "Canvas"]
   content = """
   'Velo App', a bike booking application, showcases advanced JavaScript usage and API integration. This project allowed for exploration of various data handling methods and feature implementations. It offers an easy-to-use interface for booking and canceling reservations, prioritizing a smooth user experience.
   """
@@ -276,7 +277,6 @@ enableRobotsTXT = true
   [params.projects.items.featured]
     name = "Visit"
     link = "https://app-velo.vercel.app/"
-  badges = ["JavaScript", "API Integration", "Local Storage", "Canvas"]
   [[params.projects.items.links]]
     icon = "fa fa-envelope"
     url = "mailto:?subject=Velo%20App&body=Explore%20my%20bike%20booking%20application:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f"
@@ -291,6 +291,7 @@ enableRobotsTXT = true
 # Project 3
 [[params.projects.items]]
   title = "Portfolio"
+  badges = ["JavaScript", "JQuery", "HTML", "CSS", "Interactive Design", "Animation"]
   content = """
   'The Portfolio' project is an exploration of web design, combining JavaScript, JQuery, HTML, and CSS to create a dynamic and engaging online presence. The project focuses on interactivity and animation, making the web experience not only functional but also lively and engaging. Highlighted by an animated phone that transitions into different screen sizes, the site showcases proficient responsive design. Each design element and transition is carefully crafted to engage visitors, exemplifying the power of combining user interaction with visual narratives in front-end development.
   """
@@ -298,7 +299,6 @@ enableRobotsTXT = true
   [params.projects.items.featured]
     name = "Visit"
     link = "https://example.com/project-3"
-  badges = ["JavaScript", "JQuery", "HTML", "CSS", "Interactive Design", "Animation"]
   [[params.projects.items.links]]
     icon = "fa fa-envelope"
     url = "mailto:?subject=Portfolio&body=Check%20out%20my%20interactive%20and%20animated%20Portfolio:%20https%3A%2F%2Fexample.com%2Fproject-3"
@@ -311,6 +311,7 @@ enableRobotsTXT = true
 # Project 4
 [[params.projects.items]]
   title = "Galaxy Surfing"
+  badges = ["JavaScript", "CSS Layouts", "CSS Animations", "Visual Effects"]
   content = """
   'Galaxy Surfing' is a project that introduces JavaScript and incorporates advanced CSS techniques. It focuses on the foundational aspects of JavaScript, bringing simple interactivity and logic to web design. The CSS component involves exploring layout designs, animations, and visual effects, including mastery of the box model, flexbox/grid systems, and custom animation keyframes. 'Galaxy Surfing' merges JavaScript interactivity with CSS's visual capabilities, resulting in a user-friendly and visually engaging web space.
   """
@@ -318,7 +319,6 @@ enableRobotsTXT = true
   [params.projects.items.featured]
     name = "Visit"
     link = "https://example.com/project-4"
-  badges = ["JavaScript", "CSS Layouts", "CSS Animations", "Visual Effects"]
   [[params.projects.items.links]]
     icon = "fa fa-envelope"
     url = "mailto:?subject=Galaxy%20Surfing&body=Check%20it%20out:%20https%3A%2F%2Fexample.com%2Fproject-4"
@@ -330,6 +330,7 @@ enableRobotsTXT = true
 # Frenchies in Toronto
 [[params.projects.items]]
   title = "Frenchies in Toronto"
+  badges = ["PHP", "JavaScript", "HTML", "CSS", "OOP", "CRUD", "Chat System", "User Authentication", "SQL", "Database Management", "Web Security", "SEO"]
   content = """
   'Frenchies in Toronto' is a multifaceted project that utilizes a variety of programming languages and technologies. It is built on a PHP framework, enhanced with JavaScript, HTML, and CSS, serving as a prime example of versatile web development. The blog incorporates Object-Oriented Programming, CRUD operations, and a dynamic chat module. It also features robust security measures ensuring data integrity and user protection. The site is designed with multiple user access levels and effective SQL database management, aligning with industry standards in programming and SEO.
   """
@@ -337,7 +338,6 @@ enableRobotsTXT = true
   [params.projects.items.featured]
     name = "Visit"
     link = "https://frenchies-in-toronto.example.com"
-  badges = ["PHP", "JavaScript", "HTML", "CSS", "OOP", "CRUD", "Chat System", "User Authentication", "SQL", "Database Management", "Web Security", "SEO"]
   [[params.projects.items.links]]
     icon = "fa fa-envelope"
     url = "mailto:?subject=Frenchies%20in%20Toronto&body=Discover%20the%20diverse%20technical%20aspects%20of%20my%20blog%20project:%20https%3A%2F%2Ffrenchies-in-toronto.example.com"
@@ -350,13 +350,13 @@ enableRobotsTXT = true
 # Project 5
 [[params.projects.items]]
   title = "WordPress: Movie à la Carte"
+  badges = ["WordPress", "PHP", "JavaScript", "CSS", "Custom Taxonomies", "Custom Post Types"]
   content = """
   'Movie à la Carte' is a WordPress-based project that showcases the use of taxonomies and custom post types. Developed using PHP, JavaScript, and CSS, this project features a specialized menu manager within WordPress. It allows users to effortlessly create pages and movie cards, complete with a comprehensive filtering and categorization system. This project is an example of how custom functionality can be seamlessly integrated into WordPress, enhancing the content management experience for users."""
   image = "/images/projects/project-5.webp"
   [params.projects.items.featured]
     name = "Visit"
     link = "https://example.com/project-5"
-  badges = ["WordPress", "PHP", "JavaScript", "CSS", "Custom Taxonomies", "Custom Post Types"]
   [[params.projects.items.links]]
     icon = "fa fa-envelope"
     url = "mailto:?subject=Project%205%20-%20Movie%20à%20la%20Carte&body=Check%20it%20out:%20https%3A%2F%2Fexample.com%2Fproject-5"
@@ -368,6 +368,7 @@ enableRobotsTXT = true
 # Project 7
 [[params.projects.items]]
   title = "WordPress: Essence Portfolio"
+  badges = ["WordPress", "Minimalist Design", "Efficiency", "Customizability"]
   content = """
   This project is a WordPress portfolio developed with a focus on efficiency, effectiveness, and minimalism in web development. The design is both professional and straightforward, emphasizing the principles of simplicity and clarity. It highlights the concept that in web development and design, less can often be more, providing an elegant and clear user experience.
   """
@@ -375,7 +376,6 @@ enableRobotsTXT = true
   [params.projects.items.featured]
     name = "Visit"
     link = "https://example.com/project-7"
-  badges = ["WordPress", "Minimalist Design", "Efficiency", "Customizability"]
   [[params.projects.items.links]]
     icon = "fa fa-envelope"
     url = "mailto:?subject=Project%207&body=Explore%20my%20minimalist%20and%20efficient%20WordPress%20portfolio:%20https%3A%2F%2Fexample.com%2Fproject-7"
@@ -388,6 +388,7 @@ enableRobotsTXT = true
 # Project 10
 [[params.projects.items]]
   title = "Avis GO"
+  badges = ["HTML", "CSS", "Bootstrap", "Responsive Design"]
   content = """
   'Avis GO' represents an entry into responsive static web design, utilizing HTML, CSS, and the Bootstrap framework. Designed with responsiveness as a priority, it ensures an optimal viewing experience on different devices, with content readability and easy navigation regardless of screen size.
   """
@@ -395,7 +396,6 @@ enableRobotsTXT = true
   [params.projects.items.featured]
     name = "Visit"
     link = "https://example.com/project-10"
-  badges = ["HTML", "CSS", "Bootstrap", "Responsive Design"]
   [[params.projects.items.links]]
     icon = "fa fa-envelope"
     url = "mailto:?subject=Project%2010%20-%20Avis%20GO&body=Check%20it%20out:%20https%3A%2F%2Fexample.com%2Fproject-10"
@@ -407,6 +407,7 @@ enableRobotsTXT = true
 # Project 11
 [[params.projects.items]]
   title = "WordPress: Autour d'un cafe"
+  badges = ["WordPress", "Elementor", "PHP", "JavaScript"]
   content = """
   The project 'Autour d'un cafe' is a specialized WordPress blog created according to unique client needs. This endeavor involved the first-time use of Elementor WordPress page builder. In addition, the project required PHP and JavaScript programming to achieve a customized and engaging user experience. This projects highlights the capability to quickly adapt to new tools and deliver a bespoke solution in line with client expectations.
   """
@@ -414,7 +415,6 @@ enableRobotsTXT = true
   [params.projects.items.featured]
     name = "Visit"
     link = "https://example.com/project-11"
-  badges = ["WordPress", "Elementor", "PHP", "JavaScript"]
   [[params.projects.items.links]]
     icon = "fa fa-envelope"
     url = "mailto:?subject=Project%2011%20-%20Autour%20d'un%20cafe&body=Check%20it%20out:%20https%3A%2F%2Fexample.com%2Fproject-11"
@@ -426,6 +426,7 @@ enableRobotsTXT = true
  # Project 12
 [[params.projects.items]]
   title = "WEBAGENCY"
+  badges = ["HTML", "CSS", "Responsive Design"]
   content = """
   WEBAGENCY is a beginner's project in responsive web design, utilizing HTML and CSS. It's a basic introduction to web development with a focus on adaptability across various devices. The layout is simple, yet functional, ensuring compatibility with different screen sizes.
  """
@@ -433,7 +434,6 @@ enableRobotsTXT = true
   [params.projects.items.featured]
     name = "Visit"
     link = "https://example.com/project-12"
-  badges = ["HTML", "CSS", "Responsive Design"]
   [[params.projects.items.links]]
     icon = "fa fa-envelope"
     url = "mailto:?subject=Project%2012&body=Check%20it%20out:%20https%3A%2F%2Fexample.com%2Fproject-12"
@@ -445,6 +445,7 @@ enableRobotsTXT = true
 # Project 9
 [[params.projects.items]]
   title = "WordPress: Office du Tourisme de la Ville de Strasbourg"
+  badges = ["WordPress", "Menu Management", "User Roles", "Custom Templates"]
   content = """
   'Office du tourisme de la ville de Strasbourg' was an initial project in WordPress development, centered around exploring the platform's key features. Key aspects of the project included crafting user-friendly WordPress menus, managing user roles and privileges for effective content management, and creating custom pages and templates.
  """
@@ -452,7 +453,6 @@ enableRobotsTXT = true
   [params.projects.items.featured]
     name = "Visit"
     link = "https://example.com/project-9"
-  badges = ["WordPress", "Menu Management", "User Roles", "Custom Templates"]
   [[params.projects.items.links]]
     icon = "fa fa-envelope"
     url = "mailto:?subject=Office%20du%20tourisme%20de%20la%20ville%20de%20Strasbourg&body=Check%20it%20out:%20https%3A%2F%2Fexample.com%2Fproject-9"
