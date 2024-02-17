@@ -16,9 +16,11 @@
                         </div>
                         <div class="pt-4 bg-transparent">
                             {{ range .badges }}
-                            <span class="badge badge-secondary">{{ . }}</span>
+                            <a href="{{ `tags` | absURL }}/{{ . | urlize }}" class="badge-link">
+                              <span class="badge badge-secondary">{{ . }}</span>
+                            </a>
                             {{ end }}
-                        </div>
+                          </div>                          
                     </div>
                     {{ if or (.links) (.featured) }}
                     <div class="card-footer py-3">

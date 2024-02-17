@@ -13,7 +13,8 @@
 #projects .badge {
     background-color: var(--background-color) !important;
     color: var(--text-color) !important;
-    margin: 0 1%;
+    margin: 1% !important;
+    padding: .60rem .70rem !important;
     cursor: pointer;
 }
 
