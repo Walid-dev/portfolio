@@ -444,7 +444,7 @@ enableRobotsTXT = true
 
 # Project 9
 [[params.projects.items]]
-  title = "WordPress: Office du Tourisme de la Ville de Strasbourg"
+  title = "WordPress: OTVS"
   badges = ["WordPress", "Menu Management", "User Roles", "Custom Templates"]
   content = """
   'Office du tourisme de la ville de Strasbourg' was an initial project in WordPress development, centered around exploring the platform's key features. Key aspects of the project included crafting user-friendly WordPress menus, managing user roles and privileges for effective content management, and creating custom pages and templates.

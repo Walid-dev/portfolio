@@ -1,4 +1,4 @@
-/* projects */
+/* General styles for the #projects section */
 
 #projects h3 {
     color: var(--text-secondary-color) !important;
@@ -14,27 +14,29 @@
     background-color: var(--background-color) !important;
     color: var(--text-color) !important;
     margin: 1% !important;
-    padding: .60rem .70rem !important;
+    padding: .5rem .6rem !important;
     cursor: pointer;
+}
+
+#projects .badge:hover {
+    /* background-color: var(--primary-color) !important;
+    color: var(--secondary-color) !important; */
+    opacity: 0.8;
 }
 
 #projects .card {
     background-color: var(--secondary-color) !important;
-    box-shadow: 0px 8px 56px rgb(15 80 100 / 16%);
+    border: 2px solid var(--secondary-color) !important;
+    box-shadow: 0 4px 20px rgb(0 0 0 / 5%);
     min-height: 400px;
     overflow: hidden;
     border-radius: 1rem;
-    border: none !important;
+    transition: box-shadow 0.3s ease-in-out; /* Smooth transition for shadow effects */
 }
 
 #projects .card-text {
     font-size: .9rem;
-}
-
-#projects .card:hover {
-    box-shadow: 0 0 11px rgb(15 80 100 / 20%);
-    transition: transform 0.3s;
-    transform: translateY(-7px);
+    border: 1px solid var(--secondary-color) !important;
 }
 
 #projects .card .card-head {
@@ -51,12 +53,6 @@
     border-bottom-right-radius: 1rem;
 }
 
-#projects .card:hover .card-img-top {
-    transform: scale(0.98);
-    transition: all 0.3s ease-out;
-    cursor: pointer;
-}
-
 #projects .card-img-top {
     transition: transform 0.3s;
 }
@@ -69,4 +65,30 @@
 
 #projects .float-end .btn:focus {
     box-shadow: none !important;
+}
+
+/* Adjusted hover underline animation for .card-title text without span */
+#projects .card .card-title {
+    position: relative;
+    display: inline-block; /* Adjusted to apply directly to .card-title */
+    cursor: pointer;
+}
+
+#projects .card .card-title::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    bottom: -2px; /* Adjust as needed */
+    left: 0;
+    background-color: transparent; /* Initially transparent */
+    transform: scaleX(0);
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out, background-color 0.25s ease-out;
+}
+
+#projects .card:hover .card-title::after {
+    background-color: #ffffffa3; /* Visible on hover */
+    transform: scaleX(1);
+    transform-origin: bottom left;
 }

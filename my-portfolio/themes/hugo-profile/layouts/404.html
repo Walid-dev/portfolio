@@ -7,8 +7,10 @@
 {{ end }}
 
 {{ define "main" }}
-<div class="container py-5 text-center">
-    <img src="{{ .Site.Params.staticPath }}/404.webp" alt='{{ .Site.Params.terms.pageNotFound | default "404 page not found" }}' class="img-fluid" width="40%">
+<div id="page-not-found" class="container py-5 text-center">
+    <a href="{{ "/" | absURL }}">
+        <img src="{{ .Site.Params.staticPath }}/404.webp" alt='{{ .Site.Params.terms.pageNotFound | default "404 page not found" }}' class="img-fluid rounded-circle" width="20%">
+    </a>
     <h1>{{ .Site.Params.terms.pageNotFound | default "404 page not found" }}</h1>
 </div>
 {{ end }}
