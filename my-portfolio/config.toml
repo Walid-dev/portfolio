@@ -115,12 +115,13 @@ enableRobotsTXT = true
   company = "Mobi"
   date = "March 2023 - Present"
   location = "Toronto - Canada"
+  badges = ["JavaScript", "PHP", "TypeScript", "Frontend", "Backend", "React", "Redux", "React Native", "SQL"]
   content = """
   In my capacity as a Software Engineer at Mobi, I was involved in development tasks covering both front-end and back-end aspects. 
   
   My work in the front-end included developing user interfaces with React, Redux, and React Native, along with crafting the complete logic and ensuring seamless integration with the back-end. This approach resulted in creating functional, user-centric applications. 
   
-  In the back-end, I utilized PHP, JavaScript, SQL, AWS to enhance system performance and stability. My role in API integrations and debugging focused on detailed investigation, identifying challenges, and implementing effective solutions.
+  In the back-end, I utilized PHP, JavaScript, SQL to enhance system performance and stability. My role in API integrations and debugging focused on detailed investigation, identifying challenges, and implementing effective solutions.
   """
 
 
@@ -129,6 +130,7 @@ enableRobotsTXT = true
   company = "Mobi"
   date = "March 2022 - March 2023"
   location = "Toronto - Canada"
+  badges = ["JavaScript", "Backend", "Frontend", "Debugging", "Splunk", "Datadog", "Raygun"]
   content = """
   As a Sustaining Engineer at Mobi, my role encompassed a variety of development and maintenance tasks across backend and frontend. 
   
@@ -147,6 +149,7 @@ enableRobotsTXT = true
   company = "Mobi"
   date = "March 2021 - March 2022"
   location = "Toronto - Canada"
+  badges = ["Technical Support", "API Integration", "Problem Solving"]
   content = """
   In my role as a Bilingual Technical Support Specialist at Mobi, I focused on providing effective technical solutions to client issues in English and French. 
   
@@ -164,6 +167,7 @@ enableRobotsTXT = true
   company = "FISERV"
   date = "Feb 2020 - March 2021"
   location = "Toronto - Canada"
+  badges = ["Customer Support", "Android", "Recruitment"]
   content = """
   As a Bilingual Technical Support Specialist at FISERV, my responsibilities were multifaceted, focusing primarily on providing comprehensive technical support for Clover’s Android-based app. 
   
@@ -178,6 +182,7 @@ enableRobotsTXT = true
   company = "Malt"
   date = "Sept 2017 - Feb 2020"
   location = "Lyon - France"
+  badges = ["Full Stack", "HTML", "CSS", "JavaScript", "PHP", "MySQL", "WordPress"]
   content = """
   In my role as a freelance FullStack Web Developer, I specialize in building custom websites using a range of technologies, including HTML, CSS, JavaScript, PHP, and MySQL.
   
@@ -191,6 +196,7 @@ enableRobotsTXT = true
     company = "Self-employed"
     date = "Jan 2015 - Aug 2017"
     location="Montpellier - France"
+    badges = ["Education", "French", "Mathematics", "Computing"]
     content = "Offered personalized tutoring in French, Mathematics, and Computing. Provided customized instruction to meet diverse learning needs and styles."
 
 [[params.experience.items]]
@@ -198,6 +204,7 @@ enableRobotsTXT = true
   company = "Collège des Garrigues"
   date = "Jan 2010 - Sept 2014"
   location = "Montpellier - France"
+  badges = ["Education", "Computing", "Classroom Management"]
   content = """
   Assisted in educational preparation and classroom management. Engaged in delivering computing lessons, enhancing students' technical skills and understanding. 
   
