@@ -93,6 +93,14 @@ class SquarePegAdapter extends RoundPeg {
 }
 ```
 
+<br><hr><br>
+
+### 10 Design Patterns Explained in 10 Minutes
+
+<br>
+{{< youtube tv-_1er1mWI >}}
+<br>
+
 ## Conclusion
 
 Understanding design patterns is crucial for software engineers to solve common design problems efficiently. By mastering these patterns in JavaScript and PHP, developers can enhance their code's readability, reusability, and scalability.

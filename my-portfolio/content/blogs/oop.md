@@ -1,5 +1,5 @@
 ---
-title: "Exploring Object-Oriented Programming: Principles and Practices"
+title: "Object-Oriented Programming: Principles and Practices"
 date: 2024-01-11T00:00:00+00:00
 draft: false
 author: "Walid"
@@ -22,7 +22,7 @@ Object-Oriented Programming (OOP) is a programming paradigm based on the concept
 
 OOP is built around four main principles: encapsulation, abstraction, inheritance, and polymorphism. These principles help developers create more modular, reusable, and maintainable code.
 
-#### Encapsulation
+### Encapsulation
 
 Encapsulation is the mechanism of hiding the internal state of an object and requiring all interaction to be performed through an object's methods. This protects the integrity of the object's state from unintended modifications.
 
@@ -40,7 +40,7 @@ public class Animal {
 }
 ```
 
-#### Abstraction
+### Abstraction
 
 Abstraction simplifies complex reality by modeling classes appropriate to the problem, and working at the most relevant level of inheritance for a particular aspect of the problem.
 
@@ -57,7 +57,7 @@ public class Dog extends Animal {
 }
 ```
 
-#### Inheritance
+### Inheritance
 
 Inheritance allows classes to inherit features (methods and properties) from other classes. This promotes code reuse and a hierarchical classification.
 
@@ -75,7 +75,7 @@ public class Dog extends Animal {
 }
 ```
 
-#### Polymorphism
+### Polymorphism
 
 Polymorphism allows objects of different classes to be treated as objects of a common superclass. It is the ability of an object to take on many forms.
 
