@@ -1,6 +1,6 @@
 ---
 title: "Introduction to DevOps: Bridging the Gap Between Development and Operations"
-date: 2023-12-25
+date: 2023-12-02
 draft: false
 tags:
   - DevOps

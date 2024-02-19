@@ -1,6 +1,6 @@
 ---
 title: "Mindfulness and Meditation for Programmers"
-date: 2023-12-03T08:44:10+07:33
+date: 2023-07-03T08:44:10+07:33
 draft: false
 tags:
   - Mindfulness

@@ -118,7 +118,7 @@
     padding: 2em;
     background-color: var(--secondary-color) !important;
     color: var(--text-secondary-color) !important;
-    max-height: 450px;
+    max-height: 4000px !important;
 }
 
 #single .page-content pre>code {

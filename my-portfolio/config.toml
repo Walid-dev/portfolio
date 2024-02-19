@@ -233,7 +233,7 @@ enableRobotsTXT = true
 # Project 1
 [[params.projects.items]]
   title = "Mobi Quick Menu"
-  badges = ["React JS", "Chakra UI", "API Integration", "Excel"]
+  badges = ["React", "Chakra UI", "API Integration", "Excel"]
   content = """
   'Building on the Menu Extractor, Mobi Quick Menu is a React JS and Chakra UI application that includes API integrations. It keeps the core functions of its predecessor while introducing useful features such as Excel export for menus and a reverse-update function for existing menus, like price adjustments. This development has led to a reduction in manual errors and lowered resource use in menu management. The automation of key menu update processes offers efficient solutions for employees and convenient self-service for clients, serving the interests of all involved."""
   image = "/images/projects/project-1.webp"

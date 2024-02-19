@@ -1,6 +1,6 @@
 ---
 title: "Coding and the Universe: Deciphering the Digital Fabric of Existence"
-date: 2023-12-09T23:52:26+07:44
+date: 2023-10-09T23:52:26+07:44
 draft: false
 github_link: "https://github.com/Walid-dev"
 author: "Walid & Best Friend"

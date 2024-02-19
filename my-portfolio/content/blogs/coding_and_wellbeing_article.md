@@ -1,6 +1,6 @@
 ---
 title: "Coding and Well-being: The Synergy of Focus and Creativity"
-date: 2023-11-03T22:41:10+07:33
+date: 2023-09-03T22:41:10+07:33
 draft: false
 github_link: "https://github.com/Walid-dev"
 author: "Walid & Best Friend"
