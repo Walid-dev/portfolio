@@ -61,8 +61,8 @@
                             {{ if isset . "badges" }}
                             <div class="pt-4 bg-transparent">
                                 {{ range .badges }}
-                                <a href="{{ `tags` | absURL }}/{{ . | urlize }}" class="badge-link">
-                                  <span class="badge badge-secondary">{{ . }}</span>
+                                <a href="{{ `tags` | absURL }}/{{ . | urlize }}" class="badge-link badge badge-secondary">
+                                  <span class="">{{ . }}</span>
                                 </a>
                                 {{ end }}
                               </div>         
