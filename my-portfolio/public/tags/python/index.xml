@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Python on Walid&#39;s Portfolio</title>
+    <link>http://localhost:1313/tags/python/</link>
+    <description>Recent content in Python on Walid&#39;s Portfolio</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 11 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Object-Oriented Programming: Principles and Practices</title>
+      <link>http://localhost:1313/blogs/oop/</link>
+      <pubDate>Thu, 11 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blogs/oop/</guid>
+      <description>Introduction Object-Oriented Programming (OOP) is a programming paradigm based on the concept of &amp;ldquo;objects&amp;rdquo;, which can contain data and code: data in the form of fields (often known as attributes or properties), and code, in the form of procedures (often known as methods).&#xA;Core Principles of OOP OOP is built around four main principles: encapsulation, abstraction, inheritance, and polymorphism. These principles help developers create more modular, reusable, and maintainable code.</description>
+    </item>
+  </channel>
+</rss>

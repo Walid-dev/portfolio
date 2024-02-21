@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Coding on Walid&#39;s Portfolio</title>
+    <link>http://localhost:1313/tags/coding/</link>
+    <description>Recent content in Coding on Walid&#39;s Portfolio</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 09 Oct 2023 23:52:26 +0744</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/coding/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Coding and the Universe: Deciphering the Digital Fabric of Existence</title>
+      <link>http://localhost:1313/blogs/coding_and_universe_article/</link>
+      <pubDate>Mon, 09 Oct 2023 23:52:26 +0744</pubDate>
+      <guid>http://localhost:1313/blogs/coding_and_universe_article/</guid>
+      <description>In the vast expanse of our universe, there lies a striking similarity between the cosmic structures we observe and the intricate patterns of coding. This essay explores the intriguing parallels between the universe and coding, suggesting that our universe, in its most fundamental sense, might be following a coding structure, much like a cosmic program executing its code in the vastness of space.&#xA;The Algorithmic Nature of the Cosmos The universe, in its complexity, exhibits an algorithmic nature.</description>
+    </item>
+    <item>
+      <title>Coding and Well-being: The Synergy of Focus and Creativity</title>
+      <link>http://localhost:1313/blogs/coding_and_wellbeing_article/</link>
+      <pubDate>Sun, 03 Sep 2023 22:41:10 +0733</pubDate>
+      <guid>http://localhost:1313/blogs/coding_and_wellbeing_article/</guid>
+      <description>Coding isn&amp;rsquo;t just a technical task; it&amp;rsquo;s a journey of continuous learning and problem-solving that intertwines with the coder&amp;rsquo;s well-being. For many, coding is a sanctuary where focus, creativity, and personal growth converge. This article delves into the impact of coding on mental health and overall well-being, highlighting the benefits of enhanced focus, creativity, problem-solving, and the satisfaction from continuous learning and achievement.&#xA;The Zen of Focus One of the immediate benefits of coding is the enhancement of focus.</description>
+    </item>
+  </channel>
+</rss>

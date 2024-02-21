@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mindfulness on Walid&#39;s Portfolio</title>
+    <link>http://localhost:1313/tags/mindfulness/</link>
+    <description>Recent content in Mindfulness on Walid&#39;s Portfolio</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 03 Jul 2023 08:44:10 +0733</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/mindfulness/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mindfulness and Meditation for Programmers</title>
+      <link>http://localhost:1313/blogs/mindfulness-for-programmers/</link>
+      <pubDate>Mon, 03 Jul 2023 08:44:10 +0733</pubDate>
+      <guid>http://localhost:1313/blogs/mindfulness-for-programmers/</guid>
+      <description>Introduction In the fast-paced world of software development, maintaining mental well-being can often be overlooked. Amidst challenging deadlines and complex problems, programmers can benefit from the practices of mindfulness and meditation.&#xA;What is Mindfulness and Meditation? Mindfulness involves being present and fully engaged with the current moment, without distraction or judgment. Meditation, a technique for achieving mindfulness, can involve focusing on the breath or a specific thought to gain mental clarity and emotional calmness.</description>
+    </item>
+  </channel>
+</rss>

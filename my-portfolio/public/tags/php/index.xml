@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Php on Walid&#39;s Portfolio</title>
+    <link>http://localhost:1313/tags/php/</link>
+    <description>Recent content in Php on Walid&#39;s Portfolio</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 16 Feb 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/php/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Design Patterns</title>
+      <link>http://localhost:1313/blogs/design_patterns/</link>
+      <pubDate>Fri, 16 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blogs/design_patterns/</guid>
+      <description>Introduction Software design patterns are typical solutions to common problems in software design. They serve as templates for solving recurring design issues, promoting more efficient and effective development practices. This guide focuses on JavaScript and PHP examples to explore significant design patterns.&#xA;Creational Patterns Creational patterns provide mechanisms for object creation, increasing flexibility and reuse of existing code.&#xA;Factory Method in JavaScript The Factory Method pattern defines an interface for creating an object, letting subclasses alter the type of objects that will be created.</description>
+    </item>
+    <item>
+      <title>Object-Oriented Programming: Principles and Practices</title>
+      <link>http://localhost:1313/blogs/oop/</link>
+      <pubDate>Thu, 11 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blogs/oop/</guid>
+      <description>Introduction Object-Oriented Programming (OOP) is a programming paradigm based on the concept of &amp;ldquo;objects&amp;rdquo;, which can contain data and code: data in the form of fields (often known as attributes or properties), and code, in the form of procedures (often known as methods).&#xA;Core Principles of OOP OOP is built around four main principles: encapsulation, abstraction, inheritance, and polymorphism. These principles help developers create more modular, reusable, and maintainable code.</description>
+    </item>
+  </channel>
+</rss>

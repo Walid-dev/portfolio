@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>React on Walid&#39;s Portfolio</title>
+    <link>http://localhost:1313/tags/react/</link>
+    <description>Recent content in React on Walid&#39;s Portfolio</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 19 Feb 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/react/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>React Hooks: Elevating Basics with Advanced Examples</title>
+      <link>http://localhost:1313/blogs/react-hooks/</link>
+      <pubDate>Mon, 19 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blogs/react-hooks/</guid>
+      <description>Introduction React Hooks offer a revolutionary approach to handling state and lifecycle features in functional components. This guide revisits the basics of React Hooks, supplemented with advanced examples to provide a deeper understanding for developers familiar with the fundamentals.&#xA;useState: State Management useState is the cornerstone of state management in functional components, allowing for the declaration of state variables in React.&#xA;Advanced Example: State with Previous Value const [count, setCount] = useState(0); // Increment count based on previous value const increment = () =&amp;gt; { setCount(prevCount =&amp;gt; prevCount + 1); }; useEffect: Side Effects useEffect manages side effects in functional components, replacing lifecycle methods from class components.</description>
+    </item>
+  </channel>
+</rss>
