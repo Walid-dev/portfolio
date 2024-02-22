@@ -6,21 +6,28 @@
     <description>Recent content in Coding on Walid&#39;s Portfolio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 09 Oct 2023 23:52:26 +0744</lastBuildDate>
+    <lastBuildDate>Thu, 22 Feb 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/coding/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Coding and the Universe: Deciphering the Digital Fabric of Existence</title>
-      <link>http://localhost:1313/blogs/coding_and_universe_article/</link>
-      <pubDate>Mon, 09 Oct 2023 23:52:26 +0744</pubDate>
-      <guid>http://localhost:1313/blogs/coding_and_universe_article/</guid>
-      <description>In the vast expanse of our universe, there lies a striking similarity between the cosmic structures we observe and the intricate patterns of coding. This essay explores the intriguing parallels between the universe and coding, suggesting that our universe, in its most fundamental sense, might be following a coding structure, much like a cosmic program executing its code in the vastness of space.&#xA;The Algorithmic Nature of the Cosmos The universe, in its complexity, exhibits an algorithmic nature.</description>
+      <title>React JS</title>
+      <link>http://localhost:1313/blogs/introduction_to_react/</link>
+      <pubDate>Thu, 22 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blogs/introduction_to_react/</guid>
+      <description>React&amp;rsquo;s Origin Story React wasn&amp;rsquo;t born in a vacuum. It was Facebook&amp;rsquo;s answer to specific challenges: managing vast, dynamic user interfaces with data changing all the time. Before React, updating user interfaces efficiently was a major headache for developers. React&amp;rsquo;s solution? The virtual DOM, a game-changer that allowed for minimal actual DOM manipulation, leading to significant performance improvements.&#xA;The Virtual DOM Explained The virtual DOM is a lightweight copy of the real DOM.</description>
     </item>
     <item>
-      <title>Coding and Well-being: The Synergy of Focus and Creativity</title>
-      <link>http://localhost:1313/blogs/coding_and_wellbeing_article/</link>
-      <pubDate>Sun, 03 Sep 2023 22:41:10 +0733</pubDate>
-      <guid>http://localhost:1313/blogs/coding_and_wellbeing_article/</guid>
-      <description>Coding isn&amp;rsquo;t just a technical task; it&amp;rsquo;s a journey of continuous learning and problem-solving that intertwines with the coder&amp;rsquo;s well-being. For many, coding is a sanctuary where focus, creativity, and personal growth converge. This article delves into the impact of coding on mental health and overall well-being, highlighting the benefits of enhanced focus, creativity, problem-solving, and the satisfaction from continuous learning and achievement.&#xA;The Zen of Focus One of the immediate benefits of coding is the enhancement of focus.</description>
+      <title>PHP</title>
+      <link>http://localhost:1313/blogs/introduction_to_php/</link>
+      <pubDate>Tue, 20 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blogs/introduction_to_php/</guid>
+      <description>PHP: The Server-Side Scripting Language PHP, or Hypertext Preprocessor, began as a small open-source project in 1995. It&amp;rsquo;s now one of the most widely used server-side scripting languages, especially for web development. It powers everything from blogs and forums to e-commerce and social networks.&#xA;PHP by the Numbers Usage: Powers over 78% of all websites with a known server-side programming language, including major platforms like WordPress. Community: Large and active, contributing to a vast ecosystem of frameworks, libraries, and tools.</description>
+    </item>
+    <item>
+      <title>Redux: Managing State in JavaScript Apps</title>
+      <link>http://localhost:1313/blogs/introduction_to_redux/</link>
+      <pubDate>Fri, 16 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blogs/introduction_to_redux/</guid>
+      <description>Redux: Simplifying State Management Redux is a predictable state container for JavaScript apps, often used with libraries like React, Angular, and Vue. It helps manage the state of an application in a single global object, making state mutations predictable through a strict contract of actions and reducers.&#xA;Why Redux? Redux provides a clear structure for managing state, making it easier to debug and test applications. It&amp;rsquo;s particularly useful in complex applications where multiple components need access to the same state.</description>
     </item>
   </channel>
 </rss>

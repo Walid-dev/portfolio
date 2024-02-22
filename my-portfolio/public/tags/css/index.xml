@@ -6,14 +6,14 @@
     <description>Recent content in CSS on Walid&#39;s Portfolio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 22 Dec 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 29 Jan 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/css/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>FlexGrid: The Guide to Responsive Web Design</title>
-      <link>http://localhost:1313/blogs/flexgrid/</link>
-      <pubDate>Fri, 22 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blogs/flexgrid/</guid>
-      <description>Introduction FlexGrid, a combination of Flexible Box (Flexbox) and CSS Grid Layout, represents the pinnacle of layout design tools in modern web development. It offers the best of both worlds: the flexibility of Flexbox with the precision of Grid Layout. This guide delves into the core concepts, advantages, and practical uses of FlexGrid in responsive web design.&#xA;Understanding FlexGrid FlexGrid is not a standalone CSS property but a conceptual model that leverages the strengths of both Flexbox and CSS Grid.</description>
+      <title>Tailwind CSS: Revolutionizing Styling for the Web</title>
+      <link>http://localhost:1313/blogs/introduction_to_tailwind_css/</link>
+      <pubDate>Mon, 29 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blogs/introduction_to_tailwind_css/</guid>
+      <description>Tailwind CSS: A New Approach to Styling Tailwind CSS emerged as a utility-first CSS framework, aiming to solve common frustrations with traditional CSS approaches. Developed by Adam Wathan, Jonathan Reinink, David Hemphill, and Steve Schoger, it was officially released in November 2017. Tailwind&amp;rsquo;s philosophy centers on providing low-level utility classes to build custom designs without writing CSS from scratch.&#xA;Why Tailwind? For Developers: Rapid Prototyping: Tailwind speeds up the design process, allowing developers to apply styling directly within HTML.</description>
     </item>
   </channel>
 </rss>

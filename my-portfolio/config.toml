@@ -17,9 +17,9 @@ enableRobotsTXT = true
 
 [Menus]
   [[Menus.main]]
-    identifier = "blog"
-    name = "Blog"
-    title = "Blog posts"
+    identifier = "Insights"
+    name = "Insights"
+    title = "insights"
     url = "/blogs"
     weight = 1
   [[Menus.main]]
