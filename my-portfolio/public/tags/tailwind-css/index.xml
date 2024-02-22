@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tailwind CSS on Walid&#39;s Portfolio</title>
+    <link>http://localhost:1313/tags/tailwind-css/</link>
+    <description>Recent content in Tailwind CSS on Walid&#39;s Portfolio</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 22 Feb 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/tailwind-css/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tailwind CSS: Revolutionizing Styling for the Web</title>
+      <link>http://localhost:1313/blogs/introduction_to_tailwind_css/</link>
+      <pubDate>Thu, 22 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blogs/introduction_to_tailwind_css/</guid>
+      <description>Tailwind CSS: A New Approach to Styling Tailwind CSS emerged as a utility-first CSS framework, aiming to solve common frustrations with traditional CSS approaches. Developed by Adam Wathan, Jonathan Reinink, David Hemphill, and Steve Schoger, it was officially released in November 2017. Tailwind&amp;rsquo;s philosophy centers on providing low-level utility classes to build custom designs without writing CSS from scratch.&#xA;Why Tailwind? For Developers: Rapid Prototyping: Tailwind speeds up the design process, allowing developers to apply styling directly within HTML.</description>
+    </item>
+  </channel>
+</rss>
