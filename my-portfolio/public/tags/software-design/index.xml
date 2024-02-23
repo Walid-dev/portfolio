@@ -6,8 +6,15 @@
     <description>Recent content in Software Design on Walid&#39;s Portfolio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 22 Feb 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 23 Feb 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/software-design/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Polymorphism in Object-Oriented Programming: Concepts and Examples</title>
+      <link>http://localhost:1313/blogs/oop-polymorphism/</link>
+      <pubDate>Fri, 23 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blogs/oop-polymorphism/</guid>
+      <description>Introduction Polymorphism, a core concept in Object-Oriented Programming (OOP), enables objects of different classes to be treated as objects of a common superclass. It&amp;rsquo;s a principle that enhances flexibility and modularity in software development.&#xA;Understanding Polymorphism Polymorphism allows methods to do different things based on the object it is acting upon, despite sharing the same name. This capability is crucial for implementing interface-based programming and method overriding.&#xA;Non-Technical Example Consider a simple action like &amp;lsquo;drawing.</description>
+    </item>
     <item>
       <title>Encapsulation in Object-Oriented Programming</title>
       <link>http://localhost:1313/blogs/oop-encapsulation/</link>

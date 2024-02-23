@@ -126,6 +126,8 @@ myCapsule.repairShield(15);
 PHP uses visibility keywords (`public`, `private`, `protected`) to enforce encapsulation:
 
 {{< highlight php >}}
+<?php
+
 class Account {
   private $balance = 0;
 
@@ -141,6 +143,9 @@ class Account {
 $myAccount = new Account();
 $myAccount->deposit(100);
 echo $myAccount->getBalance(); // 100
+
+?>
+
 {{< /highlight >}}
 
 ### Python
