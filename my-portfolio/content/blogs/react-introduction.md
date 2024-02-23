@@ -1,6 +1,6 @@
 ---
 title: "React JS"
-date: 2024-02-22T00:00:00+00:00
+date: 2023-11-07T00:00:00+00:00
 draft: false
 author: "Walid"
 tags:
@@ -9,7 +9,7 @@ tags:
   - Web Development
   - Frontend
   - Coding
-image: /images/react-hooks.webp
+image: /images/react-js.webp
 description: "React's core concepts, evolution, and problem-solving approach."
 toc: true
 ---

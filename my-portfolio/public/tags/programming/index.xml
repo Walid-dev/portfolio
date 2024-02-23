@@ -6,8 +6,15 @@
     <description>Recent content in Programming on Walid&#39;s Portfolio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 16 Feb 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 20 Feb 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/programming/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>JavaScript: Core Concepts and Evolution</title>
+      <link>http://localhost:1313/blogs/javascript-intro/</link>
+      <pubDate>Tue, 20 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blogs/javascript-intro/</guid>
+      <description>Introduction JavaScript was created in 1995 by Brendan Eich while working at Netscape. It started as a way to make web pages interactive and has grown to become a cornerstone of web development, alongside HTML and CSS.&#xA;The Start of JavaScript Origin: JavaScript was initially created to add interactivity to web pages. Netscape Navigator was the first browser to implement it. Naming: It was first called Mocha, then LiveScript, and finally renamed JavaScript.</description>
+    </item>
     <item>
       <title>Design Patterns</title>
       <link>http://localhost:1313/blogs/design_patterns/</link>

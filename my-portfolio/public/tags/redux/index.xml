@@ -10,9 +10,9 @@
     <atom:link href="http://localhost:1313/tags/redux/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Redux: Managing State in JavaScript Apps</title>
-      <link>http://localhost:1313/blogs/introduction_to_redux/</link>
+      <link>http://localhost:1313/blogs/react-redux/</link>
       <pubDate>Fri, 16 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blogs/introduction_to_redux/</guid>
+      <guid>http://localhost:1313/blogs/react-redux/</guid>
       <description>Redux: Simplifying State Management Redux is a predictable state container for JavaScript apps, often used with libraries like React, Angular, and Vue. It helps manage the state of an application in a single global object, making state mutations predictable through a strict contract of actions and reducers.&#xA;Why Redux? Redux provides a clear structure for managing state, making it easier to debug and test applications. It&amp;rsquo;s particularly useful in complex applications where multiple components need access to the same state.</description>
     </item>
   </channel>

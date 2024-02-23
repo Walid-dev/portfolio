@@ -8,16 +8,28 @@
     <loc>http://localhost:1313/tags/coding/</loc>
     <lastmod>2024-02-22T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/tags/css/</loc>
+    <lastmod>2024-02-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/css-grid/</loc>
+    <lastmod>2024-02-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/flexbox/</loc>
+    <lastmod>2024-02-22T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/tags/frontend/</loc>
     <lastmod>2024-02-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/javascript/</loc>
     <lastmod>2024-02-22T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/blogs/css-grid/</loc>
+    <lastmod>2024-02-22T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/tags/react/</loc>
     <lastmod>2024-02-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blogs/introduction_to_react/</loc>
+    <loc>http://localhost:1313/blogs/react-introduction/</loc>
     <lastmod>2024-02-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
@@ -32,13 +44,40 @@
     <loc>http://localhost:1313/tags/backend/</loc>
     <lastmod>2024-02-20T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/tags/component-design/</loc>
+    <lastmod>2024-02-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/composition/</loc>
+    <lastmod>2024-02-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blogs/react_composition/</loc>
+    <lastmod>2024-02-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/frontend-development/</loc>
+    <lastmod>2024-02-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/hooks/</loc>
+    <lastmod>2024-02-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blogs/javascript-intro/</loc>
+    <lastmod>2024-02-20T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/tags/php/</loc>
     <lastmod>2024-02-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blogs/introduction_to_php/</loc>
     <lastmod>2024-02-20T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/tags/programming/</loc>
+    <lastmod>2024-02-20T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/tags/server-side-scripting/</loc>
+    <lastmod>2024-02-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/usecontext/</loc>
+    <lastmod>2024-02-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blogs/react-usecontext/</loc>
     <lastmod>2024-02-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/design-patterns/</loc>
@@ -47,13 +86,10 @@
     <loc>http://localhost:1313/blogs/design_patterns/</loc>
     <lastmod>2024-02-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/programming/</loc>
-    <lastmod>2024-02-16T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/tags/redux/</loc>
     <lastmod>2024-02-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blogs/introduction_to_redux/</loc>
+    <loc>http://localhost:1313/blogs/react-redux/</loc>
     <lastmod>2024-02-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/software-development/</loc>
@@ -62,16 +98,13 @@
     <loc>http://localhost:1313/tags/state-management/</loc>
     <lastmod>2024-02-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/css/</loc>
-    <lastmod>2024-01-29T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/tags/design/</loc>
     <lastmod>2024-01-29T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/tailwind-css/</loc>
     <lastmod>2024-01-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blogs/introduction_to_tailwind_css/</loc>
+    <loc>http://localhost:1313/blogs/css_tailwind/</loc>
     <lastmod>2024-01-29T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blogs/oop/</loc>

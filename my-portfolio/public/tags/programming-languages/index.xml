@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Programming Languages on Walid&#39;s Portfolio</title>
+    <link>http://localhost:1313/tags/programming-languages/</link>
+    <description>Recent content in Programming Languages on Walid&#39;s Portfolio</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 22 Feb 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/programming-languages/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>TypeScript: Elevating JavaScript Development</title>
+      <link>http://localhost:1313/blogs/typescript/</link>
+      <pubDate>Thu, 22 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blogs/typescript/</guid>
+      <description>Introduction to TypeScript TypeScript, a superset of JavaScript developed by Microsoft, introduces static typing to the language. It aims to make development on large JavaScript projects more manageable and less error-prone.&#xA;Core Concepts of TypeScript TypeScript&amp;rsquo;s static typing allows developers to define the types of their variables, functions, and objects. This addition brings significant advantages:&#xA;Early Error Detection: Errors can be caught at compile time. Readability and Maintainability: Types make the code easier to read and maintain.</description>
+    </item>
+  </channel>
+</rss>

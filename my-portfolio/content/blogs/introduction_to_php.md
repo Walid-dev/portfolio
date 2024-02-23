@@ -78,7 +78,7 @@ PHP 8 introduced significant improvements and new features, such as:
 
 ### PHP's Popularity and Community
 
-Despite the rise of JavaScript frameworks and other server-side languages, PHP remains highly popular due to its ease of use, extensive documentation, and strong community support. It's especially favored for small to medium-sized projects and content management systems.
+Despite the rise of JS frameworks and other server-side languages, PHP remains highly popular due to its ease of use, extensive documentation, and strong community support. It's especially favored for small to medium-sized projects and content management systems.
 
 ### Conclusion
 

@@ -9,11 +9,32 @@
     <lastBuildDate>Thu, 22 Feb 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/web-development/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>React JS</title>
-      <link>http://localhost:1313/blogs/introduction_to_react/</link>
+      <title>Mastering Layouts with CSS Grid</title>
+      <link>http://localhost:1313/blogs/css-grid/</link>
       <pubDate>Thu, 22 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blogs/introduction_to_react/</guid>
+      <guid>http://localhost:1313/blogs/css-grid/</guid>
+      <description>Introduction to CSS Grid CSS Grid represents a paradigm shift in web layout design, offering a grid-based layout system that enhances both the simplicity and complexity of web designs. It facilitates handling rows and columns together, a significant step beyond the capabilities of Flexbox.&#xA;CSS Grid vs. Flexbox Flexbox is one-dimensional, optimal for layouts focusing on a single row or column. CSS Grid, however, operates on two dimensions, allowing developers to manage the layout across rows and columns simultaneously.</description>
+    </item>
+    <item>
+      <title>React JS</title>
+      <link>http://localhost:1313/blogs/react-introduction/</link>
+      <pubDate>Thu, 22 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blogs/react-introduction/</guid>
       <description>React&amp;rsquo;s Origin Story React wasn&amp;rsquo;t born in a vacuum. It was Facebook&amp;rsquo;s answer to specific challenges: managing vast, dynamic user interfaces with data changing all the time. Before React, updating user interfaces efficiently was a major headache for developers. React&amp;rsquo;s solution? The virtual DOM, a game-changer that allowed for minimal actual DOM manipulation, leading to significant performance improvements.&#xA;The Virtual DOM Explained The virtual DOM is a lightweight copy of the real DOM.</description>
+    </item>
+    <item>
+      <title>Composition in React: Building Flexible Components</title>
+      <link>http://localhost:1313/blogs/react_composition/</link>
+      <pubDate>Tue, 20 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blogs/react_composition/</guid>
+      <description>Embracing Composition in React Composition is a core concept in React that promotes building components by composing smaller, reusable pieces. Unlike inheritance, composition provides a more flexible way to build up UIs by utilizing a &amp;ldquo;has-a&amp;rdquo; rather than an &amp;ldquo;is-a&amp;rdquo; relationship between components.&#xA;Why Composition? Composition allows developers to create components that encapsulate behavior and UI elements, which can then be composed together to form more complex UIs. This model encourages code reuse and simplifies the maintenance of large applications.</description>
+    </item>
+    <item>
+      <title>JavaScript: The Lingua Franca of the Web</title>
+      <link>http://localhost:1313/blogs/javascript-intro/</link>
+      <pubDate>Tue, 20 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blogs/javascript-intro/</guid>
+      <description>Introduction JavaScript, conceived in the nets of Netscape Navigator and birthed by Brendan Eich in 1995, has metamorphosed from a fledgling scripting language to the backbone of modern web development. Its journey from an auxiliary tool to a pivotal force in the digital realm mirrors the web&amp;rsquo;s own evolution.&#xA;The Genesis of JavaScript In the early days of the web, user experiences were static. Netscape envisioned a dynamic future and tasked Brendan Eich with creating a language that could breathe life into static HTML.</description>
     </item>
     <item>
       <title>PHP</title>
@@ -23,17 +44,24 @@
       <description>PHP: The Server-Side Scripting Language PHP, or Hypertext Preprocessor, began as a small open-source project in 1995. It&amp;rsquo;s now one of the most widely used server-side scripting languages, especially for web development. It powers everything from blogs and forums to e-commerce and social networks.&#xA;PHP by the Numbers Usage: Powers over 78% of all websites with a known server-side programming language, including major platforms like WordPress. Community: Large and active, contributing to a vast ecosystem of frameworks, libraries, and tools.</description>
     </item>
     <item>
+      <title>useContext in React</title>
+      <link>http://localhost:1313/blogs/react-usecontext/</link>
+      <pubDate>Tue, 20 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blogs/react-usecontext/</guid>
+      <description>Introduction to useContext The useContext hook in React simplifies the way we manage and access state across different components. By allowing for a more direct way to share data, it helps avoid the prop-drilling problem, making code cleaner and more maintainable.&#xA;Why useContext? useContext offers a straightforward approach to share data like themes, user preferences, and more across your application&amp;rsquo;s component tree. It&amp;rsquo;s especially useful in large applications where passing props through many levels becomes cumbersome.</description>
+    </item>
+    <item>
       <title>Redux: Managing State in JavaScript Apps</title>
-      <link>http://localhost:1313/blogs/introduction_to_redux/</link>
+      <link>http://localhost:1313/blogs/react-redux/</link>
       <pubDate>Fri, 16 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blogs/introduction_to_redux/</guid>
+      <guid>http://localhost:1313/blogs/react-redux/</guid>
       <description>Redux: Simplifying State Management Redux is a predictable state container for JavaScript apps, often used with libraries like React, Angular, and Vue. It helps manage the state of an application in a single global object, making state mutations predictable through a strict contract of actions and reducers.&#xA;Why Redux? Redux provides a clear structure for managing state, making it easier to debug and test applications. It&amp;rsquo;s particularly useful in complex applications where multiple components need access to the same state.</description>
     </item>
     <item>
       <title>Tailwind CSS: Revolutionizing Styling for the Web</title>
-      <link>http://localhost:1313/blogs/introduction_to_tailwind_css/</link>
+      <link>http://localhost:1313/blogs/css_tailwind/</link>
       <pubDate>Mon, 29 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blogs/introduction_to_tailwind_css/</guid>
+      <guid>http://localhost:1313/blogs/css_tailwind/</guid>
       <description>Tailwind CSS: A New Approach to Styling Tailwind CSS emerged as a utility-first CSS framework, aiming to solve common frustrations with traditional CSS approaches. Developed by Adam Wathan, Jonathan Reinink, David Hemphill, and Steve Schoger, it was officially released in November 2017. Tailwind&amp;rsquo;s philosophy centers on providing low-level utility classes to build custom designs without writing CSS from scratch.&#xA;Why Tailwind? For Developers: Rapid Prototyping: Tailwind speeds up the design process, allowing developers to apply styling directly within HTML.</description>
     </item>
   </channel>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Advanced Programming on Walid&#39;s Portfolio</title>
+    <link>http://localhost:1313/tags/advanced-programming/</link>
+    <description>Recent content in Advanced Programming on Walid&#39;s Portfolio</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 22 Feb 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/advanced-programming/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>TypeScript: Elevating JavaScript Development</title>
+      <link>http://localhost:1313/blogs/typescript/</link>
+      <pubDate>Thu, 22 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blogs/typescript/</guid>
+      <description>TypeScript and JavaScript Development TypeScript, developed by Microsoft, extends JavaScript by adding static types. Designed to make JavaScript development more manageable, it addresses many of the dynamic language&amp;rsquo;s pitfalls, particularly for large-scale applications.&#xA;The Essence of TypeScript TypeScript introduces static typing to JavaScript, allowing developers to define variable types, function return types, and more. This addition brings several benefits:&#xA;Early Error Detection: By catching errors during compilation, TypeScript reduces runtime errors.</description>
+    </item>
+  </channel>
+</rss>

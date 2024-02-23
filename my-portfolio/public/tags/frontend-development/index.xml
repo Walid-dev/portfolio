@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Frontend Development on Walid&#39;s Portfolio</title>
+    <link>http://localhost:1313/tags/frontend-development/</link>
+    <description>Recent content in Frontend Development on Walid&#39;s Portfolio</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 20 Feb 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/frontend-development/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>JavaScript: The Lingua Franca of the Web</title>
+      <link>http://localhost:1313/blogs/javascript-intro/</link>
+      <pubDate>Tue, 20 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blogs/javascript-intro/</guid>
+      <description>Introduction JavaScript, conceived in the nets of Netscape Navigator and birthed by Brendan Eich in 1995, has metamorphosed from a fledgling scripting language to the backbone of modern web development. Its journey from an auxiliary tool to a pivotal force in the digital realm mirrors the web&amp;rsquo;s own evolution.&#xA;The Genesis of JavaScript In the early days of the web, user experiences were static. Netscape envisioned a dynamic future and tasked Brendan Eich with creating a language that could breathe life into static HTML.</description>
+    </item>
+  </channel>
+</rss>
