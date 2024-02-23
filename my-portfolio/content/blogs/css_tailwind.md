@@ -71,3 +71,15 @@ Since its introduction, Tailwind CSS has significantly impacted web development,
 Tailwind CSS redefined the styling landscape with its utility-first approach, offering a unique blend of speed, flexibility, and control. Whether you're a developer aiming for efficiency or a designer seeking creative freedom, Tailwind provides the tools to bring your visions to life with less hassle.
 
 *For more information and to get started with Tailwind CSS, visit [Tailwind's official documentation](https://tailwindcss.com/docs).*
+
+### 10 Tailwind Classes
+
+<br>
+{{< youtube x1RJ5Q09PqM>}}
+<br>
+
+### Quick Tailwind Tutorial
+
+<br>
+{{< youtube pfaSUYaSgRo>}}
+<br>

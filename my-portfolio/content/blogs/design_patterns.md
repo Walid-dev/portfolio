@@ -107,7 +107,7 @@ Understanding design patterns is crucial for software engineers to solve common 
 
 For further exploration of design patterns, studying more patterns and applying them in your projects is recommended.
 
-![Software Design Patterns](/images/software_design_patterns.png)
+<!-- ![Software Design Patterns](/images/blackberry.webp) -->
 
 For a deeper dive into Design Patterns and their documentation, visit the [Refactoring.guru website](https://refactoring.guru/).
 
