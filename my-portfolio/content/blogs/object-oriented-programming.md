@@ -9,7 +9,7 @@ tags:
   - Programming Paradigms
   - Backend
   - Frontend
-image: /images/oop-web-dev.webp
+image: /images/blackberry.webp
 description: "Object-Oriented Programming in web development: key concepts, advantages, challenges, and best practices."
 toc: true
 ---

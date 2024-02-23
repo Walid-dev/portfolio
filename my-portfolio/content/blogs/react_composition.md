@@ -1,6 +1,6 @@
 ---
 title: "Composition in React: Building Flexible Components"
-date: 2024-02-20T00:00:00+00:00
+date: 2023-04-12T00:00:00+00:00
 draft: false
 author: "Walid"
 tags:
@@ -74,4 +74,4 @@ function Page({ sidebar, content }) {
 
 Composition in React offers a robust framework for building complex UIs from simple, reusable components. By favoring composition over inheritance, developers can create more maintainable and flexible applications.
 
-For more insights on composition and component design in React, refer to the [official React documentation](https://reactjs.org/docs/composition-vs-inheritance.html).
+For more insights on composition and component design in React, refer to the [official React documentation](https://react.dev/).

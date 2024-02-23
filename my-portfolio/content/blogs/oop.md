@@ -9,7 +9,7 @@ tags:
   - Backend
   - Php
   - Python
-image: /images/oop-object.webp
+image: /images/blackberry.webp
 description: "An in-depth exploration of Object-Oriented Programming principles including encapsulation, inheritance, and polymorphism, and how they apply in modern software development."
 toc: true
 ---

@@ -5,34 +5,22 @@
     <loc>http://localhost:1313/blogs/</loc>
     <lastmod>2024-02-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/coding/</loc>
-    <lastmod>2024-02-22T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/css/</loc>
-    <lastmod>2024-02-22T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/css-grid/</loc>
-    <lastmod>2024-02-22T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/flexbox/</loc>
-    <lastmod>2024-02-22T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/tags/frontend/</loc>
     <lastmod>2024-02-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/javascript/</loc>
     <lastmod>2024-02-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blogs/css-grid/</loc>
-    <lastmod>2024-02-22T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/react/</loc>
-    <lastmod>2024-02-22T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blogs/react-introduction/</loc>
+    <loc>http://localhost:1313/tags/programming-languages/</loc>
     <lastmod>2024-02-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2024-02-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/typescript/</loc>
+    <lastmod>2024-02-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blogs/typescript/</loc>
     <lastmod>2024-02-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/</loc>
@@ -44,6 +32,9 @@
     <loc>http://localhost:1313/tags/backend/</loc>
     <lastmod>2024-02-20T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/tags/coding/</loc>
+    <lastmod>2024-02-20T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/tags/component-design/</loc>
     <lastmod>2024-02-20T00:00:00+00:00</lastmod>
   </url><url>
@@ -51,9 +42,6 @@
     <lastmod>2024-02-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blogs/react_composition/</loc>
-    <lastmod>2024-02-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/frontend-development/</loc>
     <lastmod>2024-02-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/hooks/</loc>
@@ -69,6 +57,9 @@
     <lastmod>2024-02-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/programming/</loc>
+    <lastmod>2024-02-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/react/</loc>
     <lastmod>2024-02-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/server-side-scripting/</loc>
@@ -98,6 +89,18 @@
     <loc>http://localhost:1313/tags/state-management/</loc>
     <lastmod>2024-02-16T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/tags/oop/</loc>
+    <lastmod>2024-02-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blogs/object-oriented-programming/</loc>
+    <lastmod>2024-02-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/programming-paradigms/</loc>
+    <lastmod>2024-02-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/css/</loc>
+    <lastmod>2024-01-29T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/tags/design/</loc>
     <lastmod>2024-01-29T00:00:00+00:00</lastmod>
   </url><url>
@@ -110,14 +113,23 @@
     <loc>http://localhost:1313/blogs/oop/</loc>
     <lastmod>2024-01-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/oop/</loc>
-    <lastmod>2024-01-11T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/tags/python/</loc>
     <lastmod>2024-01-11T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/blogs/react-introduction/</loc>
+    <lastmod>2023-11-07T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/gallery/</loc>
     <lastmod>2023-10-25T19:35:56+07:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/css-grid/</loc>
+    <lastmod>2023-10-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/flexbox/</loc>
+    <lastmod>2023-10-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blogs/css-grid/</loc>
+    <lastmod>2023-10-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/example/</loc>
     <lastmod>2021-04-03T23:29:21+05:30</lastmod>

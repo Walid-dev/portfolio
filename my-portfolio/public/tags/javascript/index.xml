@@ -6,8 +6,29 @@
     <description>Recent content in JavaScript on Walid&#39;s Portfolio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 20 Feb 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 23 Feb 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Polymorphism in Object-Oriented Programming: Concepts and Examples</title>
+      <link>http://localhost:1313/blogs/oop-polymorphism/</link>
+      <pubDate>Fri, 23 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blogs/oop-polymorphism/</guid>
+      <description>Introduction Polymorphism, a core concept in Object-Oriented Programming (OOP), enables objects of different classes to be treated as objects of a common superclass. It&amp;rsquo;s a principle that enhances flexibility and modularity in software development.&#xA;Understanding Polymorphism Polymorphism allows methods to do different things based on the object it is acting upon, despite sharing the same name. This capability is crucial for implementing interface-based programming and method overriding.&#xA;Non-Technical Example Consider a simple action like &amp;lsquo;drawing.</description>
+    </item>
+    <item>
+      <title>Encapsulation in Object-Oriented Programming</title>
+      <link>http://localhost:1313/blogs/oop-encapsulation/</link>
+      <pubDate>Thu, 22 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blogs/oop-encapsulation/</guid>
+      <description>Introduction to Encapsulation Encapsulation, a cornerstone of Object-Oriented Programming (OOP), encapsulates data and operations on data within objects, shielding the internal state from unauthorized access. This principle enhances modularity, maintainability, and data integrity within software applications.&#xA;The Pillars of Encapsulation Encapsulation intertwines with other OOP principles like abstraction, inheritance, and polymorphism, but it stands out by offering:&#xA;Data Hiding: Restricting access to the internal state of an object. Interface Exposure: Exposing a controlled interface to interact with an object&amp;rsquo;s data.</description>
+    </item>
+    <item>
+      <title>TypeScript: Elevating JavaScript Development</title>
+      <link>http://localhost:1313/blogs/typescript/</link>
+      <pubDate>Thu, 22 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blogs/typescript/</guid>
+      <description>Introduction to TypeScript TypeScript, a superset of JavaScript developed by Microsoft, introduces static typing to the language. It aims to make development on large JavaScript projects more manageable and less error-prone.&#xA;Core Concepts of TypeScript TypeScript&amp;rsquo;s static typing allows developers to define the types of their variables, functions, and objects. This addition brings significant advantages:&#xA;Early Error Detection: Errors can be caught at compile time. Readability and Maintainability: Types make the code easier to read and maintain.</description>
+    </item>
     <item>
       <title>JavaScript: Core Concepts and Evolution</title>
       <link>http://localhost:1313/blogs/javascript-intro/</link>

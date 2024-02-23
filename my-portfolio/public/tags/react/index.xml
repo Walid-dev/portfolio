@@ -6,15 +6,8 @@
     <description>Recent content in React on Walid&#39;s Portfolio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 22 Feb 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 20 Feb 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/react/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>React JS</title>
-      <link>http://localhost:1313/blogs/react-introduction/</link>
-      <pubDate>Thu, 22 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blogs/react-introduction/</guid>
-      <description>React&amp;rsquo;s Origin Story React wasn&amp;rsquo;t born in a vacuum. It was Facebook&amp;rsquo;s answer to specific challenges: managing vast, dynamic user interfaces with data changing all the time. Before React, updating user interfaces efficiently was a major headache for developers. React&amp;rsquo;s solution? The virtual DOM, a game-changer that allowed for minimal actual DOM manipulation, leading to significant performance improvements.&#xA;The Virtual DOM Explained The virtual DOM is a lightweight copy of the real DOM.</description>
-    </item>
     <item>
       <title>Composition in React: Building Flexible Components</title>
       <link>http://localhost:1313/blogs/react_composition/</link>
@@ -28,6 +21,13 @@
       <pubDate>Tue, 20 Feb 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/blogs/react-usecontext/</guid>
       <description>Introduction to useContext The useContext hook in React simplifies the way we manage and access state across different components. By allowing for a more direct way to share data, it helps avoid the prop-drilling problem, making code cleaner and more maintainable.&#xA;Why useContext? useContext offers a straightforward approach to share data like themes, user preferences, and more across your application&amp;rsquo;s component tree. It&amp;rsquo;s especially useful in large applications where passing props through many levels becomes cumbersome.</description>
+    </item>
+    <item>
+      <title>React JS</title>
+      <link>http://localhost:1313/blogs/react-introduction/</link>
+      <pubDate>Tue, 07 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blogs/react-introduction/</guid>
+      <description>React&amp;rsquo;s Origin Story React wasn&amp;rsquo;t born in a vacuum. It was Facebook&amp;rsquo;s answer to specific challenges: managing vast, dynamic user interfaces with data changing all the time. Before React, updating user interfaces efficiently was a major headache for developers. React&amp;rsquo;s solution? The virtual DOM, a game-changer that allowed for minimal actual DOM manipulation, leading to significant performance improvements.&#xA;The Virtual DOM Explained The virtual DOM is a lightweight copy of the real DOM.</description>
     </item>
   </channel>
 </rss>
