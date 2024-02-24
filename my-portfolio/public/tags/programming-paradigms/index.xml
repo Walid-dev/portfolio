@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Programming Paradigms on Walid&#39;s Portfolio</title>
-    <link>http://localhost:1313/tags/programming-paradigms/</link>
+    <link>http://localhost:63827/tags/programming-paradigms/</link>
     <description>Recent content in Programming Paradigms on Walid&#39;s Portfolio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 01 Feb 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/programming-paradigms/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:63827/tags/programming-paradigms/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>OOP in Web Development</title>
-      <link>http://localhost:1313/blogs/object-oriented-programming/</link>
+      <link>http://localhost:63827/blogs/object-oriented-programming/</link>
       <pubDate>Thu, 01 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blogs/object-oriented-programming/</guid>
+      <guid>http://localhost:63827/blogs/object-oriented-programming/</guid>
       <description>Introduction Object-Oriented Programming (OOP) is a programming paradigm centered around the concept of objects, which can contain data, in the form of fields, and code, in the form of procedures. In web development, OOP offers a structured approach to writing more manageable, scalable, and reusable code.&#xA;Core Concepts of OOP Classes and Objects: Classes are blueprints for creating objects, encapsulating data and functions. Objects are instances of classes. Inheritance: Enables a class to inherit properties and methods from another class, promoting code reusability.</description>
     </item>
   </channel>

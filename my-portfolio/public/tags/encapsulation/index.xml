@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Encapsulation on Walid&#39;s Portfolio</title>
-    <link>http://localhost:1313/tags/encapsulation/</link>
+    <link>http://localhost:63827/tags/encapsulation/</link>
     <description>Recent content in Encapsulation on Walid&#39;s Portfolio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 22 Feb 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/encapsulation/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:63827/tags/encapsulation/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Encapsulation in Object-Oriented Programming</title>
-      <link>http://localhost:1313/blogs/oop-encapsulation/</link>
+      <link>http://localhost:63827/blogs/oop-encapsulation/</link>
       <pubDate>Thu, 22 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blogs/oop-encapsulation/</guid>
+      <guid>http://localhost:63827/blogs/oop-encapsulation/</guid>
       <description>Introduction to Encapsulation Encapsulation, a cornerstone of Object-Oriented Programming (OOP), encapsulates data and operations on data within objects, shielding the internal state from unauthorized access. This principle enhances modularity, maintainability, and data integrity within software applications.&#xA;The Pillars of Encapsulation Encapsulation intertwines with other OOP principles like abstraction, inheritance, and polymorphism, but it stands out by offering:&#xA;Data Hiding: Restricting access to the internal state of an object. Interface Exposure: Exposing a controlled interface to interact with an object&amp;rsquo;s data.</description>
     </item>
   </channel>

@@ -16,6 +16,13 @@
       <description>Introduction Polymorphism, a core concept in Object-Oriented Programming (OOP), enables objects of different classes to be treated as objects of a common superclass. It&amp;rsquo;s a principle that enhances flexibility and modularity in software development.&#xA;Understanding Polymorphism Polymorphism allows methods to do different things based on the object it is acting upon, despite sharing the same name. This capability is crucial for implementing interface-based programming and method overriding.&#xA;Non-Technical Example Consider a simple action like &amp;lsquo;drawing.</description>
     </item>
     <item>
+      <title>Abstraction in Object-Oriented Programming</title>
+      <link>http://localhost:1313/blogs/oop-abstraction/</link>
+      <pubDate>Thu, 22 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blogs/oop-abstraction/</guid>
+      <description>Introduction Abstraction in Object-Oriented Programming (OOP) simplifies complex systems by modeling classes with a focus on essential attributes and behaviors. It hides detailed implementations from the user, facilitating interaction through a simplified interface.&#xA;Essence of Abstraction Abstraction in OOP is like viewing a complex machine through a simplified control panel. It emphasizes what the system does over how it does it, enabling developers to work with higher-level concepts.&#xA;Everyday Analogy Consider a car: drivers interact with it through a simplified interface (steering wheel, pedals) without needing to understand the complexities of its internal mechanics.</description>
+    </item>
+    <item>
       <title>Encapsulation in Object-Oriented Programming</title>
       <link>http://localhost:1313/blogs/oop-encapsulation/</link>
       <pubDate>Thu, 22 Feb 2024 00:00:00 +0000</pubDate>
@@ -28,6 +35,13 @@
       <pubDate>Thu, 22 Feb 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/blogs/typescript/</guid>
       <description>Introduction to TypeScript TypeScript, a superset of JavaScript developed by Microsoft, introduces static typing to the language. It aims to make development on large JavaScript projects more manageable and less error-prone.&#xA;Core Concepts of TypeScript TypeScript&amp;rsquo;s static typing allows developers to define the types of their variables, functions, and objects. This addition brings significant advantages:&#xA;Early Error Detection: Errors can be caught at compile time. Readability and Maintainability: Types make the code easier to read and maintain.</description>
+    </item>
+    <item>
+      <title>RESTful APIs: Principles, Practices, and Examples</title>
+      <link>http://localhost:1313/blogs/restful-api/</link>
+      <pubDate>Wed, 21 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blogs/restful-api/</guid>
+      <description>Introduction RESTful APIs are pivotal in web and software development, facilitating communication between different software systems over the internet. We will explores REST (Representational State Transfer), emphasizing its principles, advantages, and providing real-world examples.&#xA;Core Principles of RESTful APIs REST is an architectural style that outlines guidelines for networked applications, primarily:&#xA;Statelessness: Each request from a client contains all the information the server needs to fulfill that request. Uniform Interface: A consistent interface between components so that information is transferred in a standardized form.</description>
     </item>
     <item>
       <title>JavaScript: Core Concepts and Evolution</title>

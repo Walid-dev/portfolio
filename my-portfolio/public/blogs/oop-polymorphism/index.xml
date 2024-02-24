@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Polymorphism in Object-Oriented Programming: Concepts and Examples on Walid&#39;s Portfolio</title>
-    <link>http://localhost:1313/blogs/oop-polymorphism/</link>
+    <link>http://localhost:63827/blogs/oop-polymorphism/</link>
     <description>Recent content in Polymorphism in Object-Oriented Programming: Concepts and Examples on Walid&#39;s Portfolio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate></lastBuildDate>
-    <atom:link href="http://localhost:1313/blogs/oop-polymorphism/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:63827/blogs/oop-polymorphism/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

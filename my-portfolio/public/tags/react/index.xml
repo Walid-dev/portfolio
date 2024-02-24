@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>React on Walid&#39;s Portfolio</title>
-    <link>http://localhost:1313/tags/react/</link>
+    <link>http://localhost:63827/tags/react/</link>
     <description>Recent content in React on Walid&#39;s Portfolio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 20 Feb 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/react/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:63827/tags/react/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>useContext in React</title>
-      <link>http://localhost:1313/blogs/react-usecontext/</link>
+      <link>http://localhost:63827/blogs/react-usecontext/</link>
       <pubDate>Tue, 20 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blogs/react-usecontext/</guid>
+      <guid>http://localhost:63827/blogs/react-usecontext/</guid>
       <description>Introduction to useContext The useContext hook in React simplifies the way we manage and access state across different components. By allowing for a more direct way to share data, it helps avoid the prop-drilling problem, making code cleaner and more maintainable.&#xA;Why useContext? useContext offers a straightforward approach to share data like themes, user preferences, and more across your application&amp;rsquo;s component tree. It&amp;rsquo;s especially useful in large applications where passing props through many levels becomes cumbersome.</description>
     </item>
     <item>
       <title>React JS</title>
-      <link>http://localhost:1313/blogs/react-introduction/</link>
+      <link>http://localhost:63827/blogs/react-introduction/</link>
       <pubDate>Tue, 07 Nov 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blogs/react-introduction/</guid>
+      <guid>http://localhost:63827/blogs/react-introduction/</guid>
       <description>React&amp;rsquo;s Origin Story React wasn&amp;rsquo;t born in a vacuum. It was Facebook&amp;rsquo;s answer to specific challenges: managing vast, dynamic user interfaces with data changing all the time. Before React, updating user interfaces efficiently was a major headache for developers. React&amp;rsquo;s solution? The virtual DOM, a game-changer that allowed for minimal actual DOM manipulation, leading to significant performance improvements.&#xA;The Virtual DOM Explained The virtual DOM is a lightweight copy of the real DOM.</description>
     </item>
     <item>
       <title>Composition in React: Building Flexible Components</title>
-      <link>http://localhost:1313/blogs/react_composition/</link>
+      <link>http://localhost:63827/blogs/react_composition/</link>
       <pubDate>Wed, 12 Apr 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blogs/react_composition/</guid>
+      <guid>http://localhost:63827/blogs/react_composition/</guid>
       <description>Embracing Composition in React Composition is a core concept in React that promotes building components by composing smaller, reusable pieces. Unlike inheritance, composition provides a more flexible way to build up UIs by utilizing a &amp;ldquo;has-a&amp;rdquo; rather than an &amp;ldquo;is-a&amp;rdquo; relationship between components.&#xA;Why Composition? Composition allows developers to create components that encapsulate behavior and UI elements, which can then be composed together to form more complex UIs. This model encourages code reuse and simplifies the maintenance of large applications.</description>
     </item>
   </channel>

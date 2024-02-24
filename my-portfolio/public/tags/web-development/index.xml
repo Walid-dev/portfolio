@@ -2,80 +2,87 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Web Development on Walid&#39;s Portfolio</title>
-    <link>http://localhost:1313/tags/web-development/</link>
+    <link>http://localhost:63827/tags/web-development/</link>
     <description>Recent content in Web Development on Walid&#39;s Portfolio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 22 Feb 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/web-development/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:63827/tags/web-development/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>TypeScript: Elevating JavaScript Development</title>
-      <link>http://localhost:1313/blogs/typescript/</link>
+      <link>http://localhost:63827/blogs/typescript/</link>
       <pubDate>Thu, 22 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blogs/typescript/</guid>
+      <guid>http://localhost:63827/blogs/typescript/</guid>
       <description>Introduction to TypeScript TypeScript, a superset of JavaScript developed by Microsoft, introduces static typing to the language. It aims to make development on large JavaScript projects more manageable and less error-prone.&#xA;Core Concepts of TypeScript TypeScript&amp;rsquo;s static typing allows developers to define the types of their variables, functions, and objects. This addition brings significant advantages:&#xA;Early Error Detection: Errors can be caught at compile time. Readability and Maintainability: Types make the code easier to read and maintain.</description>
     </item>
     <item>
+      <title>RESTful APIs: Principles, Practices, and Examples</title>
+      <link>http://localhost:63827/blogs/restful-api/</link>
+      <pubDate>Wed, 21 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:63827/blogs/restful-api/</guid>
+      <description>Introduction RESTful APIs have become the backbone of web services and applications, providing a standard and efficient way for systems to communicate over the internet. This article delves into the principles of REST, its advantages, and practical examples to illustrate best practices in designing and consuming RESTful APIs.&#xA;Understanding RESTful APIs REST (Representational State Transfer) is an architectural style that defines a set of constraints for creating web services. RESTful APIs enable interactions between client and server through a set of stateless operations, primarily using HTTP methods such as GET, POST, PUT, and DELETE.</description>
+    </item>
+    <item>
       <title>JavaScript: Core Concepts and Evolution</title>
-      <link>http://localhost:1313/blogs/javascript-intro/</link>
+      <link>http://localhost:63827/blogs/javascript-intro/</link>
       <pubDate>Tue, 20 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blogs/javascript-intro/</guid>
+      <guid>http://localhost:63827/blogs/javascript-intro/</guid>
       <description>Introduction JavaScript was created in 1995 by Brendan Eich while working at Netscape. It started as a way to make web pages interactive and has grown to become a cornerstone of web development, alongside HTML and CSS.&#xA;The Start of JavaScript Origin: JavaScript was initially created to add interactivity to web pages. Netscape Navigator was the first browser to implement it. Naming: It was first called Mocha, then LiveScript, and finally renamed JavaScript.</description>
     </item>
     <item>
       <title>PHP</title>
-      <link>http://localhost:1313/blogs/introduction_to_php/</link>
+      <link>http://localhost:63827/blogs/introduction_to_php/</link>
       <pubDate>Tue, 20 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blogs/introduction_to_php/</guid>
+      <guid>http://localhost:63827/blogs/introduction_to_php/</guid>
       <description>PHP: The Server-Side Scripting Language PHP, or Hypertext Preprocessor, began as a small open-source project in 1995. It&amp;rsquo;s now one of the most widely used server-side scripting languages, especially for web development. It powers everything from blogs and forums to e-commerce and social networks.&#xA;PHP by the Numbers Usage: Powers over 78% of all websites with a known server-side programming language, including major platforms like WordPress. Community: Large and active, contributing to a vast ecosystem of frameworks, libraries, and tools.</description>
     </item>
     <item>
       <title>useContext in React</title>
-      <link>http://localhost:1313/blogs/react-usecontext/</link>
+      <link>http://localhost:63827/blogs/react-usecontext/</link>
       <pubDate>Tue, 20 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blogs/react-usecontext/</guid>
+      <guid>http://localhost:63827/blogs/react-usecontext/</guid>
       <description>Introduction to useContext The useContext hook in React simplifies the way we manage and access state across different components. By allowing for a more direct way to share data, it helps avoid the prop-drilling problem, making code cleaner and more maintainable.&#xA;Why useContext? useContext offers a straightforward approach to share data like themes, user preferences, and more across your application&amp;rsquo;s component tree. It&amp;rsquo;s especially useful in large applications where passing props through many levels becomes cumbersome.</description>
     </item>
     <item>
       <title>Redux: Managing State in JavaScript Apps</title>
-      <link>http://localhost:1313/blogs/react-redux/</link>
+      <link>http://localhost:63827/blogs/react-redux/</link>
       <pubDate>Fri, 16 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blogs/react-redux/</guid>
+      <guid>http://localhost:63827/blogs/react-redux/</guid>
       <description>Redux: Simplifying State Management Redux is a predictable state container for JavaScript apps, often used with libraries like React, Angular, and Vue. It helps manage the state of an application in a single global object, making state mutations predictable through a strict contract of actions and reducers.&#xA;Why Redux? Redux provides a clear structure for managing state, making it easier to debug and test applications. It&amp;rsquo;s particularly useful in complex applications where multiple components need access to the same state.</description>
     </item>
     <item>
       <title>OOP in Web Development</title>
-      <link>http://localhost:1313/blogs/object-oriented-programming/</link>
+      <link>http://localhost:63827/blogs/object-oriented-programming/</link>
       <pubDate>Thu, 01 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blogs/object-oriented-programming/</guid>
+      <guid>http://localhost:63827/blogs/object-oriented-programming/</guid>
       <description>Introduction Object-Oriented Programming (OOP) is a programming paradigm centered around the concept of objects, which can contain data, in the form of fields, and code, in the form of procedures. In web development, OOP offers a structured approach to writing more manageable, scalable, and reusable code.&#xA;Core Concepts of OOP Classes and Objects: Classes are blueprints for creating objects, encapsulating data and functions. Objects are instances of classes. Inheritance: Enables a class to inherit properties and methods from another class, promoting code reusability.</description>
     </item>
     <item>
       <title>Tailwind CSS: Revolutionizing Styling for the Web</title>
-      <link>http://localhost:1313/blogs/css_tailwind/</link>
+      <link>http://localhost:63827/blogs/css_tailwind/</link>
       <pubDate>Mon, 29 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blogs/css_tailwind/</guid>
+      <guid>http://localhost:63827/blogs/css_tailwind/</guid>
       <description>Tailwind CSS: A New Approach to Styling Tailwind CSS emerged as a utility-first CSS framework, aiming to solve common frustrations with traditional CSS approaches. Developed by Adam Wathan, Jonathan Reinink, David Hemphill, and Steve Schoger, it was officially released in November 2017. Tailwind&amp;rsquo;s philosophy centers on providing low-level utility classes to build custom designs without writing CSS from scratch.&#xA;Why Tailwind? For Developers: Rapid Prototyping: Tailwind speeds up the design process, allowing developers to apply styling directly within HTML.</description>
     </item>
     <item>
       <title>React JS</title>
-      <link>http://localhost:1313/blogs/react-introduction/</link>
+      <link>http://localhost:63827/blogs/react-introduction/</link>
       <pubDate>Tue, 07 Nov 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blogs/react-introduction/</guid>
+      <guid>http://localhost:63827/blogs/react-introduction/</guid>
       <description>React&amp;rsquo;s Origin Story React wasn&amp;rsquo;t born in a vacuum. It was Facebook&amp;rsquo;s answer to specific challenges: managing vast, dynamic user interfaces with data changing all the time. Before React, updating user interfaces efficiently was a major headache for developers. React&amp;rsquo;s solution? The virtual DOM, a game-changer that allowed for minimal actual DOM manipulation, leading to significant performance improvements.&#xA;The Virtual DOM Explained The virtual DOM is a lightweight copy of the real DOM.</description>
     </item>
     <item>
       <title>Mastering Layouts with CSS Grid</title>
-      <link>http://localhost:1313/blogs/css-grid/</link>
+      <link>http://localhost:63827/blogs/css-grid/</link>
       <pubDate>Sat, 21 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blogs/css-grid/</guid>
+      <guid>http://localhost:63827/blogs/css-grid/</guid>
       <description>Introduction to CSS Grid CSS Grid represents a paradigm shift in web layout design, offering a grid-based layout system that enhances both the simplicity and complexity of web designs. It facilitates handling rows and columns together, a significant step beyond the capabilities of Flexbox.&#xA;CSS Grid vs. Flexbox Flexbox is one-dimensional, optimal for layouts focusing on a single row or column. CSS Grid, however, operates on two dimensions, allowing developers to manage the layout across rows and columns simultaneously.</description>
     </item>
     <item>
       <title>Composition in React: Building Flexible Components</title>
-      <link>http://localhost:1313/blogs/react_composition/</link>
+      <link>http://localhost:63827/blogs/react_composition/</link>
       <pubDate>Wed, 12 Apr 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blogs/react_composition/</guid>
+      <guid>http://localhost:63827/blogs/react_composition/</guid>
       <description>Embracing Composition in React Composition is a core concept in React that promotes building components by composing smaller, reusable pieces. Unlike inheritance, composition provides a more flexible way to build up UIs by utilizing a &amp;ldquo;has-a&amp;rdquo; rather than an &amp;ldquo;is-a&amp;rdquo; relationship between components.&#xA;Why Composition? Composition allows developers to create components that encapsulate behavior and UI elements, which can then be composed together to form more complex UIs. This model encourages code reuse and simplifies the maintenance of large applications.</description>
     </item>
   </channel>
