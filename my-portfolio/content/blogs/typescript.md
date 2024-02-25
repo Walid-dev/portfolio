@@ -86,5 +86,23 @@ Integrating with frameworks like Angular, React, and Vue, TypeScript enhances de
 
 TypeScript has reshaped JavaScript development by providing a suite of tools for creating more reliable and maintainable applications. Its ongoing evolution and adoption by the community underscore its value in modern web development.
 
+d56mG7DezGs
+
+## Additional Resources
+
+For more in-depth exploration and tutorials on Typescript, consider the following resources:
+
 For deeper insights and documentation, visit the [official TypeScript website](https://www.typescriptlang.org/docs/).
+
+### Typescript Tutorials For Begginers
+
+<br>
+{{< youtube d56mG7DezGs >}}
+<br>
+
+### Typescript The Basics
+
+<br>
+{{< youtube ahCwqrYpIuM >}}
+<br>
 

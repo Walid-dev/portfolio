@@ -1,6 +1,6 @@
 ---
 title: "RESTful APIs: Principles, Practices, and Examples"
-date: 2024-02-21
+date: 2022-02-24
 draft: false
 author: "Walid"
 tags:
@@ -8,7 +8,7 @@ tags:
   - Web Development
   - Backend Development
   - Software Architecture
-image: /images/restful-api-guide.webp
+image: /images/rest.webp
 description: "An in-depth guide to understanding and implementing RESTful APIs, with a focus on best practices and real-world examples."
 toc: true
 ---
@@ -17,7 +17,7 @@ toc: true
 
 RESTful APIs are pivotal in web and software development, facilitating communication between different software systems over the internet. We will explores REST (Representational State Transfer), emphasizing its principles, advantages, and providing real-world examples.
 
-## Core Principles of RESTful APIs
+### Core Principles of RESTful APIs
 
 REST is an architectural style that outlines guidelines for networked applications, primarily:
 
@@ -25,17 +25,17 @@ REST is an architectural style that outlines guidelines for networked applicatio
 - **Uniform Interface**: A consistent interface between components so that information is transferred in a standardized form.
 - **Client-Server Separation**: Separates the user interface concerns from the data storage concerns.
 
-## Advantages of RESTful APIs
+### Advantages of RESTful APIs
 
 - **Scalability**: Handles large amounts of requests and interactions.
 - **Flexibility**: Easily integrates with various types of clients.
 - **Independence**: The separation allows for protocol changes without affecting the client or server code.
 
-## Designing RESTful APIs
+### Designing RESTful APIs
 
 Design involves defining endpoints, methods, and status codes to create an efficient and scalable API.
 
-### Resource Naming
+#### Resource Naming
 
 Identify resources with URIs. Resources should be nouns, representing entities in your application.
 
@@ -89,6 +89,7 @@ Update an existing article. The PUT method replaces the current representation o
 
 {{< highlight http >}}
 PUT /articles/1 HTTP/1.1
+// 1 is the article ID and 1.1 is the version of the HTTP protocol being used
 Host: example.com
 Content-Type: application/json
 
@@ -140,6 +141,7 @@ fetch('https://example.com/api/articles', {
 
 {{< highlight javascript >}}
 fetch('https://example.com/api/articles/1', {
+// 1 is the article ID
   method: 'PUT',
   headers: {
     'Content-Type': 'application/json',
@@ -180,4 +182,9 @@ RESTful APIs offer a flexible, efficient, and scalable way to develop web servic
 For more detailed information and tutorials on RESTful APIs, consider the following resources:
 
 - Official Documentation: [Learn REST: A RESTful Tutorial](http://restfulapi.net/)
-- YouTube Video Tutorial: [REST API concepts and examples](https://www.youtube.com/watch?v=7YcW25PHnAA)
+  
+### REST API
+
+<br>
+{{< youtube lsMQRaeKNDk>}}
+<br>

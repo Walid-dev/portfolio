@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Polymorphism on Walid&#39;s Portfolio</title>
-    <link>http://localhost:63827/tags/polymorphism/</link>
+    <link>http://localhost:1313/tags/polymorphism/</link>
     <description>Recent content in Polymorphism on Walid&#39;s Portfolio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 23 Feb 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:63827/tags/polymorphism/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/polymorphism/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Polymorphism in Object-Oriented Programming: Concepts and Examples</title>
-      <link>http://localhost:63827/blogs/oop-polymorphism/</link>
+      <link>http://localhost:1313/blogs/oop-polymorphism/</link>
       <pubDate>Fri, 23 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:63827/blogs/oop-polymorphism/</guid>
+      <guid>http://localhost:1313/blogs/oop-polymorphism/</guid>
       <description>Introduction Polymorphism, a core concept in Object-Oriented Programming (OOP), enables objects of different classes to be treated as objects of a common superclass. It&amp;rsquo;s a principle that enhances flexibility and modularity in software development.&#xA;Understanding Polymorphism Polymorphism allows methods to do different things based on the object it is acting upon, despite sharing the same name. This capability is crucial for implementing interface-based programming and method overriding.&#xA;Non-Technical Example Consider a simple action like &amp;lsquo;drawing.</description>
     </item>
   </channel>

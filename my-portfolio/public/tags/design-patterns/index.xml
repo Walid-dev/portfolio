@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Design Patterns on Walid&#39;s Portfolio</title>
-    <link>http://localhost:63827/tags/design-patterns/</link>
+    <link>http://localhost:1313/tags/design-patterns/</link>
     <description>Recent content in Design Patterns on Walid&#39;s Portfolio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 16 Feb 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:63827/tags/design-patterns/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/design-patterns/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Design Patterns</title>
-      <link>http://localhost:63827/blogs/design_patterns/</link>
+      <link>http://localhost:1313/blogs/design_patterns/</link>
       <pubDate>Fri, 16 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:63827/blogs/design_patterns/</guid>
+      <guid>http://localhost:1313/blogs/design_patterns/</guid>
       <description>Introduction Software design patterns are typical solutions to common problems in software design. They serve as templates for solving recurring design issues, promoting more efficient and effective development practices. This guide focuses on JavaScript and PHP examples to explore significant design patterns.&#xA;Creational Patterns Creational patterns provide mechanisms for object creation, increasing flexibility and reuse of existing code.&#xA;Factory Method in JavaScript The Factory Method pattern defines an interface for creating an object, letting subclasses alter the type of objects that will be created.</description>
     </item>
   </channel>

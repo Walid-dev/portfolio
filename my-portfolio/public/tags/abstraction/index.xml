@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Abstraction on Walid&#39;s Portfolio</title>
-    <link>http://localhost:63827/tags/abstraction/</link>
+    <link>http://localhost:1313/tags/abstraction/</link>
     <description>Recent content in Abstraction on Walid&#39;s Portfolio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 22 Feb 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:63827/tags/abstraction/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/abstraction/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Abstraction in Object-Oriented Programming</title>
-      <link>http://localhost:63827/blogs/oop-abstraction/</link>
+      <link>http://localhost:1313/blogs/oop-abstraction/</link>
       <pubDate>Thu, 22 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:63827/blogs/oop-abstraction/</guid>
+      <guid>http://localhost:1313/blogs/oop-abstraction/</guid>
       <description>Introduction Abstraction in Object-Oriented Programming (OOP) simplifies complex systems by modeling classes with a focus on essential attributes and behaviors. It hides detailed implementations from the user, facilitating interaction through a simplified interface.&#xA;Essence of Abstraction Abstraction in OOP is like viewing a complex machine through a simplified control panel. It emphasizes what the system does over how it does it, enabling developers to work with higher-level concepts.&#xA;Everyday Analogy Consider a car: drivers interact with it through a simplified interface (steering wheel, pedals) without needing to understand the complexities of its internal mechanics.</description>
     </item>
   </channel>

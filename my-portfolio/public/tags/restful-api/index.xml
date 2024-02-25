@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>RESTful API on Walid&#39;s Portfolio</title>
-    <link>http://localhost:63827/tags/restful-api/</link>
+    <link>http://localhost:1313/tags/restful-api/</link>
     <description>Recent content in RESTful API on Walid&#39;s Portfolio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 21 Feb 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:63827/tags/restful-api/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 24 Feb 2022 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/restful-api/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>RESTful APIs: Principles, Practices, and Examples</title>
-      <link>http://localhost:63827/blogs/restful-api/</link>
-      <pubDate>Wed, 21 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:63827/blogs/restful-api/</guid>
-      <description>Introduction RESTful APIs have become the backbone of web services and applications, providing a standard and efficient way for systems to communicate over the internet. This article delves into the principles of REST, its advantages, and practical examples to illustrate best practices in designing and consuming RESTful APIs.&#xA;Understanding RESTful APIs REST (Representational State Transfer) is an architectural style that defines a set of constraints for creating web services. RESTful APIs enable interactions between client and server through a set of stateless operations, primarily using HTTP methods such as GET, POST, PUT, and DELETE.</description>
+      <link>http://localhost:1313/blogs/restful-api/</link>
+      <pubDate>Thu, 24 Feb 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blogs/restful-api/</guid>
+      <description>Introduction RESTful APIs are pivotal in web and software development, facilitating communication between different software systems over the internet. We will explores REST (Representational State Transfer), emphasizing its principles, advantages, and providing real-world examples.&#xA;Core Principles of RESTful APIs REST is an architectural style that outlines guidelines for networked applications, primarily:&#xA;Statelessness: Each request from a client contains all the information the server needs to fulfill that request. Uniform Interface: A consistent interface between components so that information is transferred in a standardized form.</description>
     </item>
   </channel>
 </rss>
