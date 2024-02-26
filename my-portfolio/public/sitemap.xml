@@ -8,10 +8,22 @@
     <loc>http://localhost:1313/tags/cross-platform-development/</loc>
     <lastmod>2024-02-25T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/tags/es6/</loc>
+    <lastmod>2024-02-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/frontend/</loc>
+    <lastmod>2024-02-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/functions/</loc>
+    <lastmod>2024-02-25T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/tags/javascript/</loc>
     <lastmod>2024-02-25T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/mobile-development/</loc>
+    <lastmod>2024-02-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/react/</loc>
     <lastmod>2024-02-25T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/react-native/</loc>
@@ -20,11 +32,32 @@
     <loc>http://localhost:1313/blogs/react-native-intro/</loc>
     <lastmod>2024-02-25T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/tags/software-development/</loc>
+    <lastmod>2024-02-25T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2024-02-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blogs/javascript-this/</loc>
+    <lastmod>2024-02-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/this/</loc>
     <lastmod>2024-02-25T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/</loc>
     <lastmod>2024-02-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/web-development/</loc>
+    <lastmod>2024-02-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/arrow-functions/</loc>
+    <lastmod>2024-02-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blogs/javascript-arrow-function/</loc>
+    <lastmod>2024-02-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/functional-programming/</loc>
+    <lastmod>2024-02-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/oop/</loc>
     <lastmod>2024-02-23T00:00:00+00:00</lastmod>
@@ -59,9 +92,6 @@
     <loc>http://localhost:1313/blogs/oop-encapsulation/</loc>
     <lastmod>2024-02-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/frontend/</loc>
-    <lastmod>2024-02-22T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/tags/programming-languages/</loc>
     <lastmod>2024-02-22T00:00:00+00:00</lastmod>
   </url><url>
@@ -69,9 +99,6 @@
     <lastmod>2024-02-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blogs/typescript/</loc>
-    <lastmod>2024-02-22T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/web-development/</loc>
     <lastmod>2024-02-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/coding/</loc>
@@ -87,9 +114,6 @@
     <lastmod>2024-02-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/programming/</loc>
-    <lastmod>2024-02-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/react/</loc>
     <lastmod>2024-02-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/server-side-scripting/</loc>
@@ -111,9 +135,6 @@
     <lastmod>2024-02-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blogs/react-redux/</loc>
-    <lastmod>2024-02-16T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/software-development/</loc>
     <lastmod>2024-02-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/state-management/</loc>

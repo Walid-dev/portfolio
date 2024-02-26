@@ -16,6 +16,27 @@
       <description></description>
     </item>
     <item>
+      <title>ES6</title>
+      <link>http://localhost:1313/tags/es6/</link>
+      <pubDate>Sun, 25 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/es6/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Frontend</title>
+      <link>http://localhost:1313/tags/frontend/</link>
+      <pubDate>Sun, 25 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/frontend/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Functions</title>
+      <link>http://localhost:1313/tags/functions/</link>
+      <pubDate>Sun, 25 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/functions/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>JavaScript</title>
       <link>http://localhost:1313/tags/javascript/</link>
       <pubDate>Sun, 25 Feb 2024 00:00:00 +0000</pubDate>
@@ -30,10 +51,52 @@
       <description></description>
     </item>
     <item>
+      <title>React</title>
+      <link>http://localhost:1313/tags/react/</link>
+      <pubDate>Sun, 25 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/react/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>React Native</title>
       <link>http://localhost:1313/tags/react-native/</link>
       <pubDate>Sun, 25 Feb 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tags/react-native/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Software Development</title>
+      <link>http://localhost:1313/tags/software-development/</link>
+      <pubDate>Sun, 25 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/software-development/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>This</title>
+      <link>http://localhost:1313/tags/this/</link>
+      <pubDate>Sun, 25 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/this/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Web Development</title>
+      <link>http://localhost:1313/tags/web-development/</link>
+      <pubDate>Sun, 25 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/web-development/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Arrow Functions</title>
+      <link>http://localhost:1313/tags/arrow-functions/</link>
+      <pubDate>Sat, 24 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/arrow-functions/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Functional Programming</title>
+      <link>http://localhost:1313/tags/functional-programming/</link>
+      <pubDate>Sat, 24 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/functional-programming/</guid>
       <description></description>
     </item>
     <item>
@@ -93,13 +156,6 @@
       <description></description>
     </item>
     <item>
-      <title>Frontend</title>
-      <link>http://localhost:1313/tags/frontend/</link>
-      <pubDate>Thu, 22 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/frontend/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Programming Languages</title>
       <link>http://localhost:1313/tags/programming-languages/</link>
       <pubDate>Thu, 22 Feb 2024 00:00:00 +0000</pubDate>
@@ -111,13 +167,6 @@
       <link>http://localhost:1313/tags/typescript/</link>
       <pubDate>Thu, 22 Feb 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tags/typescript/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Web Development</title>
-      <link>http://localhost:1313/tags/web-development/</link>
-      <pubDate>Thu, 22 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/web-development/</guid>
       <description></description>
     </item>
     <item>
@@ -139,13 +188,6 @@
       <link>http://localhost:1313/tags/programming/</link>
       <pubDate>Tue, 20 Feb 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tags/programming/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>React</title>
-      <link>http://localhost:1313/tags/react/</link>
-      <pubDate>Tue, 20 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/react/</guid>
       <description></description>
     </item>
     <item>
@@ -174,13 +216,6 @@
       <link>http://localhost:1313/tags/redux/</link>
       <pubDate>Fri, 16 Feb 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tags/redux/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Software Development</title>
-      <link>http://localhost:1313/tags/software-development/</link>
-      <pubDate>Fri, 16 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/software-development/</guid>
       <description></description>
     </item>
     <item>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Arrow Functions on Walid&#39;s Portfolio</title>
+    <link>http://localhost:1313/tags/arrow-functions/</link>
+    <description>Recent content in Arrow Functions on Walid&#39;s Portfolio</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 24 Feb 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/arrow-functions/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Arrow Functions in JavaScript</title>
+      <link>http://localhost:1313/blogs/javascript-arrow-function/</link>
+      <pubDate>Sat, 24 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blogs/javascript-arrow-function/</guid>
+      <description>Introduction Arrow functions, introduced in ECMAScript 6 (ES6), have become an integral part of JavaScript, offering a concise syntax for writing functions and clarifying the behavior of the this keyword. This guide explores arrow functions in depth, from their syntax to advanced use cases, contrasting them with traditional function expressions to elucidate their advantages and appropriate usage.&#xA;What are Arrow Functions? Arrow functions provide a streamlined syntax for writing functions in JavaScript, emphasizing shorter, single-expression functions and lexical scoping of this.</description>
+    </item>
+  </channel>
+</rss>

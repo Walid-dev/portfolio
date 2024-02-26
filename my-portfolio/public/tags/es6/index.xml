@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ES6 on Walid&#39;s Portfolio</title>
+    <link>http://localhost:1313/tags/es6/</link>
+    <description>Recent content in ES6 on Walid&#39;s Portfolio</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 25 Feb 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/es6/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The &#39;this&#39; Keyword in JavaScript: A Comprehensive Guide</title>
+      <link>http://localhost:1313/blogs/javascript-this/</link>
+      <pubDate>Sun, 25 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blogs/javascript-this/</guid>
+      <description>Introduction Understanding the this keyword in JavaScript is crucial for mastering the language. It is a context-sensitive keyword that changes its value depending on where and how a function is called. This guide dives deep into the various contexts of this, providing clarity through detailed explanations and code snippets.&#xA;What is &amp;rsquo;this&#39;? In JavaScript, this refers to the object that is currently executing or invoking the function. The value of this is determined by the execution context, except for arrow functions, which lexically bind this.</description>
+    </item>
+    <item>
+      <title>Arrow Functions in JavaScript</title>
+      <link>http://localhost:1313/blogs/javascript-arrow-function/</link>
+      <pubDate>Sat, 24 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blogs/javascript-arrow-function/</guid>
+      <description>Introduction Arrow functions, introduced in ECMAScript 6 (ES6), have become an integral part of JavaScript, offering a concise syntax for writing functions and clarifying the behavior of the this keyword. This guide explores arrow functions in depth, from their syntax to advanced use cases, contrasting them with traditional function expressions to elucidate their advantages and appropriate usage.&#xA;What are Arrow Functions? Arrow functions provide a streamlined syntax for writing functions in JavaScript, emphasizing shorter, single-expression functions and lexical scoping of this.</description>
+    </item>
+  </channel>
+</rss>
