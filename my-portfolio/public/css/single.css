@@ -5,7 +5,7 @@
 }
 
 #single .title > h1 {
-    font-size: 2rem;
+    font-size: 1.65rem;
     opacity: 0.8;
     color: var(--text-color) !important;
 }
@@ -144,7 +144,7 @@
 /* h2 subtitle */
 
 #single .page-content h2{
-    font-size: 1.6rem;
+    font-size: 1.5rem;
 }
 
 /* kbd and mark */
@@ -200,7 +200,7 @@
     background-color: var(--background-color);
     text-decoration: none;
     color: var(--text-color);
-    font-size: .8em;
+    font-size: .75em;
 }
 
 #single aside.tags ul.tags-ul li {
@@ -218,6 +218,7 @@
 }
 
 #single aside.toc h5 {
+    font-size: 1em;
     margin: .7em 0;
     margin-bottom: 1em;
     color: var(--text-color);
