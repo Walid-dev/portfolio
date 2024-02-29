@@ -39,16 +39,16 @@
 
 
 
-<meta property="og:title" content="React Hooks: Elevating Basics with Advanced Examples" />
-<meta property="og:description" content="A comprehensive exploration of basic React Hooks enhanced with advanced examples and insights for modern web application development." />
+<meta property="og:title" content="React Hooks" />
+<meta property="og:description" content="This guide explores the ins and outs of React Hooks, simplifying state management and lifecycle methods in functional components." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="http://localhost:1313/blogs/react-hooks/" /><meta property="article:section" content="blogs" />
-<meta property="article:published_time" content="2024-02-19T00:00:00+00:00" />
-<meta property="article:modified_time" content="2024-02-19T00:00:00+00:00" /><meta property="og:site_name" content="Walid&#39;s Portfolio" />
+<meta property="article:published_time" content="2024-02-28T00:00:00+00:00" />
+<meta property="article:modified_time" content="2024-02-28T00:00:00+00:00" /><meta property="og:site_name" content="Walid&#39;s Portfolio" />
 
 
-<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="React Hooks: Elevating Basics with Advanced Examples"/>
-<meta name="twitter:description" content="A comprehensive exploration of basic React Hooks enhanced with advanced examples and insights for modern web application development."/>
+<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="React Hooks"/>
+<meta name="twitter:description" content="This guide explores the ins and outs of React Hooks, simplifying state management and lifecycle methods in functional components."/>
 
 
 <link rel="stylesheet" href="/bootstrap-5/css/bootstrap.min.css" media="all"><link rel="stylesheet" href="/css/header.css" media="all">
@@ -70,6 +70,7 @@
         --secondary-color: #f8f9fa;
         --light-green-color: #01ffbe;
         --blue-violet-color: #8752ce;
+        --light-violet-color: #b794f7;
 
          
         --text-color-dark: #e4e6eb;
@@ -78,6 +79,7 @@
         --secondary-background-color-dark: #1d1d1f;
         --primary-color-dark: #ffffff;
         --secondary-color-dark: #212529;
+
     }
     body {
         font-size: 1rem;
@@ -114,14 +116,14 @@
     }
 </style>
 
-<meta name="description" content="A comprehensive exploration of basic React Hooks enhanced with advanced examples and insights for modern web application development.">
+<meta name="description" content="This guide explores the ins and outs of React Hooks, simplifying state management and lifecycle methods in functional components.">
 <link rel="stylesheet" href="/css/single.css">
 
 
 <script defer src="/fontawesome-6/all-6.4.2.js"></script>
 
   <title>
-React Hooks: Elevating Basics with Advanced Examples | Walid&#39;s Portfolio
+React Hooks | Walid&#39;s Portfolio
 
   </title>
 </head>
@@ -316,11 +318,11 @@ React Hooks: Elevating Basics with Advanced Examples | Walid&#39;s Portfolio
       <div class="col-sm-12 col-md-12 col-lg-9">
         <div class="pr-lg-4">
           <div class="title mb-5">
-            <h1 class="text-center mb-4">React Hooks: Elevating Basics with Advanced Examples</h1>
+            <h1 class="text-center mb-4">React Hooks</h1>
             <div class="text-center">
               Walid 
               <small>|</small>
-              Feb 19, 2024
+              Feb 28, 2024
 
               
               <span id="readingTime">
@@ -331,77 +333,182 @@ React Hooks: Elevating Basics with Advanced Examples | Walid&#39;s Portfolio
           </div>
           
           <div class="featured-image">
-            <img class="img-fluid mx-auto d-block" src="/images/react-hooks.webp" alt="React Hooks: Elevating Basics with Advanced Examples">
+            <img class="img-fluid mx-auto d-block" src="/images/react-hooks.webp" alt="React Hooks">
           </div>
           
           <article class="page-content  p-2">
-          <h2 id="introduction">Introduction</h2>
-<p>React Hooks offer a revolutionary approach to handling state and lifecycle features in functional components. This guide revisits the basics of React Hooks, supplemented with advanced examples to provide a deeper understanding for developers familiar with the fundamentals.</p>
-<h3 id="usestate-state-management"><code>useState</code>: State Management</h3>
-<p><code>useState</code> is the cornerstone of state management in functional components, allowing for the declaration of state variables in React.</p>
-<h4 id="advanced-example-state-with-previous-value">Advanced Example: State with Previous Value</h4>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-jsx" data-lang="jsx"><span style="display:flex;"><span><span style="color:#66d9ef">const</span> [<span style="color:#a6e22e">count</span>, <span style="color:#a6e22e">setCount</span>] <span style="color:#f92672">=</span> <span style="color:#a6e22e">useState</span>(<span style="color:#ae81ff">0</span>);
+          <h1 id="understanding-react-hooks">Understanding React Hooks</h1>
+<p>React Hooks represent a significant advancement in the way React applications are developed. Since their introduction in React 16.8, Hooks have revolutionized functional components, providing them with the capa  bility to use state and other React features without writing a class. This guide delves into the core concepts of React Hooks, offering insights and code examples to enhance your understanding and application of these powerful features.</p>
+<h2 id="introduction">Introduction</h2>
+<p>React Hooks offer a more direct API to the React concepts you already know: props, state, context, refs, and lifecycle. They allow you to use state and other React features without having to write a class. This guide aims to explain what Hooks are, why they were introduced, and how they can be used to improve your React applications.</p>
+<h2 id="core-concepts">Core Concepts</h2>
+<h3 id="what-are-hooks">What are Hooks?</h3>
+<p>Hooks are functions that let you &ldquo;hook into&rdquo; React state and lifecycle features from function components. They make it possible to organize and reuse logic between components, making your code cleaner and more abstract.</p>
+<h3 id="why-use-hooks">Why Use Hooks?</h3>
+<ul>
+<li><strong>Simplicity:</strong> Hooks simplify the process of writing components by eliminating the need for classes.</li>
+<li><strong>Reusability:</strong> Custom Hooks allow you to create reusable stateful logic and apply it across multiple components.</li>
+<li><strong>Organization:</strong> Hooks encourage more modular and readable codebases by organizing logic into smaller, function-based components.</li>
+</ul>
+<h3 id="commonly-used-hooks">Commonly Used Hooks</h3>
+<p><strong>useState:</strong> Allows you to add state to functional components. It provides a way to declare state variables for functional components. When you call this hook, you receive a pair: the current state value and a function that lets you update it. This is particularly useful for handling user inputs, implementing form controls, or anything that requires local state management within a component.</p>
+<p><strong>useEffect:</strong> Lets you perform side effects in functional components. This hook functions similarly to lifecycle methods in class components such as <code>componentDidMount</code>, <code>componentDidUpdate</code>, and <code>componentWillUnmount</code>. It&rsquo;s used for operations like fetching data, directly updating the DOM, and setting up subscriptions. <code>useEffect</code> runs after every render by default, but you can also specify when it should re-run by passing an array of values as the second argument.</p>
+<p><strong>useContext:</strong> Provides access to React context in your component, simplifying the process of sharing values like themes, user information, etc., across your components. This hook allows functional components to subscribe to React context without needing to nest <code>Context.Consumer</code>. With <code>useContext</code>, you can make a specific context value directly accessible to all component levels, eliminating prop drilling.</p>
+<p><strong>useReducer:</strong> Offers an alternative to <code>useState</code> for managing complex state logic in functional components. It is especially useful for states that involve multiple sub-values, complex state transitions, or when the next state depends on the previous one. <code>useReducer</code> also makes it easier to centralize state logic, which can be beneficial when you need to implement more sophisticated state management patterns like undo/redo capabilities or state machines.</p>
+<h2 id="code-examples">Code Examples</h2>
+<h3 id="using-usestate">Using useState</h3>
+<p>The <code>useState</code> hook allows you to add state to your functional components. Here&rsquo;s a simple counter example:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-jsx" data-lang="jsx"><span style="display:flex;"><span><span style="color:#66d9ef">import</span> <span style="color:#a6e22e">React</span>, { <span style="color:#a6e22e">useState</span> } <span style="color:#a6e22e">from</span> <span style="color:#e6db74">&#39;react&#39;</span>;
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#75715e">// Increment count based on previous value
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#66d9ef">const</span> <span style="color:#a6e22e">increment</span> <span style="color:#f92672">=</span> () =&gt; {
-</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">setCount</span>(<span style="color:#a6e22e">prevCount</span> =&gt; <span style="color:#a6e22e">prevCount</span> <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>);
-</span></span><span style="display:flex;"><span>};
-</span></span></code></pre></div><h3 id="useeffect-side-effects"><code>useEffect</code>: Side Effects</h3>
-<p><code>useEffect</code> manages side effects in functional components, replacing lifecycle methods from class components.</p>
-<h4 id="optimizing-effects">Optimizing Effects</h4>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-jsx" data-lang="jsx"><span style="display:flex;"><span><span style="color:#a6e22e">useEffect</span>(() =&gt; {
-</span></span><span style="display:flex;"><span>  <span style="color:#75715e">// Subscription setup
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>  <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">subscription</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">props</span>.<span style="color:#a6e22e">source</span>.<span style="color:#a6e22e">subscribe</span>();
-</span></span><span style="display:flex;"><span>  <span style="color:#75715e">// Cleanup subscription
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>  <span style="color:#66d9ef">return</span> () =&gt; {
-</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">subscription</span>.<span style="color:#a6e22e">unsubscribe</span>();
-</span></span><span style="display:flex;"><span>  };
-</span></span><span style="display:flex;"><span>}, [<span style="color:#a6e22e">props</span>.<span style="color:#a6e22e">source</span>]); <span style="color:#75715e">// Only re-subscribe when props.source changes
-</span></span></span></code></pre></div><h3 id="usecontext-simplifying-context"><code>useContext</code>: Simplifying Context</h3>
-<p><code>useContext</code> allows for easy access to React context, facilitating the sharing of state across the component tree without prop drilling.</p>
-<h4 id="example-theme-context">Example: Theme Context</h4>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-jsx" data-lang="jsx"><span style="display:flex;"><span><span style="color:#66d9ef">const</span> <span style="color:#a6e22e">ThemeContext</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">React</span>.<span style="color:#a6e22e">createContext</span>(<span style="color:#a6e22e">themes</span>.<span style="color:#a6e22e">light</span>);
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">function</span> <span style="color:#a6e22e">Counter</span>() {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">const</span> [<span style="color:#a6e22e">count</span>, <span style="color:#a6e22e">setCount</span>] <span style="color:#f92672">=</span> <span style="color:#a6e22e">useState</span>(<span style="color:#ae81ff">0</span>);
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">function</span> <span style="color:#a6e22e">App</span>() {
 </span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">return</span> (
-</span></span><span style="display:flex;"><span>    &lt;<span style="color:#f92672">ThemeContext.Provider</span> <span style="color:#a6e22e">value</span><span style="color:#f92672">=</span>{<span style="color:#a6e22e">themes</span>.<span style="color:#a6e22e">dark</span>}&gt;
-</span></span><span style="display:flex;"><span>      &lt;<span style="color:#f92672">Toolbar</span> /&gt;
+</span></span><span style="display:flex;"><span>    &lt;<span style="color:#f92672">div</span>&gt;
+</span></span><span style="display:flex;"><span>      &lt;<span style="color:#f92672">p</span>&gt;<span style="color:#a6e22e">You</span> <span style="color:#a6e22e">clicked</span> {<span style="color:#a6e22e">count</span>} <span style="color:#a6e22e">times</span>&lt;/<span style="color:#f92672">p</span>&gt;
+</span></span><span style="display:flex;"><span>      &lt;<span style="color:#f92672">button</span> <span style="color:#a6e22e">onClick</span><span style="color:#f92672">=</span>{() =&gt; <span style="color:#a6e22e">setCount</span>(<span style="color:#a6e22e">count</span> <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>)}&gt;
+</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">Click</span> <span style="color:#a6e22e">me</span>
+</span></span><span style="display:flex;"><span>      &lt;/<span style="color:#f92672">button</span>&gt;
+</span></span><span style="display:flex;"><span>    &lt;/<span style="color:#f92672">div</span>&gt;
+</span></span><span style="display:flex;"><span>  );
+</span></span><span style="display:flex;"><span>}</span></span></code></pre></div>
+<h3 id="using-useeffect">Using useEffect</h3>
+<p>The <code>useEffect</code> hook lets you perform side effects in functional components. It can replace several lifecycle methods in class components, such as <code>componentDidMount</code>, <code>componentDidUpdate</code>, and <code>componentWillUnmount</code>.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-jsx" data-lang="jsx"><span style="display:flex;"><span><span style="color:#66d9ef">import</span> <span style="color:#a6e22e">React</span>, { <span style="color:#a6e22e">useState</span>, <span style="color:#a6e22e">useEffect</span> } <span style="color:#a6e22e">from</span> <span style="color:#e6db74">&#39;react&#39;</span>;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">function</span> <span style="color:#a6e22e">Example</span>() {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">const</span> [<span style="color:#a6e22e">count</span>, <span style="color:#a6e22e">setCount</span>] <span style="color:#f92672">=</span> <span style="color:#a6e22e">useState</span>(<span style="color:#ae81ff">0</span>);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#75715e">// Similar to componentDidMount and componentDidUpdate:
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>  <span style="color:#a6e22e">useEffect</span>(() =&gt; {
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// Update the document title using the browser API
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    document.<span style="color:#a6e22e">title</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">`You clicked </span><span style="color:#e6db74">${</span><span style="color:#a6e22e">count</span><span style="color:#e6db74">}</span><span style="color:#e6db74"> times`</span>;
+</span></span><span style="display:flex;"><span>  });
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">return</span> (
+</span></span><span style="display:flex;"><span>    &lt;<span style="color:#f92672">div</span>&gt;
+</span></span><span style="display:flex;"><span>      &lt;<span style="color:#f92672">p</span>&gt;<span style="color:#a6e22e">You</span> <span style="color:#a6e22e">clicked</span> {<span style="color:#a6e22e">count</span>} <span style="color:#a6e22e">times</span>&lt;/<span style="color:#f92672">p</span>&gt;
+</span></span><span style="display:flex;"><span>      &lt;<span style="color:#f92672">button</span> <span style="color:#a6e22e">onClick</span><span style="color:#f92672">=</span>{() =&gt; <span style="color:#a6e22e">setCount</span>(<span style="color:#a6e22e">count</span> <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>)}&gt;
+</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">Click</span> <span style="color:#a6e22e">me</span>
+</span></span><span style="display:flex;"><span>      &lt;/<span style="color:#f92672">button</span>&gt;
+</span></span><span style="display:flex;"><span>    &lt;/<span style="color:#f92672">div</span>&gt;
+</span></span><span style="display:flex;"><span>  );
+</span></span><span style="display:flex;"><span>}</span></span></code></pre></div>
+<h3 id="using-usecontext">Using useContext</h3>
+<p>The <code>useContext</code> hook allows you to access the value of a context in your functional components. This can simplify sharing values like themes, user information, etc., across your components. Here&rsquo;s a simple example that toggles the theme of a component:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-jsx" data-lang="jsx"><span style="display:flex;"><span><span style="color:#66d9ef">import</span> <span style="color:#a6e22e">React</span>, { <span style="color:#a6e22e">useContext</span>, <span style="color:#a6e22e">useState</span> } <span style="color:#a6e22e">from</span> <span style="color:#e6db74">&#39;react&#39;</span>;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">// First, create a context
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#66d9ef">const</span> <span style="color:#a6e22e">ThemeContext</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">React</span>.<span style="color:#a6e22e">createContext</span>();
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">// A component that provides the theme context with a value
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#66d9ef">function</span> <span style="color:#a6e22e">ThemeProvider</span>({ <span style="color:#a6e22e">children</span> }) {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">const</span> [<span style="color:#a6e22e">theme</span>, <span style="color:#a6e22e">setTheme</span>] <span style="color:#f92672">=</span> <span style="color:#a6e22e">useState</span>(<span style="color:#e6db74">&#39;light&#39;</span>);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">return</span> (
+</span></span><span style="display:flex;"><span>    &lt;<span style="color:#f92672">ThemeContext.Provider</span> <span style="color:#a6e22e">value</span><span style="color:#f92672">=</span>{{ <span style="color:#a6e22e">theme</span>, <span style="color:#a6e22e">setTheme</span> }}&gt;
+</span></span><span style="display:flex;"><span>      {<span style="color:#a6e22e">children</span>}
 </span></span><span style="display:flex;"><span>    &lt;/<span style="color:#f92672">ThemeContext.Provider</span>&gt;
 </span></span><span style="display:flex;"><span>  );
 </span></span><span style="display:flex;"><span>}
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">function</span> <span style="color:#a6e22e">Toolbar</span>(<span style="color:#a6e22e">props</span>) {
-</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">theme</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">useContext</span>(<span style="color:#a6e22e">ThemeContext</span>);
+</span></span><span style="display:flex;"><span><span style="color:#75715e">// A component that consumes the theme context
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#66d9ef">function</span> <span style="color:#a6e22e">ThemedComponent</span>() {
+</span></span><span style="display:flex;"><span>  <span style="color:#75715e">// Use useContext to access the context value
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>  <span style="color:#66d9ef">const</span> { <span style="color:#a6e22e">theme</span>, <span style="color:#a6e22e">setTheme</span> } <span style="color:#f92672">=</span> <span style="color:#a6e22e">useContext</span>(<span style="color:#a6e22e">ThemeContext</span>);
+</span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">return</span> (
-</span></span><span style="display:flex;"><span>    &lt;<span style="color:#f92672">div</span> <span style="color:#a6e22e">style</span><span style="color:#f92672">=</span>{{ <span style="color:#a6e22e">background</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">theme</span>.<span style="color:#a6e22e">background</span>, <span style="color:#a6e22e">color</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">theme</span>.<span style="color:#a6e22e">foreground</span> }}&gt;
-</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">I</span> <span style="color:#a6e22e">am</span> <span style="color:#a6e22e">styled</span> <span style="color:#a6e22e">by</span> <span style="color:#a6e22e">theme</span> <span style="color:#a6e22e">context</span><span style="color:#f92672">!</span>
+</span></span><span style="display:flex;"><span>    &lt;<span style="color:#f92672">div</span> <span style="color:#a6e22e">style</span><span style="color:#f92672">=</span>{{ <span style="color:#a6e22e">background</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">theme</span> <span style="color:#f92672">===</span> <span style="color:#e6db74">&#39;dark&#39;</span> <span style="color:#f92672">?</span> <span style="color:#e6db74">&#39;#333&#39;</span> <span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;#FFF&#39;</span>, <span style="color:#a6e22e">color</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">theme</span> <span style="color:#f92672">===</span> <span style="color:#e6db74">&#39;dark&#39;</span> <span style="color:#f92672">?</span> <span style="color:#e6db74">&#39;#FFF&#39;</span> <span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;#333&#39;</span> }}&gt;
+</span></span><span style="display:flex;"><span>      &lt;<span style="color:#f92672">p</span>&gt;<span style="color:#a6e22e">The</span> <span style="color:#a6e22e">current</span> <span style="color:#a6e22e">theme</span> <span style="color:#a6e22e">is</span> {<span style="color:#a6e22e">theme</span>}&lt;/<span style="color:#f92672">p</span>&gt;
+</span></span><span style="display:flex;"><span>      &lt;<span style="color:#f92672">button</span> <span style="color:#a6e22e">onClick</span><span style="color:#f92672">=</span>{() =&gt; <span style="color:#a6e22e">setTheme</span>(<span style="color:#a6e22e">theme</span> <span style="color:#f92672">===</span> <span style="color:#e6db74">&#39;light&#39;</span> <span style="color:#f92672">?</span> <span style="color:#e6db74">&#39;dark&#39;</span> <span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;light&#39;</span>)}&gt;
+</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">Toggle</span> <span style="color:#a6e22e">Theme</span>
+</span></span><span style="display:flex;"><span>      &lt;/<span style="color:#f92672">button</span>&gt;
 </span></span><span style="display:flex;"><span>    &lt;/<span style="color:#f92672">div</span>&gt;
 </span></span><span style="display:flex;"><span>  );
 </span></span><span style="display:flex;"><span>}
-</span></span></code></pre></div><h3 id="custom-hooks-building-your-own">Custom Hooks: Building Your Own</h3>
-<p>Custom Hooks allow for the extraction and reuse of stateful logic across components.</p>
-<h4 id="example-usefetch-for-data-fetching">Example: <code>useFetch</code> for Data Fetching</h4>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-jsx" data-lang="jsx"><span style="display:flex;"><span><span style="color:#66d9ef">function</span> <span style="color:#a6e22e">useFetch</span>(<span style="color:#a6e22e">url</span>) {
-</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">const</span> [<span style="color:#a6e22e">data</span>, <span style="color:#a6e22e">setData</span>] <span style="color:#f92672">=</span> <span style="color:#a6e22e">useState</span>(<span style="color:#66d9ef">null</span>);
-</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">const</span> [<span style="color:#a6e22e">loading</span>, <span style="color:#a6e22e">setLoading</span>] <span style="color:#f92672">=</span> <span style="color:#a6e22e">useState</span>(<span style="color:#66d9ef">true</span>);
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">useEffect</span>(() =&gt; {
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">fetchData</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">async</span> () =&gt; {
-</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">response</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">await</span> <span style="color:#a6e22e">fetch</span>(<span style="color:#a6e22e">url</span>);
-</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">data</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">await</span> <span style="color:#a6e22e">response</span>.<span style="color:#a6e22e">json</span>();
-</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">setData</span>(<span style="color:#a6e22e">data</span>);
-</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">setLoading</span>(<span style="color:#66d9ef">false</span>);
-</span></span><span style="display:flex;"><span>    };
+</span></span><span style="display:flex;"><span><span style="color:#75715e">// App component that uses ThemeProvider
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#66d9ef">function</span> <span style="color:#a6e22e">App</span>() {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">return</span> (
+</span></span><span style="display:flex;"><span>    &lt;<span style="color:#f92672">ThemeProvider</span>&gt;
+</span></span><span style="display:flex;"><span>      &lt;<span style="color:#f92672">ThemedComponent</span> /&gt;
+</span></span><span style="display:flex;"><span>    &lt;/<span style="color:#f92672">ThemeProvider</span>&gt;
+</span></span><span style="display:flex;"><span>  );
+</span></span><span style="display:flex;"><span>}</span></span></code></pre></div>
+<h3 id="using-usereducer">Using useReducer</h3>
+<p>The <code>useReducer</code> hook is useful for managing more complex state logic in functional components. It allows you to make state transitions based on the current state and an action, using a reducer function. Here&rsquo;s an example demonstrating how to implement a simple counter:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-jsx" data-lang="jsx"><span style="display:flex;"><span><span style="color:#66d9ef">import</span> <span style="color:#a6e22e">React</span>, { <span style="color:#a6e22e">useReducer</span> } <span style="color:#a6e22e">from</span> <span style="color:#e6db74">&#39;react&#39;</span>;
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">fetchData</span>();
-</span></span><span style="display:flex;"><span>  }, [<span style="color:#a6e22e">url</span>]);
+</span></span><span style="display:flex;"><span><span style="color:#75715e">// Define the initial state of the counter
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#66d9ef">const</span> <span style="color:#a6e22e">initialState</span> <span style="color:#f92672">=</span> { <span style="color:#a6e22e">count</span><span style="color:#f92672">:</span> <span style="color:#ae81ff">0</span> };
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">return</span> { <span style="color:#a6e22e">data</span>, <span style="color:#a6e22e">loading</span> };
+</span></span><span style="display:flex;"><span><span style="color:#75715e">// Reducer function to handle state updates based on actions
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#66d9ef">function</span> <span style="color:#a6e22e">reducer</span>(<span style="color:#a6e22e">state</span>, <span style="color:#a6e22e">action</span>) {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">switch</span> (<span style="color:#a6e22e">action</span>.<span style="color:#a6e22e">type</span>) {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">case</span> <span style="color:#e6db74">&#39;increment&#39;</span><span style="color:#f92672">:</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">return</span> { <span style="color:#a6e22e">count</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">state</span>.<span style="color:#a6e22e">count</span> <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span> };
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">case</span> <span style="color:#e6db74">&#39;decrement&#39;</span><span style="color:#f92672">:</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">return</span> { <span style="color:#a6e22e">count</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">state</span>.<span style="color:#a6e22e">count</span> <span style="color:#f92672">-</span> <span style="color:#ae81ff">1</span> };
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">case</span> <span style="color:#e6db74">&#39;reset&#39;</span><span style="color:#f92672">:</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">return</span> <span style="color:#a6e22e">initialState</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">default</span><span style="color:#f92672">:</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">throw</span> <span style="color:#66d9ef">new</span> Error();
+</span></span><span style="display:flex;"><span>  }
 </span></span><span style="display:flex;"><span>}
-</span></span></code></pre></div><h2 id="conclusion">Conclusion</h2>
-<p>While React Hooks simplify component logic and state management, exploring advanced use cases and patterns can significantly enhance your development skills. Embrace these examples as a stepping stone to mastering React Hooks in your projects.</p>
-<p>For a deeper dive into React Hooks and their documentation, visit the <a href="https://reactjs.org/docs/hooks-intro.html">official React documentation</a>.</p>
-<p><em>Illustration: An enhanced guide to basic React Hooks with advanced examples.</em></p>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">// Component that uses the useReducer hook
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#66d9ef">function</span> <span style="color:#a6e22e">Counter</span>() {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">const</span> [<span style="color:#a6e22e">state</span>, <span style="color:#a6e22e">dispatch</span>] <span style="color:#f92672">=</span> <span style="color:#a6e22e">useReducer</span>(<span style="color:#a6e22e">reducer</span>, <span style="color:#a6e22e">initialState</span>);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">return</span> (
+</span></span><span style="display:flex;"><span>    &lt;<span style="color:#f92672">div</span>&gt;
+</span></span><span style="display:flex;"><span>      &lt;<span style="color:#f92672">p</span>&gt;<span style="color:#a6e22e">You</span> <span style="color:#a6e22e">clicked</span> {<span style="color:#a6e22e">state</span>.<span style="color:#a6e22e">count</span>} <span style="color:#a6e22e">times</span>&lt;/<span style="color:#f92672">p</span>&gt;
+</span></span><span style="display:flex;"><span>      &lt;<span style="color:#f92672">button</span> <span style="color:#a6e22e">onClick</span><span style="color:#f92672">=</span>{() =&gt; <span style="color:#a6e22e">dispatch</span>({ <span style="color:#a6e22e">type</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;increment&#39;</span> })}&gt;
+</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">Increment</span>
+</span></span><span style="display:flex;"><span>      &lt;/<span style="color:#f92672">button</span>&gt;
+</span></span><span style="display:flex;"><span>      &lt;<span style="color:#f92672">button</span> <span style="color:#a6e22e">onClick</span><span style="color:#f92672">=</span>{() =&gt; <span style="color:#a6e22e">dispatch</span>({ <span style="color:#a6e22e">type</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;decrement&#39;</span> })}&gt;
+</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">Decrement</span>
+</span></span><span style="display:flex;"><span>      &lt;/<span style="color:#f92672">button</span>&gt;
+</span></span><span style="display:flex;"><span>      &lt;<span style="color:#f92672">button</span> <span style="color:#a6e22e">onClick</span><span style="color:#f92672">=</span>{() =&gt; <span style="color:#a6e22e">dispatch</span>({ <span style="color:#a6e22e">type</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;reset&#39;</span> })}&gt;
+</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">Reset</span>
+</span></span><span style="display:flex;"><span>      &lt;/<span style="color:#f92672">button</span>&gt;
+</span></span><span style="display:flex;"><span>    &lt;/<span style="color:#f92672">div</span>&gt;
+</span></span><span style="display:flex;"><span>  );
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">// App component that renders the Counter
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#66d9ef">function</span> <span style="color:#a6e22e">App</span>() {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">return</span> &lt;<span style="color:#f92672">Counter</span> /&gt;;
+</span></span><span style="display:flex;"><span>}</span></span></code></pre></div>
+<h2 id="conclusion">Conclusion</h2>
+<p>React Hooks are a powerful feature that make functional components more versatile and reusable. By understanding and utilizing Hooks, you can simplify your React applications, making them more modular, easier to understand, and easier to maintain. Whether you&rsquo;re managing state, performing side effects, or tapping into context, Hooks provide a straightforward and efficient way to enhance your components.</p>
+<h2 id="additional-resources">Additional Resources</h2>
+<p>For further exploration of React Hooks, consider reviewing the <a href="https://reactjs.org/docs/hooks-intro.html">React official documentation</a> and experimenting with custom Hooks to encapsulate and share your component logic.</p>
+<p><a href="https://react.dev/learn/scaling-up-with-reducer-and-context">Scaling Up with Reducer and Context</a></p>
+<h2 id="all-useeffect-mistakes-every-junior-react-developer-makes">All useEffect Mistakes Every Junior React Developer Makes</h2>
+<br>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/QQYeipc_cik" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+<br>
+<h2 id="react-usereducer-hook-with-examples">React useReducer Hook with Examples</h2>
+<br>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/RZPAQV7JvNU" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+<br>
+<h2 id="le-hook-usecontext-french">Le Hook useContext() (French)</h2>
+<br>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/CeyqosSakOQ" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+<br>
 
           </article>
         </div>
@@ -416,15 +523,27 @@ React Hooks: Elevating Basics with Advanced Examples | Walid&#39;s Portfolio
               <div class="toc-content">
                 <nav id="TableOfContents">
   <ul>
-    <li><a href="#introduction">Introduction</a>
+    <li><a href="#introduction">Introduction</a></li>
+    <li><a href="#core-concepts">Core Concepts</a>
       <ul>
-        <li><a href="#usestate-state-management"><code>useState</code>: State Management</a></li>
-        <li><a href="#useeffect-side-effects"><code>useEffect</code>: Side Effects</a></li>
-        <li><a href="#usecontext-simplifying-context"><code>useContext</code>: Simplifying Context</a></li>
-        <li><a href="#custom-hooks-building-your-own">Custom Hooks: Building Your Own</a></li>
+        <li><a href="#what-are-hooks">What are Hooks?</a></li>
+        <li><a href="#why-use-hooks">Why Use Hooks?</a></li>
+        <li><a href="#commonly-used-hooks">Commonly Used Hooks</a></li>
+      </ul>
+    </li>
+    <li><a href="#code-examples">Code Examples</a>
+      <ul>
+        <li><a href="#using-usestate">Using useState</a></li>
+        <li><a href="#using-useeffect">Using useEffect</a></li>
+        <li><a href="#using-usecontext">Using useContext</a></li>
+        <li><a href="#using-usereducer">Using useReducer</a></li>
       </ul>
     </li>
     <li><a href="#conclusion">Conclusion</a></li>
+    <li><a href="#additional-resources">Additional Resources</a></li>
+    <li><a href="#all-useeffect-mistakes-every-junior-react-developer-makes">All useEffect Mistakes Every Junior React Developer Makes</a></li>
+    <li><a href="#react-usereducer-hook-with-examples">React useReducer Hook with Examples</a></li>
+    <li><a href="#le-hook-usecontext-french">Le Hook useContext() (French)</a></li>
   </ul>
 </nav>
               </div>
@@ -436,15 +555,13 @@ React Hooks: Elevating Basics with Advanced Examples | Walid&#39;s Portfolio
             <h5>Tags</h5>
             <ul class="tags-ul list-unstyled list-inline">
               
-              <li class="list-inline-item"><a href="http://localhost:1313/tags/javascript" target="_blank">Javascript</a></li>
-              
               <li class="list-inline-item"><a href="http://localhost:1313/tags/react" target="_blank">React</a></li>
               
-              <li class="list-inline-item"><a href="http://localhost:1313/tags/react-hooks" target="_blank">React Hooks</a></li>
+              <li class="list-inline-item"><a href="http://localhost:1313/tags/javascript" target="_blank">JavaScript</a></li>
+              
+              <li class="list-inline-item"><a href="http://localhost:1313/tags/web-development" target="_blank">Web Development</a></li>
               
               <li class="list-inline-item"><a href="http://localhost:1313/tags/frontend" target="_blank">Frontend</a></li>
-              
-              <li class="list-inline-item"><a href="http://localhost:1313/tags/software-development" target="_blank">Software Development</a></li>
               
             </ul>
           </aside>
@@ -456,17 +573,17 @@ React Hooks: Elevating Basics with Advanced Examples | Walid&#39;s Portfolio
             <div class="social-content">
               <ul class="list-inline">
                 <li class="list-inline-item text-center">
-                  <a target="_blank" href="https://twitter.com/share?text=React%20Hooks%3a%20Elevating%20Basics%20with%20Advanced%20Examples&url=http%3a%2f%2flocalhost%3a1313%2fblogs%2freact-hooks%2f">
+                  <a target="_blank" href="https://twitter.com/share?text=React%20Hooks&url=http%3a%2f%2flocalhost%3a1313%2fblogs%2freact-hooks%2f">
                     <i class="fab fa-twitter"></i>
                   </a>
                 </li>
                 <li class="list-inline-item text-center">
-                  <a target="_blank" href="https://api.whatsapp.com/send?text=React%20Hooks%3a%20Elevating%20Basics%20with%20Advanced%20Examples: http%3a%2f%2flocalhost%3a1313%2fblogs%2freact-hooks%2f">
+                  <a target="_blank" href="https://api.whatsapp.com/send?text=React%20Hooks: http%3a%2f%2flocalhost%3a1313%2fblogs%2freact-hooks%2f">
                     <i class="fab fa-whatsapp"></i>
                   </a>
                 </li>
                 <li class="list-inline-item text-center">
-                  <a target="_blank" href='mailto:?subject=React%20Hooks%3a%20Elevating%20Basics%20with%20Advanced%20Examples&amp;body=Check%20out%20this%20site http%3a%2f%2flocalhost%3a1313%2fblogs%2freact-hooks%2f'>
+                  <a target="_blank" href='mailto:?subject=React%20Hooks&amp;body=Check%20out%20this%20site http%3a%2f%2flocalhost%3a1313%2fblogs%2freact-hooks%2f'>
                     <i class="fa fa-envelope"></i>
                   </a>
                 </li>

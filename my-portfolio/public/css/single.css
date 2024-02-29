@@ -5,7 +5,7 @@
 }
 
 #single .title > h1 {
-    font-size: 1.65rem;
+    font-size: 2rem;
     opacity: 0.8;
     color: var(--text-color) !important;
 }
@@ -144,7 +144,7 @@
 /* h2 subtitle */
 
 #single .page-content h2{
-    font-size: 1.5rem;
+    font-size: 1.6rem;
 }
 
 /* kbd and mark */
@@ -200,7 +200,7 @@
     background-color: var(--background-color);
     text-decoration: none;
     color: var(--text-color);
-    font-size: .75em;
+    font-size: .8em;
 }
 
 #single aside.tags ul.tags-ul li {
@@ -218,7 +218,6 @@
 }
 
 #single aside.toc h5 {
-    font-size: 1em;
     margin: .7em 0;
     margin-bottom: 1em;
     color: var(--text-color);
@@ -307,6 +306,10 @@
     color: var(--secondary-color);
     transition: .5s;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+#single strong {
+    color: var(--light-violet-color);
 }
 
 /* Singlepage scroll progress start */

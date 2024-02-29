@@ -9,7 +9,7 @@ tags:
   - 'this'
   - Functions
   - Web Development
-image: /images/blackberry.webp
+image: /images/this.webp
 description: "Unlock the mysteries of the 'this' keyword in JavaScript with our in-depth guide, featuring detailed explanations and abundant code examples."
 toc: true
 ---
