@@ -3,7 +3,7 @@ title: "React Hooks"
 date: 2024-02-28
 draft: false
 author: "Walid"
-tags: ["React", "JavaScript", "Web Development", "Frontend"]
+tags: ["React", "JavaScript", "Web Development", "Frontend", "Hooks"]
 image: /images/react-hooks.webp
 description: "This guide explores the ins and outs of React Hooks, simplifying state management and lifecycle methods in functional components."
 toc: true

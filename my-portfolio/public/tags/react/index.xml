@@ -13,7 +13,7 @@
       <link>http://localhost:1313/blogs/react-hooks/</link>
       <pubDate>Wed, 28 Feb 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/blogs/react-hooks/</guid>
-      <description>Understanding React Hooks React Hooks represent a significant advancement in the way React applications are developed. Since their introduction in React 16.8, Hooks have revolutionized functional components, providing them with the capability to use state and other React features without writing a class. This guide delves into the core concepts of React Hooks, offering insights and code examples to enhance your understanding and application of these powerful features.&#xA;Introduction React Hooks offer a more direct API to the React concepts you already know: props, state, context, refs, and lifecycle.</description>
+      <description>Understanding React Hooks React Hooks represent a significant advancement in the way React applications are developed. Since their introduction in React 16.8, Hooks have revolutionized functional components, providing them with the capa bility to use state and other React features without writing a class. This guide delves into the core concepts of React Hooks, offering insights and code examples to enhance your understanding and application of these powerful features.&#xA;Introduction React Hooks offer a more direct API to the React concepts you already know: props, state, context, refs, and lifecycle.</description>
     </item>
     <item>
       <title>React Native: Learn once, run anywhere</title>
