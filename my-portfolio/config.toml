@@ -61,7 +61,7 @@ enableRobotsTXT = true
     subtitle = "Software Developer"
     content = """
     Proficient in front-end and back-end development, 
-    I concentrate on crafting efficient, scalable applications that deliver a good user experience.
+    I concentrate on developing efficient, scalable applications that deliver a good user experience.
     """
     image = "/digital-three-2.webp"
     [params.hero.button]
@@ -82,7 +82,7 @@ enableRobotsTXT = true
   enable = true
   title = "About Me"
   image = "laptop-pixel.webp"
-  content = "As a Web Developer, I aim to craft solutions that align with client/company needs and project goals, balancing user expectations with technical precision. My experience in front-end and back-end development contributes to the efficiency and scalability of applications. I thrive on multitasking and overcoming technical challenges to enhance performance. Committed to continual learning, I engage with the latest technologies to drive innovation. In doing so, I value collaborating closely with team members, always eager to learn from their expertise and contribute to our collective success."
+  content = "As a Web Developer, I focus on creating solutions that align with client and project needs, ensuring a balance between user experience and technical precision. Skilled in both front-end and back-end development, I enhance application efficiency and scalability. I excel in multitasking and resolving technical challenges to boost performance. Committed to continuous learning, I stay updated with the latest technologies to drive innovation. I value teamwork, eagerly learning from colleagues and contributing to our collective success."
 
 [params.about.skills]
   enable = true
@@ -120,8 +120,8 @@ enableRobotsTXT = true
   In my capacity as a Software Engineer at Mobi, I was involved in development tasks covering both front-end and back-end aspects. 
   
   My work in the front-end included developing user interfaces with React, Redux, and React Native, along with crafting the complete logic and ensuring seamless integration with the back-end. This approach resulted in creating functional, user-centric applications. 
-  
-  In the back-end, I utilized PHP, JavaScript, SQL to enhance system performance and stability. My role in API integrations and debugging focused on detailed investigation, identifying challenges, and implementing effective solutions.
+
+  In the back-end, I leveraged PHP, JavaScript, and SQL to improve system performance and stability. My work on API integrations and debugging emphasized thorough analysis, challenge identification, and the application of effective solutions.
   """
 
 
@@ -140,7 +140,7 @@ enableRobotsTXT = true
   
   A significant part of my role involved debugging, investigating, and solving system issues, utilizing tools like Splunk, Datadog, and Raygun for effective problem investigation and resolution. 
   
-  On the frontend, I tailored client websites to specific needs and to enhance user experience. This position required a combination of technical proficiency and problem-solving skills, ensuring robust and user-centric solutions for clients.
+  On the frontend, I customized client online platforms to specific needs and to enhance user experience. This position required a combination of technical proficiency and problem-solving skills, ensuring robust and user-centric solutions for clients.
   """
 
 
@@ -157,7 +157,7 @@ enableRobotsTXT = true
   
   I worked on customizing client platforms to meet specific needs and requirements, along with integrating products into CMS platforms to enhance content management efficiency.
 
-  Additionally, I contributed to developing comprehensive documentation, providing clear guidelines and support, which enhanced the efficiency and knowledge base of our team.
+  Additionally, I contributed to creating comprehensive documentation, providing clear guidelines and support to enhance our team's efficiency and knowledge base.
   """
 
 
@@ -208,7 +208,7 @@ enableRobotsTXT = true
   content = """
   Assisted in educational preparation and classroom management. Engaged in delivering computing lessons, enhancing students' technical skills and understanding. 
   
-  Served as a teacher for a relay class, which included students temporarily excluded or experiencing academic failure. 
+  Served as a teacher for a relay class, which included students temporarily excluded or experiencing academic failure.
   
   In this role, I adapted teaching methods and curricula to keep these students up to date with their programs, facilitating their smooth reintegration upon return to their regular classes.
   """
@@ -242,7 +242,7 @@ enableRobotsTXT = true
   title = "Mobi Quick Menu"
   badges = ["React", "Chakra UI", "API Integration", "Excel"]
   content = """
-  'Building on the Menu Extractor, Mobi Quick Menu is a React JS and Chakra UI application that includes API integrations. It keeps the core functions of its predecessor while introducing useful features such as Excel export for menus and a reverse-update function for existing menus, like price adjustments. This development has led to a reduction in manual errors and lowered resource use in menu management. The automation of key menu update processes offers efficient solutions for employees and convenient self-service for clients, serving the interests of all involved."""
+  'Mobi Quick Menu, developed with React JS and Chakra UI, builds upon the Menu Extractor's foundation, maintaining its essential features while introducing new tools that streamline menu updates and modifications. This advancement has minimized manual errors and reduced the resources required for menu management. By automating crucial menu update tasks, it provides efficient solutions for staff and convenient self-service options for clients, benefiting all parties involved."""
   image = "/images/projects/project-1.webp"
   [params.projects.items.featured]
     name = "Visit"
@@ -305,7 +305,7 @@ enableRobotsTXT = true
   image = "/images/projects/project-3.webp"
   [params.projects.items.featured]
     name = "Visit"
-    link = "https://example.com/project-3"
+    link = ""
   [[params.projects.items.links]]
     icon = "fa fa-envelope"
     url = "mailto:?subject=Portfolio&body=Check%20out%20my%20interactive%20and%20animated%20Portfolio:%20https%3A%2F%2Fexample.com%2Fproject-3"
@@ -325,7 +325,7 @@ enableRobotsTXT = true
   image = "/images/projects/project-4.webp"
   [params.projects.items.featured]
     name = "Visit"
-    link = "https://example.com/project-4"
+    link = ""
   [[params.projects.items.links]]
     icon = "fa fa-envelope"
     url = "mailto:?subject=Galaxy%20Surfing&body=Check%20it%20out:%20https%3A%2F%2Fexample.com%2Fproject-4"
@@ -344,7 +344,7 @@ enableRobotsTXT = true
   image = "/images/projects/french-in-toronto.webp"
   [params.projects.items.featured]
     name = "Visit"
-    link = "https://frenchies-in-toronto.example.com"
+    link = ""
   [[params.projects.items.links]]
     icon = "fa fa-envelope"
     url = "mailto:?subject=Frenchies%20in%20Toronto&body=Discover%20the%20diverse%20technical%20aspects%20of%20my%20blog%20project:%20https%3A%2F%2Ffrenchies-in-toronto.example.com"
@@ -363,7 +363,7 @@ enableRobotsTXT = true
   image = "/images/projects/project-5.webp"
   [params.projects.items.featured]
     name = "Visit"
-    link = "https://example.com/project-5"
+    link = ""
   [[params.projects.items.links]]
     icon = "fa fa-envelope"
     url = "mailto:?subject=Project%205%20-%20Movie%20à%20la%20Carte&body=Check%20it%20out:%20https%3A%2F%2Fexample.com%2Fproject-5"
@@ -382,7 +382,7 @@ enableRobotsTXT = true
   image = "/images/projects/project-7.webp"
   [params.projects.items.featured]
     name = "Visit"
-    link = "https://example.com/project-7"
+    link = ""
   [[params.projects.items.links]]
     icon = "fa fa-envelope"
     url = "mailto:?subject=Project%207&body=Explore%20my%20minimalist%20and%20efficient%20WordPress%20portfolio:%20https%3A%2F%2Fexample.com%2Fproject-7"
@@ -402,7 +402,7 @@ enableRobotsTXT = true
   image = "/images/projects/project-10.webp"
   [params.projects.items.featured]
     name = "Visit"
-    link = "https://example.com/project-10"
+    link = ""
   [[params.projects.items.links]]
     icon = "fa fa-envelope"
     url = "mailto:?subject=Project%2010%20-%20Avis%20GO&body=Check%20it%20out:%20https%3A%2F%2Fexample.com%2Fproject-10"
@@ -421,7 +421,7 @@ enableRobotsTXT = true
   image = "/images/projects/project-11.webp"
   [params.projects.items.featured]
     name = "Visit"
-    link = "https://example.com/project-11"
+    link = ""
   [[params.projects.items.links]]
     icon = "fa fa-envelope"
     url = "mailto:?subject=Project%2011%20-%20Autour%20d'un%20cafe&body=Check%20it%20out:%20https%3A%2F%2Fexample.com%2Fproject-11"
@@ -440,7 +440,7 @@ enableRobotsTXT = true
   image = "/images/projects/project-12.webp"
   [params.projects.items.featured]
     name = "Visit"
-    link = "https://example.com/project-12"
+    link = ""
   [[params.projects.items.links]]
     icon = "fa fa-envelope"
     url = "mailto:?subject=Project%2012&body=Check%20it%20out:%20https%3A%2F%2Fexample.com%2Fproject-12"
@@ -459,7 +459,7 @@ enableRobotsTXT = true
   image = "/images/projects/project-9.webp"
   [params.projects.items.featured]
     name = "Visit"
-    link = "https://example.com/project-9"
+    link = ""
   [[params.projects.items.links]]
     icon = "fa fa-envelope"
     url = "mailto:?subject=Office%20du%20tourisme%20de%20la%20ville%20de%20Strasbourg&body=Check%20it%20out:%20https%3A%2F%2Fexample.com%2Fproject-9"
