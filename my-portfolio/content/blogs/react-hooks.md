@@ -89,6 +89,65 @@ function Example() {
 }
 {{< /highlight >}}
 
+### Fetching Data from an API with useEffect
+
+This example demonstrates how to use `useEffect` to fetch data from an API and display it within a React component. We'll be fetching a list of posts from JSONPlaceholder, a free fake API for testing and prototyping.
+
+{{< highlight jsx >}}
+import React, { useState, useEffect } from 'react';
+
+function PostsComponent() {
+  // Step 1: Initialize state to hold the posts and loading status.
+  const [posts, setPosts] = useState([]);
+  const [isLoading, setIsLoading] = useState(true);
+
+  // Step 2: Create an async function to fetch posts from the API.
+  const fetchPosts = async () => {
+    setIsLoading(true); // Begin loading state.
+    try {
+      const response = await fetch('https://jsonplaceholder.typicode.com/posts');
+      if (!response.ok) {
+        throw new Error('Data could not be fetched!');
+      } else {
+        const data = await response.json(); // Convert the response to JSON.
+        setPosts(data); // Update the state with the fetched posts.
+      }
+    } catch (error) {
+      console.error('Fetching error:', error);
+    } finally {
+      setIsLoading(false); // End loading state regardless of the result.
+    }
+  };
+
+  // Step 3: Use the useEffect hook to call fetchPosts when the component mounts.
+  useEffect(() => {
+    fetchPosts();
+  }, []); // The empty array ensures this effect runs only once after the initial render.
+
+  // Step 4: Render the component.
+  return (
+    <div>
+      <h1>Posts</h1>
+      {isLoading ? (
+        <p>Loading...</p>
+      ) : (
+        <ul>
+          {posts.slice(0, 5).map(post => ( // Display only the first 5 posts for brevity.
+            <li key={post.id}>
+              <h2>{post.title}</h2>
+              <p>{post.body}</p>
+            </li>
+          ))}
+        </ul>
+      )}
+    </div>
+  );
+}
+{{< /highlight >}}
+
+This example fetches a list of posts from the JSONPlaceholder API when the component mounts. It uses `useState` to manage the posts and loading state, and `useEffect` to perform the side effect of fetching the data. The `isLoading` flag provides a way to display a loading indicator while the fetch operation is in progress, improving the user experience.
+
+
 ### Using useContext
 
 The `useContext` hook allows you to access the value of a context in your functional components. This can simplify sharing values like themes, user information, etc., across your components. Here's a simple example that toggles the theme of a component:

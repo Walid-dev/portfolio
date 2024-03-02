@@ -394,6 +394,58 @@ React Hooks | Walid&#39;s Portfolio
 </span></span><span style="display:flex;"><span>    &lt;/<span style="color:#f92672">div</span>&gt;
 </span></span><span style="display:flex;"><span>  );
 </span></span><span style="display:flex;"><span>}</span></span></code></pre></div>
+<h3 id="fetching-data-from-an-api-with-useeffect">Fetching Data from an API with useEffect</h3>
+<p>This example demonstrates how to use <code>useEffect</code> to fetch data from an API and display it within a React component. We&rsquo;ll be fetching a list of posts from JSONPlaceholder, a free fake API for testing and prototyping.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-jsx" data-lang="jsx"><span style="display:flex;"><span><span style="color:#66d9ef">import</span> <span style="color:#a6e22e">React</span>, { <span style="color:#a6e22e">useState</span>, <span style="color:#a6e22e">useEffect</span> } <span style="color:#a6e22e">from</span> <span style="color:#e6db74">&#39;react&#39;</span>;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">function</span> <span style="color:#a6e22e">PostsComponent</span>() {
+</span></span><span style="display:flex;"><span>  <span style="color:#75715e">// Step 1: Initialize state to hold the posts and loading status.
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>  <span style="color:#66d9ef">const</span> [<span style="color:#a6e22e">posts</span>, <span style="color:#a6e22e">setPosts</span>] <span style="color:#f92672">=</span> <span style="color:#a6e22e">useState</span>([]);
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">const</span> [<span style="color:#a6e22e">isLoading</span>, <span style="color:#a6e22e">setIsLoading</span>] <span style="color:#f92672">=</span> <span style="color:#a6e22e">useState</span>(<span style="color:#66d9ef">true</span>);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#75715e">// Step 2: Create an async function to fetch posts from the API.
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>  <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">fetchPosts</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">async</span> () =&gt; {
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">setIsLoading</span>(<span style="color:#66d9ef">true</span>); <span style="color:#75715e">// Begin loading state.
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#66d9ef">try</span> {
+</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">response</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">await</span> <span style="color:#a6e22e">fetch</span>(<span style="color:#e6db74">&#39;https://jsonplaceholder.typicode.com/posts&#39;</span>);
+</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">if</span> (<span style="color:#f92672">!</span><span style="color:#a6e22e">response</span>.<span style="color:#a6e22e">ok</span>) {
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">throw</span> <span style="color:#66d9ef">new</span> Error(<span style="color:#e6db74">&#39;Data could not be fetched!&#39;</span>);
+</span></span><span style="display:flex;"><span>      } <span style="color:#66d9ef">else</span> {
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">data</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">await</span> <span style="color:#a6e22e">response</span>.<span style="color:#a6e22e">json</span>(); <span style="color:#75715e">// Convert the response to JSON.
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>        <span style="color:#a6e22e">setPosts</span>(<span style="color:#a6e22e">data</span>); <span style="color:#75715e">// Update the state with the fetched posts.
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>      }
+</span></span><span style="display:flex;"><span>    } <span style="color:#66d9ef">catch</span> (<span style="color:#a6e22e">error</span>) {
+</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">error</span>(<span style="color:#e6db74">&#39;Fetching error:&#39;</span>, <span style="color:#a6e22e">error</span>);
+</span></span><span style="display:flex;"><span>    } <span style="color:#66d9ef">finally</span> {
+</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">setIsLoading</span>(<span style="color:#66d9ef">false</span>); <span style="color:#75715e">// End loading state regardless of the result.
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    }
+</span></span><span style="display:flex;"><span>  };
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#75715e">// Step 3: Use the useEffect hook to call fetchPosts when the component mounts.
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>  <span style="color:#a6e22e">useEffect</span>(() =&gt; {
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">fetchPosts</span>();
+</span></span><span style="display:flex;"><span>  }, []); <span style="color:#75715e">// The empty array ensures this effect runs only once after the initial render.
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>
+</span></span><span style="display:flex;"><span>  <span style="color:#75715e">// Step 4: Render the component.
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>  <span style="color:#66d9ef">return</span> (
+</span></span><span style="display:flex;"><span>    &lt;<span style="color:#f92672">div</span>&gt;
+</span></span><span style="display:flex;"><span>      &lt;<span style="color:#f92672">h1</span>&gt;<span style="color:#a6e22e">Posts</span>&lt;/<span style="color:#f92672">h1</span>&gt;
+</span></span><span style="display:flex;"><span>      {<span style="color:#a6e22e">isLoading</span> <span style="color:#f92672">?</span> (
+</span></span><span style="display:flex;"><span>        &lt;<span style="color:#f92672">p</span>&gt;<span style="color:#a6e22e">Loading</span>...&lt;/<span style="color:#f92672">p</span>&gt;
+</span></span><span style="display:flex;"><span>      ) <span style="color:#f92672">:</span> (
+</span></span><span style="display:flex;"><span>        &lt;<span style="color:#f92672">ul</span>&gt;
+</span></span><span style="display:flex;"><span>          {<span style="color:#a6e22e">posts</span>.<span style="color:#a6e22e">slice</span>(<span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">5</span>).<span style="color:#a6e22e">map</span>(<span style="color:#a6e22e">post</span> =&gt; ( <span style="color:#75715e">// Display only the first 5 posts for brevity.
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>            &lt;<span style="color:#f92672">li</span> <span style="color:#a6e22e">key</span><span style="color:#f92672">=</span>{<span style="color:#a6e22e">post</span>.<span style="color:#a6e22e">id</span>}&gt;
+</span></span><span style="display:flex;"><span>              &lt;<span style="color:#f92672">h2</span>&gt;{<span style="color:#a6e22e">post</span>.<span style="color:#a6e22e">title</span>}&lt;/<span style="color:#f92672">h2</span>&gt;
+</span></span><span style="display:flex;"><span>              &lt;<span style="color:#f92672">p</span>&gt;{<span style="color:#a6e22e">post</span>.<span style="color:#a6e22e">body</span>}&lt;/<span style="color:#f92672">p</span>&gt;
+</span></span><span style="display:flex;"><span>            &lt;/<span style="color:#f92672">li</span>&gt;
+</span></span><span style="display:flex;"><span>          ))}
+</span></span><span style="display:flex;"><span>        &lt;/<span style="color:#f92672">ul</span>&gt;
+</span></span><span style="display:flex;"><span>      )}
+</span></span><span style="display:flex;"><span>    &lt;/<span style="color:#f92672">div</span>&gt;
+</span></span><span style="display:flex;"><span>  );
+</span></span><span style="display:flex;"><span>}</span></span></code></pre></div>
+<p>This example fetches a list of posts from the JSONPlaceholder API when the component mounts. It uses <code>useState</code> to manage the posts and loading state, and <code>useEffect</code> to perform the side effect of fetching the data. The <code>isLoading</code> flag provides a way to display a loading indicator while the fetch operation is in progress, improving the user experience.</p>
 <h3 id="using-usecontext">Using useContext</h3>
 <p>The <code>useContext</code> hook allows you to access the value of a context in your functional components. This can simplify sharing values like themes, user information, etc., across your components. Here&rsquo;s a simple example that toggles the theme of a component:</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-jsx" data-lang="jsx"><span style="display:flex;"><span><span style="color:#66d9ef">import</span> <span style="color:#a6e22e">React</span>, { <span style="color:#a6e22e">useContext</span>, <span style="color:#a6e22e">useState</span> } <span style="color:#a6e22e">from</span> <span style="color:#e6db74">&#39;react&#39;</span>;
@@ -535,6 +587,7 @@ React Hooks | Walid&#39;s Portfolio
       <ul>
         <li><a href="#using-usestate">Using useState</a></li>
         <li><a href="#using-useeffect">Using useEffect</a></li>
+        <li><a href="#fetching-data-from-an-api-with-useeffect">Fetching Data from an API with useEffect</a></li>
         <li><a href="#using-usecontext">Using useContext</a></li>
         <li><a href="#using-usereducer">Using useReducer</a></li>
       </ul>

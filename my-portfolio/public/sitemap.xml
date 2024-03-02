@@ -35,6 +35,9 @@
     <loc>http://localhost:1313/tags/frontend/</loc>
     <lastmod>2024-02-28T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/tags/hooks/</loc>
+    <lastmod>2024-02-28T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/blogs/docker/</loc>
     <lastmod>2024-02-28T00:00:00+00:00</lastmod>
   </url><url>
@@ -129,9 +132,6 @@
     <lastmod>2024-02-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/coding/</loc>
-    <lastmod>2024-02-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/hooks/</loc>
     <lastmod>2024-02-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blogs/javascript-intro/</loc>
