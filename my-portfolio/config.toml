@@ -290,9 +290,6 @@ enableRobotsTXT = true
   [[params.projects.items.links]]
     icon = "fab fa-github"
     url = "https://github.com/Walid-dev"
-  [[params.projects.items.links]]
-    icon = "fab fa-twitter"
-    url = "https://twitter.com/"
 
 
 # Project 3
