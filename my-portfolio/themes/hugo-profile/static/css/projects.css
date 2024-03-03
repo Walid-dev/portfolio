@@ -59,6 +59,10 @@
 #projects .float-end .btn {
     transition: none;
     border-radius: .5rem !important;
+<<<<<<< HEAD
+=======
+    border-color: 1px solid var(--text-color) !important;
+>>>>>>> production
 }
 
 #projects .float-end .btn:focus {

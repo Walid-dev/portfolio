@@ -150,26 +150,38 @@ Polymorphism | Walid&#39;s Portfolio
 
 <script>
     var prevScrollPos = window.pageYOffset;
+
     window.addEventListener("scroll", function showHeaderOnScroll() {
-        let profileHeaderElem = document.getElementById("profileHeader");
-        let currentScrollPos = window.pageYOffset;
-        let resetHeaderStyle = false;
-        let showNavBarOnScrollUp =  true ;
-        let showNavBar = showNavBarOnScrollUp ? prevScrollPos > currentScrollPos : currentScrollPos > 0;
-        if (showNavBar) {
-            profileHeaderElem.classList.add("showHeaderOnTop");
+        
+        if (window.innerWidth > 990) {
+            let profileHeaderElem = document.getElementById("profileHeader");
+            let currentScrollPos = window.pageYOffset;
+            let resetHeaderStyle = false;
+            let showNavBarOnScrollUp = true;
+            let showNavBar = showNavBarOnScrollUp ? prevScrollPos > currentScrollPos : currentScrollPos > 0;
+            
+            if (showNavBar) {
+                profileHeaderElem.classList.add("showHeaderOnTop");
+            } else {
+                resetHeaderStyle = true;
+            }
+
+            if (currentScrollPos === 0) {
+                resetHeaderStyle = true;
+            }
+
+            if (resetHeaderStyle) {
+                profileHeaderElem.classList.remove("showHeaderOnTop");
+            }
+
+            prevScrollPos = currentScrollPos;
         } else {
-            resetHeaderStyle = true;
+            
+            document.getElementById("profileHeader").classList.add("showHeaderOnTop");
         }
-        if(currentScrollPos === 0) {
-            resetHeaderStyle = true;
-        }
-        if(resetHeaderStyle) {
-            profileHeaderElem.classList.remove("showHeaderOnTop");
-        }
-        prevScrollPos = currentScrollPos;        
     });
 </script>
+
 
 
 
@@ -206,7 +218,7 @@ Polymorphism | Walid&#39;s Portfolio
                     
                         <li class="nav-item navbar-text d-block d-md-none">
                             <div class="nav-link">
-                                <input id="search" autocomplete="off" class="form-control mr-sm-2" placeholder='Ctrl &#43; k to Search...' aria-label="Search" oninput="searchOnChange(event)">
+                                <input id="search" autocomplete="off" class="form-control mr-sm-2" placeholder='Search...' aria-label="Search" oninput="searchOnChange(event)">
                             </div>
                         </li>
                     

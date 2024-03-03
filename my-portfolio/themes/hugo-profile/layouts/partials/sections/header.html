@@ -23,26 +23,38 @@
 {{ $showNavBarOnScrollUp := .Site.Params.navbar.stickyNavBar.showOnScrollUp | default false }}
 <script>
     var prevScrollPos = window.pageYOffset;
+
     window.addEventListener("scroll", function showHeaderOnScroll() {
-        let profileHeaderElem = document.getElementById("profileHeader");
-        let currentScrollPos = window.pageYOffset;
-        let resetHeaderStyle = false;
-        let showNavBarOnScrollUp = {{ $showNavBarOnScrollUp }};
-        let showNavBar = showNavBarOnScrollUp ? prevScrollPos > currentScrollPos : currentScrollPos > 0;
-        if (showNavBar) {
-            profileHeaderElem.classList.add("showHeaderOnTop");
+        // Only execute the code if the screen width is more than 990px
+        if (window.innerWidth > 990) {
+            let profileHeaderElem = document.getElementById("profileHeader");
+            let currentScrollPos = window.pageYOffset;
+            let resetHeaderStyle = false;
+            let showNavBarOnScrollUp = true;
+            let showNavBar = showNavBarOnScrollUp ? prevScrollPos > currentScrollPos : currentScrollPos > 0;
+            
+            if (showNavBar) {
+                profileHeaderElem.classList.add("showHeaderOnTop");
+            } else {
+                resetHeaderStyle = true;
+            }
+
+            if (currentScrollPos === 0) {
+                resetHeaderStyle = true;
+            }
+
+            if (resetHeaderStyle) {
+                profileHeaderElem.classList.remove("showHeaderOnTop");
+            }
+
+            prevScrollPos = currentScrollPos;
         } else {
-            resetHeaderStyle = true;
+            // For screens less than or equal to 990px, ensure the header is always visible
+            document.getElementById("profileHeader").classList.add("showHeaderOnTop");
         }
-        if(currentScrollPos === 0) {
-            resetHeaderStyle = true;
-        }
-        if(resetHeaderStyle) {
-            profileHeaderElem.classList.remove("showHeaderOnTop");
-        }
-        prevScrollPos = currentScrollPos;        
     });
 </script>
+
 {{ end }}
 
 <!-- Navbar -->
@@ -81,7 +93,7 @@
                     {{ if not (.Site.Params.navbar.disableSearch | default false) }}
                         <li class="nav-item navbar-text d-block d-md-none">
                             <div class="nav-link">
-                                <input id="search" autocomplete="off" class="form-control mr-sm-2" placeholder='{{ .Site.Params.navbar.searchPlaceholder | default "Ctrl + k to Search..."}}' aria-label="Search" oninput="searchOnChange(event)">
+                                <input id="search" autocomplete="off" class="form-control mr-sm-2" placeholder='{{ .Site.Params.navbar.searchPlaceholder | default "Search..."}}' aria-label="Search" oninput="searchOnChange(event)">
                             </div>
                         </li>
                     {{ end }}
