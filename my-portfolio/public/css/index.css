@@ -98,12 +98,12 @@ header .navbar.animate {
 }
 
 #hero h2 {
-    font-size: clamp(40px, 8vw, 80px);
+    font-size: clamp(20px, 4vw, 40px);
     color: var(--primary-color) !important;
 }
 
 #hero h3 {
-    font-size: clamp(40px, 8vw, 60px);
+    font-size: clamp(20px, 2vw, 30px);
     /* color: var(--primary-color) !important; */
     opacity: 0.5;
 }
@@ -159,8 +159,9 @@ header .navbar.animate {
 }
 
 #hero a.btn {
+    font-size: .8em ;
     margin-top: 50px;
-    padding: 0.7rem 1.75rem;
+    padding: 0.5rem 1.45rem;
     border: 1px solid var(--primary-color);
     color: var(--text-color) !important;
     border-radius: .75rem;

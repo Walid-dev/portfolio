@@ -60,7 +60,7 @@
 <!-- Navbar -->
 <header id="profileHeader">
     <nav class="pt-3 navbar navbar-expand-lg {{ if .Site.Params.animate }}animate{{ end }}">
-        <div class="container-fluid mx-xs-2 mx-sm-5 mx-md-5 mx-lg-5">
+        <div class="container-fluid mx-xs-12 mx-sm-12 mx-md-12 mx-lg-8">
             <!-- navbar brand -->
             <a class="navbar-brand primary-font text-wrap" href="{{ .Site.BaseURL | relURL }}">
                 {{ if and (or (.Site.Params.favicon) (.Site.Params.navbar.brandLogo)) .Site.Params.navbar.showBrandLogo | default true }}
@@ -73,7 +73,7 @@
             </a>
 
             {{ if not (.Site.Params.navbar.disableSearch | default false) }}
-                <div>
+                <div class="flex-grow-1 flex-nowrap">
                     <input id="search" autocomplete="off" class="form-control mr-sm-2 mt-1 d-none d-md-block" placeholder='{{ .Site.Params.navbar.searchPlaceholder | default "Search..."}}'
                         aria-label="Search" oninput="searchOnChange(event)">
                 </div>
