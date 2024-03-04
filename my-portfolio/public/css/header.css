@@ -72,7 +72,7 @@ li > .dropdown-toggle:focus{
     background-color: var(--secondary-color);
     color: var(--text-color);
     /* border-color: var(--background-color) !important; */
-    border: 1px solid #8752cec9 !important;
+    border: 1px solid #d301f180 !important;
     transition: none;
     font-size: .7rem;
 }

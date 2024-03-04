@@ -308,6 +308,18 @@
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
 }
 
+#single p strong{
+    color: #A6E12E;
+}
+
+#single ul  {
+    font-size: .85em;
+}
+
+#single ul li strong{
+    color: var(--light-violet-color) !important;
+}
+
 /* Singlepage scroll progress start */
 .progress {
     position: fixed;
