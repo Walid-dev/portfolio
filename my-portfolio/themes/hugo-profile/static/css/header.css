@@ -20,6 +20,7 @@ header .navbar .navbar-nav a {
 }
 
 .navbar-toggler {
+    line-height: 1.5 !important;
     border: none;
     outline: none;
     color: var(--text-color);

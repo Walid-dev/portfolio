@@ -25,7 +25,15 @@
     position: absolute !important;
     top: 18px;
     left: 190px;
+    max-width: 120px !important;
+
   }
+
+  /* .navbar-nav .nav-item:last-child {
+    position: absolute !important;
+    right: 60px !important;
+    top: 30px !important;
+} */
 
   button#theme-toggle {
     font-size: unset !important;
@@ -98,8 +106,12 @@
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 390px) {
   .navbar-nav .nav-item:nth-child(1) {
     position: unset !important;
   }
+
+  /* .navbar-nav .nav-item:last-child {
+    position: unset !important;
+  }     */
 }
