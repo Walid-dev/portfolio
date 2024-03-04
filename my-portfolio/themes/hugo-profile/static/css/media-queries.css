@@ -111,6 +111,10 @@
     position: unset !important;
   }
 
+  #search-content {
+    left: 20px !important;
+  }
+
   /* .navbar-nav .nav-item:last-child {
     position: unset !important;
   }     */
