@@ -106,7 +106,7 @@
   }
 }
 
-@media (max-width: 200px) {
+@media (max-width: 480px) {
   .navbar-nav .nav-item:nth-child(1) {
     position: unset !important;
   }
