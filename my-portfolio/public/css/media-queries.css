@@ -22,7 +22,9 @@
   }
 
   .navbar-nav .nav-item:nth-child(1) {
-    max-width: 120px !important;
+    position: absolute !important;
+    top: 18px;
+    left: 190px;
   }
 
   button#theme-toggle {
@@ -93,5 +95,11 @@
 
   #hero .img-thumbnail {
     margin-top: 40px;
+  }
+}
+
+@media (max-width: 400px) {
+  .navbar-nav .nav-item:nth-child(1) {
+    position: unset !important;
   }
 }
