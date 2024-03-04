@@ -312,10 +312,6 @@
     color: #A6E12E;
 }
 
-#single ul  {
-    font-size: .85em;
-}
-
 #single ul li strong{
     color: var(--light-violet-color) !important;
 }
