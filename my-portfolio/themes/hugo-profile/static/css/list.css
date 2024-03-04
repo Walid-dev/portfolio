@@ -35,7 +35,7 @@
 #list-page .post-footer a {
     background-color: var(--secondary-color) !important;
     color: var(--text-secondary-color) !important;
-    border-color: var(--primary-color) !important;
+    border-color: var(--faded-aqua-color) !important;
     transition: none;
 }
 

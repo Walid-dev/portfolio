@@ -59,7 +59,7 @@
 #projects .float-end .btn {
     transition: none;
     border-radius: .5rem !important;
-    border-color: 1px solid var(--text-color) !important;
+    border-color: 1px solid  var(--faded-aqua-color) !important;
 }
 
 #projects .float-end .btn:focus {

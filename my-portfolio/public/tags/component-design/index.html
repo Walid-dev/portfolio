@@ -56,6 +56,11 @@
 <link rel="stylesheet" href="/css/theme.css" media="all">
 
 
+<link rel="stylesheet" href="/css/media-queries.css" media="all">
+
+
+
+
 
 
 <style>
@@ -77,6 +82,8 @@
         --secondary-background-color-dark: #1d1d1f;
         --primary-color-dark: #ffffff;
         --secondary-color-dark: #212529;
+        --faded-aqua-color: #28d9fa;
+
 
     }
     body {
@@ -187,7 +194,7 @@ Component Design | Walid&#39;s Portfolio
 
 <header id="profileHeader">
     <nav class="pt-3 navbar navbar-expand-lg animate">
-        <div class="container-fluid mx-xs-2 mx-sm-5 mx-md-5 mx-lg-5">
+        <div class="container-fluid mx-xs-12 mx-sm-12 mx-md-12 mx-lg-8">
             
             <a class="navbar-brand primary-font text-wrap" href="/">
                 
@@ -198,7 +205,7 @@ Component Design | Walid&#39;s Portfolio
             </a>
 
             
-                <div>
+                <div class="flex-grow-1 flex-nowrap">
                     <input id="search" autocomplete="off" class="form-control mr-sm-2 mt-1 d-none d-md-block" placeholder='Search...'
                         aria-label="Search" oninput="searchOnChange(event)">
                 </div>
