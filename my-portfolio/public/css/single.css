@@ -119,6 +119,7 @@
   background-color: var(--secondary-color) !important;
   color: var(--text-secondary-color) !important;
   max-height: 600px;
+  font-size: .7em !important;
 }
 
 #single .page-content pre > code {

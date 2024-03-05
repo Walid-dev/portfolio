@@ -59,10 +59,7 @@ enableRobotsTXT = true
     intro = "Hi, I'm"
     title = "Walid."
     subtitle = "Software Developer"
-    content = """
-    Proficient in front-end and back-end development, 
-    I concentrate on developing efficient, scalable applications that deliver a good user experience.
-    """
+    content = "Proficient in front-end and back-end development, I concentrate on developing efficient, scalable applications that deliver a good user experience."
     image = "/digital-three-2.webp"
     [params.hero.button]
       enable = true

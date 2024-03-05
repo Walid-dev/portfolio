@@ -55,6 +55,25 @@ header .navbar.animate {
     animation: fade-up 0.5s ease-in;
 }
 
+
+/* General */
+
+h3 {
+    font-size: 1.4em;
+}
+
+h4 {
+    font-size: 1em !important;
+}
+
+p {
+    font-size: 0.9em;
+}
+
+li {
+    font-size: 0.85em;
+}
+
 /* ToolTip */
 
 .tooltip {
@@ -317,11 +336,16 @@ header .navbar.animate {
 }
 
 #experience .badge{
+    opacity: 0.8;
+    color: var(--text-color) !important;
     background-color: var(--background-color) !important;
-    color: var(--primary-color) !important;
-    margin: 4px !important;
-    padding: 0.6rem 0.9rem !important;
+    margin: 1% !important;
+    padding: 0.5rem 0.6rem !important;
     cursor: pointer;
+}
+
+#experience .badge:hover {
+    opacity: 1;
 }
 
 .badge-link:hover {
@@ -358,7 +382,7 @@ header .navbar.animate {
     color: var(--primary-color) !important;
 }
 
-#experience a::after {
+/* #experience a::after {
     content: "";
     display: block;
     width: 0px;
@@ -371,7 +395,7 @@ header .navbar.animate {
 
 #experience a:hover::after, #experience a:focus::after, #experience a:active::after {
     width: 100%;
-}
+} */
 
 #experience .experience-container .tab-content .tab-pane ul {
     overflow: hidden;

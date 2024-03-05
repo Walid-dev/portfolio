@@ -11,15 +11,17 @@
 }
 
 #projects .badge {
-    background-color: var(--background-color) !important;
+    opacity: 0.8;
     color: var(--text-color) !important;
+    background-color: var(--background-color) !important;
     margin: 1% !important;
-    padding: .5rem .6rem !important;
+    padding: 0.5rem 0.6rem !important;
+    font-weight: lighter !important;
     cursor: pointer;
 }
 
 #projects .badge:hover {
-    opacity: 0.8;
+    opacity: 1;
 }
 
 #projects .card {
@@ -93,8 +95,8 @@
     transition: transform 0.25s ease-out, background-color 0.25s ease-out;
 }
 
-#projects .card:hover .card-title::after {
-    background-color: #ffffffa3; /* Visible on hover */
-    transform: scaleX(1);
-    transform-origin: bottom left;
-}
+    #projects .card:hover .card-title::after {
+        background-color: #ffffffa3; /* Visible on hover */
+        transform: scaleX(1);
+        transform-origin: bottom left;
+    }
