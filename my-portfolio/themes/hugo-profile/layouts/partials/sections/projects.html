@@ -11,7 +11,7 @@
                     </div>
                     <div class="card-body bg-transparent p-3">
                         <h5 class="card-title bg-transparent mt-1">{{ .title }}</h5>
-                        <div class="card-text bg-transparent secondary-font">
+                        <div class="card-text not-expanded bg-transparent secondary-font">
                             {{ .content }}
                         </div>
                         <div class="pt-4 bg-transparent">
@@ -52,4 +52,27 @@
         </div>
     </div>
 </section>
+
+<script>
+    // Select all elements with the class 'card-text'
+    let cards = document.querySelectorAll('.card-text');
+
+    // Function to toggle between 'card-text' and 'expanded' classes
+    function toggleExpand() {
+      if (this.classList.contains('not-expanded')) {
+        this.classList.remove('not-expanded');
+        this.classList.add('expanded');
+      } else {
+        this.classList.remove('expanded');
+        this.classList.add('not-expanded');
+      }
+    }
+
+    // Add click event listener to each card
+    cards.forEach(function(card) {
+      card.addEventListener('click', toggleExpand);
+    });
+</script>
+
+  
 {{ end }}

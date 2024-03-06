@@ -90,7 +90,7 @@ li {
 /* hero */
 
 #hero {
-    min-height: 100vh;
+    min-height: 75vh;
     line-height: 2rem;
     max-width: 100%;
 }
@@ -237,7 +237,6 @@ li {
 #about .image img {
     padding: 0;
     border: none !important;
-    max-width: 300px;
 }
 
 #about ul {
