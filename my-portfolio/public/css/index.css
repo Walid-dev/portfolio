@@ -74,6 +74,38 @@ li {
     font-size: 0.85em;
 }
 
+/* General */
+
+h5 {
+    font-size: 1.1em !important;
+  }
+  
+  h6 {
+    font-size: 1.1em !important;
+  }
+  
+  a.btn {
+    font-size: .9em !important;
+  }
+  
+  ul li {
+    font-size: .85em !important;
+  }
+  
+  #projects .card-text {
+    font-size: .9em !important;
+  }
+  
+  .card {
+    font-size: .85em !important;
+  }
+  
+  #copyright {
+    font-size: .75em !important;
+  
+  }
+  
+
 /* ToolTip */
 
 .tooltip {
@@ -341,6 +373,7 @@ li {
     margin: 1% !important;
     padding: 0.5rem 0.6rem !important;
     cursor: pointer;
+    font-size: 0.75em !important;
 }
 
 #experience .badge:hover {
@@ -649,3 +682,17 @@ li {
     box-shadow: 0px 8px 56px rgb(15 80 100 / 16%);
     cursor: pointer;
 }
+
+
+  /* Expanded state, showing all text */
+  .expanded {
+    -webkit-line-clamp: initial; /* Remove line clamping */
+    display: block;
+  }
+  
+  .not-expanded {
+    -webkit-line-clamp: 3; /* Number of lines you want to display */
+    display: -webkit-box;
+    -webkit-box-orient: vertical; /* Essential for line clamp to work */
+  }
+  

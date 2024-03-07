@@ -25,6 +25,9 @@
 }
 
 #list-page .post-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     padding: .5rem 1rem;
     background-color: var(--secondary-color) !important;
     color: var(--text-color) !important;

@@ -210,7 +210,7 @@
     background-color: var(--background-color);
     text-decoration: none;
     color: var(--text-color);
-    font-size: .8em;
+    font-size: .75em;
 }
 
 #single aside.tags ul.tags-ul li {
@@ -241,7 +241,6 @@
 }
 
 #single aside.toc .toc-content ol li a, #single aside.toc .toc-content ul li a {
-    font-size: .85em;
     color: var(--text-color);
     opacity: 0.9;
 }
@@ -279,7 +278,7 @@
 
 #single aside.social .social-content ul li a {
     border: 1px solid var(--primary-color);
-    padding: .7rem;
+    padding: .6rem;
     color: var(--text-color);
     border-radius: 10px;
     overflow: hidden;

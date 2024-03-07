@@ -1,42 +1,5 @@
 /* Media query 992px */
 
-/* General */
-
-h5 {
-  font-size: 1.1em !important;
-}
-
-h6 {
-  font-size: 1.1em !important;
-}
-
-a {
-  font-size: .9em !important;
-}
-
-a.btn {
-  font-size: .9em !important;
-}
-
-ul li {
-  font-size: .85em !important;
-}
-
-#projects .card-text {
-  font-size: .9em !important;
-}
-
-.card {
-  font-size: .85em !important;
-}
-
-#copyright {
-  font-size: .75em !important;
-
-}
-
-/* Navbar */
-
 @media (max-width: 992px) {
   .navbar-nav {
     flex-direction: row;
@@ -47,7 +10,7 @@ ul li {
 
   .navbar-nav .nav-item:not(:first-child) .nav-link {
     margin: 0px 4px;
-    font-size: 0.8em !important;
+    font-size: 0.65em !important;
     font-weight: 400 !important;
     text-transform: uppercase;
     border: 1px solid #ffffff3d !important;
@@ -64,11 +27,11 @@ ul li {
 
   }
 
-  /* .navbar-nav .nav-item:last-child {
+  .navbar-nav .nav-item:last-child {
     position: absolute !important;
-    right: 60px !important;
-    top: 30px !important;
-} */
+    top: 28px;
+    right: 70px;
+}
 
   button#theme-toggle {
     font-size: unset !important;
@@ -89,7 +52,7 @@ ul li {
   }
 
   p {
-    font-size: 0.9rem !important;
+    font-size: 0.8rem !important;
   }
 
   #articleInfo {
@@ -109,7 +72,7 @@ ul li {
   }
 
   ul {
-    font-size: 0.85rem !important;
+    font-size: 1em !important;
   }
 
   aside.toc .toc-content ul li a {
@@ -141,15 +104,11 @@ ul li {
   }
 
   h5 {
-    font-size: 1.1em !important;
+    font-size: 1.35em !important;
   }
   
   h6 {
     font-size: 1.1em !important;
-  }
-  
-  a {
-    font-size: .75em !important;
   }
   
   a.btn {
@@ -164,13 +123,17 @@ ul li {
     font-size: .9em !important;
   }
   
-  .card {
-    font-size: .85em !important;
-  }
-  
   #copyright {
     font-size: .75em !important;
   
+  }
+
+  .post-footer {
+    font-size: 0.8rem !important;
+  }
+
+  #experience .badge {
+    font-size: 0.75em !important;
   }
   
 }
