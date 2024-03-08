@@ -2,21 +2,25 @@
 <section id="about" class="py-0 py-sm-5">
   <div class="container bg-transparent">
     <h3 class="text-center bg-transparent">{{ .Site.Params.about.title }}</h3>
-    <div class="bg-transparent row justify-content-center align-items-center px-3 py-2">
-      {{ if .Site.Params.about.image }}
-      <div class="col-9 col-sm-8 col-md-8 col-lg-4 mb-2 mt-3 mb-sm-0 mb-md-5 mb-lg-0 d-md-block">
-        <div class="image d-flex px-5">
-          <img src="{{ .Site.Params.about.image }}" class="img-thumbnail rounded-circle mx-auto" width="220px" alt="" />
-        </div>
-      </div>
-      {{ end }}
+    <div class="col-lg-12 bg-transparent row justify-content-center align-items-center px-3 py-2">
+      
+      <div class="col-md-10 col-lg-12 my-4 content">
+        <div class="d-flex flex-wrap align-items-center justify-content-center"> <!-- Add flex-wrap to ensure wrapping on smaller screens -->
+          {{ if .Site.Params.about.image }}
+          <div class="col-12 col-lg-4 col-md-10 col-sm-12 mr-2">
+            <div class="image d-flex px-5 col-10 mx-auto col-mb-3">
+              <img src="{{ .Site.Params.about.image }}" class="img-thumbnail rounded-circle mx-auto" alt="" style="max-width: 100%; height: auto;" /> <!-- Ensure responsiveness -->
+            </div>
+          </div>
+          {{ end }}
+          <div class="col-12 col-lg-8 col-md-10 col-sm-12"> <!-- Adjusted for remaining space -->
+            <p class="about-content primary-font">
+              {{ .Site.Params.about.content }}
+            </p>
+          </div>
+        </div>        
 
-      <div class="col-sm-12 col-md-12 col-lg-8 mt-4 content">
-        <p class="about-content primary-font">
-            {{ .Site.Params.about.content }}
-        </p>
-
-        <div class="row mt-4 pt-3">
+        <div class="row mt-5 pt-3 col-lg-10 mx-auto">
           {{ if .Site.Params.about.skills.enable }}
           <div class="col-md-6 mt-4">
             <h4 class="about-section-title">{{ .Site.Params.about.skills.title }}</h4>
