@@ -277,7 +277,8 @@ h5 {
 }
 
 #about ul li {
-    font-size: .9rem;
+    font-size: .8em;
+    opacity: .8;
     position: relative;
     margin-bottom: 10px;
     padding-left: 20px;
