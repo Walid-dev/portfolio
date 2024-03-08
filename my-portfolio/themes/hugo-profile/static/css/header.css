@@ -68,7 +68,7 @@ li > .dropdown-toggle:focus{
 }
 
 #search {
-    max-width: 180px;
+    max-width: 160px;
     border-radius: 1rem !important;
     background-color: var(--secondary-color);
     color: var(--text-color);

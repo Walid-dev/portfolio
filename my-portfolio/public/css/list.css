@@ -11,10 +11,6 @@
     text-decoration: none;
 }
 
-#list-page h2 {
-    display: none !important;
-}
-
 #list-page .card a h5 {
     color: var(--text-color) !important;
 }
@@ -26,7 +22,6 @@
 
 #list-page .card-text * {
     background-color: var(--secondary-color) !important;
-    font-size: .9em !important;
 }
 
 #list-page .post-footer {
