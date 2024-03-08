@@ -1,11 +1,11 @@
 {{ if .Site.Params.about.enable | default false }}
 <section id="about" class="py-0 py-sm-5">
-  <div class="container bg-transparent">
+  <div class="bg-transparent">
     <h3 class="text-center bg-transparent">{{ .Site.Params.about.title }}</h3>
     <div class="col-lg-12 bg-transparent row justify-content-center align-items-center px-3 py-2">
       
       <div class="col-md-10 col-lg-12 content">
-        <div class="d-flex flex-wrap align-items-center justify-content-center flex-wrap-reverse"> <!-- Add flex-wrap to ensure wrapping on smaller screens -->
+        <div class="d-flex flex-wrap align-items-center justify-content-around flex-wrap-reverse"> <!-- Add flex-wrap to ensure wrapping on smaller screens -->
           {{ if .Site.Params.about.image }}
           <div class="col-12 col-lg-4 col-md-10 col-sm-12 mr-2 mt-5">
             <div class="image d-flex px-5 col-10 mx-auto col-mb-3">
@@ -20,7 +20,7 @@
           </div>
         </div>        
       </div>
-      <div id="skillsAndTools" class="row py-5 mt-5 col-md-12">
+      <div id="skillsAndTools" class="row py-5 mt-5 col-md-10">
         {{ if .Site.Params.about.skills.enable }}
         <div class="col-md-6 mt-4">
           <h4 class="about-section-title">{{ .Site.Params.about.skills.title }}</h4>
