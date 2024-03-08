@@ -1,6 +1,6 @@
-/* Media query 992px */
-
+/* Media query for devices up to 992px */
 @media (max-width: 992px) {
+  /* Navbar adjustments */
   .navbar-nav {
     flex-direction: row;
     flex-wrap: wrap;
@@ -8,142 +8,105 @@
     justify-content: center;
   }
 
+  /* Style adjustments for nav items, excluding the first child */
   .navbar-nav .nav-item:not(:first-child) .nav-link {
     margin: 0px 4px;
-    font-size: 0.65em !important;
+    font-size: 0.6em !important;
     font-weight: 400 !important;
     text-transform: uppercase;
     border: 1px solid #ffffff3d !important;
     padding: 0.4em 0.8em;
-    padding: 0.8em 1.8em;
     border-radius: 20px;
   }
 
+  /* Position adjustments for the first and last nav items */
   .navbar-nav .nav-item:nth-child(1) {
     position: absolute !important;
     top: 18px;
     left: 190px;
     max-width: 120px !important;
-
   }
 
   .navbar-nav .nav-item:last-child {
     position: absolute !important;
-    top: 28px;
+    top: 26px;
     right: 70px;
-}
+  }
 
+  .navbar-text {
+    font-size: 1.35em !important;
+  }
+
+  /* Theme toggle button adjustment */
   button#theme-toggle {
     font-size: unset !important;
   }
 
-  /* General */
+  /* General typography adjustments in proper order */
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  a.btn,
+  .page-content p,
+  #articleInfo,
+  #copyright,
+  ul,
+  ul li,
+  .tags li,
+  #projects .card-text,
+  .post-footer,
+  #experience .badge {
+    font-size: 0.8rem !important;
+  }
 
+  /* Adjusted font sizes for headings to ensure proper order and hierarchy */
   h1 {
     font-size: 1.5rem !important;
   }
-
   h2 {
     font-size: 1.25rem !important;
   }
-
-  h3 {
+  h3,
+  h6 {
     font-size: 1.1rem !important;
   }
-
-  p {
-    font-size: 0.8rem !important;
-  }
-
-  #articleInfo {
-    font-size: 0.8em;
-  }
-
-  .page-content h1 {
-    font-size: 1.5rem !important;
-  }
-
-  .page-content h2 {
-    font-size: 1.25rem !important;
-  }
-
-  .page-content h3 {
-    font-size: 1.1rem !important;
-  }
-
-  ul {
-    font-size: 1em !important;
-  }
-
-  aside.toc .toc-content ul li a {
-    font-size: 0.9rem !important;
-  }
-
   h4 {
     font-size: calc(1rem + 0.3vw) !important;
   }
-
-  .page-content p {
-    font-size: 0.9rem !important;
+  h5 {
+    font-size: 1.35em !important;
   }
 
-  #single .page-content pre {
-    font-size: 0.7rem !important;
-  }
-
-  .tags li {
-    font-size: 0.9rem !important;
-  }
-
-  #copyright {
-    font-size: 0.8rem !important;
-  }
-
+  /* Responsive image margin adjustment */
   #hero .img-thumbnail {
     margin-top: 40px;
   }
 
-  h5 {
-    font-size: 1.35em !important;
-  }
-  
-  h6 {
-    font-size: 1.1em !important;
-  }
-  
-  a.btn {
-    font-size: .9em !important;
-  }
-  
-  ul li {
-    font-size: .85em !important;
-  }
-  
-  #projects .card-text {
-    font-size: .9em !important;
-  }
-  
+  /* Adjust font size for copyright, ensuring no duplicates */
   #copyright {
-    font-size: .75em !important;
-  
-  }
-
-  .post-footer {
-    font-size: 0.8rem !important;
-  }
-
-  #experience .badge {
     font-size: 0.75em !important;
   }
-  
+
+  #search {
+    font-size: 0.6em;
+  }
 }
 
+#search-content h5 {
+  font-size: 1.1em !important;
+}
+
+#search-results div {
+  font-size: .9em !important;
+}
+
+/* Adjustments for devices up to 480px */
 @media (max-width: 480px) {
   .navbar-nav .nav-item:nth-child(1) {
     position: unset !important;
   }
-
-  /* .navbar-nav .nav-item:last-child {
-    position: unset !important;
-  }     */
 }
