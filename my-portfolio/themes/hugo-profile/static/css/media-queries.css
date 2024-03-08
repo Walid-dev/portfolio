@@ -29,12 +29,12 @@
 
   .navbar-nav .nav-item:last-child {
     position: absolute !important;
-    top: 26px;
-    right: 70px;
+    top: 27px;
+    right: 60px;
   }
 
   .navbar-text {
-    font-size: 1.35em !important;
+    font-size: 1.3em !important;
   }
 
   /* Theme toggle button adjustment */
@@ -53,7 +53,6 @@
   a.btn,
   .page-content p,
   #articleInfo,
-  #copyright,
   ul,
   ul li,
   .tags li,
@@ -65,7 +64,7 @@
 
   /* Adjusted font sizes for headings to ensure proper order and hierarchy */
   h1 {
-    font-size: 1.5rem !important;
+    font-size: 1.35rem !important;
   }
   h2 {
     font-size: 1.25rem !important;
@@ -107,6 +106,12 @@
 /* Adjustments for devices up to 480px */
 @media (max-width: 480px) {
   .navbar-nav .nav-item:nth-child(1) {
+    position: unset !important;
+  }
+}
+
+@media (max-width: 300px) {
+  .navbar-nav .nav-item:last-child{
     position: unset !important;
   }
 }

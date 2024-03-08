@@ -17,9 +17,9 @@ enableRobotsTXT = true
 
 [Menus]
   [[Menus.main]]
-    identifier = "Insights"
-    name = "Insights"
-    title = "insights"
+    identifier = "Learnings"
+    name = "Learnings"
+    title = "Learnings"
     url = "/blogs"
     weight = 1
   [[Menus.main]]
@@ -473,7 +473,7 @@ enableRobotsTXT = true
     github = "https://github.com/Walid-dev"
     linkedin = "https://www.linkedin.com/in/walid-hlali/"
     twitter = "https://twitter.com/"
-    instagram = "https://instagram.com/"
+    telegram = ""
 
 # Additional sections and configurations
 [params.listPages]
