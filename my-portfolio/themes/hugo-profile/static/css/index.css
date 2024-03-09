@@ -149,7 +149,7 @@ h5 {
 }
 
 hr {
-    max-width: 20% !important;
+    max-width: 12% !important;
     margin-left: 50% !important;
     transform: translateX(-50%) !important;
 }
@@ -286,12 +286,11 @@ hr {
     display: flex;
     align-items: center;
 }
-
-#about #skillsAndTools hr {
-margin-bottom: 80px;
-margin-top: 30px;
+#skillsAndTools {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
 }
-
 #about ul {
     display: grid;
     grid-template-columns: repeat(2, minmax(140px, 200px));
