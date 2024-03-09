@@ -117,7 +117,9 @@ h5 {
 /* hero */
 
 #hero {
-    min-height: 60vh;
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
     line-height: 2rem;
     max-width: 100%;
 }
@@ -125,6 +127,9 @@ h5 {
 #hero .img-thumbnail {
     background: transparent !important;
     border: none !important;
+    max-width: 200px;
+    display: flex;
+    align-items: center;
 }
 
 #hero .content.animate {
@@ -141,6 +146,12 @@ h5 {
 #hero .subtitle {
     font-size: clamp(14px,5vw,16px);
     opacity: 0.6;
+}
+
+hr {
+    max-width: 20% !important;
+    margin-left: 50% !important;
+    transform: translateX(-50%) !important;
 }
 
 #hero h2 {
@@ -261,9 +272,23 @@ h5 {
     text-transform: uppercase;
 }
 
+#about .about-section-first {
+   display: flex;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+    justify-content: space-evenly;
+}
+
 #about .image img {
     padding: 0;
     border: none !important;
+    max-width: 220px !important;
+    display: flex;
+    align-items: center;
+}
+
+#about #skillsAndTools hr {
+margin-bottom: 80px;
 }
 
 #about ul {
@@ -271,7 +296,7 @@ h5 {
     grid-template-columns: repeat(2, minmax(140px, 200px));
     gap: 0px 10px;
     padding: 0px;
-    margin: 20px 0px 0px;
+    margin: 30px 0px 0px;
     overflow: hidden;
     list-style: none;
 }

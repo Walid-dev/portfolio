@@ -1,6 +1,6 @@
 {{ if .Site.Params.hero.enable | default false }}
-<section id="hero" class="py-3 py-lg-5 align-middle">
-    <div class="container px-4 px-sm-12 px-md-12 px-lg-10 pt-lg-3">
+<section id="hero" class="align-middle">
+    <div class="container mb-5 px-4 px-sm-12 px-md-12 px-lg-10 pt-lg-3">
         <div class="row align-items-center">
             <div class="col-sm-12 col-md-12 col-lg-8 content {{ if .Site.Params.animate }}animate{{ end }}" id="primary-font">
                 <span class="subtitle">
@@ -33,8 +33,8 @@
             </div>
             <div class="col-sm-12 col-md-12 col-lg-3 mt-2">
                 <div class="row justify-content-center">
-                    <div class="col-8 col-sm-7 col-md-6 col-lg-8 {{ if .Site.Params.animate }}animate{{ end }} px-5 px-md-5 px-lg-0 text-center">
-                        <img id="hero-image" src="{{ .Site.Params.hero.image }}"
+                    <div class="{{ if .Site.Params.animate }}animate{{ end }} text-center">
+                        <img id="heroImage" src="{{ .Site.Params.hero.image }}"
                              class="img-thumbnail mx-auto{{ if .Site.Params.hero.roundImage }} rounded-circle{{ end }}"
                             alt=""
                         >
@@ -308,4 +308,5 @@
     </div>
     {{ end }}
 </section>
+<hr>
 {{ end }}

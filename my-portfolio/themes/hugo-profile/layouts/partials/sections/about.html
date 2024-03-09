@@ -1,26 +1,27 @@
 {{ if .Site.Params.about.enable | default false }}
 <section id="about" class="py-0 py-sm-5">
-  <div class="bg-transparent">
+  <div class="container bg-transparent">
     <h3 class="text-center bg-transparent">{{ .Site.Params.about.title }}</h3>
-    <div class="col-lg-12 bg-transparent row justify-content-center align-items-center px-3 py-2">
+    <div class="">
       
-      <div class="col-md-10 col-lg-12 content">
-        <div class="d-flex flex-wrap align-items-center justify-content-around flex-wrap-reverse"> <!-- Add flex-wrap to ensure wrapping on smaller screens -->
+      <div class="content">
+        <div class="about-section-first"> <!-- Add flex-wrap to ensure wrapping on smaller screens -->
           {{ if .Site.Params.about.image }}
-          <div class="col-12 col-lg-4 col-md-10 col-sm-12 mr-2 mt-5">
+          <div class="mt-4">
             <div class="image d-flex px-5 col-10 mx-auto col-mb-3">
               <img src="{{ .Site.Params.about.image }}" class="img-thumbnail rounded-circle mx-auto" alt="" style="max-width: 100%; height: auto;" /> <!-- Ensure responsiveness -->
             </div>
           </div>
           {{ end }}
-          <div class="col-12 col-lg-8 col-md-12 col-sm-12"> <!-- Adjusted for remaining space -->
+          <div class="col-12 col-lg-8 col-md-10 col-sm-12"> <!-- Adjusted for remaining space -->
             <p class="about-content primary-font">
               {{ .Site.Params.about.content }}
             </p>
           </div>
         </div>        
       </div>
-      <div id="skillsAndTools" class="row py-5 mt-5 col-md-10">
+      <div id="skillsAndTools" class="row mt-5 pt-5 col-lg-12 col-md-12 mx-auto">
+<hr>
         {{ if .Site.Params.about.skills.enable }}
         <div class="col-md-6 mt-4">
           <h4 class="about-section-title">{{ .Site.Params.about.skills.title }}</h4>
@@ -31,7 +32,6 @@
           </ul>
         </div>
         {{ end }}
-
         {{ if .Site.Params.toolsTechnologies.enable }}
         <div class="col-md-6 mt-4">
           <h4 class="about-section-title">{{ .Site.Params.toolsTechnologies.title }}</h4>
