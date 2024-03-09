@@ -1,6 +1,6 @@
 {{ if .Site.Params.about.enable | default false }}
 <section id="about" class="py-0 py-sm-5">
-  <div class="container bg-transparent">
+  <div class="bg-transparent">
     <h3 class="text-center bg-transparent">{{ .Site.Params.about.title }}</h3>
     <div class="">
       
@@ -13,14 +13,14 @@
             </div>
           </div>
           {{ end }}
-          <div class="col-12 col-lg-8 col-md-10 col-sm-12"> <!-- Adjusted for remaining space -->
+          <div class="col-10 col-md-6"> <!-- Adjusted for remaining space -->
             <p class="about-content primary-font">
               {{ .Site.Params.about.content }}
             </p>
           </div>
         </div>        
       </div>
-      <div id="skillsAndTools" class="row mt-5 pt-5 col-lg-12 col-md-12 mx-auto">
+      <div id="skillsAndTools" class="row mt-5 col-10 col-md-11 col-lg-10 mx-auto">
 <hr>
         {{ if .Site.Params.about.skills.enable }}
         <div class="col-md-6 mt-4">

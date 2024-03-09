@@ -282,13 +282,14 @@ hr {
 #about .image img {
     padding: 0;
     border: none !important;
-    max-width: 220px !important;
+    max-width: 200px !important;
     display: flex;
     align-items: center;
 }
 
 #about #skillsAndTools hr {
 margin-bottom: 80px;
+margin-top: 30px;
 }
 
 #about ul {
