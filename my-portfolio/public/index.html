@@ -668,7 +668,7 @@ Walid&#39;s Portfolio
 </section>
 <hr>
 
-<section id="about" class="py-0 py-sm-5">
+<section id="about" class="py-0 py-sm-3">
   <div class="bg-transparent">
     <h3 class="text-center bg-transparent"></h3>
     <div class="">
@@ -683,7 +683,7 @@ Walid&#39;s Portfolio
           </div>
           
           <div class="col-10 col-md-6"> 
-            <p class="about-content primary-font">
+            <p id="aboutContent" class="about-content primary-font">
               As a Web Developer, I focus on creating solutions that align with client and project needs, ensuring a balance between user experience and technical precision. Skilled in both front-end and back-end development, I enhance application efficiency and scalability. I excel in multitasking and resolving technical challenges to boost performance. Committed to continuous learning, I stay updated with the latest technologies to drive innovation. I value teamwork, eagerly learning from colleagues and contributing to our collective success.
             </p>
           </div>
@@ -2079,29 +2079,6 @@ Walid&#39;s Portfolio
     </div>
 </section>
 
-<script>
-    
-    let cards = document.querySelectorAll('.card-text');
-
-    
-    function toggleExpand() {
-      if (this.classList.contains('not-expanded')) {
-        this.classList.remove('not-expanded');
-        this.classList.add('expanded');
-      } else {
-        this.classList.remove('expanded');
-        this.classList.add('not-expanded');
-      }
-    }
-
-    
-    cards.forEach(function(card) {
-      card.addEventListener('click', toggleExpand);
-    });
-</script>
-
-  
-
 <section id="education" class="py-5">
     <div class="container">
         <h3 class="text-center">Education</h3>
@@ -2275,6 +2252,8 @@ Walid&#39;s Portfolio
 
 
 
+
+<script src="/js/main.js"></script>
 
 
 

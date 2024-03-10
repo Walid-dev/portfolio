@@ -1,5 +1,5 @@
 {{ if .Site.Params.about.enable | default false }}
-<section id="about" class="py-0 py-sm-5">
+<section id="about" class="py-0 py-sm-3">
   <div class="bg-transparent">
     <h3 class="text-center bg-transparent">{{ .Site.Params.about.title }}</h3>
     <div class="">
@@ -14,7 +14,7 @@
           </div>
           {{ end }}
           <div class="col-10 col-md-6"> <!-- Adjusted for remaining space -->
-            <p class="about-content primary-font">
+            <p id="aboutContent" class="about-content primary-font">
               {{ .Site.Params.about.content }}
             </p>
           </div>

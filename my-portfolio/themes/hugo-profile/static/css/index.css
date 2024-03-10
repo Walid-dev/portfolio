@@ -705,12 +705,15 @@ hr {
   .expanded {
     -webkit-line-clamp: initial; /* Remove line clamping */
     display: block;
+    cursor: context-menu;
   }
   
   .not-expanded {
     -webkit-line-clamp: 3; /* Number of lines you want to display */
     display: -webkit-box;
     -webkit-box-orient: vertical; /* Essential for line clamp to work */
+    overflow: hidden;
+    cursor: pointer;
   }
   
   .btn-visit {
