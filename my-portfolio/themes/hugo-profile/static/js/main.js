@@ -1,29 +1,30 @@
-// Select all elements with the class 'card-text'
-let notExpandeds = document.querySelectorAll(".not-expanded");
+document.addEventListener("DOMContentLoaded", () => {
+  const toggleExpansion = element => {
+    element.classList.toggle("not-expanded");
+    element.classList.toggle("expanded");
+  };
 
-// Function to toggle between 'card-text' and 'expanded' classes
-function toggleExpand() {
-  if (this.classList.contains("not-expanded")) {
-    this.classList.remove("not-expanded");
-    this.classList.add("expanded");
-  } else {
-    this.classList.remove("expanded");
-    this.classList.add("not-expanded");
-  }
-}
+  const initializeCollapsibleElements = () => {
+    document.querySelectorAll(".not-expanded").forEach(element => {
+      element.addEventListener("click", () => toggleExpansion(element));
+    });
+  };
 
-// Add click event listener to each card
-notExpandeds.forEach(function (notExpanded) {
-  notExpanded.addEventListener("click", toggleExpand);
-});
+  const adjustElementOnResize = () => {
+    const responsiveElement = document.getElementById("aboutContent");
+    const shouldCollapse = window.innerWidth < 992;
 
-window.addEventListener("resize", function () {
-  let aboutMeText = document.getElementById("aboutContent");
+    if (shouldCollapse) {
+      responsiveElement.classList.add("not-expanded");
+      responsiveElement.onclick = null; // Prevent adding multiple listeners
+      responsiveElement.addEventListener("click", () => toggleExpansion(responsiveElement));
+    } else {
+      responsiveElement.classList.remove("not-expanded", "expanded");
+    }
+  };
 
-  if (window.innerWidth < 992) {
-    aboutMeText.classList.add("not-expanded");
-    aboutMeText.addEventListener("click", toggleExpand);
-  } else {
-    aboutMeText.classList.remove("not-expanded");
-  }
+  // Initialize and adjust elements right away and on resize
+  initializeCollapsibleElements();
+  adjustElementOnResize();
+  window.addEventListener("resize", adjustElementOnResize);
 });
