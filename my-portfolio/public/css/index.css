@@ -706,6 +706,7 @@ hr {
     -webkit-line-clamp: initial; /* Remove line clamping */
     display: block;
     cursor: context-menu;
+    transform: scale(1.02);
   }
   
   .not-expanded {
@@ -714,6 +715,8 @@ hr {
     -webkit-box-orient: vertical; /* Essential for line clamp to work */
     overflow: hidden;
     cursor: pointer;
+    opacity: 0.7; 
+    transition: transform 0.2s ease, opacity 0.2s ease;
   }
   
   .btn-visit {
