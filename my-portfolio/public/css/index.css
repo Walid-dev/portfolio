@@ -63,7 +63,7 @@ h3 {
 }
 
 h4 {
-    font-size: 1em !important;
+    font-size: 1.2em !important;
 }
 
 p {
@@ -77,7 +77,7 @@ li {
 /* General */
 
 h5 {
-    font-size: 1.1em !important;
+    font-size: 1.2em !important;
   }
   
   h6 {
@@ -302,7 +302,6 @@ hr {
 }
 
 #about ul li {
-    font-size: .8em;
     opacity: .8;
     position: relative;
     margin-bottom: 10px;
@@ -320,6 +319,7 @@ hr {
     font-weight: 500;
     opacity: 0.9 !important;
     line-height: 1.7rem !important;
+    padding: 40px 0;
 }
 
 #about a {
