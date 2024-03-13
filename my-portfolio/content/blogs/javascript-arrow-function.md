@@ -8,7 +8,7 @@ tags:
   - ES6
   - Arrow Functions
   - Functional Programming
-image: 
+image: /images/blackberry.webp
 description: "Comprehensive mechanics, usage, and benefits of arrow functions in JavaScript, with enriched practical examples, advanced concepts, performance considerations, and comparison with traditional functions."
 toc: true
 ---
