@@ -11,7 +11,7 @@
   /* Style adjustments for nav items, excluding the first child */
   .navbar-nav .nav-item:not(:first-child) .nav-link {
     margin: 0px 4px;
-    font-size: 0.6em !important;
+    font-size: 0.5em !important;
     font-weight: 400 !important;
     text-transform: uppercase;
     border: 1px solid #ffffff3d !important;
@@ -85,7 +85,7 @@
   }
 
   #search {
-    font-size: 0.6em;
+    font-size: 0.5em;
   }
 }
 
