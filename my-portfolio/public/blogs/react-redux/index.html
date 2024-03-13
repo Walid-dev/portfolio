@@ -125,15 +125,13 @@
     }
 </style>
 
-<meta name="description" content="An in-depth look at Redux, its core concepts, why it&#39;s used for state management in JavaScript applications, and its pros and cons.">
-<link rel="stylesheet" href="/css/single.css">
+<meta name="description" content="An in-depth look at Redux, its core concepts, why it&#39;s used for state management in JavaScript applications, and its pros and cons." />
+<link rel="stylesheet" href="/css/single.css" />
 
 
 <script defer src="/fontawesome-6/all-6.4.2.js"></script>
 
-  <title>
-Redux: Managing State in JavaScript Apps | Walid&#39;s Portfolio
-
+  <title> Redux: Managing State in JavaScript Apps | Walid&#39;s Portfolio 
   </title>
 </head>
 
@@ -341,24 +339,20 @@ Redux: Managing State in JavaScript Apps | Walid&#39;s Portfolio
           <div class="title mb-5">
             <h1 class="text-center mb-4">Redux: Managing State in JavaScript Apps</h1>
             <div id="articleInfo" class="text-center">
-              Walid 
+              Walid
               <small>|</small>
-              Feb 16, 2024
-
-              
-              <span id="readingTime">
-                min read
-              </span>
+              Feb 16, 2024 
+              <span id="readingTime"> min read </span>
               
             </div>
           </div>
           
           <div class="featured-image">
-            <img class="img-fluid mx-auto d-block" src="/images/redux.webp" alt="Redux: Managing State in JavaScript Apps">
+            <img class="img-fluid mx-auto d-block" src="/images/redux.webp" alt="Redux: Managing State in JavaScript Apps" />
           </div>
           
-          <article class="page-content  p-2">
-          <h2 id="redux-simplifying-state-management">Redux: Simplifying State Management</h2>
+
+          <article class="page-content p-2"><h2 id="redux-simplifying-state-management">Redux: Simplifying State Management</h2>
 <p>Redux is a predictable state container for JavaScript apps, often used with libraries like React, Angular, and Vue. It helps manage the state of an application in a single global object, making state mutations predictable through a strict contract of actions and reducers.</p>
 <h3 id="why-redux">Why Redux?</h3>
 <p>Redux provides a clear structure for managing state, making it easier to debug and test applications. It&rsquo;s particularly useful in complex applications where multiple components need access to the same state.</p>
@@ -425,19 +419,15 @@ Redux: Managing State in JavaScript Apps | Walid&#39;s Portfolio
 <h3 id="conclusion">Conclusion</h3>
 <p>Redux offers a robust solution for managing state in JavaScript applications, especially as they grow in complexity. While it introduces certain challenges, such as increased boilerplate and a steep learning curve, the benefits of using Redux—predictability, maintainability, and powerful developer tools—often outweigh these drawbacks.</p>
 <p><em>For a deeper dive into Redux and to start integrating it into your projects, check out <a href="https://redux.js.org/">Redux&rsquo;s official documentation</a>.</em></p>
-
-          </article>
+</article>
         </div>
       </div>
       <div class="col-sm-12 col-md-12 col-lg-3">
         <div id="stickySideBar" class="sticky-sidebar">
           
           <aside class="toc">
-              <h5>
-                Table Of Contents
-              </h5>
-              <div class="toc-content">
-                <nav id="TableOfContents">
+            <h5>Table Of Contents</h5>
+            <div class="toc-content"><nav id="TableOfContents">
   <ul>
     <li><a href="#redux-simplifying-state-management">Redux: Simplifying State Management</a>
       <ul>
@@ -448,12 +438,9 @@ Redux: Managing State in JavaScript Apps | Walid&#39;s Portfolio
       </ul>
     </li>
   </ul>
-</nav>
-              </div>
+</nav></div>
           </aside>
-          
-
-          
+           
           <aside class="tags">
             <h5>Tags</h5>
             <ul class="tags-ul list-unstyled list-inline">
@@ -472,9 +459,7 @@ Redux: Managing State in JavaScript Apps | Walid&#39;s Portfolio
               
             </ul>
           </aside>
-          
-
-          
+           
           <aside class="social">
             <h5>Social</h5>
             <div class="social-content">
@@ -490,7 +475,10 @@ Redux: Managing State in JavaScript Apps | Walid&#39;s Portfolio
                   </a>
                 </li>
                 <li class="list-inline-item text-center">
-                  <a target="_blank" href='mailto:?subject=Redux%3a%20Managing%20State%20in%20JavaScript%20Apps&amp;body=Check%20out%20this%20site http%3a%2f%2flocalhost%3a1313%2fblogs%2freact-redux%2f'>
+                  <a
+                    target="_blank"
+                    href='mailto:?subject=Redux%3a%20Managing%20State%20in%20JavaScript%20Apps&amp;body=Check%20out%20this%20site http%3a%2f%2flocalhost%3a1313%2fblogs%2freact-redux%2f'
+                  >
                     <i class="fa fa-envelope"></i>
                   </a>
                 </li>
@@ -502,9 +490,7 @@ Redux: Managing State in JavaScript Apps | Walid&#39;s Portfolio
       </div>
     </div>
     <div class="row">
-      <div class="col-sm-12 col-md-12 col-lg-9 p-4">
-        
-      </div>
+      <div class="col-sm-12 col-md-12 col-lg-9 p-4"></div>
     </div>
   </div>
   <button class="p-2 px-3" onclick="topFunction()" id="topScroll">
@@ -516,12 +502,14 @@ Redux: Managing State in JavaScript Apps | Walid&#39;s Portfolio
 <div class="progress">
   <div id="scroll-progress-bar" class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
 </div>
-<Script src="/js/scrollProgressBar.js"></script>
+<script src="/js/scrollProgressBar.js"></script>
 
 
 <script>
   var topScroll = document.getElementById("topScroll");
-  window.onscroll = function() {scrollFunction()};
+  window.onscroll = function () {
+    scrollFunction();
+  };
 
   function scrollFunction() {
     if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
@@ -539,7 +527,7 @@ Redux: Managing State in JavaScript Apps | Walid&#39;s Portfolio
   
   let stickySideBarElem = document.getElementById("stickySideBar");
   let stickyNavBar = 'true';
-  if(stickyNavBar) {
+  if (stickyNavBar) {
     let headerElem = document.getElementById("profileHeader");
     let headerHeight = headerElem.offsetHeight + 15;
     stickySideBarElem.style.top = headerHeight + "px";
@@ -550,9 +538,7 @@ Redux: Managing State in JavaScript Apps | Walid&#39;s Portfolio
 
 
 <script src="/js/readingTime.js"></script>
-
-
-
+ 
   </div><footer>
     
  
