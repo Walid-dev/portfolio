@@ -89,7 +89,7 @@ h5 {
   }
   
   ul li {
-    font-size: .85em !important;
+    font-size: .9em !important;
   }
   
   #projects .card-text {
@@ -127,7 +127,7 @@ h5 {
 #hero .img-thumbnail {
     background: transparent !important;
     border: none !important;
-    max-width: 200px;
+    max-width: 230px;
     display: flex;
     align-items: center;
 }
@@ -155,7 +155,7 @@ hr {
 }
 
 #hero h2 {
-    font-size: clamp(20px, 4vw, 40px);
+    font-size: clamp(24px, 5vw, 44px);
     color: var(--primary-color) !important;
 }
 

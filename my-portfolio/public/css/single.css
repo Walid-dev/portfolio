@@ -133,7 +133,7 @@
 /* paragraph */
 
 #single .page-content h1{
-    font-size: 1.5em;
+    font-size: 1.25em;
 }
 
 #single .page-content h2{
@@ -250,7 +250,7 @@
     text-decoration: none;
     border-bottom: 1px solid var(--text-color);
     padding-bottom: 2px;
-    font-size: .9em;
+    font-size: .9em !important;
 }
 
 #single aside.toc .toc-content ol li a:hover, #single aside.toc .toc-content ul li a:hover {

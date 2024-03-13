@@ -43,8 +43,6 @@
   }
 
   /* General typography adjustments in proper order */
-  h1,
-  h2,
   h3,
   h4,
   h5,
@@ -53,22 +51,18 @@
   a.btn,
   .page-content p,
   #articleInfo,
-  ul,
-  ul li,
   .tags li,
   #projects .card-text,
   .post-footer,
   #experience .badge {
-    font-size: 0.8rem !important;
+    font-size: 0.85em !important;
+  }
+
+  ul li, #single aside.toc .toc-content ul li {
+    font-size: 1em !important;
   }
 
   /* Adjusted font sizes for headings to ensure proper order and hierarchy */
-  h1 {
-    font-size: 1.35rem !important;
-  }
-  h2 {
-    font-size: 1.25rem !important;
-  }
   h3,
   h6 {
     font-size: 1.1rem !important;
