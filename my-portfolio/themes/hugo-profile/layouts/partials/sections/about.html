@@ -22,7 +22,7 @@
       </div>
 <hr class="my-5">
       <div id="skillsAndTools" class="content row mt-5 col-10 col-md-10 col-lg-9 mx-auto">        {{ if .Site.Params.about.skills.enable }}
-        <div class="col-md-6 mt-4">
+        <div class="col-md-4 mt-4">
           <h4 class="about-section-title">{{ .Site.Params.about.skills.title }}</h4>
           <ul>
             {{ range .Site.Params.about.skills.items }}
@@ -32,7 +32,7 @@
         </div>
         {{ end }}
         {{ if .Site.Params.toolsTechnologies.enable }}
-        <div class="col-md-6 mt-4">
+        <div class="col-md-4 mt-4">
           <h4 class="about-section-title">{{ .Site.Params.toolsTechnologies.title }}</h4>
           <ul>
             {{ range .Site.Params.toolsTechnologies.items }}
