@@ -9,11 +9,11 @@
     <lastBuildDate>Wed, 13 Mar 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/orm/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Mastering Doctrine ORM for Efficient Data Handling in PHP</title>
+      <title>Deep Dive into Doctrine ORM: Empowering PHP Data Management</title>
       <link>http://localhost:1313/blogs/doctrine_orm/</link>
       <pubDate>Wed, 13 Mar 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/blogs/doctrine_orm/</guid>
-      <description>Mastering Doctrine ORM for Efficient Data Handling in PHP Introduction Doctrine ORM stands as a premier solution for mapping PHP objects to database tables, simplifying the complex choreography of database interactions in PHP applications. This article delves into the essential components and advanced features of Doctrine ORM, providing PHP developers with the knowledge to harness its full potential for efficient data management.&#xA;Core Concepts The EntityManager Interface The heart of Doctrine ORM, the EntityManager, orchestrates the mapping between PHP objects and database records.</description>
+      <description>Deep Dive into Doctrine ORM: Empowering PHP Data Management Introduction Doctrine ORM stands as a pivotal tool in PHP development, bridging the gap between object-oriented programming and relational databases. This guide aims to elucidate the foundational and advanced features of Doctrine ORM, empowering PHP developers to optimize data management practices effectively.&#xA;Core Concepts The EntityManager: Core of Doctrine Introduction to EntityManager EntityManager acts as the central point of Doctrine&amp;rsquo;s ORM functionality, managing the lifecycle of entities.</description>
     </item>
   </channel>
 </rss>

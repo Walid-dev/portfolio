@@ -2,25 +2,49 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/blogs/</loc>
+    <lastmod>2024-03-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/database/</loc>
+    <lastmod>2024-03-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blogs/doctrine_orm/</loc>
+    <lastmod>2024-03-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/doctrine-orm/</loc>
+    <lastmod>2024-03-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/orm/</loc>
+    <lastmod>2024-03-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/php/</loc>
+    <lastmod>2024-03-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/programming/</loc>
+    <lastmod>2024-03-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2024-03-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2024-03-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/classes/</loc>
+    <lastmod>2024-03-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/es6/</loc>
+    <lastmod>2024-03-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blogs/javascript_classes/</loc>
+    <lastmod>2024-03-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/javascript/</loc>
+    <lastmod>2024-03-11T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/tags/array-methods/</loc>
     <lastmod>2024-02-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blogs/</loc>
-    <lastmod>2024-02-29T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/javascript/</loc>
-    <lastmod>2024-02-29T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/blogs/javascript-arrays/</loc>
-    <lastmod>2024-02-29T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/programming/</loc>
-    <lastmod>2024-02-29T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2024-02-29T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/</loc>
     <lastmod>2024-02-29T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/containerization/</loc>
@@ -56,9 +80,6 @@
     <loc>http://localhost:1313/tags/cross-platform-development/</loc>
     <lastmod>2024-02-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/es6/</loc>
-    <lastmod>2024-02-25T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/tags/functions/</loc>
     <lastmod>2024-02-25T00:00:00+00:00</lastmod>
   </url><url>
@@ -90,9 +111,6 @@
     <lastmod>2024-02-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/oop/</loc>
-    <lastmod>2024-02-23T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/php/</loc>
     <lastmod>2024-02-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/polymorphism/</loc>

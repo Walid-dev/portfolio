@@ -6,8 +6,22 @@
     <description>Recent content in Programming on Walid&#39;s Portfolio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 29 Feb 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 13 Mar 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/programming/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Deep Dive into Doctrine ORM: Empowering PHP Data Management</title>
+      <link>http://localhost:1313/blogs/doctrine_orm/</link>
+      <pubDate>Wed, 13 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blogs/doctrine_orm/</guid>
+      <description>Deep Dive into Doctrine ORM: Empowering PHP Data Management Introduction Doctrine ORM stands as a pivotal tool in PHP development, bridging the gap between object-oriented programming and relational databases. This guide aims to elucidate the foundational and advanced features of Doctrine ORM, empowering PHP developers to optimize data management practices effectively.&#xA;Core Concepts The EntityManager: Core of Doctrine Introduction to EntityManager EntityManager acts as the central point of Doctrine&amp;rsquo;s ORM functionality, managing the lifecycle of entities.</description>
+    </item>
+    <item>
+      <title>Harnessing JavaScript Classes: Nature and Technology Unleashed</title>
+      <link>http://localhost:1313/blogs/javascript_classes/</link>
+      <pubDate>Mon, 11 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blogs/javascript_classes/</guid>
+      <description>Harnessing JavaScript Classes: Nature and Technology Unleashed Introduction JavaScript classes, introduced in ECMAScript 2015 (ES6), have revolutionized how developers design and implement their code. Moving beyond traditional examples, this guide explores classes through the lens of nature and technology, offering a fresh perspective on this powerful feature.&#xA;Core Concepts Defining Classes Crafting a Digital Garden Imagine creating a digital garden, where each plant is a class instance.&#xA;class Plant { constructor(species, height, color) { this.</description>
+    </item>
     <item>
       <title>JavaScript Array Methods</title>
       <link>http://localhost:1313/blogs/javascript-arrays/</link>
