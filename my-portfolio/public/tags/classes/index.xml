@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Classes on Walid&#39;s Portfolio</title>
+    <link>http://localhost:1313/tags/classes/</link>
+    <description>Recent content in Classes on Walid&#39;s Portfolio</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 11 Mar 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/classes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Harnessing JavaScript Classes: Nature and Technology Unleashed</title>
+      <link>http://localhost:1313/blogs/javascript_classes/</link>
+      <pubDate>Mon, 11 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blogs/javascript_classes/</guid>
+      <description>Harnessing JavaScript Classes: Nature and Technology Unleashed Introduction JavaScript classes, introduced in ECMAScript 2015 (ES6), have revolutionized how developers design and implement their code. Moving beyond traditional examples, this guide explores classes through the lens of nature and technology, offering a fresh perspective on this powerful feature.&#xA;Core Concepts Defining Classes Crafting a Digital Garden Imagine creating a digital garden, where each plant is a class instance.&#xA;class Plant { constructor(species, height, color) { this.</description>
+    </item>
+  </channel>
+</rss>

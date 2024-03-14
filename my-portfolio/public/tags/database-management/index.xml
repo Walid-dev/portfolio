@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Database Management on Walid&#39;s Portfolio</title>
+    <link>http://localhost:1313/tags/database-management/</link>
+    <description>Recent content in Database Management on Walid&#39;s Portfolio</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 29 Feb 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/database-management/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Understanding Doctrine ORM</title>
+      <link>http://localhost:1313/blogs/doctrine_orm/</link>
+      <pubDate>Thu, 29 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blogs/doctrine_orm/</guid>
+      <description>Understanding Doctrine ORM Introduction Doctrine ORM (Object-Relational Mapping) stands as a critical bridge between the object-oriented domain of PHP applications and the relational world of databases. This article delves into Doctrine ORM, providing insights and practical code examples to harness its full potential in managing database interactions elegantly and efficiently.&#xA;Core Concepts The ORM Layer What is ORM? Object-Relational Mapping is a technique that allows you to query and manipulate data from a database using an object-oriented paradigm.</description>
+    </item>
+  </channel>
+</rss>
