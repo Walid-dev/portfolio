@@ -73,7 +73,7 @@
             </a>
 
             {{ if not (.Site.Params.navbar.disableSearch | default false) }}
-                <div class="flex-nowrap">
+                <div class="flex-nowrap flex-grow-1">
                     <input id="search" autocomplete="off" class="form-control mr-sm-2 mt-1 d-none d-md-block" placeholder='{{ .Site.Params.navbar.searchPlaceholder | default "Search..."}}'
                         aria-label="Search" oninput="searchOnChange(event)">
                 </div>
