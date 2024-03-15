@@ -375,7 +375,7 @@ hr {
     opacity: 0.8;
     border: 1px solid !important;
     color: var(--text-color) !important;
-    /* background-color: var(--background-color) !important; */
+    background-color: var(--background-color) !important;
     margin: 12px 6px !important;
     padding: 0.5rem 0.6rem !important;
     cursor: pointer;
@@ -696,7 +696,7 @@ hr {
     opacity: 0.8;
     border: 1px solid !important;
     color: var(--text-color) !important;
-    /* background-color: var(--background-color) !important; */
+    background-color: var(--background-color) !important;
     margin: 14px 10px !important;
     padding: 0.5rem 0.6rem !important;
     cursor: pointer;
