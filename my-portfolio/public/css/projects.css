@@ -11,7 +11,8 @@
 }
 
 #projects .badge {
-    font-size: .9em !important;
+  font-size: 11px !important;
+  border: 1px solid !important;
   opacity: 0.8;
   color: var(--text-color) !important;
   background-color: var(--background-color) !important;

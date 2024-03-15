@@ -3,45 +3,45 @@
   <div class="bg-transparent">
     <h3 class="text-center bg-transparent">{{ .Site.Params.about.title }}</h3>
     <div class="">
-      
       <div class="content">
-        <div class="about-section-first"> <!-- Add flex-wrap to ensure wrapping on smaller screens -->
+        <div class="about-section-first">
+          <!-- Add flex-wrap to ensure wrapping on smaller screens -->
           {{ if .Site.Params.about.image }}
           <div class="mt-4">
             <div class="image d-flex px-5 col-10 mx-auto col-mb-3">
-              <img src="{{ .Site.Params.about.image }}" class="img-thumbnail rounded-circle mx-auto" alt="" style="max-width: 100%; height: auto;" /> <!-- Ensure responsiveness -->
+              <img src="{{ .Site.Params.about.image }}" class="img-thumbnail rounded-circle mx-auto" alt="" style="max-width: 100%; height: auto" />
+              <!-- Ensure responsiveness -->
             </div>
           </div>
           {{ end }}
-          <div class="col-10 col-md-6"> <!-- Adjusted for remaining space -->
-            <p id="aboutContent" class="about-content primary-font">
-              {{ .Site.Params.about.content }}
-            </p>
+          <div class="col-10 col-md-6">
+            <!-- Adjusted for remaining space -->
+            <p id="aboutContent" class="about-content primary-font">{{ .Site.Params.about.content }}</p>
           </div>
-        </div>        
+        </div>
       </div>
-<hr class="my-5">
-      <div id="skillsAndTools" class="content row mt-5 col-10 col-md-10 col-lg-9 mx-auto">        {{ if .Site.Params.about.skills.enable }}
-        <div class="col-md-4 mt-4">
-          <h4 class="about-section-title">{{ .Site.Params.about.skills.title }}</h4>
-          <ul>
-            {{ range .Site.Params.about.skills.items }}
-            <li>{{ . | markdownify }}</li>
-            {{ end }}
-          </ul>
+      <hr class="my-5" />
+      <div id="skillsAndTools" class="content row mt-4 col-10 col-md-8 col-lg-7 mx-auto">
+        {{ if .Site.Params.about.skills.enable }}
+        <h4 class="about-section-title mt-2 text-center">{{ .Site.Params.about.skills.title }}</h4>
+        <div id="skillsBadgesBox" class="mt-4 mb-3 p-4 bg-transparent">
+          {{ range .Site.Params.about.skills.items }}
+          <a href="{{ `tags` | absURL }}/{{ . | urlize }}" class="badge-link badge badge-secondary">
+            <span class="">{{ . }}</span>
+          </a>
+          {{ end }}
+        </div>
+        <h4 class="about-section-title mt-5 text-center">{{ .Site.Params.toolsTechnologies.title }}</h4>
+        <div id="toolsBadgesBox" class="mt-4 mb-3 p-4 bg-transparent">
+          {{ range .Site.Params.toolsTechnologies.items }}
+          <a href="{{ `tags` | absURL }}/{{ . | urlize }}" class="badge-link badge badge-secondary">
+            <span class="">{{ . }}</span>
+          </a>
+          {{ end }}
         </div>
         {{ end }}
-        {{ if .Site.Params.toolsTechnologies.enable }}
-        <div class="col-md-4 mt-4">
-          <h4 class="about-section-title">{{ .Site.Params.toolsTechnologies.title }}</h4>
-          <ul>
-            {{ range .Site.Params.toolsTechnologies.items }}
-            <li>{{ . | markdownify }}</li>
-            {{ end }}
-          </ul>
-        </div>
-        {{ end }}
       </div>
+      <hr class="my-5" />
     </div>
   </div>
 </section>
