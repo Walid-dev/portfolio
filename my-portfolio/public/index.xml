@@ -6,21 +6,21 @@
     <description>Recent content on Walid&#39;s Portfolio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 13 Mar 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 15 Mar 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Deep Dive into Doctrine ORM: Empowering PHP Data Management</title>
+      <title>JavaScript Classes</title>
+      <link>http://localhost:1313/blogs/javascript_classes/</link>
+      <pubDate>Fri, 15 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blogs/javascript_classes/</guid>
+      <description>Mastering JavaScript Classes JavaScript classes are a fundamental part of modern web development, offering a more structured approach to object-oriented programming (OOP) in JavaScript. Introduced in ECMAScript 2015 (ES6), classes provide a syntactical sugar over JavaScript&amp;rsquo;s existing prototype-based inheritance, making it easier to create objects, manage inheritance, and write cleaner, more readable code.&#xA;Introduction The concept of classes in JavaScript may seem daunting at first, especially if you come from a non-OOP background.</description>
+    </item>
+    <item>
+      <title>Doctrine ORM</title>
       <link>http://localhost:1313/blogs/doctrine_orm/</link>
       <pubDate>Wed, 13 Mar 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/blogs/doctrine_orm/</guid>
-      <description>Deep Dive into Doctrine ORM: Empowering PHP Data Management Introduction Doctrine ORM stands as a pivotal tool in PHP development, bridging the gap between object-oriented programming and relational databases. This guide aims to elucidate the foundational and advanced features of Doctrine ORM, empowering PHP developers to optimize data management practices effectively.&#xA;Core Concepts The EntityManager: Core of Doctrine Introduction to EntityManager EntityManager acts as the central point of Doctrine&amp;rsquo;s ORM functionality, managing the lifecycle of entities.</description>
-    </item>
-    <item>
-      <title>Harnessing JavaScript Classes: Nature and Technology Unleashed</title>
-      <link>http://localhost:1313/blogs/javascript_classes/</link>
-      <pubDate>Mon, 11 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blogs/javascript_classes/</guid>
-      <description>Harnessing JavaScript Classes: Nature and Technology Unleashed Introduction JavaScript classes, introduced in ECMAScript 2015 (ES6), have revolutionized how developers design and implement their code. Moving beyond traditional examples, this guide explores classes through the lens of nature and technology, offering a fresh perspective on this powerful feature.&#xA;Core Concepts Defining Classes Crafting a Digital Garden Imagine creating a digital garden, where each plant is a class instance.&#xA;class Plant { constructor(species, height, color) { this.</description>
+      <description>Doctrine ORM: Empowering PHP Data Management Introduction Doctrine ORM stands as a pivotal tool in PHP development, bridging the gap between object-oriented programming and relational databases.&#xA;Core Concepts The EntityManager: Core of Doctrine Introduction to EntityManager EntityManager acts as the central point of Doctrine&amp;rsquo;s ORM functionality, managing the lifecycle of entities.&#xA;use Doctrine\ORM\Tools\Setup; use Doctrine\ORM\EntityManager; // Specify the path to your entities and set the development mode $paths = [&amp;#34;/path/to/your/entities&amp;#34;]; $isDevMode = true; // Database configuration parameters $dbParams = [ &amp;#39;driver&amp;#39; =&amp;gt; &amp;#39;pdo_mysql&amp;#39;, &amp;#39;user&amp;#39; =&amp;gt; &amp;#39;your_db_user&amp;#39;, &amp;#39;password&amp;#39; =&amp;gt; &amp;#39;your_db_password&amp;#39;, &amp;#39;dbname&amp;#39; =&amp;gt; &amp;#39;your_db_name&amp;#39;, ]; // Create a simple &amp;#34;default&amp;#34; Doctrine ORM configuration for Annotations $config = Setup::createAnnotationMetadataConfiguration($paths, $isDevMode); $entityManager = EntityManager::create($dbParams, $config); Understanding Repositories Leveraging Custom Repositories Repositories abstract the business logic for database operations, tailored to each entity.</description>
     </item>
     <item>
       <title>JavaScript Array Methods</title>
@@ -182,6 +182,13 @@
       <pubDate>Thu, 24 Feb 2022 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/blogs/restful-api/</guid>
       <description>Introduction RESTful APIs are pivotal in web and software development, facilitating communication between different software systems over the internet. We will explores REST (Representational State Transfer), emphasizing its principles, advantages, and providing real-world examples.&#xA;Core Principles of RESTful APIs REST is an architectural style that outlines guidelines for networked applications, primarily:&#xA;Statelessness: Each request from a client contains all the information the server needs to fulfill that request. Uniform Interface: A consistent interface between components so that information is transferred in a standardized form.</description>
+    </item>
+    <item>
+      <title>Understanding HTML: The Backbone of the Web</title>
+      <link>http://localhost:1313/blogs/html_basics/</link>
+      <pubDate>Tue, 15 Feb 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blogs/html_basics/</guid>
+      <description>Introduction HTML (HyperText Markup Language) is the standard markup language used to create web pages. It defines the structure of web content, enabling browsers to render text, images, and other materials on the web. This article aims to demystify HTML, breaking down its core concepts, elements, and functionalities.&#xA;Core Concepts What is HTML? HTML uses tags to annotate text, images, and other content for web browsers. It is the skeleton of all web pages and is crucial for web development.</description>
     </item>
     <item>
       <title>Markdown Syntax</title>

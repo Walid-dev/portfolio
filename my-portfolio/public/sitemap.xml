@@ -3,15 +3,36 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/blogs/</loc>
-    <lastmod>2024-03-13T00:00:00+00:00</lastmod>
+    <lastmod>2024-03-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/classes/</loc>
+    <lastmod>2024-03-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/javascript/</loc>
+    <lastmod>2024-03-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blogs/javascript_classes/</loc>
+    <lastmod>2024-03-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/oop/</loc>
+    <lastmod>2024-03-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2024-03-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2024-03-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/web-development/</loc>
+    <lastmod>2024-03-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/database/</loc>
     <lastmod>2024-03-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blogs/doctrine_orm/</loc>
+    <loc>http://localhost:1313/tags/doctrine-orm/</loc>
     <lastmod>2024-03-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/doctrine-orm/</loc>
+    <loc>http://localhost:1313/blogs/doctrine_orm/</loc>
     <lastmod>2024-03-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/orm/</loc>
@@ -22,24 +43,6 @@
   </url><url>
     <loc>http://localhost:1313/tags/programming/</loc>
     <lastmod>2024-03-13T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2024-03-13T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2024-03-13T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/classes/</loc>
-    <lastmod>2024-03-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/es6/</loc>
-    <lastmod>2024-03-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blogs/javascript_classes/</loc>
-    <lastmod>2024-03-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/javascript/</loc>
-    <lastmod>2024-03-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/array-methods/</loc>
     <lastmod>2024-02-29T00:00:00+00:00</lastmod>
@@ -74,10 +77,10 @@
     <loc>http://localhost:1313/tags/software-engineering/</loc>
     <lastmod>2024-02-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/web-development/</loc>
-    <lastmod>2024-02-28T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/tags/cross-platform-development/</loc>
+    <lastmod>2024-02-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/es6/</loc>
     <lastmod>2024-02-25T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/functions/</loc>
@@ -109,9 +112,6 @@
   </url><url>
     <loc>http://localhost:1313/tags/functional-programming/</loc>
     <lastmod>2024-02-24T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/oop/</loc>
-    <lastmod>2024-02-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/polymorphism/</loc>
     <lastmod>2024-02-23T00:00:00+00:00</lastmod>
@@ -238,6 +238,15 @@
   </url><url>
     <loc>http://localhost:1313/tags/software-architecture/</loc>
     <lastmod>2022-02-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/frontend-fundamentals/</loc>
+    <lastmod>2022-02-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/html/</loc>
+    <lastmod>2022-02-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blogs/html_basics/</loc>
+    <lastmod>2022-02-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/example/</loc>
     <lastmod>2021-04-03T23:29:21+05:30</lastmod>

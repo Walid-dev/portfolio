@@ -6,8 +6,15 @@
     <description>Recent content in Web Development on Walid&#39;s Portfolio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 28 Feb 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 15 Mar 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/web-development/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>JavaScript Classes</title>
+      <link>http://localhost:1313/blogs/javascript_classes/</link>
+      <pubDate>Fri, 15 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blogs/javascript_classes/</guid>
+      <description>Mastering JavaScript Classes JavaScript classes are a fundamental part of modern web development, offering a more structured approach to object-oriented programming (OOP) in JavaScript. Introduced in ECMAScript 2015 (ES6), classes provide a syntactical sugar over JavaScript&amp;rsquo;s existing prototype-based inheritance, making it easier to create objects, manage inheritance, and write cleaner, more readable code.&#xA;Introduction The concept of classes in JavaScript may seem daunting at first, especially if you come from a non-OOP background.</description>
+    </item>
     <item>
       <title>React Hooks</title>
       <link>http://localhost:1313/blogs/react-hooks/</link>
@@ -98,6 +105,13 @@
       <pubDate>Thu, 24 Feb 2022 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/blogs/restful-api/</guid>
       <description>Introduction RESTful APIs are pivotal in web and software development, facilitating communication between different software systems over the internet. We will explores REST (Representational State Transfer), emphasizing its principles, advantages, and providing real-world examples.&#xA;Core Principles of RESTful APIs REST is an architectural style that outlines guidelines for networked applications, primarily:&#xA;Statelessness: Each request from a client contains all the information the server needs to fulfill that request. Uniform Interface: A consistent interface between components so that information is transferred in a standardized form.</description>
+    </item>
+    <item>
+      <title>Understanding HTML: The Backbone of the Web</title>
+      <link>http://localhost:1313/blogs/html_basics/</link>
+      <pubDate>Tue, 15 Feb 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blogs/html_basics/</guid>
+      <description>Introduction HTML (HyperText Markup Language) is the standard markup language used to create web pages. It defines the structure of web content, enabling browsers to render text, images, and other materials on the web. This article aims to demystify HTML, breaking down its core concepts, elements, and functionalities.&#xA;Core Concepts What is HTML? HTML uses tags to annotate text, images, and other content for web browsers. It is the skeleton of all web pages and is crucial for web development.</description>
     </item>
   </channel>
 </rss>

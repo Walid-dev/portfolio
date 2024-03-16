@@ -9,11 +9,11 @@
     <lastBuildDate>Wed, 13 Mar 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/php/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Deep Dive into Doctrine ORM: Empowering PHP Data Management</title>
+      <title>Doctrine ORM</title>
       <link>http://localhost:1313/blogs/doctrine_orm/</link>
       <pubDate>Wed, 13 Mar 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/blogs/doctrine_orm/</guid>
-      <description>Deep Dive into Doctrine ORM: Empowering PHP Data Management Introduction Doctrine ORM stands as a pivotal tool in PHP development, bridging the gap between object-oriented programming and relational databases. This guide aims to elucidate the foundational and advanced features of Doctrine ORM, empowering PHP developers to optimize data management practices effectively.&#xA;Core Concepts The EntityManager: Core of Doctrine Introduction to EntityManager EntityManager acts as the central point of Doctrine&amp;rsquo;s ORM functionality, managing the lifecycle of entities.</description>
+      <description>Doctrine ORM: Empowering PHP Data Management Introduction Doctrine ORM stands as a pivotal tool in PHP development, bridging the gap between object-oriented programming and relational databases.&#xA;Core Concepts The EntityManager: Core of Doctrine Introduction to EntityManager EntityManager acts as the central point of Doctrine&amp;rsquo;s ORM functionality, managing the lifecycle of entities.&#xA;use Doctrine\ORM\Tools\Setup; use Doctrine\ORM\EntityManager; // Specify the path to your entities and set the development mode $paths = [&amp;#34;/path/to/your/entities&amp;#34;]; $isDevMode = true; // Database configuration parameters $dbParams = [ &amp;#39;driver&amp;#39; =&amp;gt; &amp;#39;pdo_mysql&amp;#39;, &amp;#39;user&amp;#39; =&amp;gt; &amp;#39;your_db_user&amp;#39;, &amp;#39;password&amp;#39; =&amp;gt; &amp;#39;your_db_password&amp;#39;, &amp;#39;dbname&amp;#39; =&amp;gt; &amp;#39;your_db_name&amp;#39;, ]; // Create a simple &amp;#34;default&amp;#34; Doctrine ORM configuration for Annotations $config = Setup::createAnnotationMetadataConfiguration($paths, $isDevMode); $entityManager = EntityManager::create($dbParams, $config); Understanding Repositories Leveraging Custom Repositories Repositories abstract the business logic for database operations, tailored to each entity.</description>
     </item>
     <item>
       <title>Polymorphism in Object-Oriented Programming: Concepts and Examples</title>

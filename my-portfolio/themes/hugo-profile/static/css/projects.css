@@ -16,7 +16,7 @@
   opacity: 0.8;
   color: var(--text-color) !important;
   background-color: var(--background-color) !important;
-  margin: 1% !important;
+  margin: 2% 1% !important;
   padding: 0.5rem 0.6rem !important;
   font-weight: lighter !important;
   cursor: pointer;

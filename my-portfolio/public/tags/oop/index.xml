@@ -6,8 +6,15 @@
     <description>Recent content in OOP on Walid&#39;s Portfolio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 23 Feb 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 15 Mar 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/oop/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>JavaScript Classes</title>
+      <link>http://localhost:1313/blogs/javascript_classes/</link>
+      <pubDate>Fri, 15 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blogs/javascript_classes/</guid>
+      <description>Mastering JavaScript Classes JavaScript classes are a fundamental part of modern web development, offering a more structured approach to object-oriented programming (OOP) in JavaScript. Introduced in ECMAScript 2015 (ES6), classes provide a syntactical sugar over JavaScript&amp;rsquo;s existing prototype-based inheritance, making it easier to create objects, manage inheritance, and write cleaner, more readable code.&#xA;Introduction The concept of classes in JavaScript may seem daunting at first, especially if you come from a non-OOP background.</description>
+    </item>
     <item>
       <title>Polymorphism in Object-Oriented Programming: Concepts and Examples</title>
       <link>http://localhost:1313/blogs/oop-polymorphism/</link>

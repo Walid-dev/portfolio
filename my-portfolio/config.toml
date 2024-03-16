@@ -4,504 +4,486 @@ title = "Walid's Portfolio"
 theme = "hugo-profile"
 
 [outputs]
-  home = ["HTML", "RSS", "JSON"]
-  page = ["HTML", "RSS"]
+home = ["HTML", "RSS", "JSON"]
+page = ["HTML", "RSS"]
 
 Paginate = 3
 enableRobotsTXT = true
 
 [markup]
-  [markup.goldmark]
-    [markup.goldmark.renderer]
-      unsafe = true
+[markup.goldmark]
+[markup.goldmark.renderer]
+unsafe = true
 
 [Menus]
-  [[Menus.main]]
-    identifier = "Learnings"
-    name = "Learnings"
-    title = "Learnings"
-    url = "/blogs"
-    weight = 1
-  [[Menus.main]]
-    identifier = "gallery"
-    name = "Gallery"
-    title = "Gallery"
-    url = "/gallery"
-    weight = 2
+[[Menus.main]]
+identifier = "Learnings"
+name = "Learnings"
+title = "Learnings"
+url = "/blogs"
+weight = 1
+[[Menus.main]]
+identifier = "gallery"
+name = "Gallery"
+title = "Gallery"
+url = "/gallery"
+weight = 2
 
 [params]
-  title = "Walid's Portfolio"
-  description = "Innovative Software Engineer with a track record in developing and optimizing technology solutions. Skilled in front-end and back-end development."
-  favicon = "/logo-flamme.webp"
-  useBootstrapCDN = false
-  animate = true
+title = "Walid's Portfolio"
+description = "Innovative Software Engineer with a track record in developing and optimizing technology solutions. Skilled in front-end and back-end development."
+favicon = "/logo-flamme.webp"
+useBootstrapCDN = false
+animate = true
 
-  [params.theme]
-    defaultTheme = "dark"
+[params.theme]
+defaultTheme = "dark"
 
-  [params.font]
-    fontSize = "1rem"
-    fontWeight = 400
-    lineHeight = 1.5
-    textAlign = "left"
+[params.font]
+fontSize = "1rem"
+fontWeight = 400
+lineHeight = 1.5
+textAlign = "left"
 
-  [params.navbar]
-    align = "ms-auto"
-    brandName = "Walid's Portfolio"
-    disableSearch = false
+[params.navbar]
+align = "ms-auto"
+brandName = "Walid's Portfolio"
+disableSearch = false
 
-  [params.navbar.stickyNavBar]
-    enable = true
-    showOnScrollUp = true
+[params.navbar.stickyNavBar]
+enable = true
+showOnScrollUp = true
 
-  [params.hero]
-    enable = true
-    intro = "Hi, I'm"
-    title = "Walid."
-    subtitle = "Software Developer"
-    content = "Proficient in front-end and back-end development, I concentrate on developing efficient, scalable applications that deliver a good user experience."
-    image = "/digital-three-2.webp"
-    [params.hero.button]
-      enable = true
-      name = "Resume"
-      url = "/resume/resume-dual.pdf"
-      download = true
-      newPage = false
-    [params.hero.socialLinks]
-      fontAwesomeIcons = [
-        { icon = "fab fa-github", url = "https://github.com/Walid-dev" },
-        { icon = "fab fa-whatsapp", url = "https://wa.me/33634144809" },
-        { icon= "fas fa-envelope", url= "mailto:hlaliwalid@gmail.com" },
-        { icon = "fab fa-linkedin", url = "https://www.linkedin.com/in/walid-hlali" }
-      ]
+[params.hero]
+enable = true
+intro = "Hi, I'm"
+title = "Walid."
+subtitle = "Software Developer"
+content = "Proficient in front-end and back-end development, I concentrate on developing efficient, scalable applications that deliver a good user experience."
+image = "/digital-three-2.webp"
+[params.hero.button]
+enable = true
+name = "Resume"
+url = "/resume/resume-dual.pdf"
+download = true
+newPage = false
+[params.hero.socialLinks]
+fontAwesomeIcons = [
+{ icon = "fab fa-github", url = "https://github.com/Walid-dev" },
+{ icon = "fab fa-whatsapp", url = "https://wa.me/33634144809" },
+{ icon= "fas fa-envelope", url= "mailto:hlaliwalid@gmail.com" },
+{ icon = "fab fa-linkedin", url = "https://www.linkedin.com/in/walid-hlali" }
+]
 
 [params.about]
-  enable = true
-  title = ""
-  image = "laptop-pixel.webp"
-  content = "As a Web Developer, I focus on creating solutions that align with client and project needs, ensuring a balance between user experience and technical precision. Skilled in both front-end and back-end development, I enhance application efficiency and scalability. I excel in multitasking and resolving technical challenges to boost performance. Committed to continuous learning, I stay updated with the latest technologies to drive innovation. I value teamwork, eagerly learning from colleagues and contributing to our collective success."
+enable = true
+title = ""
+image = "laptop-pixel.webp"
+content = "As a Web Developer, I focus on creating solutions that align with client and project needs, ensuring a balance between user experience and technical precision. Skilled in both front-end and back-end development, I enhance application efficiency and scalability. I excel in multitasking and resolving technical challenges to boost performance. Committed to continuous learning, I stay updated with the latest technologies to drive innovation. I value teamwork, eagerly learning from colleagues and contributing to our collective success."
 
 [params.about.skills]
-  enable = true
-  title = "Skills"
-  items = [
-    "JavaScript", "React", "Node.js", "TypeScript", "PHP", "Laravel",
-    "HTML", "CSS", "React Native", "Redux", "Next.js",
-    "SASS/LESS", "jQuery", "EJS", "AI Integration",
-    "Prompt Engineering", "Debugging"
-  ]
+enable = true
+title = "Skills"
+items = [
+"JavaScript", "React","React Native", "Redux", "Node.js", "Next.js", "TypeScript", "jQuery", "RESTful API", "Jest", "PHP", "SQL", "Laravel", "ORM", "AWS", "HTML", "CSS", "SASS/LESS", "AI Integration", "Prompt Engineering", "Debugging"]
 
 [params.toolsTechnologies]
-  enable = true
-  title = "Tools & Technologies"
-  items = [
-    "RESTful API", "Firebase", "MongoDB", 
-    "Git", "GitLab", "Docker", "Datadog", "Splunk", "Snowflake",
-    "Raygun", "HUGO", "WordPress", "AGILE Methodology", 
-    "Tailwind CSS", "Material UI", "Chakra UI", "Figma","graphQL",
-    "Ant Design"
-  ]
-
+enable = true
+title = "Tools & Technologies"
+items = [
+"Git", "GitLab", "Docker", "MongoDB","Firebase", "Tailwind CSS", "Material UI", "Chakra UI", "Figma","graphQL", "Datadog", "Splunk", "Snowflake", "Visual Studio", "Php Storm",
+"Raygun", "AGILE Methodology","Ant Design", "HUGO", "WordPress", "Jira"
+]
 
 # Experience Section
 
 [params.experience]
-  enable = true
+enable = true
 [[params.experience.items]]
-  job = "Software Engineer"
-  company = "Mobi"
-  date = "March 2023 - Present"
-  location = "Toronto - Canada"
-  badges = ["JavaScript", "PHP", "TypeScript", "Frontend", "Backend", "React", "Redux", "React Native", "SQL"]
-  content = """
-  In my capacity as a Software Engineer at Mobi, I was involved in development tasks covering both front-end and back-end aspects. 
-  
-  My work in the front-end included developing user interfaces with React, Redux, and React Native, along with crafting the complete logic and ensuring seamless integration with the back-end. This approach resulted in creating functional, user-centric applications. 
+job = "Software Engineer"
+company = "Mobi"
+date = "March 2023 - Present"
+location = "Toronto - Canada"
+badges = ["JavaScript", "PHP", "API", "TypeScript", "Frontend", "Backend", "React", "Redux", "Hooks", "React Native", "SQL", "Database", "Laravel"]
+content = """
+In my capacity as a Software Engineer at Mobi, I was involved in development tasks covering both front-end and back-end aspects.
 
-  In the back-end, I leveraged PHP, JavaScript, and SQL to improve system performance and stability. My work on API integrations and debugging emphasized thorough analysis, challenge identification, and the application of effective solutions.
-  """
+My work in the front-end included developing user interfaces with React, Redux, and React Native, along with crafting the complete logic and ensuring seamless integration with the back-end. This approach resulted in creating functional, user-centric applications.
 
-
-[[params.experience.items]]
-  job = "Sustaining Engineer"
-  company = "Mobi"
-  date = "March 2022 - March 2023"
-  location = "Toronto - Canada"
-  badges = ["JavaScript", "Backend", "Frontend", "Debugging", "Splunk", "Datadog", "Raygun"]
-  content = """
-  As a Sustaining Engineer at Mobi, my role encompassed a variety of development and maintenance tasks across backend and frontend. 
-  
-  I actively developed tools to enhance workflow efficiency. 
-  
-  In backend development, my focus was on improving system functionality and reliability, integrating APIs and managing databases. 
-  
-  A significant part of my role involved debugging, investigating, and solving system issues, utilizing tools like Splunk, Datadog, and Raygun for effective problem investigation and resolution. 
-  
-  On the frontend, I customized client online platforms to specific needs and to enhance user experience. This position required a combination of technical proficiency and problem-solving skills, ensuring robust and user-centric solutions for clients.
-  """
-
+In the back-end, I leveraged PHP, JavaScript, and SQL to improve system performance and stability. My work on API integrations and debugging emphasized thorough analysis, challenge identification, and the application of effective solutions.
+"""
 
 [[params.experience.items]]
-  job = "Bilingual Technical Support Specialist"
-  company = "Mobi"
-  date = "March 2021 - March 2022"
-  location = "Toronto - Canada"
-  badges = ["Technical Support", "API Integration", "Problem Solving"]
-  content = """
-  In my role as a Bilingual Technical Support Specialist at Mobi, I focused on providing effective technical solutions to client issues in English and French. 
-  
-  My responsibilities involved analyzing logs, investigating API integration challenges, and employing systematic problem-solving approaches. 
-  
-  I worked on customizing client platforms to meet specific needs and requirements, along with integrating products into CMS platforms to enhance content management efficiency.
+job = "Sustaining Engineer"
+company = "Mobi"
+date = "March 2022 - March 2023"
+location = "Toronto - Canada"
+badges = ["JavaScript", "Frontend", "Backend", "API", "SQL", "Database", "Debugging", "Splunk", "Datadog", "Raygun", "Figma", "Ant", "Chakra UI"]
+content = """
+As a Sustaining Engineer at Mobi, my role encompassed a variety of development and maintenance tasks across backend and frontend.
 
-  Additionally, I contributed to creating comprehensive documentation, providing clear guidelines and support to enhance our team's efficiency and knowledge base.
-  """
+I actively developed tools to enhance workflow efficiency.
 
+In backend development, my focus was on improving system functionality and reliability, integrating APIs and managing databases.
 
+A significant part of my role involved debugging, investigating, and solving system issues, utilizing tools like Splunk, Datadog, and Raygun for effective problem investigation and resolution.
 
-[[params.experience.items]]
-  job = "Bilingual Technical Support Specialist"
-  company = "FISERV"
-  date = "Feb 2020 - March 2021"
-  location = "Toronto - Canada"
-  badges = ["Customer Support", "Android", "Recruitment"]
-  content = """
-  As a Bilingual Technical Support Specialist at FISERV, my responsibilities were multifaceted, focusing primarily on providing comprehensive technical support for Clover’s Android-based app. 
-  
-  A personal contribution was the development and management of an online customer support platform in French. This initiative substantially improved the support experience for French-speaking clients and played a crucial role in resource optimization, reducing overhead and enhancing overall service efficiency. 
-  
-  My active involvement in recruiting French-speaking personnel further complemented these efforts, aligning with the company's commitment to cultural sensitivity and linguistic diversity in customer service.
-  """
-
+On the frontend, I customized client online platforms to specific needs and to enhance user experience. This position required a combination of technical proficiency and problem-solving skills, ensuring robust and user-centric solutions for clients.
+"""
 
 [[params.experience.items]]
-  job = "Web Developer FullStack"
-  company = "Malt"
-  date = "Sept 2017 - Feb 2020"
-  location = "Lyon - France"
-  badges = ["Full Stack", "HTML", "CSS", "JavaScript", "PHP", "MySQL", "WordPress"]
-  content = """
-  In my role as a freelance FullStack Web Developer, I specialize in building custom websites using a range of technologies, including HTML, CSS, JavaScript, PHP, and MySQL.
-  
-  My approach has always been to meticulously design user-friendly interfaces while ensuring responsive design across all platforms. Proficient in WordPress for content management, tailored themes and plugins creation, but also creating websites and apps from scratch. In addition, I have customized admin interfaces with custom post types and taxonomies, allowing clients to effortlessly manage and curate personalized content.
+job = "Bilingual Technical Support Specialist"
+company = "Mobi"
+date = "March 2021 - March 2022"
+location = "Toronto - Canada"
+badges = ["Debugging", "Technical Support", "HTML", "CSS", "Javascript", "API", "Investigation"]
+content = """
+In my role as a Bilingual Technical Support Specialist at Mobi, I focused on providing effective technical solutions to client issues in English and French.
 
-  My work with these tools has enabled me to develop unique and interactive features, ultimately enhancing user engagement and site functionality. Above all, my commitment has consistently been to deliver comprehensive, efficient web solutions that align with each client's specific requirements and objectives.
-  """
+My responsibilities involved analyzing logs, investigating API integration challenges, and employing systematic problem-solving approaches.
 
-[[params.experience.items]]
-    job = "Tutor"
-    company = "Self-employed"
-    date = "Jan 2015 - Aug 2017"
-    location="Montpellier - France"
-    badges = ["Education", "French", "Mathematics", "Computing"]
-    content = "Offered personalized tutoring in French, Mathematics, and Computing. Provided customized instruction to meet diverse learning needs and styles."
+I worked on customizing client platforms to meet specific needs and requirements, along with integrating products into CMS platforms to enhance content management efficiency.
+
+Additionally, I contributed to creating comprehensive documentation, providing clear guidelines and support to enhance our team's efficiency and knowledge base.
+"""
 
 [[params.experience.items]]
-  job = "Teaching Assistant"
-  company = "Collège des Garrigues"
-  date = "Jan 2010 - Sept 2014"
-  location = "Montpellier - France"
-  badges = ["Education", "Computing", "Classroom Management"]
-  content = """
-  Assisted in educational preparation and classroom management. Engaged in delivering computing lessons, enhancing students' technical skills and understanding. 
-  
-  Served as a teacher for a relay class, which included students temporarily excluded or experiencing academic failure.
-  
-  In this role, I adapted teaching methods and curricula to keep these students up to date with their programs, facilitating their smooth reintegration upon return to their regular classes.
-  """
+job = "Bilingual Technical Support Specialist"
+company = "FISERV"
+date = "Feb 2020 - March 2021"
+location = "Toronto - Canada"
+badges = ["Technical Support", "Debugging", "Investigation", "Android"]
+content = """
+As a Bilingual Technical Support Specialist at FISERV, my responsibilities were multifaceted, focusing primarily on providing comprehensive technical support for Clover’s Android-based app.
 
+A personal contribution was the development and management of an online customer support platform in French. This initiative substantially improved the support experience for French-speaking clients and played a crucial role in resource optimization, reducing overhead and enhancing overall service efficiency.
+
+My active involvement in recruiting French-speaking personnel further complemented these efforts, aligning with the company's commitment to cultural sensitivity and linguistic diversity in customer service.
+"""
+
+[[params.experience.items]]
+job = "Web Developer FullStack"
+company = "Malt"
+date = "Sept 2017 - Feb 2020"
+location = "Lyon - France"
+badges = ["JavaScript", "PHP", "HTML", "CSS", "SQL", "WordPress", "Frontend", "Backend"]
+content = """
+In my role as a freelance FullStack Web Developer, I specialize in building custom websites using a range of technologies, including HTML, CSS, JavaScript, PHP, and SQL.
+
+My approach has always been to meticulously design user-friendly interfaces while ensuring responsive design across all platforms. Proficient in WordPress for content management, tailored themes and plugins creation, but also creating websites and apps from scratch. In addition, I have customized admin interfaces with custom post types and taxonomies, allowing clients to effortlessly manage and curate personalized content.
+
+My work with these tools has enabled me to develop unique and interactive features, ultimately enhancing user engagement and site functionality. Above all, my commitment has consistently been to deliver comprehensive, efficient web solutions that align with each client's specific requirements and objectives.
+"""
+
+[[params.experience.items]]
+job = "Tutor"
+company = "Self-employed"
+date = "Jan 2015 - Aug 2017"
+location="Montpellier - France"
+badges = ["Education", "French", "Mathematics", "Computing"]
+content = "Offered personalized tutoring in French, Mathematics, and Computing. Provided customized instruction to meet diverse learning needs and styles."
+
+[[params.experience.items]]
+job = "Teaching Assistant"
+company = "Collège des Garrigues"
+date = "Jan 2010 - Sept 2014"
+location = "Montpellier - France"
+badges = ["Education", "Computing", "Classroom Management"]
+content = """
+Assisted in educational preparation and classroom management. Engaged in delivering computing lessons, enhancing students' technical skills and understanding.
+
+Served as a teacher for a relay class, which included students temporarily excluded or experiencing academic failure.
+
+In this role, I adapted teaching methods and curricula to keep these students up to date with their programs, facilitating their smooth reintegration upon return to their regular classes.
+"""
 
 # Education Section
 
 [params.education]
-  enable = true
-  [[params.education.items]]
-    title = "Fullstack Web Developer Degree"
-    schoolName = "OpenClassrooms"
-    date = "Sep 2017 - Jan 2020"
-    content = "Gained comprehensive knowledge in full-stack web development, covering both front-end and back-end technologies. This program provided a strong foundation in modern web development practices, including hands-on experience in various contemporary tools and frameworks"
+enable = true
+[[params.education.items]]
+title = "Fullstack Web Developer Degree"
+schoolName = "OpenClassrooms"
+date = "Sep 2017 - Jan 2020"
+content = "Gained comprehensive knowledge in full-stack web development, covering both front-end and back-end technologies. This program provided a strong foundation in modern web development practices, including hands-on experience in various contemporary tools and frameworks"
 
-  [[params.education.items]]
-    title = "Scientific Baccalaureate"
-    schoolName = "Jean Monnet High School"
-    date = "June 2005"
-    content = "This Scientific Baccalaureate program, with a focus on Physics-Chemistry, honed my analytical and problem-solving abilities. It provided a broad foundation in scientific principles, blending theoretical knowledge with practical experimentation across a spectrum of scientific disciplines."
-
+[[params.education.items]]
+title = "Scientific Baccalaureate"
+schoolName = "Jean Monnet High School"
+date = "June 2005"
+content = "This Scientific Baccalaureate program, with a focus on Physics-Chemistry, honed my analytical and problem-solving abilities. It provided a broad foundation in scientific principles, blending theoretical knowledge with practical experimentation across a spectrum of scientific disciplines."
 
 # Projects section
 
 [params.projects]
-  enable = true
+enable = true
 
-  
 # Project 1
-[[params.projects.items]]
-  title = "Mobi Quick Menu"
-  badges = ["React", "Chakra UI", "API Integration", "Excel"]
-  content = """
-  'Mobi Quick Menu, developed with React JS and Chakra UI, builds upon the Menu Extractor's foundation, maintaining its essential features while introducing new tools that streamline menu updates and modifications. This advancement has minimized manual errors and reduced the resources required for menu management. By automating crucial menu update tasks, it provides efficient solutions for staff and convenient self-service options for clients, benefiting all parties involved."""
-  image = "/images/projects/project-1.webp"
-  [params.projects.items.featured]
-    name = "Visit"
-    link = "https://mobi-quick-menu.vercel.app/"
-  [[params.projects.items.links]]
-    icon = "fa fa-envelope"
-    url = "mailto:?subject=Mobi%20Quick%20Menu&body=Check%20out%20the%20advanced%20Mobi%20Quick%20Menu:%20https%3A%2F%2Fmobi-quick-menu.vercel.app%2F"
-  [[params.projects.items.links]]
-    icon = "fab fa-github"
-    url = "https://github.com/Walid-dev/next-menu-extractor"
 
+[[params.projects.items]]
+title = "Mobi Quick Menu"
+badges = ["Javascript", "React", "Hooks", "Chakra UI", "API", "Frontend"]
+content = """
+'Mobi Quick Menu, developed with React JS and Chakra UI, builds upon the Menu Extractor's foundation, maintaining its essential features while introducing new tools that streamline menu updates and modifications. This advancement has minimized manual errors and reduced the resources required for menu management. By automating crucial menu update tasks, it provides efficient solutions for staff and convenient self-service options for clients, benefiting all parties involved."""
+image = "/images/projects/project-1.webp"
+[params.projects.items.featured]
+name = "Visit"
+link = "https://mobi-quick-menu.vercel.app/"
+[[params.projects.items.links]]
+icon = "fa fa-envelope"
+url = "mailto:?subject=Mobi%20Quick%20Menu&body=Check%20out%20the%20advanced%20Mobi%20Quick%20Menu:%20https%3A%2F%2Fmobi-quick-menu.vercel.app%2F"
+[[params.projects.items.links]]
+icon = "fab fa-github"
+url = "https://github.com/Walid-dev/next-menu-extractor"
 
 # Project 2
-[[params.projects.items]]
-  title = "Mobi Extractor"
-  badges = ["HTML", "JavaScript", "CSS", "API"]
-  content = """
-  'Mobi Extractor' is a tool designed to streamline the menu creation and duplication process. Developed using HTML, JavaScript, and CSS, this application leverages API integrations to automate the retrieval and customization of menus linked to a head office. Prior to Mobi Extractor, support and implementation teams faced the tedious task of manually duplicating or creating menus. Now, users can efficiently duplicate or craft new menus, customizing names and all associated nested entities. This tool has resolved significant operational challenges, saving resources and significantly enhancing workflow efficiency within the company."""
-  image = "/images/projects/project-2.webp"
-  [params.projects.items.featured]
-    name = "Visit"
-    link = "https://menu-extractor-app-walid-dev.vercel.app/"
-  [[params.projects.items.links]]
-    icon = "fa fa-envelope"
-    url = "mailto:?subject=Mobi%20Extractor&body=Check%20out%20Mobi%20Extractor:%20https%3A%2F%2Fmenu-extractor-app-walid-dev.vercel.app%2F"
-  [[params.projects.items.links]]
-    icon = "fab fa-github"
-    url = "https://github.com/mobi-hq/menu-extractor"
 
+[[params.projects.items]]
+title = "Mobi Extractor"
+badges = ["HTML", "JavaScript", "CSS", "API", "Frontend"]
+content = """
+'Mobi Extractor' is a tool designed to streamline the menu creation and duplication process. Developed using HTML, JavaScript, and CSS, this application leverages API integrations to automate the retrieval and customization of menus linked to a head office. Prior to Mobi Extractor, support and implementation teams faced the tedious task of manually duplicating or creating menus. Now, users can efficiently duplicate or craft new menus, customizing names and all associated nested entities. This tool has resolved significant operational challenges, saving resources and significantly enhancing workflow efficiency within the company."""
+image = "/images/projects/project-2.webp"
+[params.projects.items.featured]
+name = "Visit"
+link = "https://menu-extractor-app-walid-dev.vercel.app/"
+[[params.projects.items.links]]
+icon = "fa fa-envelope"
+url = "mailto:?subject=Mobi%20Extractor&body=Check%20out%20Mobi%20Extractor:%20https%3A%2F%2Fmenu-extractor-app-walid-dev.vercel.app%2F"
+[[params.projects.items.links]]
+icon = "fab fa-github"
+url = "https://github.com/mobi-hq/menu-extractor"
 
 # Velo App
-[[params.projects.items]]
-  title = "Velo App"
-  badges = ["JavaScript", "API Integration", "Local Storage", "Canvas"]
-  content = """
-  'Velo App', a bike booking application, showcases advanced JavaScript usage and API integration. This project allowed for exploration of various data handling methods and feature implementations. It offers an easy-to-use interface for booking and canceling reservations, prioritizing a smooth user experience.
-  """
-  image = "/images/projects/app-velo-2.webp"
-  [params.projects.items.featured]
-    name = "Visit"
-    link = "https://app-velo.vercel.app/"
-  [[params.projects.items.links]]
-    icon = "fa fa-envelope"
-    url = "mailto:?subject=Velo%20App&body=Explore%20my%20bike%20booking%20application:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f"
-  [[params.projects.items.links]]
-    icon = "fab fa-github"
-    url = "https://github.com/Walid-dev"
 
+[[params.projects.items]]
+title = "Velo App"
+badges = ["JavaScript", "HTML", "CSS", "API", "Frontend", "JQuery", "OOP"]
+content = """
+'Velo App', a bike booking application, showcases advanced JavaScript usage and API integration. This project allowed for exploration of various data handling methods and feature implementations. It offers an easy-to-use interface for booking and canceling reservations, prioritizing a smooth user experience.
+"""
+image = "/images/projects/app-velo-2.webp"
+[params.projects.items.featured]
+name = "Visit"
+link = "https://app-velo.vercel.app/"
+[[params.projects.items.links]]
+icon = "fa fa-envelope"
+url = "mailto:?subject=Velo%20App&body=Explore%20my%20bike%20booking%20application:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f"
+[[params.projects.items.links]]
+icon = "fab fa-github"
+url = "https://github.com/Walid-dev"
 
 # Project 3
-[[params.projects.items]]
-  title = "Portfolio"
-  badges = ["JavaScript", "JQuery", "HTML", "CSS", "Interactive Design", "Animation"]
-  content = """
-  'The Portfolio' project is an exploration of web design, combining JavaScript, JQuery, HTML, and CSS to create a dynamic and engaging online presence. The project focuses on interactivity and animation, making the web experience not only functional but also lively and engaging. Highlighted by an animated phone that transitions into different screen sizes, the site showcases proficient responsive design. Each design element and transition is carefully crafted to engage visitors, exemplifying the power of combining user interaction with visual narratives in front-end development.
-  """
-  image = "/images/projects/project-3.webp"
-  [params.projects.items.featured]
-    name = "Visit"
-    link = ""
-  [[params.projects.items.links]]
-    icon = "fa fa-envelope"
-    url = "mailto:?subject=Portfolio&body=Check%20out%20my%20interactive%20and%20animated%20Portfolio:%20https%3A%2F%2Fexample.com%2Fproject-3"
-  [[params.projects.items.links]]
-    icon = "fab fa-github"
-    url = "https://github.com/Walid-dev"
 
-    
+[[params.projects.items]]
+title = "Portfolio"
+badges = ["JavaScript", "JQuery", "HTML", "CSS", "Frontend"]
+content = """
+'The Portfolio' project is an exploration of web design, combining JavaScript, JQuery, HTML, and CSS to create a dynamic and engaging online presence. The project focuses on interactivity and animation, making the web experience not only functional but also lively and engaging. Highlighted by an animated phone that transitions into different screen sizes, the site showcases proficient responsive design. Each design element and transition is carefully crafted to engage visitors, exemplifying the power of combining user interaction with visual narratives in front-end development.
+"""
+image = "/images/projects/project-3.webp"
+[params.projects.items.featured]
+name = "Visit"
+link = ""
+[[params.projects.items.links]]
+icon = "fa fa-envelope"
+url = "mailto:?subject=Portfolio&body=Check%20out%20my%20interactive%20and%20animated%20Portfolio:%20https%3A%2F%2Fexample.com%2Fproject-3"
+[[params.projects.items.links]]
+icon = "fab fa-github"
+url = "https://github.com/Walid-dev"
 
 # Project 4
-[[params.projects.items]]
-  title = "Galaxy Surfing"
-  badges = ["JavaScript", "CSS Layouts", "CSS Animations", "Visual Effects"]
-  content = """
-  'Galaxy Surfing' is a project that introduces JavaScript and incorporates advanced CSS techniques. It focuses on the foundational aspects of JavaScript, bringing simple interactivity and logic to web design. The CSS component involves exploring layout designs, animations, and visual effects, including mastery of the box model, flexbox/grid systems, and custom animation keyframes. 'Galaxy Surfing' merges JavaScript interactivity with CSS's visual capabilities, resulting in a user-friendly and visually engaging web space.
-  """
-  image = "/images/projects/project-4.webp"
-  [params.projects.items.featured]
-    name = "Visit"
-    link = ""
-  [[params.projects.items.links]]
-    icon = "fa fa-envelope"
-    url = "mailto:?subject=Galaxy%20Surfing&body=Check%20it%20out:%20https%3A%2F%2Fexample.com%2Fproject-4"
-  [[params.projects.items.links]]
-    icon = "fab fa-github"
-    url = "https://github.com/Walid-dev"
 
+[[params.projects.items]]
+title = "Galaxy Surfing"
+badges = ["JavaScript", "HTML", "CSS", "JQuery", "Frontend"]
+content = """
+'Galaxy Surfing' is a project that introduces JavaScript and incorporates advanced CSS techniques. It focuses on the foundational aspects of JavaScript, bringing simple interactivity and logic to web design. The CSS component involves exploring layout designs, animations, and visual effects, including mastery of the box model, flexbox/grid systems, and custom animation keyframes. 'Galaxy Surfing' merges JavaScript interactivity with CSS's visual capabilities, resulting in a user-friendly and visually engaging web space.
+"""
+image = "/images/projects/project-4.webp"
+[params.projects.items.featured]
+name = "Visit"
+link = ""
+[[params.projects.items.links]]
+icon = "fa fa-envelope"
+url = "mailto:?subject=Galaxy%20Surfing&body=Check%20it%20out:%20https%3A%2F%2Fexample.com%2Fproject-4"
+[[params.projects.items.links]]
+icon = "fab fa-github"
+url = "https://github.com/Walid-dev"
 
 # Frenchies in Toronto
+
 [[params.projects.items]]
-  title = "Frenchies in Toronto"
-  badges = ["PHP", "JavaScript", "HTML", "CSS", "OOP", "CRUD", "Chat System", "User Authentication", "SQL", "Database Management", "Web Security", "SEO"]
-  content = """
-  'Frenchies in Toronto' is a multifaceted project that utilizes a variety of programming languages and technologies. It is built on a PHP framework, enhanced with JavaScript, HTML, and CSS, serving as a prime example of versatile web development. The blog incorporates Object-Oriented Programming, CRUD operations, and a dynamic chat module. It also features robust security measures ensuring data integrity and user protection. The site is designed with multiple user access levels and effective SQL database management, aligning with industry standards in programming and SEO.
-  """
-  image = "/images/projects/french-in-toronto.webp"
-  [params.projects.items.featured]
-    name = "Visit"
-    link = ""
-  [[params.projects.items.links]]
-    icon = "fa fa-envelope"
-    url = "mailto:?subject=Frenchies%20in%20Toronto&body=Discover%20the%20diverse%20technical%20aspects%20of%20my%20blog%20project:%20https%3A%2F%2Ffrenchies-in-toronto.example.com"
-  [[params.projects.items.links]]
-    icon = "fab fa-github"
-    url = "https://github.com/example/frenchies-in-toronto"
-
-
+title = "Frenchies in Toronto"
+badges = ["PHP", "Laravel", "JavaScript", "HTML", "CSS", "Responsive Design", "CSS Grid", "OOP", "SQL", "Database", "SEO", "CRUD"]
+content = """
+'Frenchies in Toronto' is a multifaceted project that utilizes a variety of programming languages and technologies. It is built on a PHP framework, enhanced with JavaScript, HTML, and CSS, serving as a prime example of versatile web development. The blog incorporates Object-Oriented Programming, CRUD operations, and a dynamic chat module. It also features robust security measures ensuring data integrity and user protection. The site is designed with multiple user access levels and effective SQL database management, aligning with industry standards in programming and SEO.
+"""
+image = "/images/projects/french-in-toronto.webp"
+[params.projects.items.featured]
+name = "Visit"
+link = ""
+[[params.projects.items.links]]
+icon = "fa fa-envelope"
+url = "mailto:?subject=Frenchies%20in%20Toronto&body=Discover%20the%20diverse%20technical%20aspects%20of%20my%20blog%20project:%20https%3A%2F%2Ffrenchies-in-toronto.example.com"
+[[params.projects.items.links]]
+icon = "fab fa-github"
+url = "https://github.com/example/frenchies-in-toronto"
 
 # Project 5
-[[params.projects.items]]
-  title = "WordPress: Movie à la Carte"
-  badges = ["WordPress", "PHP", "JavaScript", "CSS", "Custom Taxonomies", "Custom Post Types"]
-  content = """
-  'Movie à la Carte' is a WordPress-based project that showcases the use of taxonomies and custom post types. Developed using PHP, JavaScript, and CSS, this project features a specialized menu manager within WordPress. It allows users to effortlessly create pages and movie cards, complete with a comprehensive filtering and categorization system. This project is an example of how custom functionality can be seamlessly integrated into WordPress, enhancing the content management experience for users."""
-  image = "/images/projects/project-5.webp"
-  [params.projects.items.featured]
-    name = "Visit"
-    link = ""
-  [[params.projects.items.links]]
-    icon = "fa fa-envelope"
-    url = "mailto:?subject=Project%205%20-%20Movie%20à%20la%20Carte&body=Check%20it%20out:%20https%3A%2F%2Fexample.com%2Fproject-5"
-  [[params.projects.items.links]]
-    icon = "fab fa-github"
-    url = "https://github.com/Walid-dev"
 
+[[params.projects.items]]
+title = "WordPress: Movie à la Carte"
+badges = ["Php", "WordPress", "JavaScript", "CSS", "Frontend", "Backend", "Taxonomies", "Custom Post Types"]
+content = """
+'Movie à la Carte' is a WordPress-based project that showcases the use of taxonomies and custom post types. Developed using PHP, JavaScript, and CSS, this project features a specialized menu manager within WordPress. It allows users to effortlessly create pages and movie cards, complete with a comprehensive filtering and categorization system. This project is an example of how custom functionality can be seamlessly integrated into WordPress, enhancing the content management experience for users."""
+image = "/images/projects/project-5.webp"
+[params.projects.items.featured]
+name = "Visit"
+link = ""
+[[params.projects.items.links]]
+icon = "fa fa-envelope"
+url = "mailto:?subject=Project%205%20-%20Movie%20à%20la%20Carte&body=Check%20it%20out:%20https%3A%2F%2Fexample.com%2Fproject-5"
+[[params.projects.items.links]]
+icon = "fab fa-github"
+url = "https://github.com/Walid-dev"
 
 # Project 7
+
 [[params.projects.items]]
-  title = "WordPress: Essence Portfolio"
-  badges = ["WordPress", "Minimalist Design", "Efficiency", "Customizability"]
-  content = """
-  This project is a WordPress portfolio developed with a focus on efficiency, effectiveness, and minimalism in web development. The design is both professional and straightforward, emphasizing the principles of simplicity and clarity. It highlights the concept that in web development and design, less can often be more, providing an elegant and clear user experience.
-  """
-  image = "/images/projects/project-7.webp"
-  [params.projects.items.featured]
-    name = "Visit"
-    link = ""
-  [[params.projects.items.links]]
-    icon = "fa fa-envelope"
-    url = "mailto:?subject=Project%207&body=Explore%20my%20minimalist%20and%20efficient%20WordPress%20portfolio:%20https%3A%2F%2Fexample.com%2Fproject-7"
-  [[params.projects.items.links]]
-    icon = "fab fa-github"
-    url = "https://github.com/Walid-dev"
-
-
+title = "WordPress: Essence Portfolio"
+badges = ["Php","WordPress", "CSS", "Frontend", "Backend"]
+content = """
+This project is a WordPress portfolio developed with a focus on efficiency, effectiveness, and minimalism in web development. The design is both professional and straightforward, emphasizing the principles of simplicity and clarity. It highlights the concept that in web development and design, less can often be more, providing an elegant and clear user experience.
+"""
+image = "/images/projects/project-7.webp"
+[params.projects.items.featured]
+name = "Visit"
+link = ""
+[[params.projects.items.links]]
+icon = "fa fa-envelope"
+url = "mailto:?subject=Project%207&body=Explore%20my%20minimalist%20and%20efficient%20WordPress%20portfolio:%20https%3A%2F%2Fexample.com%2Fproject-7"
+[[params.projects.items.links]]
+icon = "fab fa-github"
+url = "https://github.com/Walid-dev"
 
 # Project 10
-[[params.projects.items]]
-  title = "Avis GO"
-  badges = ["HTML", "CSS", "Bootstrap", "Responsive Design"]
-  content = """
-  'Avis GO' represents an entry into responsive static web design, utilizing HTML, CSS, and the Bootstrap framework. Designed with responsiveness as a priority, it ensures an optimal viewing experience on different devices, with content readability and easy navigation regardless of screen size.
-  """
-  image = "/images/projects/project-10.webp"
-  [params.projects.items.featured]
-    name = "Visit"
-    link = ""
-  [[params.projects.items.links]]
-    icon = "fa fa-envelope"
-    url = "mailto:?subject=Project%2010%20-%20Avis%20GO&body=Check%20it%20out:%20https%3A%2F%2Fexample.com%2Fproject-10"
-  [[params.projects.items.links]]
-    icon = "fab fa-github"
-    url = "https://github.com/Walid-dev"
 
+[[params.projects.items]]
+title = "Avis GO"
+badges = ["HTML", "CSS", "Bootstrap", "Responsive Design", "Frontend"]
+content = """
+'Avis GO' represents an entry into responsive static web design, utilizing HTML, CSS, and the Bootstrap framework. Designed with responsiveness as a priority, it ensures an optimal viewing experience on different devices, with content readability and easy navigation regardless of screen size.
+"""
+image = "/images/projects/project-10.webp"
+[params.projects.items.featured]
+name = "Visit"
+link = ""
+[[params.projects.items.links]]
+icon = "fa fa-envelope"
+url = "mailto:?subject=Project%2010%20-%20Avis%20GO&body=Check%20it%20out:%20https%3A%2F%2Fexample.com%2Fproject-10"
+[[params.projects.items.links]]
+icon = "fab fa-github"
+url = "https://github.com/Walid-dev"
 
 # Project 11
+
 [[params.projects.items]]
-  title = "WordPress: Autour d'un cafe"
-  badges = ["WordPress", "Elementor", "PHP", "JavaScript"]
-  content = """
-  The project 'Autour d'un cafe' is a specialized WordPress blog created according to unique client needs. This endeavor involved the first-time use of Elementor WordPress page builder. In addition, the project required PHP and JavaScript programming to achieve a customized and engaging user experience. This projects highlights the capability to quickly adapt to new tools and deliver a bespoke solution in line with client expectations.
-  """
-  image = "/images/projects/project-11.webp"
-  [params.projects.items.featured]
-    name = "Visit"
-    link = ""
-  [[params.projects.items.links]]
-    icon = "fa fa-envelope"
-    url = "mailto:?subject=Project%2011%20-%20Autour%20d'un%20cafe&body=Check%20it%20out:%20https%3A%2F%2Fexample.com%2Fproject-11"
-  [[params.projects.items.links]]
-    icon = "fab fa-github"
-    url = "https://github.com/Walid-dev"
+title = "WordPress: Autour d'un cafe"
+badges = ["WordPress", "Elementor", "Builders", "PHP", "JavaScript", "Frontend", "Backend"]
+content = """
+The project 'Autour d'un cafe' is a specialized WordPress blog created according to unique client needs. This endeavor involved the first-time use of Elementor WordPress page builder. In addition, the project required PHP and JavaScript programming to achieve a customized and engaging user experience. This projects highlights the capability to quickly adapt to new tools and deliver a bespoke solution in line with client expectations.
+"""
+image = "/images/projects/project-11.webp"
+[params.projects.items.featured]
+name = "Visit"
+link = ""
+[[params.projects.items.links]]
+icon = "fa fa-envelope"
+url = "mailto:?subject=Project%2011%20-%20Autour%20d'un%20cafe&body=Check%20it%20out:%20https%3A%2F%2Fexample.com%2Fproject-11"
+[[params.projects.items.links]]
+icon = "fab fa-github"
+url = "https://github.com/Walid-dev"
 
+# Project 12
 
- # Project 12
 [[params.projects.items]]
-  title = "WEBAGENCY"
-  badges = ["HTML", "CSS", "Responsive Design"]
-  content = """
-  WEBAGENCY is a beginner's project in responsive web design, utilizing HTML and CSS. It's a basic introduction to web development with a focus on adaptability across various devices. The layout is simple, yet functional, ensuring compatibility with different screen sizes.
- """
-  image = "/images/projects/project-12.webp"
-  [params.projects.items.featured]
-    name = "Visit"
-    link = ""
-  [[params.projects.items.links]]
-    icon = "fa fa-envelope"
-    url = "mailto:?subject=Project%2012&body=Check%20it%20out:%20https%3A%2F%2Fexample.com%2Fproject-12"
-  [[params.projects.items.links]]
-    icon = "fab fa-github"
-    url = "https://github.com/Walid-dev"
-
+title = "WEBAGENCY"
+badges = ["HTML", "CSS", "Bootstrap", "Responsive Design", "Frontend"]
+content = """
+WEBAGENCY is a beginner's project in responsive web design, utilizing HTML and CSS. It's a basic introduction to web development with a focus on adaptability across various devices. The layout is simple, yet functional, ensuring compatibility with different screen sizes.
+"""
+image = "/images/projects/project-12.webp"
+[params.projects.items.featured]
+name = "Visit"
+link = ""
+[[params.projects.items.links]]
+icon = "fa fa-envelope"
+url = "mailto:?subject=Project%2012&body=Check%20it%20out:%20https%3A%2F%2Fexample.com%2Fproject-12"
+[[params.projects.items.links]]
+icon = "fab fa-github"
+url = "https://github.com/Walid-dev"
 
 # Project 9
+
 [[params.projects.items]]
-  title = "WordPress: OTVS"
-  badges = ["WordPress", "Menu Management", "User Roles", "Custom Templates"]
-  content = """
-  'Office du tourisme de la ville de Strasbourg' was an initial project in WordPress development, centered around exploring the platform's key features. Key aspects of the project included crafting user-friendly WordPress menus, managing user roles and privileges for effective content management, and creating custom pages and templates.
- """
-  image = "/images/projects/project-9.webp"
-  [params.projects.items.featured]
-    name = "Visit"
-    link = ""
-  [[params.projects.items.links]]
-    icon = "fa fa-envelope"
-    url = "mailto:?subject=Office%20du%20tourisme%20de%20la%20ville%20de%20Strasbourg&body=Check%20it%20out:%20https%3A%2F%2Fexample.com%2Fproject-9"
-  [[params.projects.items.links]]
-    icon = "fab fa-github"
-    url = "https://github.com/Walid-dev"
+title = "WordPress: OTVS"
+badges = ["Php", "WordPress", "Custom Templates"]
+content = """
+'Office du tourisme de la ville de Strasbourg' was an initial project in WordPress development, centered around exploring the platform's key features. Key aspects of the project included crafting user-friendly WordPress menus, managing user roles and privileges for effective content management, and creating custom pages and templates.
+"""
+image = "/images/projects/project-9.webp"
+[params.projects.items.featured]
+name = "Visit"
+link = ""
+[[params.projects.items.links]]
+icon = "fa fa-envelope"
+url = "mailto:?subject=Office%20du%20tourisme%20de%20la%20ville%20de%20Strasbourg&body=Check%20it%20out:%20https%3A%2F%2Fexample.com%2Fproject-9"
+[[params.projects.items.links]]
+icon = "fab fa-github"
+url = "https://github.com/Walid-dev"
 
-
-  # Add more project items for the other images using the same pattern
-
+# Add more project items for the other images using the same pattern
 
 # ... rest of the file ...
 
-
 [params.footer]
-  [params.footer.socialNetworks]
-    github = "https://github.com/Walid-dev"
-    linkedin = "https://www.linkedin.com/in/walid-hlali/"
-    twitter = "https://twitter.com/"
-    telegram = ""
+[params.footer.socialNetworks]
+github = "https://github.com/Walid-dev"
+linkedin = "https://www.linkedin.com/in/walid-hlali/"
+twitter = "https://twitter.com/"
+telegram = ""
 
 # Additional sections and configurations
+
 [params.listPages]
-  disableFeaturedImage = false
+disableFeaturedImage = false
 
 [params.singlePages]
-  [params.singlePages.readTime]
-    enable = true
-    content = "min read"
-  [params.singlePages.scrollprogress]
-    enable = true
+[params.singlePages.readTime]
+enable = true
+content = "min read"
+[params.singlePages.scrollprogress]
+enable = true
 
 # Translation terms
+
 [params.terms]
-  read = "Read"
-  toc = "Table Of Contents"
-  copyright = "All rights reserved"
-  pageNotFound = "Page not found"
-  emailText = "Check out this site"
+read = "Read"
+toc = "Table Of Contents"
+copyright = "All rights reserved"
+pageNotFound = "Page not found"
+emailText = "Check out this site"
 
 [params.datesFormat]
-  article = "Jan 2, 2006"
-  articleList = "Jan 2, 2006"
-  articleRecent = "Jan 2, 2006"
+article = "Jan 2, 2006"
+articleList = "Jan 2, 2006"
+articleRecent = "Jan 2, 2006"
 
 # Custom scripts (uncomment and add your scripts)
+
 # [params.customScripts]
-#   # Add your custom scripts here
+
+# # Add your custom scripts here
 
 # ... end of file
-

@@ -1,19 +1,19 @@
 ---
-title: "Deep Dive into Doctrine ORM: Empowering PHP Data Management"
+title: "Doctrine ORM"
 date: 2024-03-13
 draft: false
 author: "Walid"
-tags: ["PHP", "Doctrine ORM", "Database", "ORM", "Programming"]
+tags: ["PHP", "Backend", "Database", "ORM", "Programming"]
 image: "/images/blackberry.webp"
 description: "Unlock the full potential of Doctrine ORM in PHP applications with this comprehensive guide, featuring in-depth concepts, practical code examples, and advanced techniques."
 toc: true
 ---
 
-# Deep Dive into Doctrine ORM: Empowering PHP Data Management
+# Doctrine ORM: Empowering PHP Data Management
 
 ## Introduction
 
-Doctrine ORM stands as a pivotal tool in PHP development, bridging the gap between object-oriented programming and relational databases. This guide aims to elucidate the foundational and advanced features of Doctrine ORM, empowering PHP developers to optimize data management practices effectively.
+Doctrine ORM stands as a pivotal tool in PHP development, bridging the gap between object-oriented programming and relational databases.
 
 ## Core Concepts
 
