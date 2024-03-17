@@ -2,10 +2,10 @@
 title: "Understanding HTML: The Backbone of the Web"
 date: 2022-02-15
 draft: false
-author: "Your Name"
-tags: ["HTML", "Web Development", "Frontend Fundamentals"]
-image: "images/html-backbone-web.jpg"
-description: "A comprehensive guide to understanding HTML, its structure, and its role in web development."
+author: "Walid"
+tags: ["HTML", "Web Development", "Frontend"]
+image: "/images/html.webp"
+description: "What is PHP"
 toc: true
 ---
 

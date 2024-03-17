@@ -3,9 +3,9 @@ title: "Doctrine ORM"
 date: 2024-03-13
 draft: false
 author: "Walid"
-tags: ["PHP", "Backend", "Database", "ORM", "Programming"]
-image: "/images/blackberry.webp"
-description: "Unlock the full potential of Doctrine ORM in PHP applications with this comprehensive guide, featuring in-depth concepts, practical code examples, and advanced techniques."
+tags: ["PHP", "Backend", "Database", "ORM", "SQL"]
+image: "/images/doctrine-orm.png"
+description: "Doctrine ORM in PHP applications: The Basics."
 toc: true
 ---
 
@@ -46,7 +46,7 @@ $entityManager = EntityManager::create($dbParams, $config);
 
 ### Understanding Repositories
 
-#### Leveraging Custom Repositories
+#### Custom Repositories
 
 Repositories abstract the business logic for database operations, tailored to each entity.
 
@@ -155,7 +155,7 @@ class User
 
 ## Random Example
 
-The following example demonstrates how to use Doctrine ORM to insert a new record into a database.
+The following demonstrates how to use Doctrine ORM to insert a new record into a database.
 
 {{< highlight php >}}
 $product = new Product();
@@ -169,7 +169,7 @@ echo 'Product created with ID ' . $product->getId();
 
 ## Conclusion
 
-Doctrine ORM represents a comprehensive solution for PHP applications, offering powerful tools for object-relational mapping, query optimization, and data management. By leveraging its advanced features and best practices, developers can craft efficient, scalable, and maintainable applications. Continual learning and experimentation with Doctrine will solidify its concepts and maximize its benefits in your projects.
+Doctrine ORM represents a comprehensive solution for PHP applications, offering powerful tools for object-relational mapping, query optimization, and data management. By leveraging its advanced features and best practices, developers can craft efficient, scalable, and maintainable applications.
 
 ### Additional Resources
 

@@ -327,7 +327,6 @@ hr {
 .about-content {
     color: var(--text-color) !important;
     font-size: .9em;
-    margin: 20px 0px 0px;
     opacity: 0.8;
 }
 
@@ -373,7 +372,7 @@ hr {
 #experience .badge{
     font-size: 12px !important;
     opacity: 0.8;
-    border: 1px solid !important;
+    border: 1px solid #ffffff59 !important;
     color: var(--text-color) !important;
     background-color: var(--background-color) !important;
     margin: 12px 6px !important;
@@ -384,6 +383,7 @@ hr {
 
 #experience .badge:hover {
     opacity: 1;
+    border: 1px solid white !important;
 }
 
 .badge-link:hover {
@@ -693,7 +693,8 @@ hr {
 
 #skillsAndTools .badge, #toolsBadgesBox .badge { 
     font-size: 11px !important;
-    opacity: 0.9;
+    opacity: 0.8;
+    border: 1px solid #ffffff59 !important;
     color: var(--text-color) !important;
     background-color: var(--background-color) !important;
     margin: 14px 10px !important;
@@ -704,6 +705,7 @@ hr {
 
 #skillsAndTools .badge-link:hover, #toolsBadgesBox .badge-link:hover {
     opacity: 1 !important;
+    border: 1px solid white !important;
     text-decoration: none !important;
 }
 

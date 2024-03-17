@@ -6,14 +6,21 @@
     <description>Recent content in Database on Walid&#39;s Portfolio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 13 Mar 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 17 Mar 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/database/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Redis for Efficient Caching</title>
+      <link>http://localhost:1313/blogs/redis/</link>
+      <pubDate>Sun, 17 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blogs/redis/</guid>
+      <description>Introduction Redis (Remote Dictionary Server) is an in-memory data structure store, used as a database, cache, and message broker. It supports various data structures such as strings, hashes, lists, sets, sorted sets with range queries, bitmaps, hyperloglogs, geospatial indexes, and streams. Redis has built-in replication, Lua scripting, LRU eviction, transactions, and different levels of on-disk persistence, and provides high availability via Redis Sentinel and automatic partitioning with Redis Cluster.&#xA;Why Redis?</description>
+    </item>
     <item>
       <title>Doctrine ORM</title>
       <link>http://localhost:1313/blogs/doctrine_orm/</link>
       <pubDate>Wed, 13 Mar 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/blogs/doctrine_orm/</guid>
-      <description>Doctrine ORM: Empowering PHP Data Management Introduction Doctrine ORM stands as a pivotal tool in PHP development, bridging the gap between object-oriented programming and relational databases.&#xA;Core Concepts The EntityManager: Core of Doctrine Introduction to EntityManager EntityManager acts as the central point of Doctrine&amp;rsquo;s ORM functionality, managing the lifecycle of entities.&#xA;use Doctrine\ORM\Tools\Setup; use Doctrine\ORM\EntityManager; // Specify the path to your entities and set the development mode $paths = [&amp;#34;/path/to/your/entities&amp;#34;]; $isDevMode = true; // Database configuration parameters $dbParams = [ &amp;#39;driver&amp;#39; =&amp;gt; &amp;#39;pdo_mysql&amp;#39;, &amp;#39;user&amp;#39; =&amp;gt; &amp;#39;your_db_user&amp;#39;, &amp;#39;password&amp;#39; =&amp;gt; &amp;#39;your_db_password&amp;#39;, &amp;#39;dbname&amp;#39; =&amp;gt; &amp;#39;your_db_name&amp;#39;, ]; // Create a simple &amp;#34;default&amp;#34; Doctrine ORM configuration for Annotations $config = Setup::createAnnotationMetadataConfiguration($paths, $isDevMode); $entityManager = EntityManager::create($dbParams, $config); Understanding Repositories Leveraging Custom Repositories Repositories abstract the business logic for database operations, tailored to each entity.</description>
+      <description>Doctrine ORM: Empowering PHP Data Management Introduction Doctrine ORM stands as a pivotal tool in PHP development, bridging the gap between object-oriented programming and relational databases.&#xA;Core Concepts The EntityManager: Core of Doctrine Introduction to EntityManager EntityManager acts as the central point of Doctrine&amp;rsquo;s ORM functionality, managing the lifecycle of entities.&#xA;use Doctrine\ORM\Tools\Setup; use Doctrine\ORM\EntityManager; // Specify the path to your entities and set the development mode $paths = [&amp;#34;/path/to/your/entities&amp;#34;]; $isDevMode = true; // Database configuration parameters $dbParams = [ &amp;#39;driver&amp;#39; =&amp;gt; &amp;#39;pdo_mysql&amp;#39;, &amp;#39;user&amp;#39; =&amp;gt; &amp;#39;your_db_user&amp;#39;, &amp;#39;password&amp;#39; =&amp;gt; &amp;#39;your_db_password&amp;#39;, &amp;#39;dbname&amp;#39; =&amp;gt; &amp;#39;your_db_name&amp;#39;, ]; // Create a simple &amp;#34;default&amp;#34; Doctrine ORM configuration for Annotations $config = Setup::createAnnotationMetadataConfiguration($paths, $isDevMode); $entityManager = EntityManager::create($dbParams, $config); Understanding Repositories Custom Repositories Repositories abstract the business logic for database operations, tailored to each entity.</description>
     </item>
   </channel>
 </rss>

@@ -4,18 +4,18 @@ date: 2024-03-15
 draft: false
 author: "Walid"
 tags: ["JavaScript", "Web Development", "OOP", "Classes"]
-image: "/images/blackberry.webp"
+image: "/images/javascript.webp"
 description: "JavaScript classes, syntax, inheritance, and practical applications in modern web development."
 toc: true
 ---
 
-# Mastering JavaScript Classes
+# JavaScript Classes
 
 JavaScript classes are a fundamental part of modern web development, offering a more structured approach to object-oriented programming (OOP) in JavaScript. Introduced in ECMAScript 2015 (ES6), classes provide a syntactical sugar over JavaScript's existing prototype-based inheritance, making it easier to create objects, manage inheritance, and write cleaner, more readable code.
 
 ## Introduction
 
-The concept of classes in JavaScript may seem daunting at first, especially if you come from a non-OOP background. However, understanding classes is crucial for developing scalable and maintainable codebases. This guide aims to demystify JavaScript classes, covering everything from basic syntax to advanced concepts like static methods, inheritance, and private properties. With practical examples and best practices, you'll learn how to leverage classes to enhance your JavaScript applications.
+The concept of classes in JavaScript may seem daunting at first, especially if you come from a non-OOP background. However, understanding classes is crucial for developing scalable and maintainable codebases. This guide covers everything from basic syntax to advanced concepts like static methods, inheritance, and private properties.
 
 ## Core Concepts
 
@@ -119,7 +119,7 @@ Proxies allow you to intercept and customize operations performed on objects (e.
 
 #### Decorators
 
-Decorators provide a way to add annotations and a meta-programming syntax for class declarations and members. Decorators can modify or replace class definitions at runtime. As of my last update, decorators are a stage 2 proposal in JavaScript and not yet part of the official language.
+Decorators provide a way to add annotations and a meta-programming syntax for class declarations and members. Decorators can modify or replace class definitions at runtime. As of the last update, decorators are a stage 2 proposal in JavaScript and not yet part of the official language.
 
 ## Practical Examples
 
@@ -137,10 +137,20 @@ JavaScript classes offer a powerful, syntactical, and structural advantage for m
 
 ## Additional Resources
 
-For further exploration of JavaScript classes and object-oriented programming, consider the following resources:
+JavaScript classes and object-oriented programming additional Resources
 
 - [Mozilla Developer Network (MDN) JavaScript Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes)
 - [JavaScript: The Good Parts by Douglas Crockford](https://www.oreilly.com/library/view/javascript-the-good/9780596517748/)
 - [Exploring JS: Classes](http://exploringjs.com/es6/ch_classes.html)
 
-Remember, the key to mastering JavaScript classes is practice and experimentation. Don't hesitate to dive into the code and try out new concepts and patterns.
+## JavaScript Classes Tutorial
+
+<br>
+{{< youtube 2ZphE5HcQPQ >}}
+<br>
+
+## Apprendre le JavaScript (French)
+
+<br>
+{{< youtube 2HAPViIAYjc >}}
+<br>

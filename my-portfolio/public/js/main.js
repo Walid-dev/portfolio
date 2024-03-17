@@ -51,15 +51,26 @@ document.addEventListener("DOMContentLoaded", () => {
 
 // Add box shadow to colored badges
 
-const addBoxShadow = (colors, className) => {
+const addBoxBorder = (colors, className) => {
   const coloredBadges = document.querySelectorAll(className);
   console.log(coloredBadges.length);
 
   if (coloredBadges.length === 0) return;
 
-  coloredBadges.forEach((badge, index) => {
-    badge.style.border = `1px solid ${colors[index % colors.length]}`;
+  coloredBadges.forEach(badge => {
+    const randomColor = colors[Math.floor(Math.random() * colors.length)];
+    badge.style.border = `1px solid ${randomColor}`;
   });
 };
 
-addBoxShadow(["var(--neon-yellow-color)", "var(--neon-green-color)", "var(--light-violet-color)", "var(--neon-blue-color)", "var(--neon-red-color)", "var(--light-green-color)"], ".colored-badge");
+addBoxBorder(
+  // [
+  //   "var(--neon-orange-color)",
+  //   "var(--neon-green-color)",
+  //   "var(--light-violet-color)",
+  //   "var(--neon-blue-color)",
+  //   "var(--neon-red-color)",
+  //   "var(--light-green-color)",
+  // ],
+  ".colored-badge"
+);
