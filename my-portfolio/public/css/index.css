@@ -372,7 +372,7 @@ hr {
 #experience .badge{
     font-size: 12px !important;
     opacity: 0.8;
-    border: 1px solid #ffffff59 !important;
+    border: 1px solid var(--light-grey-color) !important;
     color: var(--text-color) !important;
     background-color: var(--background-color) !important;
     margin: 12px 6px !important;
@@ -692,9 +692,9 @@ hr {
 }
 
 #skillsAndTools .badge, #toolsBadgesBox .badge { 
-    font-size: 12px !important;
+    font-size: 11px !important;
     opacity: 0.8;
-    border: 1px solid #ffffff59 !important;
+    border: 1px solid var(--light-grey-color) !important;
     color: var(--text-color) !important;
     background-color: var(--background-color) !important;
     margin: 14px 10px !important;

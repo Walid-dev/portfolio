@@ -212,7 +212,16 @@
     text-decoration: none;
     color: var(--text-color);
     font-size: .75em;
+    border: 1px solid var(--light-grey-color);
+    opacity: .8;
 }
+
+#single aside.tags ul.tags-ul li a:hover {
+    opacity: 1;
+    border: white 1px solid !important;
+}
+
+
 
 #single aside.tags ul.tags-ul li {
     margin-bottom: 1.2rem;
