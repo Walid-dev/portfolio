@@ -16,32 +16,39 @@
       <description>JavaScript Classes JavaScript classes are a fundamental part of modern web development, offering a more structured approach to object-oriented programming (OOP) in JavaScript. Introduced in ECMAScript 2015 (ES6), classes provide a syntactical sugar over JavaScript&amp;rsquo;s existing prototype-based inheritance, making it easier to create objects, manage inheritance, and write cleaner, more readable code.&#xA;Introduction The concept of classes in JavaScript may seem daunting at first, especially if you come from a non-OOP background.</description>
     </item>
     <item>
-      <title>JavaScript Array Methods</title>
-      <link>http://localhost:1313/blogs/javascript-arrays/</link>
-      <pubDate>Thu, 29 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blogs/javascript-arrays/</guid>
-      <description>Understanding JavaScript Array Methods Introduction JavaScript arrays are versatile data structures that allow you to store multiple values in a single variable. Array methods in JavaScript provide powerful tools for manipulating these collections, making data handling more efficient and intuitive. This article dives into the most commonly used array methods, offering insights and code examples to enhance your JavaScript programming skills.&#xA;Core Concepts Iteration Methods forEach The forEach method executes a provided function once for each array element.</description>
+      <title>The &#39;this&#39; Keyword in JavaScript</title>
+      <link>http://localhost:1313/blogs/javascript-this/</link>
+      <pubDate>Tue, 12 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blogs/javascript-this/</guid>
+      <description>Introduction Understanding the this keyword in JavaScript is crucial for mastering the language. It is a context-sensitive keyword that changes its value depending on where and how a function is called. This guide dives deep into the various contexts of this, providing clarity through detailed explanations and code snippets.&#xA;What is &amp;rsquo;this&#39;? In JavaScript, this refers to the object that is currently executing or invoking the function. The value of this is determined by the execution context, except for arrow functions, which lexically bind this.</description>
     </item>
     <item>
       <title>React Hooks</title>
       <link>http://localhost:1313/blogs/react-hooks/</link>
-      <pubDate>Wed, 28 Feb 2024 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 08 Mar 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/blogs/react-hooks/</guid>
       <description>Understanding React Hooks React Hooks represent a significant advancement in the way React applications are developed. Since their introduction in React 16.8, Hooks have revolutionized functional components, providing them with the capa bility to use state and other React features without writing a class. This guide delves into the core concepts of React Hooks, offering insights and code examples to enhance your understanding and application of these powerful features.&#xA;Introduction React Hooks offer a more direct API to the React concepts you already know: props, state, context, refs, and lifecycle.</description>
     </item>
     <item>
       <title>React Native: Learn once, run anywhere</title>
       <link>http://localhost:1313/blogs/react-native-intro/</link>
-      <pubDate>Sun, 25 Feb 2024 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 04 Mar 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/blogs/react-native-intro/</guid>
       <description>Introduction React Native, a brainchild of Facebook, revolutionizes mobile development by leveraging JavaScript and React&amp;rsquo;s declarative UI framework to build native mobile apps for iOS and Android from a single codebase. This guide uncovers the what, why, and how of React Native, providing insights into its mechanism, benefits, and practical application.&#xA;What is React Native? React Native is an open-source framework that bridges the gap between web and mobile development platforms, allowing developers to craft mobile applications using the familiar tools and paradigms of web development while achieving the performance and look and feel of native applications.</description>
     </item>
     <item>
-      <title>The &#39;this&#39; Keyword in JavaScript: A Comprehensive Guide</title>
-      <link>http://localhost:1313/blogs/javascript-this/</link>
-      <pubDate>Sun, 25 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blogs/javascript-this/</guid>
-      <description>Introduction Understanding the this keyword in JavaScript is crucial for mastering the language. It is a context-sensitive keyword that changes its value depending on where and how a function is called. This guide dives deep into the various contexts of this, providing clarity through detailed explanations and code snippets.&#xA;What is &amp;rsquo;this&#39;? In JavaScript, this refers to the object that is currently executing or invoking the function. The value of this is determined by the execution context, except for arrow functions, which lexically bind this.</description>
+      <title>JavaScript Array Methods</title>
+      <link>http://localhost:1313/blogs/javascript-arrays/</link>
+      <pubDate>Fri, 01 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blogs/javascript-arrays/</guid>
+      <description>Understanding JavaScript Array Methods Introduction JavaScript arrays are versatile data structures that allow you to store multiple values in a single variable. Array methods in JavaScript provide powerful tools for manipulating these collections, making data handling more efficient and intuitive. This article dives into the most commonly used array methods, offering insights and code examples to enhance your JavaScript programming skills.&#xA;Core Concepts Iteration Methods forEach The forEach method executes a provided function once for each array element.</description>
+    </item>
+    <item>
+      <title>TypeScript: Elevating JavaScript Development</title>
+      <link>http://localhost:1313/blogs/typescript/</link>
+      <pubDate>Thu, 29 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blogs/typescript/</guid>
+      <description>Introduction to TypeScript TypeScript, a superset of JavaScript developed by Microsoft, introduces static typing to the language. It aims to make development on large JavaScript projects more manageable and less error-prone.&#xA;Core Concepts of TypeScript TypeScript&amp;rsquo;s static typing allows developers to define the types of their variables, functions, and objects. This addition brings significant advantages:&#xA;Early Error Detection: Errors can be caught at compile time. Readability and Maintainability: Types make the code easier to read and maintain.</description>
     </item>
     <item>
       <title>Arrow Functions in JavaScript</title>
@@ -72,18 +79,18 @@
       <description>Introduction to Encapsulation Encapsulation, a cornerstone of Object-Oriented Programming (OOP), encapsulates data and operations on data within objects, shielding the internal state from unauthorized access. This principle enhances modularity, maintainability, and data integrity within software applications.&#xA;The Pillars of Encapsulation Encapsulation intertwines with other OOP principles like abstraction, inheritance, and polymorphism, but it stands out by offering:&#xA;Data Hiding: Restricting access to the internal state of an object. Interface Exposure: Exposing a controlled interface to interact with an object&amp;rsquo;s data.</description>
     </item>
     <item>
-      <title>TypeScript: Elevating JavaScript Development</title>
-      <link>http://localhost:1313/blogs/typescript/</link>
-      <pubDate>Thu, 22 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blogs/typescript/</guid>
-      <description>Introduction to TypeScript TypeScript, a superset of JavaScript developed by Microsoft, introduces static typing to the language. It aims to make development on large JavaScript projects more manageable and less error-prone.&#xA;Core Concepts of TypeScript TypeScript&amp;rsquo;s static typing allows developers to define the types of their variables, functions, and objects. This addition brings significant advantages:&#xA;Early Error Detection: Errors can be caught at compile time. Readability and Maintainability: Types make the code easier to read and maintain.</description>
-    </item>
-    <item>
       <title>JavaScript: Core Concepts and Evolution</title>
       <link>http://localhost:1313/blogs/javascript-intro/</link>
       <pubDate>Tue, 20 Feb 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/blogs/javascript-intro/</guid>
       <description>Introduction JavaScript was created in 1995 by Brendan Eich while working at Netscape. It started as a way to make web pages interactive and has grown to become a cornerstone of web development, alongside HTML and CSS.&#xA;The Start of JavaScript Origin: JavaScript was initially created to add interactivity to web pages. Netscape Navigator was the first browser to implement it. Naming: It was first called Mocha, then LiveScript, and finally renamed JavaScript.</description>
+    </item>
+    <item>
+      <title>useContext in React</title>
+      <link>http://localhost:1313/blogs/react-usecontext/</link>
+      <pubDate>Tue, 20 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blogs/react-usecontext/</guid>
+      <description>Introduction to useContext The useContext hook in React simplifies the way we manage and access state across different components. By allowing for a more direct way to share data, it helps avoid the prop-drilling problem, making code cleaner and more maintainable.&#xA;Why useContext? useContext offers a straightforward approach to share data like themes, user preferences, and more across your application&amp;rsquo;s component tree. It&amp;rsquo;s especially useful in large applications where passing props through many levels becomes cumbersome.</description>
     </item>
     <item>
       <title>Design Patterns</title>

@@ -127,13 +127,13 @@ h5 {
 #hero .img-thumbnail {
     background: transparent !important;
     border: none !important;
-    max-width: 225px;
+    max-width: 250px;
     display: flex;
     align-items: center;
 }
 
 #hero .content.animate {
-    animation: fade-left 1s ease-out;
+    /* animation: fade-left 1s ease-out; */
 }
 
 #hero .hero-bottom-svg {
@@ -276,13 +276,14 @@ hr {
    display: flex;
     align-items: center;
     flex-wrap: wrap-reverse;
-    justify-content: space-evenly;
+    justify-content: center;
+    gap: 40px;
 }
 
 #about .image img {
     padding: 0;
     border: none !important;
-    max-width: 200px !important;
+    max-width: 240px !important;
     display: flex;
     align-items: center;
 }

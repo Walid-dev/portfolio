@@ -9,6 +9,7 @@ tags:
   - Web Development
   - Frontend
   - Hooks
+  - Javascript
 image: /images/react-js.webp
 description: "Exploring the useContext hook in React for state management across components."
 toc: true

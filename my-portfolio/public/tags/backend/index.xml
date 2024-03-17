@@ -6,21 +6,35 @@
     <description>Recent content in Backend on Walid&#39;s Portfolio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 17 Mar 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 12 Mar 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/backend/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Redis for Efficient Caching</title>
-      <link>http://localhost:1313/blogs/redis/</link>
-      <pubDate>Sun, 17 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blogs/redis/</guid>
-      <description>Introduction Redis (Remote Dictionary Server) is an in-memory data structure store, used as a database, cache, and message broker. It supports various data structures such as strings, hashes, lists, sets, sorted sets with range queries, bitmaps, hyperloglogs, geospatial indexes, and streams. Redis has built-in replication, Lua scripting, LRU eviction, transactions, and different levels of on-disk persistence, and provides high availability via Redis Sentinel and automatic partitioning with Redis Cluster.&#xA;Why Redis?</description>
+      <title>The &#39;this&#39; Keyword in JavaScript</title>
+      <link>http://localhost:1313/blogs/javascript-this/</link>
+      <pubDate>Tue, 12 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blogs/javascript-this/</guid>
+      <description>Introduction Understanding the this keyword in JavaScript is crucial for mastering the language. It is a context-sensitive keyword that changes its value depending on where and how a function is called. This guide dives deep into the various contexts of this, providing clarity through detailed explanations and code snippets.&#xA;What is &amp;rsquo;this&#39;? In JavaScript, this refers to the object that is currently executing or invoking the function. The value of this is determined by the execution context, except for arrow functions, which lexically bind this.</description>
     </item>
     <item>
-      <title>Doctrine ORM</title>
-      <link>http://localhost:1313/blogs/doctrine_orm/</link>
-      <pubDate>Wed, 13 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blogs/doctrine_orm/</guid>
-      <description>Doctrine ORM: Empowering PHP Data Management Introduction Doctrine ORM stands as a pivotal tool in PHP development, bridging the gap between object-oriented programming and relational databases.&#xA;Core Concepts The EntityManager: Core of Doctrine Introduction to EntityManager EntityManager acts as the central point of Doctrine&amp;rsquo;s ORM functionality, managing the lifecycle of entities.&#xA;use Doctrine\ORM\Tools\Setup; use Doctrine\ORM\EntityManager; // Specify the path to your entities and set the development mode $paths = [&amp;#34;/path/to/your/entities&amp;#34;]; $isDevMode = true; // Database configuration parameters $dbParams = [ &amp;#39;driver&amp;#39; =&amp;gt; &amp;#39;pdo_mysql&amp;#39;, &amp;#39;user&amp;#39; =&amp;gt; &amp;#39;your_db_user&amp;#39;, &amp;#39;password&amp;#39; =&amp;gt; &amp;#39;your_db_password&amp;#39;, &amp;#39;dbname&amp;#39; =&amp;gt; &amp;#39;your_db_name&amp;#39;, ]; // Create a simple &amp;#34;default&amp;#34; Doctrine ORM configuration for Annotations $config = Setup::createAnnotationMetadataConfiguration($paths, $isDevMode); $entityManager = EntityManager::create($dbParams, $config); Understanding Repositories Custom Repositories Repositories abstract the business logic for database operations, tailored to each entity.</description>
+      <title>PHP</title>
+      <link>http://localhost:1313/blogs/introduction_to_php/</link>
+      <pubDate>Tue, 05 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blogs/introduction_to_php/</guid>
+      <description>PHP: The Server-Side Scripting Language PHP, or Hypertext Preprocessor, began as a small open-source project in 1995. It&amp;rsquo;s now one of the most widely used server-side scripting languages, especially for web development. It powers everything from blogs and forums to e-commerce and social networks.&#xA;PHP by the Numbers Usage: Powers over 78% of all websites with a known server-side programming language, including major platforms like WordPress. Community: Large and active, contributing to a vast ecosystem of frameworks, libraries, and tools.</description>
+    </item>
+    <item>
+      <title>JavaScript Array Methods</title>
+      <link>http://localhost:1313/blogs/javascript-arrays/</link>
+      <pubDate>Fri, 01 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blogs/javascript-arrays/</guid>
+      <description>Understanding JavaScript Array Methods Introduction JavaScript arrays are versatile data structures that allow you to store multiple values in a single variable. Array methods in JavaScript provide powerful tools for manipulating these collections, making data handling more efficient and intuitive. This article dives into the most commonly used array methods, offering insights and code examples to enhance your JavaScript programming skills.&#xA;Core Concepts Iteration Methods forEach The forEach method executes a provided function once for each array element.</description>
+    </item>
+    <item>
+      <title>TypeScript: Elevating JavaScript Development</title>
+      <link>http://localhost:1313/blogs/typescript/</link>
+      <pubDate>Thu, 29 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blogs/typescript/</guid>
+      <description>Introduction to TypeScript TypeScript, a superset of JavaScript developed by Microsoft, introduces static typing to the language. It aims to make development on large JavaScript projects more manageable and less error-prone.&#xA;Core Concepts of TypeScript TypeScript&amp;rsquo;s static typing allows developers to define the types of their variables, functions, and objects. This addition brings significant advantages:&#xA;Early Error Detection: Errors can be caught at compile time. Readability and Maintainability: Types make the code easier to read and maintain.</description>
     </item>
     <item>
       <title>Abstraction in Object-Oriented Programming</title>
@@ -37,11 +51,11 @@
       <description>Introduction to Encapsulation Encapsulation, a cornerstone of Object-Oriented Programming (OOP), encapsulates data and operations on data within objects, shielding the internal state from unauthorized access. This principle enhances modularity, maintainability, and data integrity within software applications.&#xA;The Pillars of Encapsulation Encapsulation intertwines with other OOP principles like abstraction, inheritance, and polymorphism, but it stands out by offering:&#xA;Data Hiding: Restricting access to the internal state of an object. Interface Exposure: Exposing a controlled interface to interact with an object&amp;rsquo;s data.</description>
     </item>
     <item>
-      <title>PHP</title>
-      <link>http://localhost:1313/blogs/introduction_to_php/</link>
-      <pubDate>Tue, 20 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blogs/introduction_to_php/</guid>
-      <description>PHP: The Server-Side Scripting Language PHP, or Hypertext Preprocessor, began as a small open-source project in 1995. It&amp;rsquo;s now one of the most widely used server-side scripting languages, especially for web development. It powers everything from blogs and forums to e-commerce and social networks.&#xA;PHP by the Numbers Usage: Powers over 78% of all websites with a known server-side programming language, including major platforms like WordPress. Community: Large and active, contributing to a vast ecosystem of frameworks, libraries, and tools.</description>
+      <title>Redis for Efficient Caching</title>
+      <link>http://localhost:1313/blogs/redis/</link>
+      <pubDate>Sat, 17 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blogs/redis/</guid>
+      <description>Introduction Redis (Remote Dictionary Server) is an in-memory data structure store, used as a database, cache, and message broker. It supports various data structures such as strings, hashes, lists, sets, sorted sets with range queries, bitmaps, hyperloglogs, geospatial indexes, and streams. Redis has built-in replication, Lua scripting, LRU eviction, transactions, and different levels of on-disk persistence, and provides high availability via Redis Sentinel and automatic partitioning with Redis Cluster.&#xA;Why Redis?</description>
     </item>
     <item>
       <title>Design Patterns</title>
@@ -49,6 +63,13 @@
       <pubDate>Fri, 16 Feb 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/blogs/design_patterns/</guid>
       <description>Introduction Software design patterns are typical solutions to common problems in software design. They serve as templates for solving recurring design issues, promoting more efficient and effective development practices. This guide focuses on JavaScript and PHP examples to explore significant design patterns.&#xA;Creational Patterns Creational patterns provide mechanisms for object creation, increasing flexibility and reuse of existing code.&#xA;Factory Method in JavaScript The Factory Method pattern defines an interface for creating an object, letting subclasses alter the type of objects that will be created.</description>
+    </item>
+    <item>
+      <title>Doctrine ORM</title>
+      <link>http://localhost:1313/blogs/doctrine_orm/</link>
+      <pubDate>Tue, 13 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blogs/doctrine_orm/</guid>
+      <description>Doctrine ORM: Empowering PHP Data Management Introduction Doctrine ORM stands as a pivotal tool in PHP development, bridging the gap between object-oriented programming and relational databases.&#xA;Core Concepts The EntityManager: Core of Doctrine Introduction to EntityManager EntityManager acts as the central point of Doctrine&amp;rsquo;s ORM functionality, managing the lifecycle of entities.&#xA;use Doctrine\ORM\Tools\Setup; use Doctrine\ORM\EntityManager; // Specify the path to your entities and set the development mode $paths = [&amp;#34;/path/to/your/entities&amp;#34;]; $isDevMode = true; // Database configuration parameters $dbParams = [ &amp;#39;driver&amp;#39; =&amp;gt; &amp;#39;pdo_mysql&amp;#39;, &amp;#39;user&amp;#39; =&amp;gt; &amp;#39;your_db_user&amp;#39;, &amp;#39;password&amp;#39; =&amp;gt; &amp;#39;your_db_password&amp;#39;, &amp;#39;dbname&amp;#39; =&amp;gt; &amp;#39;your_db_name&amp;#39;, ]; // Create a simple &amp;#34;default&amp;#34; Doctrine ORM configuration for Annotations $config = Setup::createAnnotationMetadataConfiguration($paths, $isDevMode); $entityManager = EntityManager::create($dbParams, $config); Understanding Repositories Custom Repositories Repositories abstract the business logic for database operations, tailored to each entity.</description>
     </item>
     <item>
       <title>OOP in Web Development</title>

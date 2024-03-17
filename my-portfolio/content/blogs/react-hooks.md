@@ -1,6 +1,6 @@
 ---
 title: "React Hooks"
-date: 2024-02-28
+date: 2024-03-08
 draft: false
 author: "Walid"
 tags: ["React", "JavaScript", "Web Development", "Frontend", "Hooks"]

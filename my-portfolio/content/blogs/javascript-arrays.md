@@ -1,9 +1,9 @@
 ---
 title: "JavaScript Array Methods"
-date: 2024-02-29
+date: 2024-03-01
 draft: false
 author: "Walid"
-tags: ["JavaScript", "Array Methods", "Programming"]
+tags: ["JavaScript", "Array Methods", "Web Development", "Frontend", "Backend"]
 image: "/images/javascript.webp"
 description: "A comprehensive guide to mastering JavaScript array methods, complete with real-life code examples."
 toc: true

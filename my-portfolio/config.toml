@@ -79,6 +79,7 @@ fontAwesomeIcons = [
 enable = true
 title = ""
 image = "laptop-pixel.webp"
+image2 = "space-rocket.webp"
 content = "As a Web Developer, I create balanced, efficient solutions, skilled in both front-end and back-end to improve app performance. I solve problems, learn continuously to stay innovative, and value teamwork for shared success."
 
 [params.about.skills]

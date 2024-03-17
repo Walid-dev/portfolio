@@ -6,19 +6,19 @@
     <description>Recent content in React on Walid&#39;s Portfolio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 28 Feb 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 08 Mar 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/react/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>React Hooks</title>
       <link>http://localhost:1313/blogs/react-hooks/</link>
-      <pubDate>Wed, 28 Feb 2024 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 08 Mar 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/blogs/react-hooks/</guid>
       <description>Understanding React Hooks React Hooks represent a significant advancement in the way React applications are developed. Since their introduction in React 16.8, Hooks have revolutionized functional components, providing them with the capa bility to use state and other React features without writing a class. This guide delves into the core concepts of React Hooks, offering insights and code examples to enhance your understanding and application of these powerful features.&#xA;Introduction React Hooks offer a more direct API to the React concepts you already know: props, state, context, refs, and lifecycle.</description>
     </item>
     <item>
       <title>React Native: Learn once, run anywhere</title>
       <link>http://localhost:1313/blogs/react-native-intro/</link>
-      <pubDate>Sun, 25 Feb 2024 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 04 Mar 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/blogs/react-native-intro/</guid>
       <description>Introduction React Native, a brainchild of Facebook, revolutionizes mobile development by leveraging JavaScript and React&amp;rsquo;s declarative UI framework to build native mobile apps for iOS and Android from a single codebase. This guide uncovers the what, why, and how of React Native, providing insights into its mechanism, benefits, and practical application.&#xA;What is React Native? React Native is an open-source framework that bridges the gap between web and mobile development platforms, allowing developers to craft mobile applications using the familiar tools and paradigms of web development while achieving the performance and look and feel of native applications.</description>
     </item>

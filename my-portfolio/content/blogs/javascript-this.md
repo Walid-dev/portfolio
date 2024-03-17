@@ -1,6 +1,6 @@
 ---
-title: "The 'this' Keyword in JavaScript: A Comprehensive Guide"
-date: 2024-02-25
+title: "The 'this' Keyword in JavaScript"
+date: 2024-03-12
 draft: false
 author: "Walid"
 tags:
@@ -9,6 +9,8 @@ tags:
   - 'this'
   - Functions
   - Web Development
+  - Frontend
+  - Backend
 image: /images/this.webp
 description: "Unlock the mysteries of the 'this' keyword in JavaScript with our in-depth guide, featuring detailed explanations and abundant code examples."
 toc: true

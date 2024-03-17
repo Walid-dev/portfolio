@@ -77,6 +77,15 @@
   /* Responsive image margin adjustment */
   #hero .img-thumbnail {
     margin-top: 80px;
+    max-width: 180px !important;
+  }
+
+  #about .image img {
+    max-width: 180px !important;
+  }
+
+  #aboutImage2 {
+    max-width: 180px !important;
   }
 
   /* Adjust font size for copyright, ensuring no duplicates */

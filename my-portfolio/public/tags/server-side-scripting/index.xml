@@ -6,12 +6,12 @@
     <description>Recent content in Server-Side Scripting on Walid&#39;s Portfolio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 20 Feb 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 05 Mar 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/server-side-scripting/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>PHP</title>
       <link>http://localhost:1313/blogs/introduction_to_php/</link>
-      <pubDate>Tue, 20 Feb 2024 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 05 Mar 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/blogs/introduction_to_php/</guid>
       <description>PHP: The Server-Side Scripting Language PHP, or Hypertext Preprocessor, began as a small open-source project in 1995. It&amp;rsquo;s now one of the most widely used server-side scripting languages, especially for web development. It powers everything from blogs and forums to e-commerce and social networks.&#xA;PHP by the Numbers Usage: Powers over 78% of all websites with a known server-side programming language, including major platforms like WordPress. Community: Large and active, contributing to a vast ecosystem of frameworks, libraries, and tools.</description>
     </item>

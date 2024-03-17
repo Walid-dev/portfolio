@@ -1,14 +1,14 @@
 ---
 title: "TypeScript: Elevating JavaScript Development"
-date: 2024-02-22
+date: 2024-02-29
 draft: false
 author: "Walid"
 tags:
   - TypeScript
   - JavaScript
   - Web Development
-  - Programming Languages
   - Frontend
+  - Backend
 image: /images/typescript.webp
 description: "Delving into TypeScript's role in enhancing JavaScript, with insights into its features, benefits, and practical code examples."
 toc: true

@@ -1,16 +1,16 @@
 ---
 title: "React Native: Learn once, run anywhere"
-date: 2024-02-25
+date: 2024-03-04
 draft: false
 author: "Walid"
 tags:
   - React Native
   - React
   - Mobile Development
-  - Software Development
+  - Web Development
   - Frontend
   - JavaScript
-  - Cross-Platform Development
+
 image: /images/react-native.webp
 description: "Explore the intricacies of React Native, from its core principles to advanced optimization techniques, and discover why it's a top choice for cross-platform mobile development."
 toc: true
