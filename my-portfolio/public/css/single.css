@@ -327,7 +327,7 @@
 }
 
 #single p strong{
-    color: #A6E12E;
+    color: var(--neon-green-color);
 }
 
 #single ul li strong{

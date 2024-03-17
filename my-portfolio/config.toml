@@ -85,7 +85,7 @@ content = "As a Web Developer, I focus on creating solutions that align with cli
 enable = true
 title = "Skills"
 items = [
-"JavaScript", "React","React Native", "Redux", "Node.js", "Next.js", "TypeScript", "jQuery", "RESTful API", "Jest", "PHP", "SQL", "Laravel", "ORM", "AWS", "HTML", "CSS", "SASS/LESS", "AI Integration", "Prompt Engineering", "Debugging"]
+"JavaScript", "React","React Native", "Redux", "Node.js", "Next.js", "TypeScript", "jQuery", "RESTful API", "Jest", "PHP", "SQL", "Laravel", "ORM", "AWS", "HTML", "CSS", "SASS/LESS", "APIs", "AI Integration", "Prompt Engineering", "Debugging"]
 
 [params.toolsTechnologies]
 enable = true

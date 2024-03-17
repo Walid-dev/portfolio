@@ -47,3 +47,19 @@ document.addEventListener("DOMContentLoaded", () => {
   // Attach an event listener to the window's resize event to adjust the element's state dynamically.
   window.addEventListener("resize", adjustElementOnResize);
 });
+
+
+// Add box shadow to colored badges
+
+const addBoxShadow = (colors, className) => {
+  const coloredBadges = document.querySelectorAll(className);
+  console.log(coloredBadges.length);
+
+  if (coloredBadges.length === 0) return;
+
+  coloredBadges.forEach((badge, index) => {
+    badge.style.border = `1px solid ${colors[index % colors.length]}`;
+  });
+};
+
+addBoxShadow(["var(--neon-yellow-color)", "var(--neon-green-color)", "var(--light-violet-color)", "var(--neon-blue-color)", "var(--neon-red-color)", "var(--light-green-color)"], ".colored-badge");

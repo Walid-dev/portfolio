@@ -26,7 +26,7 @@
         <h4 class="about-section-title mt-2 text-center">{{ .Site.Params.about.skills.title }}</h4>
         <div id="skillsBadgesBox" class="mt-4 mb-3 p-4 bg-transparent">
           {{ range .Site.Params.about.skills.items }}
-          <a href="{{ `tags` | absURL }}/{{ . | urlize }}" class="badge-link badge badge-secondary">
+          <a href="{{ `tags` | absURL }}/{{ . | urlize }}" class="colored-badge badge-link badge badge-secondary">
             <span class="">{{ . }}</span>
           </a>
           {{ end }}
@@ -34,7 +34,7 @@
         <h4 class="about-section-title mt-5 text-center">{{ .Site.Params.toolsTechnologies.title }}</h4>
         <div id="toolsBadgesBox" class="mt-4 mb-3 p-4 bg-transparent">
           {{ range .Site.Params.toolsTechnologies.items }}
-          <a href="{{ `tags` | absURL }}/{{ . | urlize }}" class="badge-link badge badge-secondary">
+          <a href="{{ `tags` | absURL }}/{{ . | urlize }}" class=" colored-badge badge-link badge badge-secondary">
             <span class="">{{ . }}</span>
           </a>
           {{ end }}

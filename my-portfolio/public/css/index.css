@@ -692,9 +692,8 @@ hr {
 }
 
 #skillsAndTools .badge, #toolsBadgesBox .badge { 
-    font-size: 12px !important;
-    opacity: 0.8;
-    border: 1px solid !important;
+    font-size: 11px !important;
+    opacity: 0.9;
     color: var(--text-color) !important;
     background-color: var(--background-color) !important;
     margin: 14px 10px !important;
@@ -704,7 +703,7 @@ hr {
 }
 
 #skillsAndTools .badge-link:hover, #toolsBadgesBox .badge-link:hover {
-    opacity: 1;
+    opacity: 1 !important;
     text-decoration: none !important;
 }
 
