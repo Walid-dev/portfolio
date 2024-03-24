@@ -62,7 +62,7 @@
                             <div class="pt-4 bg-transparent">
                                 {{ range .badges }}
                                 <a href="{{ `tags` | absURL }}/{{ . | urlize }}" class="badge-link badge badge-secondary">
-                                  <span class="">{{ . }}</span>
+                                  <span class="">#{{ . }}</span>
                                 </a>
                                 {{ end }}
                               </div>         
@@ -74,5 +74,8 @@
             </div>
         </div>
     </div>
+    <div class="image d-flex px-5 col-10 mx-auto col-mb-3 my-5">
+        <img id="experienceImage" src="{{ .Site.Params.experience.image }}" class="img-thumbnail rounded-circle mx-auto" alt="" style="height: auto" />
+      </div>
 </section>
 {{ end }}

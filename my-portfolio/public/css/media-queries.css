@@ -75,16 +75,16 @@
   }
 
   /* Responsive image margin adjustment */
-  #hero .img-thumbnail {
+  .img-thumbnail {
     margin-top: 80px;
-    max-width: 180px !important;
+    width: 180px !important;
   }
 
   #about .image img {
     max-width: 180px !important;
   }
 
-  #aboutImage2 {
+  #aboutImage2, #experienceImage {
     max-width: 180px !important;
   }
 
@@ -100,6 +100,10 @@
 
 #search-results div {
   font-size: .9em !important;
+}
+
+#hero a.btn {
+  font-size: 11px !important;
 }
 
 /* Adjustments for devices up to 480px */

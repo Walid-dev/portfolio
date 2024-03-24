@@ -4,6 +4,7 @@ date: 2022-02-24
 draft: false
 author: "Walid"
 tags:
+  - API
   - RESTful API
   - Web Development
   - Backend Development

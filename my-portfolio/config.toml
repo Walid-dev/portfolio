@@ -79,14 +79,14 @@ fontAwesomeIcons = [
 enable = true
 title = ""
 image = "laptop-pixel.webp"
-image2 = "space-rocket.webp"
-content = "As a Web Developer, I create balanced, efficient solutions, skilled in both front-end and back-end to improve app performance. I solve problems, learn continuously to stay innovative, and value teamwork for shared success."
+image2 = "key.webp"
+content = "As a Web Developer, I specialize in crafting balanced and efficient solutions that enhance app performance, leveraging my expertise in both front-end and back-end development. I am dedicated to solving complex problems, continuously learning to remain at the forefront of innovation, and highly value teamwork as a cornerstone for achieving collective success."
 
 [params.about.skills]
 enable = true
 title = "Skills"
 items = [
-"JavaScript", "React","React Native", "Redux", "Node.js", "Next.js", "TypeScript", "jQuery", "RESTful API", "Jest", "PHP", "SQL", "Laravel", "ORM", "AWS", "HTML", "CSS", "SASS/LESS", "APIs", "AI Integration", "Prompt Engineering", "Debugging"]
+"JavaScript", "React","React Native", "Redux", "Node.js", "Next.js", "TypeScript", "jQuery", "RESTful API", "Jest", "PHP", "SQL", "Laravel", "ORM", "AWS", "HTML", "CSS", "SASS/LESS", "AI Integration", "Prompt Engineering", "Debugging"]
 
 [params.toolsTechnologies]
 enable = true
@@ -100,6 +100,7 @@ items = [
 
 [params.experience]
 enable = true
+image = "lavender-in-vase.webp"
 [[params.experience.items]]
 job = "Software Engineer"
 company = "Mobi"

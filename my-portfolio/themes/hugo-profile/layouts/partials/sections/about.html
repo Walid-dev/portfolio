@@ -20,14 +20,13 @@
           </div>
         </div>
       </div>
-      <hr class="my-5" />
-      <div id="skillsAndTools" class="content row mt-4 col-10 col-md-8 col-lg-7 mx-auto">
+      <div id="skillsAndTools" class="content row mt-4 col-10 col-md-8 col-lg-5 mx-auto">
         {{ if .Site.Params.about.skills.enable }}
         <h4 class="about-section-title mt-2 text-center">{{ .Site.Params.about.skills.title }}</h4>
         <div id="skillsBadgesBox" class="mt-4 mb-3 p-4 bg-transparent">
           {{ range .Site.Params.about.skills.items }}
           <a href="{{ `tags` | absURL }}/{{ . | urlize }}" class="colored-badge badge-link badge badge-secondary">
-            <span class="">{{ . }}</span>
+            <span class="">#{{ . }}</span>
           </a>
           {{ end }}
         </div>
@@ -35,17 +34,15 @@
         <div id="toolsBadgesBox" class="mt-4 mb-3 p-4 bg-transparent">
           {{ range .Site.Params.toolsTechnologies.items }}
           <a href="{{ `tags` | absURL }}/{{ . | urlize }}" class=" colored-badge badge-link badge badge-secondary">
-            <span class="">{{ . }}</span>
+            <span class="">#{{ . }}</span>
           </a>
           {{ end }}
         </div>
         {{ end }}
       </div>
-      <hr class="my-5" /> 
-      <div class="image d-flex px-5 col-10 mx-auto col-mb-3">
+      <div class="image d-flex px-5 col-10 mx-auto col-mb-3 my-5">
         <img id="aboutImage2" src="{{ .Site.Params.about.image2 }}" class="img-thumbnail rounded-circle mx-auto" alt="" style="height: auto" />
       </div>
-      <hr class="my-5" /> 
     </div>
   </div>
 </section>

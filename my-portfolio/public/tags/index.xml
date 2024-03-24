@@ -345,6 +345,13 @@
       <description></description>
     </item>
     <item>
+      <title>API</title>
+      <link>http://localhost:1313/tags/api/</link>
+      <pubDate>Thu, 24 Feb 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/api/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Backend Development</title>
       <link>http://localhost:1313/tags/backend-development/</link>
       <pubDate>Thu, 24 Feb 2022 00:00:00 +0000</pubDate>

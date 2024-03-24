@@ -216,7 +216,7 @@ hr {
 }
 
 #hero a.btn {
-    font-size: .8em ;
+    font-size: .75em !important;
     margin-top: 50px;
     padding: 0.5rem 1.45rem;
     border: 1px solid var(--primary-color);
@@ -280,7 +280,7 @@ hr {
     gap: 40px;
 }
 
-#about .image img {
+#about .image img, #experienceImage {
     padding: 0;
     border: none !important;
     max-width: 240px !important;
@@ -377,7 +377,6 @@ hr {
     color: var(--text-color) !important;
     background-color: var(--background-color) !important;
     margin: 12px 6px !important;
-    padding: 0.5rem 0.6rem !important;
     cursor: pointer;
     font-weight: lighter !important;
 }
@@ -693,13 +692,12 @@ hr {
 }
 
 #skillsAndTools .badge, #toolsBadgesBox .badge { 
-    font-size: 11px !important;
+    font-size: 12px !important;
     opacity: 0.8;
     border: 1px solid var(--light-grey-color) !important;
     color: var(--text-color) !important;
     background-color: var(--background-color) !important;
     margin: 14px 10px !important;
-    padding: 0.5rem 0.6rem !important;
     cursor: pointer;
     font-weight: lighter !important;
 }
