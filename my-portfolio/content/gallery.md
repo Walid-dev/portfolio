@@ -6,8 +6,6 @@ GalleryHeaderImgUrl: "/images/ai-artist.webp"
 description: ""
 layout: "gallery"
 galleryImages:
- - src: /images/robot-victory.webp
-   caption: "..."
  - src: /images/vs-fomo.webp
    caption: "..."
 #  - src: /images/gallery-4.webp
@@ -33,5 +31,7 @@ galleryImages:
  - src: /images/cat-still.webp
    caption: "..."
  - src: /images/gallery-7.webp
+   caption: "..."
+ - src: /images/robot-victory.webp
    caption: "..."
 ---

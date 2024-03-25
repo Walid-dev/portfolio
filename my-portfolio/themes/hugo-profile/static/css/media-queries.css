@@ -84,13 +84,17 @@
     max-width: 180px !important;
   }
 
-  #aboutImage2, #experienceImage {
+  #aboutImage2, #experienceImage, #projectImage {
     max-width: 180px !important;
   }
 
   /* Adjust font size for copyright, ensuring no duplicates */
   #copyright {
     font-size: 0.75em !important;
+  }
+
+  #about .about-section-first {
+    gap: 0 !important;
   }
 }
 

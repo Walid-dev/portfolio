@@ -7,7 +7,7 @@
         <div class="about-section-first">
           <!-- Add flex-wrap to ensure wrapping on smaller screens -->
           {{ if .Site.Params.about.image }}
-          <div class="mt-4">
+          <div class="">
             <div class="image d-flex px-5 col-10 mx-auto col-mb-3">
               <img src="{{ .Site.Params.about.image }}" class="img-thumbnail rounded-circle mx-auto" alt="" style="max-width: 100%; height: auto" />
               <!-- Ensure responsiveness -->
@@ -40,7 +40,7 @@
         </div>
         {{ end }}
       </div>
-      <div class="image d-flex px-5 col-10 mx-auto col-mb-3 my-5">
+      <div class="image d-flex px-5 col-10 mx-auto col-mb-3">
         <img id="aboutImage2" src="{{ .Site.Params.about.image2 }}" class="img-thumbnail rounded-circle mx-auto" alt="" style="height: auto" />
       </div>
     </div>

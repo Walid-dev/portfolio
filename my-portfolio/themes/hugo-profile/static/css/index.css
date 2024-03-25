@@ -280,7 +280,7 @@ hr {
     gap: 40px;
 }
 
-#about .image img, #experienceImage {
+#about .image img, #experienceImage, #projectImage {
     padding: 0;
     border: none !important;
     max-width: 240px !important;

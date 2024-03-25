@@ -79,7 +79,7 @@ fontAwesomeIcons = [
 enable = true
 title = ""
 image = "laptop-pixel.webp"
-image2 = "key.webp"
+image2 = ""
 content = "As a Web Developer, I specialize in crafting balanced and efficient solutions that enhance app performance, leveraging my expertise in both front-end and back-end development. I am dedicated to solving complex problems, continuously learning to remain at the forefront of innovation, and highly value teamwork as a cornerstone for achieving collective success."
 
 [params.about.skills]
@@ -100,7 +100,7 @@ items = [
 
 [params.experience]
 enable = true
-image = "lavender-in-vase.webp"
+image = "mountain.webp"
 [[params.experience.items]]
 job = "Software Engineer"
 company = "Mobi"
@@ -190,7 +190,7 @@ job = "Teaching Assistant"
 company = "Collège des Garrigues"
 date = "Jan 2010 - Sept 2014"
 location = "Montpellier - France"
-badges = ["Education", "Computing", "Classroom Management"]
+badges = ["Education", "Computing"]
 content = """
 Assisted in educational preparation and classroom management. Engaged in delivering computing lessons, enhancing students' technical skills and understanding.
 
@@ -219,6 +219,7 @@ content = "This Scientific Baccalaureate program, with a focus on Physics-Chemis
 
 [params.projects]
 enable = true
+image = "coffee-cup.webp"
 
 # Project 1
 
